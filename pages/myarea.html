@@ -1,0 +1,403 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>My area — Victoria votes 2026</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="apple-touch-icon" href="/favicon.svg">
+<meta name="theme-color" content="#26457a" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#15181d" media="(prefers-color-scheme: dark)">
+<meta property="og:title" content="Victorian State Election 2026 — your area">
+<meta property="og:description" content="Type an address, get your full 2026 Victorian state election ballot summary on one page.">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_AU">
+<meta name="twitter:card" content="summary">
+<link rel="stylesheet" href="/assets/css/style.css">
+<style>
+  .search-big {
+    display: flex;
+    gap: 8px;
+    margin: 20px 0 30px;
+  }
+  .search-big input {
+    flex: 1;
+    padding: 12px 16px;
+    font-size: 1.05rem;
+    border: 2px solid var(--rule);
+    border-radius: var(--radius);
+    background: var(--panel);
+    color: var(--ink);
+  }
+  .search-big input:focus {
+    outline: none;
+    border-color: var(--accent);
+  }
+  .search-big button {
+    padding: 12px 24px;
+    font-size: 1rem;
+    background: var(--accent);
+    color: #fff;
+    border: none;
+    border-radius: var(--radius);
+    cursor: pointer;
+  }
+  .area-hero {
+    background: var(--accent-soft);
+    border-radius: var(--radius);
+    padding: 20px 24px;
+    margin: 20px 0;
+  }
+  .area-hero h2 { margin: 0 0 6px; font-size: 1.5rem; }
+  .area-hero p { margin: 4px 0; }
+  .area-section {
+    margin: 30px 0;
+    padding-top: 20px;
+    border-top: 1px solid var(--rule);
+  }
+  .area-section h3 { margin-top: 0; }
+  .cand-row {
+    padding: 10px 0;
+    border-bottom: 1px dashed var(--rule);
+  }
+  .cand-row:last-child { border-bottom: none; }
+  .cand-head {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .mp-card, .mlc-card {
+    background: var(--panel);
+    border: 1px solid var(--rule);
+    border-radius: var(--radius);
+    padding: 14px 18px;
+    margin: 10px 0;
+  }
+  .mlc-list { display: grid; gap: 10px; }
+  .print-btn {
+    background: transparent;
+    border: 1px solid var(--rule);
+    color: var(--ink);
+    padding: 6px 14px;
+    border-radius: var(--radius);
+    cursor: pointer;
+    font-size: 0.9rem;
+  }
+  .print-btn:hover { background: var(--accent-soft); }
+  .error-msg {
+    background: #fdf2e3;
+    border-left: 4px solid var(--warn);
+    padding: 12px 16px;
+    border-radius: 4px;
+    margin: 10px 0;
+  }
+  @media (prefers-color-scheme: dark) {
+    .error-msg { background: #3a2a14; color: var(--ink); }
+  }
+  @media print {
+    header.site, footer.site, .search-big, .print-btn, .no-print { display: none !important; }
+    body { background: #fff; color: #000; }
+    main { max-width: none; }
+    .area-hero { background: #eee; }
+    .area-section { page-break-inside: avoid; }
+    a { color: #000; text-decoration: none; }
+    a::after { content: ' (' attr(href) ')'; font-size: 0.75em; color: #666; }
+  }
+</style>
+</head>
+<body>
+<header class="site">
+  <div class="inner">
+    <h1><a href="/index.html">Victoria votes 2026</a></h1>
+    <nav>
+      <a href="/index.html">Home</a>
+      <a href="/pages/voting.html">How voting works</a>
+      <a href="/pages/preferences.html">Preferences</a>
+      <a href="/pages/upper-house.html">Upper house</a>
+      <a href="/pages/compare.html">Compare parties</a>
+      <a href="/pages/cycles.html">Election cycles</a>
+      <a href="/map.html">Map</a>
+      <a href="/pages/bigboard.html">Big board</a>
+      <a href="/pages/myarea.html" aria-current="page">My area</a>
+      <a href="/pages/projections.html">Polling</a>
+      <a href="/pages/dates.html">Key dates</a>
+      <a href="/pages/glossary.html">Glossary</a>
+      <a href="/pages/about.html">About</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <h2>My area — your 2026 ballot, on one page</h2>
+  <p class="lede">Type a Victorian address (or just a suburb) to see your lower-house district, upper-house region, current representatives, 2026 candidates, projection and how-to-vote — all in one printable summary.</p>
+
+  <form class="search-big" id="search-form" autocomplete="off">
+    <input type="search" id="search-input" placeholder="e.g. 'Camberwell' or '3146' or '100 Collins St, Melbourne'" aria-label="Address or suburb" autofocus>
+    <button type="submit">Find my area</button>
+  </form>
+
+  <div id="status" class="no-print"></div>
+  <div id="result" hidden></div>
+</main>
+
+<footer class="site">
+  <div class="inner">
+    <p>Authoritative source: <a href="https://www.vec.vic.gov.au">Victorian Electoral Commission</a>. Candidate data pre-9-Nov is from Wikipedia + ABC's candidates guide and may be partial — see <a href="/pages/about.html">About</a>.</p>
+  </div>
+</footer>
+
+<script>
+  const partySlug = (p) => (p || '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+  const esc = (s) => String(s == null ? '' : s).replace(/[&<>"']/g, (c) => ({
+    '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;',
+  }[c]));
+  const partyPill = (p) =>
+    '<span class="pill party party-' + (partySlug(p) || 'other') + '">' + esc(p || 'Unknown') + '</span>';
+
+  // Point-in-polygon (ray casting).
+  function findContaining(fc, lat, lon) {
+    for (const f of fc.features) if (pointInFeature(f, lon, lat)) return f;
+    return null;
+  }
+  function pointInFeature(feature, x, y) {
+    const g = feature.geometry;
+    if (g.type === 'Polygon') return pointInPolygon(g.coordinates, x, y);
+    if (g.type === 'MultiPolygon') return g.coordinates.some(poly => pointInPolygon(poly, x, y));
+    return false;
+  }
+  function pointInPolygon(polygon, x, y) {
+    if (!polygon.length) return false;
+    const [outer, ...holes] = polygon;
+    if (!pointInRing(outer, x, y)) return false;
+    for (const h of holes) if (pointInRing(h, x, y)) return false;
+    return true;
+  }
+  function pointInRing(ring, x, y) {
+    let inside = false;
+    for (let i = 0, j = ring.length - 1; i < ring.length; j = i++) {
+      const [xi, yi] = ring[i], [xj, yj] = ring[j];
+      if ((yi > y) !== (yj > y) && x < ((xj - xi) * (y - yi)) / (yj - yi + 1e-18) + xi) inside = !inside;
+    }
+    return inside;
+  }
+
+  // Load everything in parallel. Big download but worth it for the all-in-one view.
+  const safeFetch = (url) => fetch(url).then(r => r.ok ? r.json() : {}).catch(() => ({}));
+  const dataPromise = Promise.all([
+    fetch('/assets/data/districts.geojson').then(r => r.json()),
+    fetch('/assets/data/regions.geojson').then(r => r.json()),
+    fetch('/assets/data/members.json').then(r => r.json()),
+    fetch('/assets/data/candidates.json').then(r => r.json()),
+    fetch('/assets/data/margins.json').then(r => r.json()),
+    safeFetch('/assets/data/parties.json').then(d => d.parties || {}),
+    safeFetch('/assets/data/bios.json'),
+    safeFetch('/assets/data/projections.json'),
+    safeFetch('/assets/data/dates.json'),
+  ]);
+
+  function bioLine(name, bios) {
+    const b = bios[name];
+    if (!b) return '';
+    if (b.wikipedia_url) {
+      const bits = [];
+      if (b.elected_since) bits.push('first elected ' + b.elected_since);
+      if (b.prior_occupation) bits.push('prior: ' + b.prior_occupation);
+      let text = bits.join(' · ');
+      if (b.prior_roles && b.prior_roles.length) {
+        text += (text ? '. ' : '') + b.prior_roles.slice(0, 2).join('; ');
+      }
+      return text ? '<p class="bio">' + esc(text) + ' <a href="' + esc(b.wikipedia_url) + '" target="_blank" rel="noopener">wikipedia</a></p>' : '';
+    }
+    if (b.summary) {
+      return '<p class="bio">' + esc(b.summary) +
+        (b.source_url ? ' <a href="' + esc(b.source_url) + '" target="_blank" rel="noopener">' + esc(b.source || 'source') + '</a>' : '') +
+        '</p>';
+    }
+    return '';
+  }
+
+  async function geocode(q) {
+    const isPostcode = /^\d{4}$/.test(q);
+    let url;
+    if (isPostcode) {
+      url = 'https://nominatim.openstreetmap.org/search?format=json&limit=1&countrycodes=au&postalcode=' + encodeURIComponent(q);
+    } else {
+      const aug = /victoria|vic\b|australia/i.test(q) ? q : q + ', Victoria, Australia';
+      url = 'https://nominatim.openstreetmap.org/search?format=json&limit=1&countrycodes=au&q=' + encodeURIComponent(aug);
+    }
+    const res = await fetch(url, { headers: { Accept: 'application/json' } });
+    const results = await res.json();
+    return results[0] || null;
+  }
+
+  async function render(q) {
+    const status = document.getElementById('status');
+    const result = document.getElementById('result');
+    status.innerHTML = '<p>Looking up <strong>' + esc(q) + '</strong>…</p>';
+    result.hidden = true;
+
+    const geo = await geocode(q);
+    if (!geo) {
+      status.innerHTML = '<div class="error-msg">No result for <strong>' + esc(q) + '</strong>. Try adding a suburb, or use a postcode.</div>';
+      return;
+    }
+    const [districtsGeo, regionsGeo, members, candidates, margins, parties, bios, projFile, dates] = await dataPromise;
+    const projections = projFile.projections || {};
+    const aggSwing = projFile.aggregate_swing;
+
+    const lat = +geo.lat, lon = +geo.lon;
+    const d = findContaining(districtsGeo, lat, lon);
+    const r = findContaining(regionsGeo, lat, lon);
+    if (!d || !r) {
+      status.innerHTML = '<div class="error-msg">Found <em>' + esc(geo.display_name) + '</em>, but that location doesn\'t appear to be inside any Victorian electorate. Try a different address.</div>';
+      return;
+    }
+    status.innerHTML = '';
+    const dKey = d.properties.district;
+    const dLabel = d.properties.district_label;
+    const rKey = r.properties.region;
+    const rLabel = r.properties.region_label;
+    const mp = members.districts[dKey] || {};
+    const mg = margins[dKey] || {};
+    const proj = projections[dKey] || {};
+    const cand = candidates.districts[dKey] || { candidates: [] };
+    const mlcs = members.regions[rKey] || [];
+    const rCand = (candidates.regions && candidates.regions[rKey]) || { candidates: [] };
+
+    // Determine projected-winner party for candidate matching
+    const isCoalitionParty = (p) => /liberal|national|coalition/i.test(p || '');
+    const matchesProjection = (party) => {
+      const pw = proj.projected_winner;
+      if (!pw) return false;
+      if (pw === 'Coalition') return isCoalitionParty(party);
+      if (pw === 'Labor') return /labor/i.test(party || '') && !/independent/i.test(party || '');
+      if (pw === 'Greens') return /greens/i.test(party || '');
+      return false;
+    };
+
+    // Hero
+    let html = '<div class="area-hero">' +
+      '<p style="margin:0;color:var(--muted);font-size:0.85rem">' + esc(geo.display_name) + '</p>' +
+      '<h2 style="margin:4px 0 10px">' + esc(dLabel) + '</h2>' +
+      '<p>Lower house district · Upper house region: <strong>' + esc(rLabel) + '</strong></p>' +
+      '<p><button class="print-btn no-print" onclick="window.print()">🖨 Print this page</button> ' +
+         '<a class="print-btn no-print" href="/map.html#district/' + encodeURIComponent(dKey.replace(/\s+/g, '_')) + '" style="margin-left:6px">↗ Open in map</a></p>' +
+      '</div>';
+
+    // 2026 projection summary
+    if (proj.projected_labor_tpp != null) {
+      const flipText = proj.status === 'likely flip'
+        ? ' (projected to flip from ' + esc(proj.sitting_winner) + ')' : '';
+      html += '<div class="area-hero" style="background:var(--panel);border:1px solid var(--rule)"><h3 style="margin-top:0">Projected 2026 result</h3>' +
+        '<p><strong>' + esc(proj.projected_winner) + '</strong> ' +
+          (proj.projected_winner === 'Labor' ? proj.projected_labor_tpp.toFixed(1) : (100 - proj.projected_labor_tpp).toFixed(1)) +
+          '% TPP · <em>' + esc(proj.status) + '</em>' + flipText + '</p>' +
+        '<p style="font-size:0.85rem;color:var(--muted)">Based on applying ' + aggSwing.toFixed(1) + '% uniform swing from current polling. See <a href="/pages/projections.html">caveats</a>.</p>' +
+        '</div>';
+    } else if (proj.status === 'non-two-party') {
+      html += '<div class="area-hero" style="background:var(--panel);border:1px solid var(--rule)"><h3 style="margin-top:0">Projected 2026 result</h3>' +
+        '<p><em>' + esc(proj.note || 'Non-two-party contest — uniform swing doesn\'t apply.') + '</em></p></div>';
+    }
+
+    // Lower house candidates
+    html += '<section class="area-section"><h3>Lower house ballot — <small>' + esc(dLabel) + '</small></h3>';
+    html += '<p>You rank <em>every</em> box on the small green ballot in order of preference. The winner is decided by preferential (instant run-off) counting.</p>';
+    if (mp.mp) {
+      html += '<div class="mp-card"><strong>Current MP:</strong> ' + esc(mp.mp) + ' ' + partyPill(mp.party) + bioLine(mp.mp, bios) + '</div>';
+    }
+    if (cand.candidates && cand.candidates.length) {
+      html += '<h4>Candidates running in 2026</h4>';
+      for (const c of cand.candidates) {
+        const sitting = mp.mp === c.name;
+        const projected = matchesProjection(c.party);
+        const badges = [];
+        if (sitting) badges.push('<span class="role-badge sitting">sitting MP</span>');
+        if (projected) badges.push('<span class="role-badge projected" title="Projection names the party, not the specific candidate">projected winner</span>');
+        html += '<div class="cand-row">' +
+          '<div class="cand-head"><strong>' + esc(c.name) + '</strong> ' + partyPill(c.party) +
+            (badges.length ? ' <span class="cand-badges">' + badges.join(' ') + '</span>' : '') +
+          '</div>' + bioLine(c.name, bios) + '</div>';
+      }
+    } else {
+      html += '<p><em>Candidate list unavailable before 9 Nov nominations close.</em></p>';
+    }
+    html += '</section>';
+
+    // Upper house
+    html += '<section class="area-section"><h3>Upper house ballot — <small>' + esc(rLabel) + '</small></h3>';
+    html += '<p>You pick <em>either</em> above the line (number at least 5 parties) <em>or</em> below the line (number at least 5 candidates). 5 members elected by proportional representation.</p>';
+    if (mlcs.length) {
+      html += '<h4>Current MLCs for your region</h4><div class="mlc-list">';
+      for (const m of mlcs) {
+        html += '<div class="mlc-card"><strong>' + esc(m.mlc) + '</strong> ' + partyPill(m.party) + bioLine(m.mlc, bios) + '</div>';
+      }
+      html += '</div>';
+    }
+    if (rCand.candidates && rCand.candidates.length) {
+      html += '<h4>Candidates running in 2026</h4>';
+      // Group candidates by party for readability
+      const byParty = {};
+      for (const c of rCand.candidates) {
+        (byParty[c.party] = byParty[c.party] || []).push(c);
+      }
+      for (const [party, list] of Object.entries(byParty)) {
+        html += '<div class="cand-row"><div class="cand-head">' + partyPill(party) + '</div>';
+        html += '<p style="margin:4px 0 0;font-size:0.9rem">' + list.map(c => esc(c.name)).join(' · ') + '</p>';
+        html += '</div>';
+      }
+    }
+    html += '</section>';
+
+    // How to vote (abridged)
+    html += '<section class="area-section"><h3>How to vote (quick reference)</h3>' +
+      '<ul>' +
+      '<li><strong>Green ballot (lower house):</strong> number every box in order of preference. Missing or duplicate numbers = informal.</li>' +
+      '<li><strong>White ballot (upper house):</strong> number at least 5 above the line (parties) OR at least 5 below the line (candidates). Pick one side.</li>' +
+      '<li>Voting is compulsory — $99 fine if you don\'t have a valid reason.</li>' +
+      '<li>No ID required.</li>' +
+      '<li>Election day: <strong>Saturday 28 November 2026</strong>, 8am–6pm.</li>' +
+      '</ul>' +
+      '<p><a href="/pages/voting.html">Full voting explainer →</a></p>' +
+      '</section>';
+
+    // Key dates (limit to upcoming)
+    if (dates.key_dates) {
+      const today = new Date().toISOString().slice(0, 10);
+      const upcoming = dates.key_dates.filter(d => d.date >= today);
+      if (upcoming.length) {
+        html += '<section class="area-section"><h3>Upcoming key dates</h3><ul>';
+        for (const d of upcoming) {
+          html += '<li><strong>' + esc(d.label) + '</strong> — ' + esc(d.event) + '</li>';
+        }
+        html += '</ul></section>';
+      }
+    }
+
+    result.innerHTML = html;
+    result.hidden = false;
+  }
+
+  const form = document.getElementById('search-form');
+  const input = document.getElementById('search-input');
+  form.addEventListener('submit', (e) => {
+    e.preventDefault();
+    const q = input.value.trim();
+    if (q) {
+      history.replaceState(null, '', '#q/' + encodeURIComponent(q));
+      render(q);
+    }
+  });
+
+  // Load from URL hash if present
+  (function initFromHash() {
+    const m = (location.hash || '').match(/^#q\/(.+)$/);
+    if (m) {
+      const q = decodeURIComponent(m[1]);
+      input.value = q;
+      render(q);
+    }
+  })();
+</script>
+</body>
+</html>
