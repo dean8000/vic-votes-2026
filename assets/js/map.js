@@ -296,7 +296,10 @@
         html += yearRow('2018', m2018);
       }
       html += yearRow('2022', mg);
-      if (swing) {
+      // Only show the 2018→2022 swing line when the district actually existed in 2018.
+      // When the district is new, Wikipedia's "swing" field is a notional swing vs a
+      // redistributed baseline — potentially misleading, so we suppress it.
+      if (swing && m2018 && m2018.winner) {
         html += '<p class="bio">Swing to ' + esc(mg.winner) + ' from 2018 to 2022: <strong>' + swing + '</strong></p>';
       }
 
