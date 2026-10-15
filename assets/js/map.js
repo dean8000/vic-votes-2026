@@ -296,7 +296,16 @@
   }
 
   const sidebarEl = document.querySelector('.sidebar');
-  const scrollSidebarTop = () => { if (sidebarEl) sidebarEl.scrollTop = 0; };
+  const scrollSidebarTop = () => {
+    if (!sidebarEl) return;
+    sidebarEl.scrollTop = 0;
+    // On mobile (sidebar sits below map), scroll the page so the panel
+    // comes into view — otherwise clicking a shape silently updates
+    // content you can't see.
+    if (window.matchMedia('(max-width: 900px)').matches) {
+      sidebarEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+  };
 
   // Breadcrumb: if the user arrived from the Big board, show a tiny link back.
   (function () {

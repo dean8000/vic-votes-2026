@@ -44,10 +44,37 @@
   #divider:hover, #divider.dragging { background: var(--accent); }
   body.dragging { user-select: none; cursor: col-resize; }
   @media (max-width: 900px) {
-    .map-layout { grid-template-columns: 1fr; grid-template-rows: 60vh auto; height: auto; min-height: 0; }
-    #map { min-height: 60vh; height: 60vh; }
+    .map-layout { grid-template-columns: 1fr; grid-template-rows: 50vh auto; height: auto; min-height: 0; }
+    #map { min-height: 50vh; height: 50vh; }
     #divider { display: none; }
+    .sidebar { position: relative; }
+    .sidebar::before {
+      content: '';
+      position: sticky;
+      top: 0;
+      display: block;
+      height: 3px;
+      background: linear-gradient(to bottom, var(--accent) 0, var(--accent) 3px, transparent 3px);
+      margin: -20px -22px 0;
+      z-index: 2;
+    }
+    .back-to-map {
+      display: block;
+      position: sticky;
+      bottom: 10px;
+      margin: 20px auto 0;
+      width: fit-content;
+      padding: 8px 16px;
+      background: var(--accent);
+      color: #fff !important;
+      border-radius: 999px;
+      text-decoration: none;
+      font-size: 0.85rem;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+      z-index: 3;
+    }
   }
+  @media (min-width: 901px) { .back-to-map { display: none; } }
 </style>
 </head>
 <body>
@@ -97,6 +124,7 @@
         <p>Click any shape on the map to see who represents that area and who's running in 2026. Toggle between the lower house (88 districts) and the upper house (8 regions).</p>
         <p><em>Loading boundaries…</em></p>
       </div>
+      <a class="back-to-map" href="#" onclick="window.scrollTo({top:0,behavior:'smooth'});return false;">↑ Back to map</a>
     </aside>
   </div>
 </main>
