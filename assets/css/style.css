@@ -387,20 +387,23 @@ a.src {
 a.src:hover { background: var(--accent-soft); color: var(--accent); }
 
 .trajectory-row {
+  display: flex;
+  gap: 10px;
+  align-items: baseline;
   margin: 6px 0;
   font-size: 0.9rem;
   line-height: 1.5;
-  padding-left: 60px;
-  text-indent: -60px;
 }
 .trajectory-row .year-label {
-  display: inline-block;
-  width: 52px;
+  flex: 0 0 95px;
   color: var(--muted);
   font-size: 0.85em;
   font-weight: 500;
   text-align: left;
-  vertical-align: baseline;
+}
+.trajectory-row .year-content {
+  flex: 1 1 auto;
+  min-width: 0;
 }
 details.party-about {
   border: 1px solid var(--rule);

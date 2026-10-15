@@ -263,18 +263,20 @@
       const safetyBadge = '<span class="pill" style="background:' + safetyColour(mg.safety) + ';color:#fff">' + esc(mg.safety) + '</span>';
       html += '<h3>Trajectory <a class="src" href="https://en.wikipedia.org/wiki/Results_of_the_2022_Victorian_state_election_(Legislative_Assembly)" target="_blank" rel="noopener">source</a></h3>';
       const m2018 = margins2018[key];
-      // Build a compact year-row renderer so every row has the same shape.
+      const row = (label, bodyHtml) =>
+        '<p class="trajectory-row"><span class="year-label">' + label + '</span>' +
+        '<span class="year-content">' + bodyHtml + '</span></p>';
       const yearRow = (label, m, extraBadge) => {
         if (!m || !m.winner) return '';
         const marginTxt = (typeof m.margin === 'number')
           ? ' <small style="color:var(--muted)">· margin ' + m.margin.toFixed(1) + '% ·</small> ' + extraBadge
           : '';
-        return '<p class="trajectory-row"><span class="year-label">' + label + '</span> ' +
-               esc(m.winner) + ' <strong>' + m.tpp_winner_pct.toFixed(1) + '%</strong> vs ' + esc(m.tpp_opponent) +
-               ' <small style="color:var(--muted)">(' + m.basis + ')</small>' + marginTxt + '</p>';
+        return row(label,
+          esc(m.winner) + ' <strong>' + m.tpp_winner_pct.toFixed(1) + '%</strong> vs ' + esc(m.tpp_opponent) +
+          ' <small style="color:var(--muted)">(' + m.basis + ')</small>' + marginTxt);
       };
       if (m2018 === null) {
-        html += '<p class="trajectory-row"><span class="year-label">2018</span> <em>district did not exist (2021 redistribution)</em></p>';
+        html += row('2018', '<em>district did not exist (2021 redistribution)</em>');
       } else {
         const safe2018 = (m2018 && m2018.safety)
           ? '<span class="pill" style="background:' + safetyColour(m2018.safety) + ';color:#fff">' + esc(m2018.safety) + '</span>'
@@ -297,12 +299,13 @@
           'non-two-party': '#999',
         }[proj.status] || '#999';
         const badge = '<span class="pill" style="background:' + statusColour + ';color:#fff">' + esc(proj.status) + '</span>';
-        html += '<p class="trajectory-row"><span class="year-label">2026 projected</span> <strong>' + esc(proj.projected_winner) + '</strong> ' +
-                (proj.projected_winner === 'Labor' ? proj.projected_labor_tpp.toFixed(1) : (100 - proj.projected_labor_tpp).toFixed(1)) + '% TPP ' +
-                badge + '</p>';
+        html += row('2026 projected',
+          '<strong>' + esc(proj.projected_winner) + '</strong> ' +
+          (proj.projected_winner === 'Labor' ? proj.projected_labor_tpp.toFixed(1) : (100 - proj.projected_labor_tpp).toFixed(1)) + '% TPP ' +
+          badge);
         html += '<p class="bio">Based on uniform swing of ' + aggregateSwing.toFixed(1) + '% applied to 2022 TPP — see <a href="/pages/projections.html">how it works &amp; caveats</a>.</p>';
       } else if (proj && proj.status === 'non-two-party') {
-        html += '<p class="trajectory-row"><span class="year-label">2026 projected</span> <em>' + esc(proj.note) + '</em></p>';
+        html += row('2026 projected', '<em>' + esc(proj.note) + '</em>');
         html += '<p class="bio">See <a href="/pages/projections.html">projections page</a> for why uniform swing doesn\'t apply here.</p>';
       }
     }
