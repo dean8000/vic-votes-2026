@@ -68,7 +68,7 @@
     if (key.includes('independent labor')) return '#9b1b1b';
     if (key.includes('liberal') && !key.includes('independent')) return '#1565c0';
     if (key.includes('independent liberal')) return '#4a86cc';
-    if (key.includes('national')) return '#6b7280';
+    if (key.includes('national')) return '#374151';
     if (key.includes('greens')) return '#0f8f3a';
     if (key.includes('one nation')) return '#f36c21';
     if (key.includes('socialist')) return '#7a0010';
@@ -449,7 +449,7 @@
     return prefix +
            '<span style="background:#e52a2a"></span>Labor' +
            '<span style="background:#1565c0"></span>Liberal' +
-           '<span style="background:#6b7280"></span>National' +
+           '<span style="background:#374151"></span>National' +
            '<span style="background:#0f8f3a"></span>Greens' +
            '<span style="background:#a3a3a3"></span>Independent';
   }
