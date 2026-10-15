@@ -87,6 +87,14 @@
     border-color: var(--accent);
   }
   .col-move:disabled { opacity: 0.25; cursor: not-allowed; }
+  .party-subtitle {
+    font-size: 0.7rem;
+    font-weight: 400;
+    color: var(--muted);
+    margin-top: 3px;
+    font-style: italic;
+    text-align: center;
+  }
   @media (max-width: 850px) {
     .compare-grid .party-cell { font-size: 0.82rem; padding: 8px 10px; }
     .compare-grid .party-header { font-size: 0.78rem; padding: 6px 10px; }
@@ -147,6 +155,9 @@
   <div class="callout warn">
     <strong>Read with care.</strong> This is a short-form summary. Parties say many things on many channels; the paraphrases below focus on their most prominent stated positions. For specifics, follow the link to each party's site at the bottom. If you think something misrepresents a position, the party's own website is canonical — not this page.
   </div>
+  <p style="font-size:0.9rem;color:var(--muted);margin:14px 0 0">
+    <em>"Coalition" = the long-standing <strong>Liberal + Nationals</strong> alliance. They sit together in parliament, agree a shared platform, and in most seats run just one Coalition candidate — though in some rural seats a Liberal and a National candidate run against each other.</em>
+  </p>
 
   <div id="filter-row" class="filter-row" hidden>
     <strong>Show:</strong>
@@ -223,12 +234,13 @@
           const p = parties[i];
           const canLeft = i > 0;
           const canRight = i < parties.length - 1;
+          const subtitle = p === 'Coalition' ? '<div class="party-subtitle">Liberal + Nationals</div>' : '';
           html += '<div class="party-header" style="border-bottom-color:' + colours[p] + '">' +
                   '<div class="party-header-inner">' +
                   '<button class="col-move" data-dir="left" data-party="' + p + '"' + (canLeft ? '' : ' disabled') + ' aria-label="Move left" title="Move column left">←</button>' +
                   '<span>' + p + '</span>' +
                   '<button class="col-move" data-dir="right" data-party="' + p + '"' + (canRight ? '' : ' disabled') + ' aria-label="Move right" title="Move column right">→</button>' +
-                  '</div></div>';
+                  '</div>' + subtitle + '</div>';
         }
         html += '</div>';
         for (const issue of data.issues) {
