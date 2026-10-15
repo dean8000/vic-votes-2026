@@ -468,7 +468,7 @@
   function explainerHtml(mode, layer) {
     if (layer === 'regions') return 'Regions coloured by the party holding the most sitting MLCs.';
     if (mode === 'party') return 'Districts coloured by the party of the sitting MP.';
-    if (mode === 'safety') return "How safe each district's 2022 result was — bigger margin, darker colour. Marginal seats most likely to change hands.";
+    if (mode === 'safety') return "Each district's 2022 margin — bigger margin, darker colour. Marginal seats are most likely to change hands.";
     if (mode === 'projection') return 'Projected 2026 winner (party colour), with intensity by projected margin. Greens- and Independent-held seats keep their sitting party\'s colour (assumed hold — statewide swing doesn\'t apply).';
     return '';
   }
