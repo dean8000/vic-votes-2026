@@ -236,16 +236,12 @@
     "education": "RMIT University; Swinburne University of Technology"
   },
   "Gabrielle Williams": {
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Gabrielle_Williams",
-    "born": "27 October 1982",
-    "prior_occupation": "Lawyer",
-    "elected_since": 2018,
-    "prior_roles": [
-      "Deputy Premier of Victoria since 2026",
-      "Deputy Leader of the Victorian Labor Party since 2026",
-      "Minister for Education since 2026"
-    ],
-    "education": "Monash University"
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
   },
   "Cindy McLeish": {
     "wikipedia_url": "https://en.wikipedia.org/wiki/Cindy_McLeish",
@@ -272,16 +268,12 @@
     "education": "La Trobe University"
   },
   "Danny Pearson": {
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Danny_Pearson_(politician)",
-    "born": "15 February 1973",
-    "prior_occupation": "Consultant Political advisor",
-    "elected_since": 2014,
-    "prior_roles": [
-      "Minister for Economic Growth and Jobs 2024–2026",
-      "Minister for Finance 2024–2026",
-      "Assistant Treasurer 2020–2024"
-    ],
-    "education": "University of Melbourne"
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
   },
   "Michaela Settle": {
     "wikipedia_url": "https://en.wikipedia.org/wiki/Michaela_Settle",
@@ -593,13 +585,11 @@
     "education": "Australian National University; University of Canberra; The University of Melbourne"
   },
   "Martin Cameron": {
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Martin_Cameron_(Victorian_politician)",
+    "wikipedia_url": null,
     "born": null,
     "prior_occupation": null,
-    "elected_since": 2022,
-    "prior_roles": [
-      "Member of the Victorian Legislative Assembly for Morwell since 2022"
-    ],
+    "elected_since": null,
+    "prior_roles": null,
     "education": null
   },
   "Eden Foster": {
@@ -668,16 +658,12 @@
     "education": null
   },
   "Ben Carroll": {
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Ben_Carroll",
-    "born": "12 July 1975",
+    "wikipedia_url": null,
+    "born": null,
     "prior_occupation": null,
-    "elected_since": 2012,
-    "prior_roles": [
-      "Premier of Victoria since 2026",
-      "Leader of the Victorian Labor Party since 2026",
-      "Deputy Premier of Victoria 2023–2026"
-    ],
-    "education": "La Trobe University (LL.M.)"
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
   },
   "Kat Theophanous": {
     "wikipedia_url": "https://en.wikipedia.org/wiki/Kat_Theophanous",
@@ -914,13 +900,11 @@
     "education": null
   },
   "Nicole Werner": {
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Nicole_Werner",
+    "wikipedia_url": null,
     "born": null,
     "prior_occupation": null,
-    "elected_since": 2023,
-    "prior_roles": [
-      "Member of the Victorian Legislative Assembly for Warrandyte since 2023"
-    ],
+    "elected_since": null,
+    "prior_roles": null,
     "education": null
   },
   "Juliana Addison": {
@@ -1046,14 +1030,11 @@
     "education": "Deakin University; Swinburne University"
   },
   "John Berger": {
-    "wikipedia_url": "https://en.wikipedia.org/wiki/John_Berger_(politician)",
+    "wikipedia_url": null,
     "born": null,
     "prior_occupation": null,
-    "elected_since": 2022,
-    "prior_roles": [
-      "Deputy Government Whip in the Victorian Legislative Council since 2022",
-      "Member of the Victorian Legislative Council for Southern Metropolitan Region since 2022"
-    ],
+    "elected_since": null,
+    "prior_roles": null,
     "education": null
   },
   "Ryan Batchelor": {
@@ -1078,15 +1059,11 @@
     "education": null
   },
   "Shaun Leane": {
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Shaun_Leane",
-    "born": "20 August 1963",
-    "prior_occupation": "Electrician, union representative",
-    "elected_since": 2006,
-    "prior_roles": [
-      "President of the Victorian Legislative Council since 2022",
-      "Minister for Commonwealth Games Legacy 2022–2022",
-      "Minister for Veterans 2020–2022"
-    ],
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
     "education": null
   },
   "Sonja Terpstra": {
@@ -1100,13 +1077,11 @@
     "education": null
   },
   "Richard Welch": {
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Richard_Welch_(Australian_politician)",
+    "wikipedia_url": null,
     "born": null,
-    "prior_occupation": "Businessman, inventor, politician",
-    "elected_since": 2024,
-    "prior_roles": [
-      "Member of the Victorian Legislative Council for North-Eastern Metropolitan Region since 2024"
-    ],
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
     "education": null
   },
   "Nick McGowan": {
@@ -1140,13 +1115,11 @@
     "education": null
   },
   "Michael Galea": {
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Michael_Galea_(politician)",
+    "wikipedia_url": null,
     "born": null,
     "prior_occupation": null,
-    "elected_since": 2022,
-    "prior_roles": [
-      "Member of the Victorian Legislative Council for South-Eastern Metropolitan Region since 2022"
-    ],
+    "elected_since": null,
+    "prior_roles": null,
     "education": null
   },
   "Ann-Marie Hermans": {
@@ -1160,13 +1133,11 @@
     "education": null
   },
   "Rachel Payne": {
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Rachel_Payne",
+    "wikipedia_url": null,
     "born": null,
     "prior_occupation": null,
-    "elected_since": 2022,
-    "prior_roles": [
-      "Member of the Victorian Legislative Council for South-Eastern Metropolitan Region since 2022"
-    ],
+    "elected_since": null,
+    "prior_roles": null,
     "education": null
   },
   "David Limbrick": {
@@ -2991,12 +2962,12 @@
     "education": null
   },
   "Van Thanh Rudd": {
-    "wikipedia_url": null,
-    "born": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Van_Thanh_Rudd",
+    "born": "1973",
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": "Victorian College of the Arts, RMIT University, Griffith University"
   },
   "Shohre Mansouri": {
     "wikipedia_url": null,
@@ -3007,15 +2978,18 @@
     "education": null
   },
   "Jeff Moran": {
-    "wikipedia_url": null,
-    "born": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Jeff_Moran",
+    "born": "7 January 1947",
     "prior_occupation": null,
     "elected_since": null,
-    "prior_roles": null,
+    "prior_roles": [
+      "Personal information",
+      "Playing career"
+    ],
     "education": null
   },
   "Andrew Partridge": {
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Andrew_Partridge",
     "born": null,
     "prior_occupation": null,
     "elected_since": null,
@@ -3047,8 +3021,8 @@
     "education": null
   },
   "Kate Kendall": {
-    "wikipedia_url": null,
-    "born": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Kate_Kendall",
+    "born": "1973",
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
@@ -3071,11 +3045,13 @@
     "education": null
   },
   "Catherine Wilson": {
-    "wikipedia_url": null,
-    "born": null,
-    "prior_occupation": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Catherine_Wilson",
+    "born": "1822",
+    "prior_occupation": "Nurse",
     "elected_since": null,
-    "prior_roles": null,
+    "prior_roles": [
+      "Details"
+    ],
     "education": null
   },
   "Natalie Korinfsky": {
@@ -3111,11 +3087,15 @@
     "education": null
   },
   "Gavin Leonard": {
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Gavin_Leonard",
     "born": null,
     "prior_occupation": null,
     "elected_since": null,
-    "prior_roles": null,
+    "prior_roles": [
+      "Production",
+      "Original release",
+      "Related"
+    ],
     "education": null
   },
   "Christina Zigouras": {

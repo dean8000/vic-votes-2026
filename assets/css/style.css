@@ -361,6 +361,18 @@ p.bio {
   color: var(--muted);
   line-height: 1.4;
 }
+a.src {
+  font-size: 0.7rem;
+  font-weight: normal;
+  color: var(--muted);
+  text-decoration: none;
+  border: 1px solid var(--rule);
+  padding: 1px 6px;
+  border-radius: 10px;
+  margin-left: 6px;
+  vertical-align: middle;
+}
+a.src:hover { background: var(--accent-soft); color: var(--accent); }
 details.party-about {
   border: 1px solid var(--rule);
   border-radius: var(--radius);

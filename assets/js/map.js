@@ -185,7 +185,7 @@
     const mg = margins[key];
     title.textContent = label;
     let html = '<p><em>Legislative Assembly district</em></p>';
-    html += '<h3>Current MP</h3>';
+    html += '<h3>Current MP <a class="src" href="https://en.wikipedia.org/wiki/Members_of_the_Victorian_Legislative_Assembly,_2022%E2%80%932026" target="_blank" rel="noopener" title="Source">source</a></h3>';
     if (mem) {
       html += '<p><strong>' + esc(mem.mp) + '</strong> ' + partyPill(mem.party) + '</p>';
       html += bioBlock(mem.mp);
@@ -197,7 +197,7 @@
         ? (mg.swing >= 0 ? '+' + mg.swing.toFixed(1) : mg.swing.toFixed(1)) + '% swing'
         : '';
       const safetyBadge = '<span class="pill" style="background:' + safetyColour(mg.safety) + ';color:#fff">' + esc(mg.safety) + '</span>';
-      html += '<h3>Trajectory</h3>';
+      html += '<h3>Trajectory <a class="src" href="https://en.wikipedia.org/wiki/Results_of_the_2022_Victorian_state_election_(Legislative_Assembly)" target="_blank" rel="noopener">source</a></h3>';
       const m2018 = margins2018[key];
       if (m2018 && m2018.winner) {
         html += '<p><small>2018:</small> ' + esc(m2018.winner) + ' <strong>' + m2018.tpp_winner_pct.toFixed(1) + '%</strong> vs ' + esc(m2018.tpp_opponent) + ' <small>(' + m2018.basis + ')</small></p>';
@@ -212,7 +212,6 @@
       // 2026 projection (uniform swing from polling average)
       const proj = projections[key];
       if (proj && proj.projected_labor_tpp != null) {
-        const flipped = proj.projected_winner !== proj.sitting_winner;
         const statusColour = {
           'likely flip': '#d7301f',
           'in play': '#fc8d59',
@@ -224,12 +223,13 @@
         html += '<p><small>Projected 2026:</small> <strong>' + esc(proj.projected_winner) + '</strong> ' +
                 (proj.projected_winner === 'Labor' ? proj.projected_labor_tpp.toFixed(1) : (100 - proj.projected_labor_tpp).toFixed(1)) + '% TPP ' +
                 badge + '</p>';
-        html += '<p class="bio">Based on uniform swing of ' + aggregateSwing.toFixed(1) + '% applied to 2022 TPP — see <a href="/pages/projections.html">how it works</a>.</p>';
+        html += '<p class="bio">Based on uniform swing of ' + aggregateSwing.toFixed(1) + '% applied to 2022 TPP — see <a href="/pages/projections.html">how it works &amp; caveats</a>.</p>';
       } else if (proj && proj.status === 'non-two-party') {
         html += '<p><small>Projected 2026:</small> <em>' + esc(proj.note) + '</em></p>';
+        html += '<p class="bio">See <a href="/pages/projections.html">projections page</a> for why uniform swing doesn\'t apply here.</p>';
       }
     }
-    html += '<h3>Candidates for 2026</h3>';
+    html += '<h3>Candidates for 2026 <a class="src" href="https://en.wikipedia.org/wiki/Candidates_of_the_2026_Victorian_state_election" target="_blank" rel="noopener">source</a></h3>';
     if (cand && cand.candidates && cand.candidates.length) {
       html += '<ul class="candidate-list detailed">';
       for (const c of cand.candidates) {
@@ -242,7 +242,7 @@
              + '</li>';
       }
       html += '</ul>';
-      html += '<p style="font-size:0.85rem;color:var(--muted)">Candidate data is pre-nomination (last updated 15 Oct 2026) and may be partial or imperfectly party-coded. The official list is published by the VEC after nominations close on 9 November 2026. Bios are drawn from Wikipedia — many non-sitting candidates have no public bio yet.</p>';
+      html += '<p style="font-size:0.85rem;color:var(--muted)">Candidate data from Wikipedia, pre-nomination (last updated 15 Oct 2026) and may be partial or imperfectly party-coded. The official list is published by the <a href="https://www.vec.vic.gov.au" target="_blank" rel="noopener">VEC</a> after nominations close on 9 November 2026. Bios are drawn from Wikipedia — many non-sitting candidates have no public bio yet.</p>';
     } else {
       html += '<p>No candidate list available yet. Nominations close 9 November 2026.</p>';
     }
@@ -260,7 +260,7 @@
     const cand = candidates.regions && candidates.regions[key];
     title.textContent = label;
     let html = '<p><em>Legislative Council region — elects 5 members by proportional representation</em></p>';
-    html += '<h3>Current MLCs</h3>';
+    html += '<h3>Current MLCs <a class="src" href="https://en.wikipedia.org/wiki/Members_of_the_Victorian_Legislative_Council,_2022%E2%80%932026" target="_blank" rel="noopener">source</a></h3>';
     if (mlcs.length) {
       html += '<ul class="candidate-list detailed">';
       for (const m of mlcs) {
