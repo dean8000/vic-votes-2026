@@ -390,9 +390,13 @@ a.src:hover { background: var(--accent-soft); color: var(--accent); }
   display: flex;
   gap: 10px;
   align-items: baseline;
-  margin: 6px 0;
+  margin: 0;
+  padding: 10px 0;
   font-size: 0.9rem;
   line-height: 1.5;
+}
+.trajectory-row ~ .trajectory-row {
+  border-top: 1px solid var(--rule);
 }
 .trajectory-row .year-label {
   flex: 0 0 56px;
