@@ -1,5 +1,5 @@
 {
-  "note": "Short neutral paraphrases of each party's publicly stated priorities for the 2026 Victorian state election, drawn from the parties' own websites and announcements. Not endorsements. Policies evolve — the party's own website is canonical. Blank cells mean the party has made no major public commitment on that issue specific to Victoria 2026.",
+  "note": "Short, neutral paraphrases of each party's publicly stated priorities for the 2026 Victorian state election, drawn from the parties' own websites and announcements. Deliberately paraphrased in a positive 'what the party supports' voice where possible, rather than 'what it opposes'. Not endorsements. Policies evolve — the party's own website is canonical. If a line misrepresents a position, treat the party site as authoritative.",
   "parties": ["Labor", "Coalition", "Greens", "One Nation"],
   "party_colours": {
     "Labor": "#e52a2a",
@@ -19,23 +19,19 @@
       "title": "Housing & homelessness",
       "positions": {
         "Labor": "Continue delivering the Big Housing Build; focus on social and affordable housing supply; planning reform to unlock density near transport.",
-        "Coalition": "Reduce planning red tape to speed private supply; opposes some density-near-transport mandates; emphasises first-home-buyer support.",
-        "Greens": "Massive public housing expansion; permanent renters' rights (indefinite leases, rent caps); end no-grounds evictions; levy on vacant properties.",
-        "One Nation": "Argues housing pressure is driven by immigration; proposes migration cuts as primary policy lever.",
-        "Victorian Socialists": "Build hundreds of thousands of public housing units; universal rent control; take over major developers; end homelessness as a priority.",
-        "Family First": "Support for home ownership and larger family-friendly housing; opposes high-density mandates perceived as changing suburban character."
+        "Coalition": "Streamline planning processes to speed private supply; prefers market-led density over mandated density-near-transport; emphasises first-home-buyer support.",
+        "Greens": "Large-scale public housing expansion; strengthened renters' rights (indefinite leases, rent caps); end to no-grounds evictions; levy on vacant properties.",
+        "One Nation": "Attributes housing pressure primarily to immigration-driven demand; proposes reducing migration intake as the main policy lever."
       }
     },
     {
       "key": "climate",
       "title": "Climate & environment",
       "positions": {
-        "Labor": "Target 95% renewable electricity by 2035; State Electricity Commission expansion; offshore wind; EV incentives.",
-        "Coalition": "Energy policy focused on reliability and cost; sceptical of some renewables targets; openness to gas as a transition fuel.",
-        "Greens": "Faster coal exit (2030); community-owned renewables; expanded national parks; strong anti-logging and anti-fossil-fuel stance.",
-        "One Nation": "Sceptical of climate action's economic costs; opposes net-zero mandates; supports coal and gas; opposes wind farms.",
-        "Victorian Socialists": "Public ownership of energy; rapid, worker-led transition to renewables; nationalise fossil fuel assets; expand public transport over roads.",
-        "Family First": "Climate not a core focus; opposes measures seen as raising cost of living; support for traditional energy."
+        "Labor": "Target 95% renewable electricity by 2035; State Electricity Commission expansion; offshore wind development; EV incentives.",
+        "Coalition": "Energy policy prioritising reliability and cost; supports gas as a transition fuel; cautious on renewables timelines.",
+        "Greens": "Faster coal exit (2030); community-owned renewables; expanded national parks; ending native-forest logging and new fossil-fuel projects.",
+        "One Nation": "Prioritises energy affordability and reliability; supports continued use of coal and gas; opposes net-zero legislation and large-scale wind development."
       }
     },
     {
@@ -43,59 +39,49 @@
       "title": "Health & hospitals",
       "positions": {
         "Labor": "Continued hospital infrastructure investment; women's health focus; mental health reforms post-Royal Commission; GP respite clinics.",
-        "Coalition": "Reduce elective-surgery waiting lists; opposes some management structures; emphasises frontline over bureaucracy.",
-        "Greens": "Free dental in Medicare (state advocacy); public hospitals fully funded; mental health care parity; harm-reduction drug policy.",
-        "One Nation": "Opposes vaccine mandates; supports choice in medical treatment; concerns about health system staffing from migration policy.",
-        "Victorian Socialists": "Free universal public healthcare; nationalise private hospitals; mass hiring of nurses; abolish private health subsidies.",
-        "Family First": "Protection of conscience objections for health workers; opposition to voluntary assisted dying expansion; pro-life stance on abortion."
+        "Coalition": "Reduce elective-surgery waiting lists; shift resources from administration to frontline care; review hospital governance structures.",
+        "Greens": "Free dental in Medicare (state advocacy); fully funded public hospitals; mental-health care parity; harm-reduction drug policy.",
+        "One Nation": "Supports individual medical choice (including on vaccination); opposes vaccine mandates; raises concerns about health-workforce pressures from population growth."
       }
     },
     {
       "key": "education",
       "title": "Education & childcare",
       "positions": {
-        "Labor": "Free kinder for 3- and 4-year-olds; continued public school funding uplift; TAFE free courses; teacher recruitment incentives.",
-        "Coalition": "Back-to-basics curriculum; phonics; discipline reforms; more parental choice; opposes some gender-identity classroom content.",
-        "Greens": "Fully fund public schools to Gonski 100%; free TAFE and university; reduce class sizes; lift teacher pay substantially.",
-        "One Nation": "Opposes 'woke curriculum'; return to traditional subjects; religious freedom in schools.",
-        "Victorian Socialists": "Nationalise private schools; cancel student debt; free universal childcare; abolish ATAR and school rankings.",
-        "Family First": "Parental authority in education; religious schools' freedom to hire; opt-out from gender-identity curriculum; home-schooling support."
+        "Labor": "Free kinder for 3- and 4-year-olds; continued public school funding uplift; free TAFE courses; teacher recruitment incentives.",
+        "Coalition": "Back-to-basics curriculum; phonics-based literacy; stronger classroom discipline; expanded parental choice; parental opt-out from gender-identity content.",
+        "Greens": "Fully fund public schools to Gonski 100%; free TAFE and university; smaller class sizes; higher teacher pay.",
+        "One Nation": "Supports a focus on traditional academic subjects; expanded parental choice; religious freedom in schools; parental opt-out from gender-identity content."
       }
     },
     {
       "key": "transport",
       "title": "Transport & infrastructure",
       "positions": {
-        "Labor": "Suburban Rail Loop (SRL) delivery; Metro Tunnel operation; level crossing removals; EV charging rollout; airport rail commitment.",
-        "Coalition": "Opposes SRL in current form (cost); emphasise road investment; faster regional rail; review major-project procurement.",
-        "Greens": "Scrap SRL and divert funds to buses, trams, cycling, and local rail electrification; stop urban freeway expansion; free public transport.",
-        "One Nation": "Focus on roads and highways; opposes congestion-pricing; sceptical of rail megaprojects.",
-        "Victorian Socialists": "Free public transport; nationalise V/Line and franchised services; massive expansion of trams, trains, buses; stop road widening.",
-        "Family First": "Prioritise road capacity for families; opposition to some congestion-reduction measures that limit car access."
+        "Labor": "Suburban Rail Loop (SRL) delivery; Metro Tunnel operation; continued level crossing removals; EV charging rollout; airport rail commitment.",
+        "Coalition": "Opposes SRL in current form on cost grounds; prioritises road investment; faster regional rail; review of major-project procurement.",
+        "Greens": "Scrap SRL and divert funds to buses, trams, cycling, and local rail electrification; halt urban freeway expansion; free public transport.",
+        "One Nation": "Prioritises road and freight infrastructure; opposes congestion pricing; cautious on large rail megaprojects."
       }
     },
     {
       "key": "cost_of_living",
       "title": "Cost of living",
       "positions": {
-        "Labor": "Energy bill relief payments; power saving bonus continuation; cheaper public transport fares; cost-of-living package in last budget.",
-        "Coalition": "Cut state taxes and levies; opposes Vic-specific property taxes; emphasis on cost-of-doing-business for small employers.",
-        "Greens": "Cut the cost of essentials by public ownership (energy, housing); dental in Medicare; rent caps; levy on big corporations.",
-        "One Nation": "Blames inflation on immigration and energy policy; supports migration cut and energy mix change.",
-        "Victorian Socialists": "Big wage rises funded by taxing the wealthy; price controls on essentials; free public services (transport, childcare, dental).",
-        "Family First": "Family tax relief; support for single-income households; opposes some green levies seen as raising household bills."
+        "Labor": "Energy bill relief payments; continued power saving bonus; cheaper public-transport fares; targeted cost-of-living package in last budget.",
+        "Coalition": "Cut state taxes and levies; oppose Vic-specific property taxes; emphasis on cost-of-doing-business for small employers.",
+        "Greens": "Reduce costs of essentials via public ownership (energy, housing); dental in Medicare; rent caps; levies on large corporations.",
+        "One Nation": "Identifies immigration and current energy policy as primary drivers of inflation; proposes reducing migration and changing the energy mix."
       }
     },
     {
       "key": "safety",
       "title": "Law & order / community safety",
       "positions": {
-        "Labor": "Youth justice reform balancing diversion and accountability; stronger stalking/DV laws; expanded police resources.",
+        "Labor": "Youth justice reform combining diversion programs with stronger accountability; new stalking and family-violence laws; expanded police resources.",
         "Coalition": "Tougher bail laws; mandatory minimum sentences for some offences; opposition to raising the age of criminal responsibility.",
-        "Greens": "Raise the age of criminal responsibility to 14; invest in diversion and treatment over incarceration; address root causes of crime.",
-        "One Nation": "Tougher sentencing; prison expansion; more police; opposition to decriminalisation policies.",
-        "Victorian Socialists": "Defund police expansion; invest in community services and mental health; abolish youth prisons.",
-        "Family First": "Tougher penalties for violent crime; victim-focused justice; religious freedom protections against discrimination claims."
+        "Greens": "Raise the age of criminal responsibility to 14; invest in diversion and treatment over incarceration; address drivers of crime.",
+        "One Nation": "Supports tougher sentencing (including mandatory minimums for some offences); expanded police resources; opposes drug decriminalisation."
       }
     },
     {
@@ -104,10 +90,8 @@
       "positions": {
         "Labor": "Continue the Treaty process via the First Peoples' Assembly; implement Yoorrook Justice Commission recommendations.",
         "Coalition": "Withdrew support for Treaty in 2024; opposes a statewide treaty framework; favours practical reconciliation over structural reforms.",
-        "Greens": "Full treaty implementation; truth-telling; return of Crown lands; strong backing for Yoorrook recommendations.",
-        "One Nation": "Opposes Treaty; opposes race-based policy; argues for formal equality in all public programs.",
-        "Victorian Socialists": "Support for Treaty, land back, reparations, and sovereignty; supports Yoorrook in full.",
-        "Family First": "Generally cool to Treaty; emphasises individual rather than group-based rights."
+        "Greens": "Full treaty implementation; truth-telling; return of Crown lands; backing Yoorrook recommendations in full.",
+        "One Nation": "Opposes a Treaty with First Peoples; opposes race-based policy; advocates formal equality in all public programs."
       }
     }
   ]
