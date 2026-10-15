@@ -375,12 +375,21 @@ a.src {
 a.src:hover { background: var(--accent-soft); color: var(--accent); }
 
 .trajectory-row {
-  margin: 4px 0;
-  font-size: 0.95rem;
+  margin: 6px 0;
+  font-size: 0.9rem;
   line-height: 1.5;
+  padding-left: 60px;
+  text-indent: -60px;
 }
-.trajectory-row small { color: var(--muted); font-size: 0.85em; }
-.trajectory-row small strong { color: var(--ink); }
+.trajectory-row .year-label {
+  display: inline-block;
+  width: 52px;
+  color: var(--muted);
+  font-size: 0.85em;
+  font-weight: 500;
+  text-align: left;
+  vertical-align: baseline;
+}
 details.party-about {
   border: 1px solid var(--rule);
   border-radius: var(--radius);

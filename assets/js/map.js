@@ -199,15 +199,28 @@
       const safetyBadge = '<span class="pill" style="background:' + safetyColour(mg.safety) + ';color:#fff">' + esc(mg.safety) + '</span>';
       html += '<h3>Trajectory <a class="src" href="https://en.wikipedia.org/wiki/Results_of_the_2022_Victorian_state_election_(Legislative_Assembly)" target="_blank" rel="noopener">source</a></h3>';
       const m2018 = margins2018[key];
-      if (m2018 && m2018.winner) {
-        html += '<p class="trajectory-row"><small>2018:</small> ' + esc(m2018.winner) + ' <strong>' + m2018.tpp_winner_pct.toFixed(1) + '%</strong> vs ' + esc(m2018.tpp_opponent) + ' <small>(' + m2018.basis + ')</small></p>';
-      } else if (m2018 === null) {
-        html += '<p class="trajectory-row"><small>2018:</small> <em>district did not exist (2021 redistribution)</em></p>';
+      // Build a compact year-row renderer so every row has the same shape.
+      const yearRow = (label, m, extraBadge) => {
+        if (!m || !m.winner) return '';
+        const marginTxt = (typeof m.margin === 'number')
+          ? ' <small style="color:var(--muted)">· margin ' + m.margin.toFixed(1) + '% ·</small> ' + extraBadge
+          : '';
+        return '<p class="trajectory-row"><span class="year-label">' + label + '</span> ' +
+               esc(m.winner) + ' <strong>' + m.tpp_winner_pct.toFixed(1) + '%</strong> vs ' + esc(m.tpp_opponent) +
+               ' <small style="color:var(--muted)">(' + m.basis + ')</small>' + marginTxt + '</p>';
+      };
+      if (m2018 === null) {
+        html += '<p class="trajectory-row"><span class="year-label">2018</span> <em>district did not exist (2021 redistribution)</em></p>';
+      } else {
+        const safe2018 = (m2018 && m2018.safety)
+          ? '<span class="pill" style="background:' + safetyColour(m2018.safety) + ';color:#fff">' + esc(m2018.safety) + '</span>'
+          : '';
+        html += yearRow('2018', m2018, safe2018);
       }
-      html += '<p class="trajectory-row"><small>2022:</small> ' + esc(mg.winner) + ' <strong>' + mg.tpp_winner_pct.toFixed(1) + '%</strong> vs ' +
-              esc(mg.tpp_opponent) + ' <small>(' + mg.basis + ')</small> ' +
-              '<small>· margin <strong>' + mg.margin.toFixed(1) + '%</strong> ·</small> ' + safetyBadge +
-              (swing ? ' <small>· ' + swing + ' since 2018</small>' : '') + '</p>';
+      html += yearRow('2022', mg, safetyBadge);
+      if (swing) {
+        html += '<p class="bio">Swing to ' + esc(mg.winner) + ' from 2018 to 2022: <strong>' + swing + '</strong></p>';
+      }
 
       // 2026 projection (uniform swing from polling average)
       const proj = projections[key];
@@ -220,12 +233,12 @@
           'non-two-party': '#999',
         }[proj.status] || '#999';
         const badge = '<span class="pill" style="background:' + statusColour + ';color:#fff">' + esc(proj.status) + '</span>';
-        html += '<p class="trajectory-row"><small>2026 projected:</small> <strong>' + esc(proj.projected_winner) + '</strong> ' +
+        html += '<p class="trajectory-row"><span class="year-label">2026 projected</span> <strong>' + esc(proj.projected_winner) + '</strong> ' +
                 (proj.projected_winner === 'Labor' ? proj.projected_labor_tpp.toFixed(1) : (100 - proj.projected_labor_tpp).toFixed(1)) + '% TPP ' +
                 badge + '</p>';
         html += '<p class="bio">Based on uniform swing of ' + aggregateSwing.toFixed(1) + '% applied to 2022 TPP — see <a href="/pages/projections.html">how it works &amp; caveats</a>.</p>';
       } else if (proj && proj.status === 'non-two-party') {
-        html += '<p class="trajectory-row"><small>2026 projected:</small> <em>' + esc(proj.note) + '</em></p>';
+        html += '<p class="trajectory-row"><span class="year-label">2026 projected</span> <em>' + esc(proj.note) + '</em></p>';
         html += '<p class="bio">See <a href="/pages/projections.html">projections page</a> for why uniform swing doesn\'t apply here.</p>';
       }
     }
