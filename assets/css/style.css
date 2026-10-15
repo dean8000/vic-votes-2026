@@ -85,20 +85,74 @@ header.site nav {
   display: flex;
   gap: 16px;
   flex-wrap: wrap;
+  align-items: center;
   font-size: 0.95rem;
 }
 
-header.site nav a {
+header.site nav a,
+header.site nav .nav-group-trigger {
   color: var(--muted);
   text-decoration: none;
   padding: 4px 2px;
+  border: none;
+  background: transparent;
   border-bottom: 2px solid transparent;
+  font: inherit;
+  cursor: pointer;
 }
 
 header.site nav a:hover,
-header.site nav a[aria-current="page"] {
+header.site nav a[aria-current="page"],
+header.site nav .nav-group-trigger:hover,
+header.site nav .nav-group.open .nav-group-trigger {
   color: var(--ink);
   border-bottom-color: var(--accent);
+}
+
+/* "Learn" dropdown */
+.nav-group { position: relative; }
+.nav-dropdown {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: -8px;
+  margin-top: 4px;
+  background: var(--panel);
+  border: 1px solid var(--rule);
+  border-radius: var(--radius);
+  padding: 6px 0;
+  min-width: 180px;
+  z-index: 50;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  flex-direction: column;
+}
+.nav-group:hover .nav-dropdown,
+.nav-group:focus-within .nav-dropdown,
+.nav-group.open .nav-dropdown {
+  display: flex;
+}
+.nav-dropdown a {
+  padding: 6px 14px !important;
+  border: none !important;
+  border-radius: 0;
+  color: var(--ink) !important;
+  display: block;
+}
+.nav-dropdown a:hover {
+  background: var(--accent-soft);
+  color: var(--accent) !important;
+}
+/* Highlight the "My area" button since it's the primary user action */
+header.site nav a.nav-cta {
+  background: var(--accent);
+  color: #fff;
+  padding: 4px 10px;
+  border-radius: 4px;
+  border-bottom-color: transparent;
+}
+header.site nav a.nav-cta:hover {
+  background: var(--ink);
+  color: #fff;
 }
 
 main {
