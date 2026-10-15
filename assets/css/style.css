@@ -153,8 +153,6 @@ p, ul, ol { margin: 0.6em 0; }
 }
 @media (prefers-color-scheme: dark) {
   .callout.warn { background: #3a2a14; color: var(--ink); }
-  .ballot { background: #1a1d22; border-color: #666; color: var(--ink); }
-  .ballot .box { border-color: #aaa; color: var(--ink); }
   table th { color: var(--ink); }
   .pill { background: #3a4253; color: #d4dbe8; }
   .candidate-list li.sitting::after { background: #333; color: #ccc; }
@@ -481,6 +479,19 @@ details.party-about p {
   font-weight: bold;
 }
 .ballot .box.empty { color: transparent; }
+
+@media (prefers-color-scheme: dark) {
+  .ballot {
+    background: #1a1d22;
+    border-color: #888;
+    color: var(--ink);
+  }
+  .ballot .ballot-row { border-bottom-color: #3a3f47; }
+  .ballot .box {
+    border-color: #bbb;
+    color: var(--ink);
+  }
+}
 
 .party-key {
   display: flex;
