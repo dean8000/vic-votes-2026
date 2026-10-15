@@ -112,8 +112,17 @@
   })[s] || '#999';
 
   // 2026 projection colour: party colour of projected winner, intensity by margin.
-  const projectionColour = (proj) => {
-    if (!proj || proj.status === 'non-two-party' || proj.projected_labor_tpp == null) {
+  // For non-two-party seats (Greens-held, Independent-held) we fall back to the
+  // sitting winner's party colour at moderate opacity — statewide Lab-vs-Coa swing
+  // doesn't flip these so the sensible default is "status quo".
+  const projectionColour = (proj, memParty) => {
+    if (proj && proj.status === 'non-two-party') {
+      // Use sitting MP's party colour at moderate opacity.
+      const col = partyColour(memParty || '');
+      // If sitting MP party is unknown/Independent, grey is appropriate.
+      return { fill: col, opacity: 0.5 };
+    }
+    if (!proj || proj.projected_labor_tpp == null) {
       return { fill: '#bbb', opacity: 0.35 };
     }
     const base = proj.projected_winner === 'Labor' ? '#e52a2a' : '#1565c0';
@@ -142,7 +151,8 @@
       return { fillColor: m ? safetyColour(m.safety) : '#999', fillOpacity: 0.55, color: '#333', weight: 1 };
     }
     if (colourMode === 'projection') {
-      const p = projectionColour(projections[key]);
+      const sittingParty = members.districts[key] ? members.districts[key].party : '';
+      const p = projectionColour(projections[key], sittingParty);
       return { fillColor: p.fill, fillOpacity: p.opacity, color: '#333', weight: 1 };
     }
     const party = members.districts[key] ? members.districts[key].party : '';
@@ -428,7 +438,7 @@
     if (layer === 'regions') return 'Regions coloured by the party holding the most sitting MLCs.';
     if (mode === 'party') return 'Districts coloured by the party of the sitting MP.';
     if (mode === 'safety') return "How safe each district's 2022 result was — bigger margin, darker colour. Marginal seats most likely to change hands.";
-    if (mode === 'projection') return 'Projected 2026 winner (party colour), with intensity by projected margin. Grey = non-two-party contest (Greens- or Independent-held seats).';
+    if (mode === 'projection') return 'Projected 2026 winner (party colour), with intensity by projected margin. Greens- and Independent-held seats keep their sitting party\'s colour (assumed hold — statewide swing doesn\'t apply).';
     return '';
   }
 
@@ -442,8 +452,9 @@
     if (mode === 'projection' && layer === 'districts') {
       return '<span style="background:#e52a2a"></span>Labor hold/gain' +
              '<span style="background:#1565c0"></span>Coalition hold/gain' +
-             '<span style="background:#bbb"></span>non-two-party (Greens/Ind)' +
-             '<br><small>Intensity by projected margin — faint = tight race, saturated = safe.</small>';
+             '<span style="background:#0f8f3a"></span>Greens hold (assumed)' +
+             '<span style="background:#a3a3a3"></span>Independent hold (assumed)' +
+             '<br><small>Intensity by projected margin — faint = tight race, saturated = safe. Non-two-party seats shown at the sitting party\'s colour since statewide swing doesn\'t apply.</small>';
     }
     const prefix = layer === 'regions' ? '<em>Coloured by majority sitting MLC party</em><br>' : '';
     return prefix +
