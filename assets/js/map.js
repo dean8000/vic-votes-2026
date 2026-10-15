@@ -260,6 +260,7 @@
     const mem = members.districts[key];
     const cand = candidates.districts[key] || candidates.districts[(key || '').replace(/\s+/g, ' ')];
     const mg = margins[key];
+    const proj = projections[key]; // hoisted so it's available in both Trajectory and Candidates blocks
     title.textContent = label;
     scrollSidebarTop();
     let html = '<p><em>Legislative Assembly district</em></p>';
@@ -303,8 +304,7 @@
         html += '<p class="bio">Swing to ' + esc(mg.winner) + ' from 2018 to 2022: <strong>' + swing + '</strong></p>';
       }
 
-      // 2026 projection (uniform swing from polling average)
-      const proj = projections[key];
+      // 2026 projection (uniform swing from polling average) — proj is hoisted above
       if (proj && proj.projected_labor_tpp != null) {
         const statusColour = {
           'likely flip': '#d7301f',
