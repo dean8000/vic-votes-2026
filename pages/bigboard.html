@@ -1,0 +1,258 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Big board — all 88 districts — Victoria votes 2026</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<meta name="theme-color" content="#26457a" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#15181d" media="(prefers-color-scheme: dark)">
+<meta property="og:title" content="Victorian State Election 2026 — a plain-English guide">
+<meta property="og:description" content="All 88 Victorian Legislative Assembly districts at a glance: sitting party, 2026 projection, status, margin.">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_AU">
+<meta name="twitter:card" content="summary">
+<link rel="stylesheet" href="/assets/css/style.css">
+<style>
+  .controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px 16px;
+    align-items: center;
+    margin: 16px 0;
+    padding: 10px 14px;
+    background: var(--panel);
+    border: 1px solid var(--rule);
+    border-radius: var(--radius);
+    font-size: 0.9rem;
+  }
+  .controls label { display: inline-flex; align-items: center; gap: 6px; }
+  .controls select {
+    padding: 4px 8px;
+    border: 1px solid var(--rule);
+    border-radius: 4px;
+    background: var(--bg);
+    color: var(--ink);
+    font-size: 0.9rem;
+  }
+  .board {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 12px;
+    margin: 20px 0;
+  }
+  .district-card {
+    background: var(--panel);
+    border: 1px solid var(--rule);
+    border-left: 4px solid #999;
+    border-radius: var(--radius);
+    padding: 12px 14px;
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    transition: box-shadow 0.15s, transform 0.1s;
+  }
+  .district-card:hover {
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    transform: translateY(-1px);
+  }
+  .district-card h3 {
+    margin: 0 0 4px;
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  .district-card .mp {
+    font-size: 0.85rem;
+    color: var(--muted);
+    margin: 2px 0 6px;
+  }
+  .district-card .proj-row {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 0.85rem;
+    flex-wrap: wrap;
+    margin-top: 6px;
+  }
+  .district-card .arrow {
+    color: var(--muted);
+    font-size: 0.9rem;
+  }
+  .district-card.flip { border-left-color: #d7301f; }
+  .district-card.in-play { border-left-color: #fc8d59; }
+  .district-card.close-hold { border-left-color: #fee08b; }
+  .district-card.safe-hold { border-left-color: #4575b4; }
+  .district-card.non-two-party { border-left-color: #999; }
+  .board-stats {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px 20px;
+    font-size: 0.9rem;
+    color: var(--muted);
+    margin: 10px 0;
+  }
+  .board-stats strong { color: var(--ink); }
+</style>
+</head>
+<body>
+<header class="site">
+  <div class="inner">
+    <h1><a href="/index.html">Victoria votes 2026</a></h1>
+    <nav>
+      <a href="/index.html">Home</a>
+      <a href="/pages/voting.html">How voting works</a>
+      <a href="/pages/preferences.html">Preferences</a>
+      <a href="/pages/upper-house.html">Upper house</a>
+      <a href="/pages/compare.html">Compare parties</a>
+      <a href="/pages/cycles.html">Election cycles</a>
+      <a href="/map.html">Map</a>
+      <a href="/pages/bigboard.html" aria-current="page">Big board</a>
+      <a href="/pages/projections.html">Polling</a>
+      <a href="/pages/dates.html">Key dates</a>
+      <a href="/pages/glossary.html">Glossary</a>
+      <a href="/pages/about.html">About</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <h2>Big board — all 88 districts</h2>
+  <p class="lede">Every Legislative Assembly district on one page, with sitting party and uniform-swing 2026 projection. Click any card to open it in the map.</p>
+
+  <div class="controls">
+    <label>Sort by
+      <select id="sort">
+        <option value="status">Status (flips &amp; in-play first)</option>
+        <option value="margin">Projected margin (tightest first)</option>
+        <option value="name">District name (A–Z)</option>
+        <option value="party">Current party</option>
+      </select>
+    </label>
+    <label>Show
+      <select id="filter">
+        <option value="all">All districts</option>
+        <option value="flip">Likely flips only</option>
+        <option value="play">In play only</option>
+        <option value="hold">Safe/close holds only</option>
+        <option value="ntp">Non-two-party (Greens/Ind)</option>
+      </select>
+    </label>
+    <span id="count" style="margin-left:auto"></span>
+  </div>
+
+  <div id="stats" class="board-stats"></div>
+
+  <div id="board" class="board">Loading…</div>
+
+  <p style="margin-top:30px;color:var(--muted);font-size:0.85rem">
+    Status colours (left border): <span style="color:#d7301f">■</span> likely flip ·
+    <span style="color:#fc8d59">■</span> in play ·
+    <span style="color:#fee08b">■</span> close hold ·
+    <span style="color:#4575b4">■</span> safe hold ·
+    <span style="color:#999">■</span> non-two-party. See <a href="/pages/projections.html">projections methodology</a>.
+  </p>
+
+  <script>
+    const partyColour = (p) => ({
+      'Labor': '#e52a2a', 'Liberal': '#1565c0', 'National': '#374151',
+      'Greens': '#0f8f3a', 'Independent': '#a3a3a3', 'Coalition': '#1565c0',
+    })[p] || '#777';
+    const partySlug = (p) => (p || '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+
+    (async function () {
+      const [members, margins, projections] = await Promise.all([
+        fetch('/assets/data/members.json').then(r => r.json()),
+        fetch('/assets/data/margins.json').then(r => r.json()),
+        fetch('/assets/data/projections.json').then(r => r.json()),
+      ]);
+      const projByKey = projections.projections;
+      const rows = [];
+      for (const [key, mem] of Object.entries(members.districts)) {
+        const mg = margins[key] || {};
+        const proj = projByKey[key] || {};
+        rows.push({
+          key,
+          label: mg.label || key.split(' ').map(w => w[0] + w.slice(1).toLowerCase()).join(' '),
+          mp: mem.mp,
+          party: mem.party,
+          status: proj.status || 'unknown',
+          projectedWinner: proj.projected_winner || null,
+          projectedMargin: proj.projected_labor_tpp != null
+            ? Math.abs(proj.projected_labor_tpp - 50)
+            : null,
+          note: proj.note || null,
+        });
+      }
+      const statusOrder = { 'likely flip': 0, 'in play': 1, 'close hold': 2, 'safe hold': 3, 'non-two-party': 4, unknown: 5 };
+      const sortFns = {
+        status: (a, b) => (statusOrder[a.status] - statusOrder[b.status]) ||
+                          ((a.projectedMargin ?? 99) - (b.projectedMargin ?? 99)),
+        margin: (a, b) => (a.projectedMargin ?? 99) - (b.projectedMargin ?? 99),
+        name: (a, b) => a.label.localeCompare(b.label),
+        party: (a, b) => (a.party || '').localeCompare(b.party || '') || a.label.localeCompare(b.label),
+      };
+      const matchFilter = (r, f) => {
+        if (f === 'all') return true;
+        if (f === 'flip') return r.status === 'likely flip';
+        if (f === 'play') return r.status === 'in play';
+        if (f === 'hold') return r.status === 'close hold' || r.status === 'safe hold';
+        if (f === 'ntp') return r.status === 'non-two-party';
+        return true;
+      };
+
+      const sortSel = document.getElementById('sort');
+      const filterSel = document.getElementById('filter');
+      const board = document.getElementById('board');
+      const count = document.getElementById('count');
+      const statsEl = document.getElementById('stats');
+
+      // Overall stats
+      const n = { flip: 0, play: 0, hold: 0, ntp: 0 };
+      for (const r of rows) {
+        if (r.status === 'likely flip') n.flip++;
+        else if (r.status === 'in play') n.play++;
+        else if (r.status === 'close hold' || r.status === 'safe hold') n.hold++;
+        else if (r.status === 'non-two-party') n.ntp++;
+      }
+      statsEl.innerHTML =
+        '<span>Projected: <strong>' + n.flip + '</strong> flips</span>' +
+        '<span><strong>' + n.play + '</strong> in play</span>' +
+        '<span><strong>' + n.hold + '</strong> holds</span>' +
+        '<span><strong>' + n.ntp + '</strong> non-two-party</span>';
+
+      function render() {
+        const filtered = rows.filter(r => matchFilter(r, filterSel.value));
+        filtered.sort(sortFns[sortSel.value]);
+        count.textContent = filtered.length + ' of ' + rows.length;
+        board.innerHTML = filtered.map(r => {
+          const cls = (r.status || 'unknown').replace(/\s+/g, '-');
+          const projPill = r.projectedWinner
+            ? '<span class="pill party party-' + partySlug(r.projectedWinner) + '">' + r.projectedWinner + '</span>'
+            : '<span class="pill" style="background:#aaa;color:#fff">assumed hold</span>';
+          const marginTxt = r.projectedMargin != null
+            ? '<small>' + r.projectedMargin.toFixed(1) + '%</small>'
+            : '';
+          const statusTxt = '<small style="color:var(--muted)">· ' + r.status + '</small>';
+          return '<a class="district-card ' + cls + '" href="/map.html#district/' + encodeURIComponent(r.key.replace(/\s+/g, '_')) + '">' +
+                 '<h3>' + r.label + '</h3>' +
+                 '<p class="mp">' + r.mp + ' <span class="pill party party-' + partySlug(r.party) + '">' + r.party + '</span></p>' +
+                 '<div class="proj-row">' +
+                   '<span class="arrow">→ 2026</span>' + projPill + marginTxt + statusTxt +
+                 '</div>' +
+                 '</a>';
+        }).join('');
+      }
+      sortSel.addEventListener('change', render);
+      filterSel.addEventListener('change', render);
+      render();
+    })();
+  </script>
+</main>
+
+<footer class="site">
+  <div class="inner">
+    <p>Each card deep-links to the <a href="/map.html">interactive map</a> for full detail. Projections are uniform-swing from current polling — see <a href="/pages/projections.html">methodology &amp; caveats</a>.</p>
+  </div>
+</footer>
+</body>
+</html>
