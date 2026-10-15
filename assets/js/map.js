@@ -216,20 +216,32 @@
 
   function bioBlock(name) {
     const b = bios[name];
-    if (!b || !b.wikipedia_url) return '';
-    const bits = [];
-    if (b.elected_since) bits.push('First elected ' + esc(b.elected_since));
-    if (b.prior_occupation) bits.push('Prior: ' + esc(b.prior_occupation));
-    if (b.born) bits.push('Born ' + esc(b.born));
-    let html = '<p class="bio">';
-    if (bits.length) html += bits.join(' · ');
-    if (b.prior_roles && b.prior_roles.length) {
-      html += '<br><small>' + b.prior_roles.slice(0, 3).map(esc).join('; ') + '</small>';
+    if (!b) return '';
+    // Case 1 — Wikipedia-style structured bio (sitting MPs etc.)
+    if (b.wikipedia_url) {
+      const bits = [];
+      if (b.elected_since) bits.push('First elected ' + esc(b.elected_since));
+      if (b.prior_occupation) bits.push('Prior: ' + esc(b.prior_occupation));
+      if (b.born) bits.push('Born ' + esc(b.born));
+      let html = '<p class="bio">';
+      if (bits.length) html += bits.join(' · ');
+      if (b.prior_roles && b.prior_roles.length) {
+        html += '<br><small>' + b.prior_roles.slice(0, 3).map(esc).join('; ') + '</small>';
+      }
+      if (b.education) html += '<br><small>Education: ' + esc(b.education) + '</small>';
+      html += ' <a href="' + esc(b.wikipedia_url) + '" target="_blank" rel="noopener">wikipedia</a>';
+      html += '</p>';
+      return html;
     }
-    if (b.education) html += '<br><small>Education: ' + esc(b.education) + '</small>';
-    html += ' <a href="' + esc(b.wikipedia_url) + '" target="_blank" rel="noopener">wikipedia</a>';
-    html += '</p>';
-    return html;
+    // Case 2 — ABC/party-sourced bio summary (non-sitting candidates)
+    if (b.summary) {
+      const srcLabel = b.source || 'source';
+      const srcLink = b.source_url
+        ? ' <a href="' + esc(b.source_url) + '" target="_blank" rel="noopener">' + esc(srcLabel) + '</a>'
+        : '';
+      return '<p class="bio">' + esc(b.summary) + srcLink + '</p>';
+    }
+    return '';
   }
 
   function partiesAboutBlock(partyNames) {

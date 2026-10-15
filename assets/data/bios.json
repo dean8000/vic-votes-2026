@@ -241,7 +241,10 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "After graduating from Monash University, Williams worked as a lawyer and political adviser and before entering parliament she was a project manager at the University of Melbourne. She was elected as the member for Dandenong at the 2014 election and was appointed as a parliamentary secretary right after the election. She was elevated to the ministry after the 2018 election and has held various portfolios such as youth, mental health, government affairs, transport infrastructure and currently education. In July 2026, she was a prominent member of a delegation of cross-factional Labor MPs who informed then-premier Jacinta Allan that she had lost the support of the caucus. She was elected deputy Labor leader in the election that followed Allan’s resignation.",
+    "source": "Vic Labor",
+    "source_url": "https://www.viclabor.org.au/our-team/gabrielle-williams"
   },
   "Cindy McLeish": {
     "wikipedia_url": "https://en.wikipedia.org/wiki/Cindy_McLeish",
@@ -587,10 +590,13 @@
   "Martin Cameron": {
     "wikipedia_url": null,
     "born": null,
-    "prior_occupation": null,
+    "prior_occupation": "plumber by trade",
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Cameron was born and raised in Traralgon and is a plumber by trade. Prior to entering parliament he ran the small business set up by his parents. Since entering parliament in 2022 he has served in various parliamentary secretary and assistant minister positions as well as being Nationals whip since June.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/morw"
   },
   "Eden Foster": {
     "wikipedia_url": "https://en.wikipedia.org/wiki/Eden_Foster",
@@ -663,7 +669,10 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Carroll was raised in the suburb of Airport West and his first job was as a sales assistant at the local Kmart where he first joined the Shop, Distributive and Allied Employees Association union. He studied law at La Trobe University and during his studies he joined the Labor Party. Before entering politics he worked at insurance firm AAMI and completed his legal traineeship at the Victorian Government Solicitor’s Office. Before his election to parliament he was working as an adviser to then-communications minister Stephen Conroy and he had previously worked for Steve Bracks. Carroll was elected as the member for Niddrie at the March 2012 by-election to succeed former deputy premier Rob Hulls and he became a shadow parliamentary secretary less than a year after his election. He was appointed parliamentary secretary for justice upon the election of the Andrews government in 2014 and was elevated to cabinet in October 2017 as the minister for industry and employment. Following the resignation of Daniel Andrews in September 2023, it was reported that Carroll was preparing to run as the right faction candidate for leadership before a deal was made for him to serve as deputy to eventual premier Jacinta Allan. He became premier in July 2026 after Allan was pushed to resign by a cross-factional delegation of Labor MPs.",
+    "source": "Vic Labor",
+    "source_url": "https://www.viclabor.org.au/our-team/ben-carroll"
   },
   "Kat Theophanous": {
     "wikipedia_url": "https://en.wikipedia.org/wiki/Kat_Theophanous",
@@ -905,7 +914,10 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Werner was born and raised in Melbourne's east and is the daughter of Malaysian migrants who moved to Australia. She spent her early career as a youth worker and youth pastor and has also worked as a Liberal staffer. Werner was the Liberal candidate for Box Hill at the 2022 state election and was later elected to parliament in the August 2023 by-election for Warrandyte. She entered shadow cabinet as the shadow minister for youth in October 2025 and added home ownership and housing affordability to her responsibilities when Jess Wilson became leader a month later.",
+    "source": "Vic Liberals",
+    "source_url": "https://vicliberal.org.au/team/nicole-werner"
   },
   "Juliana Addison": {
     "wikipedia_url": "https://en.wikipedia.org/wiki/Juliana_Addison",
@@ -1372,7 +1384,10 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Semmens was born and raised in Dandenong and has worked as an NGO consultant, educator and small business owner. She has spent most of her career in the not-for-profit sector with domestic charities and international development agencies. Semmens has run as a Greens candidate twice at the federal level, in Higgins at the 2022 election and Macnamara at the 2025 election.",
+    "source": "Vic Greens",
+    "source_url": "https://greens.org.au/vic/person/sonya-semmens"
   },
   "Tammy Lindrum": {
     "wikipedia_url": null,
@@ -1380,15 +1395,21 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Lindrum has worked as a registered nurse as well as in sales management and marketing roles in the pharmaceutical industry. She founded the Women’s Billiards and Snooker Network and is the daughter of champion billiards player Walter Lindrum.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/albe"
   },
   "Colleen Bolger": {
     "wikipedia_url": null,
     "born": null,
-    "prior_occupation": null,
+    "prior_occupation": "lawyer",
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Bolger is a lawyer who has represented people with asbestosis and other occupational diseases. She has been a delegate of the Australian Services Union and has been in activism for more than 20 years. Bolger ran as a Victorian Socialists candidate at the last two state elections as well as at the Warrandyte by-election in 2023. She also ran for the federal seat of Melbourne in the 2022 election.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/albe"
   },
   "Georgie Dragwidge (Ind)Daniel O'Neill": {
     "wikipedia_url": null,
@@ -1401,10 +1422,13 @@
   "Theo Zographos": {
     "wikipedia_url": null,
     "born": null,
-    "prior_occupation": null,
+    "prior_occupation": "relationship manager at anz",
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Zographos is a former Monash City councillor, serving from 2012 to 2024, and now works as a relationship manager at ANZ. He ran for the seat of Oakleigh in the 2014 election but was defeated by Labor minister Steve Dimopoulos. He was initially preselected to run for the federal seat of Chisholm in the 2025 election but was replaced as Liberal candidate by the late Katie Allan, the former member for the abolished seat of Higgins.",
+    "source": "Vic Liberals",
+    "source_url": "https://vicliberal.org.au/team/theo-zographos"
   },
   "Tim Randall": {
     "wikipedia_url": "https://en.wikipedia.org/wiki/Tim_Randall",
@@ -1421,10 +1445,13 @@
   "Steven Mitchell": {
     "wikipedia_url": null,
     "born": null,
-    "prior_occupation": null,
+    "prior_occupation": "technology professional",
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Mitchell is a technology professional with more than 25 years of experience and has performed roles in project management, software development and training. He volunteers at his local primary school and is a trainer at his local football club.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/ashw"
   },
   "Jacob van der Eynden": {
     "wikipedia_url": null,
@@ -1432,7 +1459,10 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Van der Eynden is a digital media designer, student, and organiser with activist group Campaign Against Racism and Fascism. He was born and raised in Mount Waverley and has worked in various cafes and shops in the local area.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/ashw"
   },
   "Hitendra Joshi": {
     "wikipedia_url": null,
@@ -1440,7 +1470,10 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Joshi has lived in Mount Waverley since 2017 when he immigrated to Australia with his family. He works as an electrical engineer with more than 27 years of experience in engineering and infrastructure both in Australia and overseas. He is endorsed by the Voices For Ashwood community group.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/ashw"
   },
   "Chris Buckingham": {
     "wikipedia_url": null,
@@ -1448,7 +1481,10 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Buckingham has served as the CEO of consultancy firm The Fair Co, the Latrobe Valley Authority, and Casey Cardinia Libraries. In 2016, he was the Labor candidate for the now abolished federal seat of McMillan. He says that when he’s not working, you’ll find him volunteering at local events, baking bread, or out for a run.",
+    "source": "Vic Labor",
+    "source_url": "https://www.viclabor.org.au/our-team/chris-buckingham"
   },
   "Rochelle Halstead": {
     "wikipedia_url": null,
@@ -1456,15 +1492,21 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Halstead has been a Bass Coast Shire councillor since 2020 and was twice elected as mayor. She previously owned a bar and grill in the local area. In the early 2000s, Halstead served on Frankston council, including a stint as mayor. She stood as the Liberal candidate for the state seat of Frankston in the 2006 election.",
+    "source": "Vic Liberals",
+    "source_url": "https://vicliberal.org.au/team/rochelle-halstead"
   },
   "Sophie Thorn": {
     "wikipedia_url": null,
     "born": null,
-    "prior_occupation": null,
+    "prior_occupation": "youth mental health worker",
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Thorn is a youth mental health worker. She moved to Bass Coast in 2019.",
+    "source": "Vic Greens",
+    "source_url": "https://greens.org.au/vic/person/sophie-thorn"
   },
   "Nikole Schellekens": {
     "wikipedia_url": null,
@@ -1472,7 +1514,10 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Schellekens was born and raised in Tooradin and operates a beef farm with her husband. She also works as a mental health consultant and founded AgMind Australia, a mental health support organisation for farmers.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/bass"
   },
   "Chris Jobe": {
     "wikipedia_url": null,
@@ -1480,7 +1525,10 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Jobe is a teacher, musician, and union member. He has previously stood for election as a Greens candidate in 2014.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/bass"
   },
   "Julie Buxton": {
     "wikipedia_url": null,
@@ -1488,7 +1536,10 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Buxton owns a small bookkeeping and business services firm in Bayswater. She has also been a public servant and was formerly the office manager for the seat's current MP. At the 2018 state election, she was the Labor candidate for the abolished seat of Ferntree Gully.",
+    "source": "Vic Labor",
+    "source_url": "https://www.viclabor.org.au/our-team/julie-buxton"
   },
   "David Kitchen": {
     "wikipedia_url": "https://en.wikipedia.org/wiki/David_Kitchen",
@@ -1519,7 +1570,10 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Bleakney says she has lived in Bayswater for more than 25 years and has more than two decades of experience in financial services.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/bays"
   },
   "Alec Ferguson": {
     "wikipedia_url": "https://en.wikipedia.org/wiki/Alec_Ferguson",
@@ -1547,15 +1601,21 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Whitehead works in communications and has held positions in the public and private sectors as well as for various Liberal and National members of parliament. He is involved with local sporting clubs and is president of the Leopold Cricket Club.",
+    "source": "Vic Liberals",
+    "source_url": "https://vicliberal.org.au/team/callum-whitehead"
   },
   "Mitch Pope": {
     "wikipedia_url": null,
     "born": null,
-    "prior_occupation": null,
+    "prior_occupation": "eco-tour guide",
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Pope owns a wholefoods store and cafe and also works as an eco-tour guide, content creator and photographer. He stood as the Greens candidate for the overlapping federal seat of Corangamite at the 2025 federal election.",
+    "source": "Vic Greens",
+    "source_url": "https://greens.org.au/vic/person/mitch-pope"
   },
   "Ross McRae": {
     "wikipedia_url": null,
@@ -1563,7 +1623,10 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "McRae has worked in cybersecurity, artificial intelligence and other technology roles including 10 years in the Australian Army as an IT manager.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/bell"
   },
   "Ronan Keogh": {
     "wikipedia_url": null,
@@ -1602,7 +1665,10 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Parton worked in human resources and environmental management before his retirement. He is writing biographies of several local residents and working as a tour guide at the Old Beechworth Gaol.",
+    "source": "Vic Greens",
+    "source_url": "https://greens.org.au/vic/person/graham-parton"
   },
   "Kellie Sheppard": {
     "wikipedia_url": null,
@@ -1610,15 +1676,21 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Sheppard runs a small business and a hobby farm. She has also been a writer and journalist as well as the director of a national health not-for-profit.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/bena"
   },
   "Alex Vangalen": {
     "wikipedia_url": null,
     "born": null,
-    "prior_occupation": null,
+    "prior_occupation": "behaviour support practitioner",
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Vangalen is a 30-year local of the Wodonga area and works as a behaviour support practitioner. He has degrees in psychological science and pharmacy.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/bena"
   },
   "Lachie McKeeman (Ind)Mike Fruery": {
     "wikipedia_url": null,
@@ -1634,7 +1706,10 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Rickwood is a secondary school teacher at Bendigo Senior Secondary College where he also works as the student engagement coordinator.",
+    "source": "Vic Labor",
+    "source_url": "https://www.viclabor.org.au/our-team/tim-rickwood"
   },
   "Andrew Lethlean": {
     "wikipedia_url": null,
@@ -1642,7 +1717,10 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Lethlean has owned and operated hospitality businesses in Bendigo for the past 25 years, including Metro and Puggs Irish Bar since 2004. He contested the seat of Bendigo at last year's federal election, becoming the first Nationals candidate to finish in the top two since 1946 and cutting the Labor margin to 1.4 per cent.",
+    "source": "Vic Nationals",
+    "source_url": "https://vic.nationals.org.au/candidates-andrew-lethlean/"
   },
   "Michael Tolhurst": {
     "wikipedia_url": null,
@@ -1650,23 +1728,32 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Tolhurst works as a civil engineer at Coliban Water which operates the water and sewage network in much of Bendigo and the surrounding area. He grew up in Creswick before moving to Melbourne for university. He contested Bendigo East in 2022, winning 8.7 per cent of the primary vote.",
+    "source": "Vic Greens",
+    "source_url": "https://greens.org.au/vic/person/michael-tolhurst"
   },
   "Cheryl Hawken": {
     "wikipedia_url": null,
     "born": null,
-    "prior_occupation": null,
+    "prior_occupation": "cattle farmer",
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Hawken is a cattle farmer who has previously worked in administration and financial management as well as being a small business owner.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/beea"
   },
   "Denali Norsen": {
     "wikipedia_url": null,
     "born": null,
-    "prior_occupation": null,
+    "prior_occupation": "freelance photographer and filmmaker",
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Norsen has been living in Bendigo for the past eight years and works as a freelance photographer and filmmaker. He has helped organise local Palestine solidarity protests and anti-racism forums.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/beea"
   },
   "Liz Wright": {
     "wikipedia_url": null,
@@ -1674,15 +1761,21 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Wright describes herself as a dedicated community leader who has spent years working alongside local organisations, schools, and community groups. She works in the family violence sector and earned a graduate certificate in family violence responses in 2024.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/beea"
   },
   "Brenton Baldwin": {
     "wikipedia_url": null,
     "born": null,
-    "prior_occupation": null,
+    "prior_occupation": "labor mlc jenny mikakos",
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Baldwin works in the not-for-profit health sector after working as a staffer for former Labor MLC Jenny Mikakos. He was born and raised in Bendigo, and studied at La Trobe University.",
+    "source": "Vic Labor",
+    "source_url": "https://www.viclabor.org.au/our-team/brenton-baldwin"
   },
   "David Hutchings": {
     "wikipedia_url": null,
@@ -1690,15 +1783,21 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Hutchings moved to Australia from the UK in the early 1990s after earning a master’s degree in economics from Cambridge University and becoming a chartered accountant. He has worked as an auditor in the public and private sectors around regional Victoria, based in Bendigo for more than 20 years. He also volunteered with his local branch of the Country Fire Authority for almost 15 years.",
+    "source": "Vic Nationals",
+    "source_url": "https://vic.nationals.org.au/candidates-david-hutchings/"
   },
   "Liza Shaw": {
     "wikipedia_url": null,
     "born": null,
-    "prior_occupation": null,
+    "prior_occupation": "community health worker",
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Shaw is a community health worker and has lived in the area for more than a decade. She runs a small fruit farm in Muckleford with her family.",
+    "source": "Vic Greens",
+    "source_url": "https://greens.org.au/vic/person/liza-shaw"
   },
   "Ellen Morgan": {
     "wikipedia_url": null,
@@ -1706,23 +1805,32 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Morgan has worked in community services and youth justice, and says her professional background has shaped her role as an advocate and regional supporter in the Bendigo area.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/bewe"
   },
   "Tayne Shalevski": {
     "wikipedia_url": null,
     "born": null,
-    "prior_occupation": null,
+    "prior_occupation": "foreman for a building company",
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Shalevski is a foreman for a building company and has worked in construction across regional Victoria. He stood as a Victorian Socialists candidate for a council by-election in March.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/bewe"
   },
   "Tynan Putt": {
     "wikipedia_url": null,
     "born": null,
-    "prior_occupation": null,
+    "prior_occupation": "police officer and has worked in commercial property leasing",
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Putt is a former police officer and has worked in commercial property leasing.",
+    "source": "Vic Liberals",
+    "source_url": "https://vicliberal.org.au/team/tynan-putt"
   },
   "Karli McRostie": {
     "wikipedia_url": null,
@@ -1730,7 +1838,10 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "McRostie has lived in Bendigo for more than 30 years and works as a stakeholder support officer at the Essential Services Commission. She has previously worked as an office administrator and project coordinator.",
+    "source": "Vic Greens",
+    "source_url": "https://greens.org.au/vic/person/karli-mcrostie"
   },
   "Herbert Lonsing": {
     "wikipedia_url": null,
@@ -1738,7 +1849,10 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Lonsing served as a police officer for more than 40 years across Victoria, later moving into management at a local station.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/bent"
   },
   "Liam Kruger": {
     "wikipedia_url": null,
@@ -1746,7 +1860,10 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Kruger works in food service, is a graduate of Monash University, and has lived in Highett for his entire life. He stood as a Victorian Socialists candidate in the southern metropolitan upper-house region at the last state election.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/bent"
   },
   "Rana Khan": {
     "wikipedia_url": null,
@@ -1754,15 +1871,21 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Khan moved to Australia from Pakistan in 2001 and served on the police force for over 13 years. He earned an undergraduate degree in applied management in 2023.",
+    "source": "Vic Labor",
+    "source_url": "https://www.viclabor.org.au/our-team/rana-khan"
   },
   "Roshan De Silva": {
     "wikipedia_url": null,
     "born": null,
-    "prior_occupation": null,
+    "prior_occupation": "mathematics",
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "De Silva is a mathematics and physics teacher at a local high school and has 20 years of experience in education.",
+    "source": "Vic Greens",
+    "source_url": "https://greens.org.au/vic/person/roshan-de-silva"
   },
   "Michael Piastrino": {
     "wikipedia_url": null,
@@ -1770,15 +1893,21 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Piastrino grew up in Endeavour Hills and attended Maranatha Christian School. He owns and operates a hair salon in Albert Park which he established in 2007 and he has been awarded Victorian Hairdresser of the Year three times. He is also passionate about boxing and has worked as a boxing promoter. Piastrino stood as the Liberal candidate for former premier Daniel Andrews’ seat of Mulgrave in 2022.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/berw"
   },
   "Nalinda Amarasiri Gunawardana": {
     "wikipedia_url": null,
     "born": null,
-    "prior_occupation": null,
+    "prior_occupation": "civil engineer by profession",
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Gunawardana is a civil engineer by profession. He is also a student member of the Australian Counsellors Association and member the Lacan Circle of Australia.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/berw"
   },
   "Vincenzo De Paolis": {
     "wikipedia_url": null,
@@ -1786,23 +1915,32 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "De Paolis moved to Australia from Italy in 2014 and he works in aged care and community services. He is the president of Uniti in Australia, an association of Italians.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/berw"
   },
   "Sally Houguet": {
     "wikipedia_url": null,
     "born": null,
-    "prior_occupation": null,
+    "prior_occupation": "engineer",
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Houguet is an engineer who has worked as a manager in the transport industry. She stood as a candidate for the Northern Metropolitan Region in the last election.",
+    "source": "Vic Liberals",
+    "source_url": "https://vicliberal.org.au/team/sally-houguet"
   },
   "Aaron Qin": {
     "wikipedia_url": null,
     "born": null,
-    "prior_occupation": null,
+    "prior_occupation": "registered nurse",
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Qin is a registered nurse and founder of a small healthcare firm providing home care support to older Australians. He is also the chair of Australia Multicultural Care Support Association.",
+    "source": "Vic Greens",
+    "source_url": "https://greens.org.au/vic/person/aaron-qin"
   },
   "Jamie Baker": {
     "wikipedia_url": null,
@@ -1810,7 +1948,10 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Baker was born and raised in the local area, where he continues to live with his family. He has worked in the building industry for more than three decades and runs a registered building company.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/boxh"
   },
   "Saravina Afaj": {
     "wikipedia_url": null,
@@ -1818,7 +1959,10 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Afaj is a teacher's aide and aspires to be a librarian. She has been a student activist at Deakin University and stood for Whitehorse City Council in the 2024 elections.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/boxh"
   },
   "Heena Sinha Cheung (Ind)Peter Fagg": {
     "wikipedia_url": null,
@@ -1834,7 +1978,10 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Mullahy works as a business consultant and lecturer at Deakin and RMIT University.",
+    "source": "Vic Labor",
+    "source_url": "https://www.viclabor.org.au/our-team/bridget-mullahy"
   },
   "Ebony Bain": {
     "wikipedia_url": null,
@@ -1842,15 +1989,21 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Bain works for Museums Victoria as an outreach learning facilitator and has a background in science communication.",
+    "source": "Vic Greens",
+    "source_url": "https://greens.org.au/vic/person/ebony-bain"
   },
   "Alexander Fagan": {
     "wikipedia_url": null,
     "born": null,
-    "prior_occupation": null,
+    "prior_occupation": "director of a melbourne-based global technology business",
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Fagan is a director of a Melbourne-based global technology business who has previously worked as a consultant. He has degrees in engineering and science from the University of Melbourne.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/brig"
   },
   "Jessica Smith": {
     "wikipedia_url": null,
@@ -1858,7 +2011,10 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Smith has been a Hampton local for more than a decade and worked as a teacher in primary schools across the area.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/brig"
   },
   "Maryam Nasim": {
     "wikipedia_url": null,
@@ -1866,7 +2022,10 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Nasim describes herself as a university student, community advocate and northern suburbs local.",
+    "source": "Vic Greens",
+    "source_url": "https://greens.org.au/vic/person/maryam-nasim"
   },
   "Ethan Keirs": {
     "wikipedia_url": null,
@@ -1874,15 +2033,21 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Keirs is 25 and says he has been driven by a lifelong passion for politics and that he has always considered himself a \"positive, hardworking Australian\".",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/broa"
   },
   "Mutullah Can Yolbulan": {
     "wikipedia_url": null,
     "born": null,
-    "prior_occupation": null,
+    "prior_occupation": "application developer",
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Yolbulan immigrated to Australia from Türkiye in 2013 to study and he now works as an application developer. He was the Victorian Socialists candidate for Broadmeadows at the 2022 state election.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/broa"
   },
   "Sue Bolton (SA)Candace Feild": {
     "wikipedia_url": null,
@@ -1906,7 +2071,10 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Pulford is a councillor on Merri-bek Council, elected in 2020, and served a year-long term as mayor from 2023 to 2024. He previously worked as a media advisor for former Greens politicians Richard Di Natale and Adam Bandt, before running as the Greens candidate for the federal seat of Wills at the 2019 election.",
+    "source": "Vic Greens",
+    "source_url": "https://greens.org.au/vic/person/adam-pulford"
   },
   "Adam Helman": {
     "wikipedia_url": null,
@@ -1914,7 +2082,10 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Helman was in the Royal Australian Air Force for more than 15 years and volunteers as a firefighter and school crossing supervisor. He was the One Nation candidate for the seat of Corio at the 2025 federal election, winning 9.9 per cent of the primary vote.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/brun"
   },
   "Naomi Farmer": {
     "wikipedia_url": null,
@@ -1922,15 +2093,21 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Farmer grew up in the La Trobe Valley and has been an activist for more than 20 years. She works in disability support.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/brun"
   },
   "Tomas Lightbody": {
     "wikipedia_url": null,
     "born": null,
-    "prior_occupation": null,
+    "prior_occupation": "transport",
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Lightbody is a transport and land use planner, having worked in local government for much of his adult life. He is also a former Deputy Mayor of Manningham, where he served on the council for four years.",
+    "source": "Vic Greens",
+    "source_url": "https://greens.org.au/vic/person/tomas-lightbody"
   },
   "Mahdi Athari": {
     "wikipedia_url": null,
@@ -1938,7 +2115,10 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Athari has more than 23 years of experience in the rail industry as an engineer and consultant, and runs a small business connecting railway professionals. He immigrated to Australia from Iran in 2013 as a skilled migrant, settling in Melbourne in 2015.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/bull"
   },
   "Dimitrios Tafidis": {
     "wikipedia_url": null,
@@ -1946,7 +2126,10 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Tafidis works in construction for a fencing company and holds an exercise physiology degree from Deakin University. He immigrated to Australia from Greece in 2016.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/bull"
   },
   "Greg Rublee": {
     "wikipedia_url": null,
@@ -1954,7 +2137,10 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Rublee was raised in the American Ozarks and immigrated to Australia in 2011, becoming a citizen in 2016. He works as a library business partner at Monash University and has previously been a secondary school teacher. While in the United States he was a councillor in Oldsmar, Florida.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/bull"
   },
   "Chris Parr": {
     "wikipedia_url": "https://en.wikipedia.org/wiki/Chris_Parr",
@@ -1970,7 +2156,10 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Laitala works in governance and leadership training and previously spent seven years as CEO of the Victorian Student Representative Council. She has also developed and delivered community music and arts programs.",
+    "source": "Vic Greens",
+    "source_url": "https://greens.org.au/vic/person/nina-laitala"
   },
   "Bruce Whalley": {
     "wikipedia_url": null,
@@ -1978,7 +2167,10 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Before becoming known as ”Melbourne’s happiest tram driver” Whalley worked in the private sector. He became a tram driver after retiring from the communications consultancy company he founded, becoming prominent for telling stories and speaking with passengers in different languages. He appeared as a regular on the ABC quiz show Think Tank.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/bund"
   },
   "Sagar Sanyal": {
     "wikipedia_url": null,
@@ -1986,7 +2178,10 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Sanyal has worked as a school receptionist and a factory worker, and has been a member of the National Tertiary Education Union and Australian Manufacturing Workers’ Union.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/bund"
   },
   "Melissa Murphy-Webster (Ind)Chloe Nicolosi": {
     "wikipedia_url": null,
@@ -2002,7 +2197,10 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Shelley is the founder of 123Read2me, a local charity aimed at improving early childhood literacy. He moved to the area with his family in 2004 and is president of the local Lions Club. Shelley was the endorsed candidate for the federal seat of Isaacs at the 2013 election, but he withdrew before the election.",
+    "source": "Vic Liberals",
+    "source_url": "https://vicliberal.org.au/team/jeff-shelley"
   },
   "Zoe Pegrum": {
     "wikipedia_url": null,
@@ -2010,7 +2208,10 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Pegrum describes herself as a Chelsea Heights local and hospitality worker with a passion for people and the planet.",
+    "source": "Vic Greens",
+    "source_url": "https://greens.org.au/vic/person/zoe-pegrum"
   },
   "Joshua Mathews": {
     "wikipedia_url": null,
@@ -2018,7 +2219,10 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Mathews has worked in his family’s construction business as a school bus driver. He studied an Advanced Diploma in Legal Practice at Victoria University.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/carr"
   },
   "Reema Ababneh": {
     "wikipedia_url": null,
@@ -2026,7 +2230,10 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Ababneh describes herself as the daughter of a local single mother who is standing because she believes society should be run in the interests of working-class people.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/carr"
   },
   "Carolyn Moore": {
     "wikipedia_url": null,
@@ -2034,15 +2241,21 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Moore grew up in East Gippsland and moved to Melbourne’s south-east in her early twenties. She holds a diploma in mental health and works as an NDIS support worker.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/carr"
   },
   "Mikaela Stafrace": {
     "wikipedia_url": null,
     "born": null,
-    "prior_occupation": null,
+    "prior_occupation": "lawyer",
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Stafrace is a lawyer and company director who founded a not-for-profit which assists women to become financially independent through training and employment. She has served as the CEO of Legacy Melbourne and Kidney Health Australia, as well as the deputy chair of CERES.",
+    "source": "Vic Labor",
+    "source_url": "https://www.viclabor.org.au/our-team/mikaela-stafrace"
   },
   "Angel Dolejsí": {
     "wikipedia_url": null,
@@ -2066,7 +2279,10 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Ababneh has lived in Melbourne’s south-east for her entire life, has worked in health care, and is currently a history student at Monash University.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/caul"
   },
   "Geneviève Gilbert": {
     "wikipedia_url": null,
@@ -2074,7 +2290,10 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Gilbert is the founder and executive director of Pink Cross Foundation Australia who say they support people affected by commercial sexual exploitation. She has degrees in mental health, visual arts, communication and multimedia.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/caul"
   },
   "Conor Boyd-Eedle": {
     "wikipedia_url": null,
@@ -2082,7 +2301,10 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Boyd-Eedle describes himself as a local renter, public servant and proud union member.",
+    "source": "Vic Greens",
+    "source_url": "https://greens.org.au/vic/person/conor-boyd-eedle"
   },
   "Gavin Bain": {
     "wikipedia_url": "https://en.wikipedia.org/wiki/Gavin_Bain",
@@ -2095,10 +2317,13 @@
   "Kit Message": {
     "wikipedia_url": null,
     "born": null,
-    "prior_occupation": null,
+    "prior_occupation": "science student at monash university",
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Message is a science student at Monash University who says they have been a community organiser and activist for years.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/clar"
   },
   "Annalise Mercer": {
     "wikipedia_url": null,
@@ -2106,7 +2331,10 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Mercer is a psychiatric nurse, small business owner, and emergency services volunteer. She has also been a park ranger.",
+    "source": "Vic Greens",
+    "source_url": "https://greens.org.au/vic/person/annalise-mercer"
   },
   "Andrew Hirst": {
     "wikipedia_url": null,
@@ -2114,7 +2342,10 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Hirst has worked as a teacher for more than a decade and runs a small education business.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/cran"
   },
   "Reem Yunis": {
     "wikipedia_url": null,
@@ -2122,15 +2353,21 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Yunis has been a high school teacher for 26 years, teaching maths, science and chemistry.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/cran"
   },
   "Shane Foreman": {
     "wikipedia_url": null,
     "born": null,
-    "prior_occupation": null,
+    "prior_occupation": "teacher at a faith-based school in cranbourne",
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Foreman is a teacher at a faith-based school in Cranbourne. He was the Family First candidate for Holt at the 2025 federal election.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/cran"
   },
   "Richard Farr": {
     "wikipedia_url": null,
@@ -2138,23 +2375,32 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Farr has lived and worked in Croydon for most of his life and has spent more than a decade in hospitality and retail. He is also currently a committee member for the Melbourne Highland Games and Celtic Festival held in the electorate.",
+    "source": "Vic Labor",
+    "source_url": "https://www.viclabor.org.au/our-team/richard-farr"
   },
   "Toby Wooldridge": {
     "wikipedia_url": null,
     "born": null,
-    "prior_occupation": null,
+    "prior_occupation": "associate director",
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Wooldridge is an associate director with a geographical data firm and has worked as a property economics consultant and analyst since 2017. He is the son of former Howard government health minister Michael Wooldridge and the nephew of former Victorian mental health minister Mary Wooldridge.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/croy"
   },
   "Lini Fernando": {
     "wikipedia_url": null,
     "born": null,
-    "prior_occupation": null,
+    "prior_occupation": "lawyer and has experience in environmental",
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Fernando works as a lawyer and has experience in environmental, anti-corruption, and human rights law.",
+    "source": "Vic Greens",
+    "source_url": "https://greens.org.au/vic/person/lini-fernando"
   },
   "Glenn Brindley": {
     "wikipedia_url": null,
@@ -2162,7 +2408,10 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Brindley has been a logistics manager and business development manager for compressed air and vacuum businesses. He has been president of a local Eastern Football League club.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/croy"
   },
   "Beth Grimshaw": {
     "wikipedia_url": null,
@@ -2170,7 +2419,10 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Grimshaw says she is a disability support worker, mother of three, and a lifelong renter in the outer eastern suburbs.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/croy"
   },
   "David Vanderwolf": {
     "wikipedia_url": null,
@@ -2178,15 +2430,21 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Vanderwolf works as an economist at the Victorian Department of Treasury and Finance and has previously worked in the state's environment department as well as for the ACT government. He also previously worked in industrial flooring, children's party entertainment, and e-commerce. Vanderwolf is endorsed by Voices of Deakin, who endorsed an independent candidate at the 2025 federal election in the overlapping federal seat of Deakin.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/croy"
   },
   "Catherine D'Arcy": {
     "wikipedia_url": null,
     "born": null,
-    "prior_occupation": null,
+    "prior_occupation": "mental health worker",
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "D'Arcy is a mental health worker and activist. She has been living in the area for 23 years and raised her three children there.",
+    "source": "Vic Greens",
+    "source_url": "https://greens.org.au/vic/person/catherine-darcy"
   },
   "Glenda Wright": {
     "wikipedia_url": null,
@@ -2194,7 +2452,10 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Wright immigrated to Australia as a child in the 1980s and has spent her whole life in the area. She says she is experienced in senior leadership with a background in governance, operational delivery and engagement.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/dand"
   },
   "Jack McMahon": {
     "wikipedia_url": "https://en.wikipedia.org/wiki/Jack_McMahon",
@@ -2211,18 +2472,24 @@
   "Kevin Gibson": {
     "wikipedia_url": null,
     "born": null,
-    "prior_occupation": null,
+    "prior_occupation": "bus driver as well as volunteering as a cfa firefighter",
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Gibson lives in Millgrove and currently works as a bus driver as well as volunteering as a CFA firefighter. He is a qualified engineer with a mechanical engineering degree from RMIT and has worked as an executive in manufacturing firms.",
+    "source": "Vic Labor",
+    "source_url": "https://www.viclabor.org.au/our-team/kevin-gibson"
   },
   "Talia Gulpilil": {
     "wikipedia_url": null,
     "born": null,
-    "prior_occupation": null,
+    "prior_occupation": "first nations organiser",
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Gulpili is a First Nations organiser and the director of a strategic policy and advisory firm. She grew up in Healesville and continues to live there with her family.",
+    "source": "Vic Greens",
+    "source_url": "https://greens.org.au/vic/person/talia-gulpilil"
   },
   "Tim Barber": {
     "wikipedia_url": null,
@@ -2230,39 +2497,54 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Barber grew up on a farm in rural Victoria before going on to operate a small steel fabrication and car restoration business with his wife.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/eild"
   },
   "Dylan Little": {
     "wikipedia_url": null,
     "born": null,
-    "prior_occupation": null,
+    "prior_occupation": "arborist",
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Little is an arborist and Australian Workers' Union member. He says he has been a community activist for many years.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/eild"
   },
   "Chloe Bond": {
     "wikipedia_url": null,
     "born": null,
-    "prior_occupation": null,
+    "prior_occupation": "lawyer representing victims of crime",
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Bond is a writer and advocate who works as a lawyer representing victims of crime. She stood as the Animal Justice candidate for this seat at the last election and as the party's candidate for the overlapping federal seat of Casey at the 2025 election.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/eild"
   },
   "Paul Byrnes": {
     "wikipedia_url": null,
     "born": null,
-    "prior_occupation": null,
+    "prior_occupation": "lawyer in the public service",
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Byrnes is a lawyer in the public service and previously worked as an adviser to former Liberal members Matthew Bach and Mary Wooldridge.",
+    "source": "Vic Liberals",
+    "source_url": "https://vicliberal.org.au/team/paul-byrnes"
   },
   "Rachel Busbridge": {
     "wikipedia_url": null,
     "born": null,
-    "prior_occupation": null,
+    "prior_occupation": "university sociology lecturer",
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Busbridge is a university sociology lecturer and environmental advocate who moved to Eltham in 2019.",
+    "source": "Vic Greens",
+    "source_url": "https://greens.org.au/vic/person/rachel-busbridge"
   },
   "Jessie Weatherly": {
     "wikipedia_url": null,
@@ -2278,7 +2560,10 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Riches says she is a renter, hospitality worker, student and member of the United Workers Union who has been a socialist for several years.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/elth"
   },
   "Katerine Theodosis": {
     "wikipedia_url": null,
@@ -2286,7 +2571,10 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Theodosis is a councillor on Merri-bek City Council, elected in 2024. She describes herself as the proud daughter of Greek migrants and a lifelong local of Melbourne’s north-west.",
+    "source": "Vic Labor",
+    "source_url": "https://www.viclabor.org.au/our-team/kat-theodosis"
   },
   "Tommy Le Deux": {
     "wikipedia_url": null,
@@ -2294,15 +2582,21 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Le Deux works in corporate finance at NAB and part time at the Laurel Hotel in Ascot Vale. He previously stood for election to Moonee Valley City Council and served as a member of the council's young people’s committee.",
+    "source": "Vic Liberals",
+    "source_url": "https://vicliberal.org.au/team/tommy-le-deux"
   },
   "James Williams": {
     "wikipedia_url": null,
     "born": null,
-    "prior_occupation": null,
+    "prior_occupation": "proud wakka wakka man from south east queensland",
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Williams is a proud Wakka Wakka man from South East Queensland who has lived in Moonee Valley for nearly 20 years. He has previously worked as a computer engineer and ICT manager for a major not-for-profit organisation and currently serves as an emergency services officer.",
+    "source": "Vic Greens",
+    "source_url": "https://greens.org.au/vic/person/james-williams"
   },
   "John Barnes": {
     "wikipedia_url": "https://en.wikipedia.org/wiki/John_Barnes",
@@ -2319,10 +2613,13 @@
   "Michal Kedem": {
     "wikipedia_url": null,
     "born": null,
-    "prior_occupation": null,
+    "prior_occupation": "community lawyer",
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Kedem is a community lawyer and unionist who says she has organised two community sector strikes for Gaza in the last two years.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/esse"
   },
   "Oscar Yildiz": {
     "wikipedia_url": null,
@@ -2330,7 +2627,10 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Before entering politics Yildiz was a primary and secondary school teacher and served on the boards of the Coburg Football Club and Moreland Energy Foundation. He was elected to Merri-bek Council (formerly known as Moreland Council) in 2008 and has twice served as mayor. Yildiz ran for the state seat of Pascoe Vale in 2018, coming second with 41.4 per cent of the two-candidate preferred vote.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/esse"
   },
   "Emma Muir": {
     "wikipedia_url": null,
@@ -2338,15 +2638,21 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Muir runs a family farm in Myrniong and founded the Moorabool and Central Highlands Power Alliance which has campaigned against the Western Renewables Link.",
+    "source": "Vic Liberals",
+    "source_url": "https://vicliberal.org.au/team/emma-muir"
   },
   "Sam McColl": {
     "wikipedia_url": null,
     "born": null,
-    "prior_occupation": null,
+    "prior_occupation": "ballarat-based triple zero communications officer",
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "McColl is a Ballarat-based Triple Zero communications officer who grew up in Ararat. He has worked in local not-for-profit arts organisations and volunteers in his community, including with St Johns as a first responder and regional manager. He has previously stood as a Greens candidate for this seat at the 2022 state election and for the federal seat of Mallee at the 2022 federal election.",
+    "source": "Vic Greens",
+    "source_url": "https://greens.org.au/vic/person/sam-mccoll"
   },
   "Paul Ballinger": {
     "wikipedia_url": "https://en.wikipedia.org/wiki/Paul_Ballinger",
@@ -2362,7 +2668,10 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Raven describes himself as a Buninyong local who has lived in the area for his whole life, and has helped organise Free Palestine and Say No To Racism rallies.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/eure"
   },
   "Wendy Morrison (AJP)Ian Harkness": {
     "wikipedia_url": null,
@@ -2378,7 +2687,10 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Regan is currently studying health and working in the disability sector, and has previously worked in local government, emergency management and family services. She has twice run for the Greens at previous elections, first in the state seat of Sandringham in 2022 and then in the federal seat of Indi in 2025.",
+    "source": "Vic Greens",
+    "source_url": "https://greens.org.au/vic/person/alysia-regan"
   },
   "Steve Campbell": {
     "wikipedia_url": null,
@@ -2386,23 +2698,32 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Campbell was born in Warragul and previously owned a construction business, after working as a tradie in the industry. He also is the historian of Mansfield RSL.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/euro"
   },
   "Zoe Lyle": {
     "wikipedia_url": null,
     "born": null,
-    "prior_occupation": null,
+    "prior_occupation": "renter",
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Lyle grew up in Shepparton, is a renter and says she has been an organised socialist for half a decade.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/euro"
   },
   "Analise Sherlock": {
     "wikipedia_url": null,
     "born": null,
-    "prior_occupation": null,
+    "prior_occupation": "lilydale local",
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Sherlock is a Lilydale local and formerly worked for the nurses' federation as well as on a large public transport project.",
+    "source": "Vic Labor",
+    "source_url": "https://www.viclabor.org.au/our-team/analise-sherlock"
   },
   "Andrew Henley": {
     "wikipedia_url": "https://en.wikipedia.org/wiki/Andrew_Henley",
@@ -2415,10 +2736,13 @@
   "Daniel Killey": {
     "wikipedia_url": null,
     "born": null,
-    "prior_occupation": null,
+    "prior_occupation": "practising psychologist",
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Killey is a practising psychologist and founder of a community mental health practice. He was born in South Africa and raised in Melbourne’s outer east. Before founding his business he was a combat engineer and served for 15 years in the Australian Defence Force.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/evel"
   },
   "Jan Heald": {
     "wikipedia_url": null,
@@ -2426,15 +2750,21 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Heald has a professional background in customer service and public relations, and served as secretary of the Australian Wildlife Protection Council for 14 years. She was the Animal Justice candidate for this seat at the last election in 2022.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/evel"
   },
   "Elena Pereyra": {
     "wikipedia_url": null,
     "born": null,
-    "prior_occupation": null,
+    "prior_occupation": "local councillor on maribyrnong council",
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Pereyra is a local councillor on Maribyrnong council and previously worked as an architect. She is also a PhD candidate studying housing as an urban commons and serves on the board of Cohousing Australia. Pereyra was the Greens candidate for this seat at the last state election and also stood for the upper house at the 2018 election.",
+    "source": "Vic Greens",
+    "source_url": "https://greens.org.au/vic/person/elena-pereyra"
   },
   "Alexander Lopez": {
     "wikipedia_url": "https://en.wikipedia.org/wiki/Alexander_Lopez",
@@ -2454,7 +2784,10 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Duff is a community organiser, lighting technician, and a trade unionist who has previously worked for the New South Wales State Emergency Service. She was the Victorian Socialists candidate for Fraser at the 2025 federal election.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/foot"
   },
   "Minh Quan Nguyen (West)Jess Marsh": {
     "wikipedia_url": null,
@@ -2467,18 +2800,24 @@
   "Bree Ambry": {
     "wikipedia_url": null,
     "born": null,
-    "prior_occupation": null,
+    "prior_occupation": "healthcare operations manager",
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Ambry is a healthcare operations manager and former nurse who currently works for the Royal Flying Doctor Service. She is the secretary of the Frankston Dolphins Netball Club and trains lifesavers at the Frankston Life Saving Club.",
+    "source": "Vic Liberals",
+    "source_url": "https://vicliberal.org.au/team/bree-ambry"
   },
   "Katie Goulas": {
     "wikipedia_url": null,
     "born": null,
-    "prior_occupation": null,
+    "prior_occupation": "frankston local working in retail",
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Goulas is a Frankston local working in retail and studying a Masters of Justice and Criminology.",
+    "source": "Vic Greens",
+    "source_url": "https://greens.org.au/vic/person/katie-goulas"
   },
   "Paul Stafford": {
     "wikipedia_url": null,
@@ -2486,7 +2825,10 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Stafford migrated to Australia from the UK in the late 1980s after completing hospitality qualifications and has since worked for large hospitality and entertainment companies. For the past decade, he has operated his own business and completed qualifications in accounting during the COVID-19 pandemic. Outside of his work he is a passionate motorcyclist and is involved with the Distinguished Gentleman’s Ride for Frankston and the Peninsula.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/fran"
   },
   "Andrew Cheeseman": {
     "wikipedia_url": null,
@@ -2494,7 +2836,10 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Cheeseman says he has lived near Frankston for most of his life and works in video production and editing after previously auditing airline records. He was a Victorian Socialists candidate in the 2024 Frankston City Council election.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/fran"
   },
   "Chrysten Abraham (Ind)Julie Harman": {
     "wikipedia_url": null,
@@ -2510,15 +2855,21 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Pobjoy was born and raised in Geelong and owns and operates Piano Bar in the CBD, where he also occasionally performs.",
+    "source": "Vic Liberals",
+    "source_url": "https://vicliberal.org.au/team/andy-pobjoy"
   },
   "Emilie Flynn": {
     "wikipedia_url": null,
     "born": null,
-    "prior_occupation": null,
+    "prior_occupation": "teacher and is currently co-ceo of geelong sustainability",
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Flynn is a former teacher and is currently co-CEO of Geelong Sustainability, a local climate advocacy group. She stood as the Greens candidate for the federal seat of Corio at the 2025 federal election, attracting 15.9 per cent of the primary vote.",
+    "source": "Vic Greens",
+    "source_url": "https://greens.org.au/vic/person/emilie-flynn"
   },
   "John De Lorenzo": {
     "wikipedia_url": null,
@@ -2526,7 +2877,10 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "De Lorenzo was born in Colac and for over 20 years has worked in the manufacturing and export industries. He has an MBA from Deakin University and has served for nine years as a non-executive director of the Colac Area Health Board. He ran as an independent candidate in the seat of Corio at the 2025 federal election, polling 3.6 per cent of the primary vote.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/geel"
   },
   "Bree Vanderpol": {
     "wikipedia_url": null,
@@ -2534,39 +2888,54 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Vanderpol works as a surveyor and says they see the stresses and fears that grip the working class in Geelong.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/geel"
   },
   "Brenden Grull": {
     "wikipedia_url": null,
     "born": null,
-    "prior_occupation": null,
+    "prior_occupation": "painter",
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Grull is a painter and decorator who says he has been involved in local campaigns to defend community and library services, the environment and public housing.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/geel"
   },
   "Sonny Stephens": {
     "wikipedia_url": null,
     "born": null,
-    "prior_occupation": null,
+    "prior_occupation": "farmer",
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Stephens is a farmer and agribusiness manager who served three years in the army. She has lived and worked in the Gippsland region her entire life with the exception of her time in the army, and she has also worked in the public health sector. Stephens was the Labor candidate for the federal seat of Gippsland at the 2025 election.",
+    "source": "Vic Labor",
+    "source_url": "https://www.viclabor.org.au/our-team/sonny-stephens"
   },
   "Gemma Rendell": {
     "wikipedia_url": null,
     "born": null,
-    "prior_occupation": null,
+    "prior_occupation": "schoolteacher",
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Rendell was born and raised in east Gippsland, and currently works as a schoolteacher. She lives with her partner and daughter in Bairnsdale.",
+    "source": "Vic Nationals",
+    "source_url": "https://vic.nationals.org.au/candidates-gemma-rendell"
   },
   "Ash Munro": {
     "wikipedia_url": null,
     "born": null,
-    "prior_occupation": null,
+    "prior_occupation": "public servant working at the victorian department of health",
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Munro is a public servant working at the Victorian Department of Health. She has previously been a youth worker and served as the chairperson of the Centre of Excellence for Aboriginal Health East Gippsland.",
+    "source": "Vic Greens",
+    "source_url": "https://greens.org.au/vic/person/ash-munro"
   },
   "Steve Goodman": {
     "wikipedia_url": "https://en.wikipedia.org/wiki/Steve_Goodman",
@@ -2584,15 +2953,21 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Espeseth was born in rural Wisconsin and immigrated to Australia in the late 1990s. She has worked as a university lecturer in creative writing, literature and publishing. Her then-unpublished manuscript Sufficient Grace won the 2009 Victorian Premier’s Literary Award. After becoming disabled, Espeseth moved to Gippsland to fight for physical recovery. She now does communications, engagement and inclusion work focused on disability access, LGBTQIA+ safety, community wellbeing and environmental responsibility. Espeseth's most recent role is with the Australian Bureau of Statistics as a Census Engagement Manager.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/giea"
   },
   "Zave Evans": {
     "wikipedia_url": null,
     "born": null,
-    "prior_occupation": null,
+    "prior_occupation": "environmentalist",
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Evans is an environmentalist with a background in conservation and seasonal land management work who has also served as a firefighter.",
+    "source": "Vic Greens",
+    "source_url": "https://greens.org.au/vic/person/zave-evans"
   },
   "Bianca Wilke": {
     "wikipedia_url": null,
@@ -2600,31 +2975,43 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Wilke has a professional background in emergency medical services, nursing and community liaison work. She holds degrees in nursing, paramedicine and specialist community care and is currently completing a Juris Doctor.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/giso"
   },
   "Lachie McGennisken": {
     "wikipedia_url": null,
     "born": null,
-    "prior_occupation": null,
+    "prior_occupation": "support worker",
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "McGennisken is a support worker and university student who grew up in the La Trobe Valley and Bass Coast.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/giso"
   },
   "Jacky Sun": {
     "wikipedia_url": null,
     "born": null,
-    "prior_occupation": null,
+    "prior_occupation": "chartered accountant",
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Sun is a chartered accountant and has more than a decade of experience in finance. He has previously served as the president of the Chinese Australian Multicultural Association.",
+    "source": "Vic Liberals",
+    "source_url": "https://vicliberal.org.au/team/jacky-sun"
   },
   "Toyo White": {
     "wikipedia_url": null,
     "born": null,
-    "prior_occupation": null,
+    "prior_occupation": "activist",
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "White is an activist and consultant in the community sector who has worked with organisations including the Centre for Multicultural Youth and VicHealth. He was previously a youth projects officer at a charity. He has also been a public speaking coach.",
+    "source": "Vic Greens",
+    "source_url": "https://greens.org.au/vic/person/toyo-white"
   },
   "Brad Cox": {
     "wikipedia_url": "https://en.wikipedia.org/wiki/Brad_Cox",
@@ -2640,7 +3027,10 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Siow has lived in the Glen Waverley area for his whole life and possesses education and science degrees from Monash University.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/glen"
   },
   "Jim Overend": {
     "wikipedia_url": null,
@@ -2648,7 +3038,10 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Overend has been a northern suburbs resident for more than 40 years and for the last six years has been a councillor on Hume City Council. Prior to entering politics he owned and operated a small business supplying road safety solutions and worked as a business development manager.",
+    "source": "Vic Liberals",
+    "source_url": "https://vicliberal.org.au/team/jim-overend"
   },
   "Declan McGinness": {
     "wikipedia_url": null,
@@ -2656,15 +3049,21 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "McGinness has been an operations lead at Ronald McDonald House and an optometry retail manager. He has qualifications in business and optical dispensing. He was the Greens candidate for Niddrie at the 2022 state election.",
+    "source": "Vic Greens",
+    "source_url": "https://greens.org.au/vic/person/declan-mcginness"
   },
   "Chris Moore": {
     "wikipedia_url": null,
     "born": null,
-    "prior_occupation": null,
+    "prior_occupation": "lifelong greenvale resident",
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Moore is a lifelong Greenvale resident who has more than 20 years of experience in civil construction, infrastructure, and project management. He is also a volunteer firefighter for the Country Fire Authority.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/gree"
   },
   "Kirill Smelov": {
     "wikipedia_url": null,
@@ -2672,7 +3071,10 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Smelov describes himself as a local IT workers and union member with experience organising workers.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/gree"
   },
   "Rosanna Furina": {
     "wikipedia_url": null,
@@ -2680,23 +3082,32 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Furina has experience in the construction industry and as an interior designer. She was the Animal Justice Party candidate for this seat at the last state election in 2022.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/gree"
   },
   "Frank Schiefler": {
     "wikipedia_url": null,
     "born": null,
-    "prior_occupation": null,
+    "prior_occupation": "australian army soldier",
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Schiefler is a former Australian Army soldier.",
+    "source": "Vic Liberals",
+    "source_url": "https://vicliberal.org.au/team/frank-schiefler"
   },
   "Isaac Willoughby": {
     "wikipedia_url": null,
     "born": null,
-    "prior_occupation": null,
+    "prior_occupation": "musician",
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Willoughby is a musician and guitar teacher on the Mornington Peninsula.",
+    "source": "Vic Greens",
+    "source_url": "https://greens.org.au/vic/person/isaac-willoughby"
   },
   "Peter Angelico": {
     "wikipedia_url": null,
@@ -2704,7 +3115,10 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Angelico is the son of Italian migrants and left school in year 10 to become an electrical apprentice. He has founded and operated multiple manufacturing businesses and is the honorary president of the South East Melbourne Manufacturers Alliance. Angelico was the Libertarian candidate at the May 2026 by-election for the seat of Nepean.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/hast"
   },
   "Michael Denman": {
     "wikipedia_url": null,
@@ -2712,7 +3126,10 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Denman has worked in the disability sector since 2018 and is currently the quality and compliance manager for an NDIS registered organisation.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/hast"
   },
   "Chloe Coulson": {
     "wikipedia_url": null,
@@ -2720,7 +3137,10 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "For the past seven years, Coulson has worked in a special development school supporting students with disabilities and complex needs. She has studied community development, social work and disability, and has spent years volunteering with local environmental and community groups.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/hast"
   },
   "Clive Crosby": {
     "wikipedia_url": null,
@@ -2728,15 +3148,21 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Crosby has previously worked in hospitality. He was the Labor candidate in the federal seat of Kooyong at the 2025 election and stood for the upper house at the 2022 state election.",
+    "source": "Vic Labor",
+    "source_url": "https://www.viclabor.org.au/our-team/clive-crosby"
   },
   "Kylie Rocha": {
     "wikipedia_url": null,
     "born": null,
-    "prior_occupation": null,
+    "prior_occupation": "control system engineer",
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Rocha is a control system engineer who has worked across industries automating complex systems, from coal-fired power generation in the La Trobe Valley to the manufacture of electric vehicles for Tesla in the USA. She says she is the proud daughter of migrants from Sri Lanka and India, who arrived in Australia with their families in the early 1970s. She was raised in the south-eastern suburbs and has lived in the electorate of Hawthorn for the past 15 years. She was a Greens candidate for the upper house at the 2022 state election.",
+    "source": "Vic Greens",
+    "source_url": "https://greens.org.au/vic/person/kylie-rocha"
   },
   "Paul Pribilovics": {
     "wikipedia_url": null,
@@ -2744,15 +3170,21 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Pribilovics has 31 years of frontline policing experience and possesses qualifications in management, finance and mental health as well as holding a commercial pilot license.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/hawt"
   },
   "Tess McEnearney": {
     "wikipedia_url": null,
     "born": null,
-    "prior_occupation": null,
+    "prior_occupation": "hawthorn local working in medical research",
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "McEnearney is a Hawthorn local working in medical research and completing a PhD in neurodegeneration.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/hawt"
   },
   "Shima Ibuki": {
     "wikipedia_url": null,
@@ -2760,7 +3192,10 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Ibuki has lived in the area for 17 years and currently serves as a councillor and deputy mayor of Boroondara. She previously worked as the chair of Neighbourhood Houses Victoria and principal executive officer of Prahran Place as well as being a client services manager in the finance sector.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/hawt"
   },
   "Oscar Lopez": {
     "wikipedia_url": null,
@@ -2768,7 +3203,10 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Lopez immigrated from Colombia more than 22 years ago when he was 17. He studied landscaping and business, and runs a small landscaping business in the northern suburbs.",
+    "source": "Vic Liberals",
+    "source_url": "https://vicliberal.org.au/team/oscar-lopez"
   },
   "Nina Crawley": {
     "wikipedia_url": null,
@@ -2776,7 +3214,10 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Crawley is the advocacy and campaigns lead at Oxfam Australia and has also worked as a teacher.",
+    "source": "Vic Greens",
+    "source_url": "https://greens.org.au/vic/person/nina-crawley"
   },
   "Wayne Hutchins": {
     "wikipedia_url": null,
@@ -2792,7 +3233,10 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Milne describes himself as a renter and local supermarket worker in Ivanhoe who is also a member of the Retail and Fast Food Workers' Union.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/ivan"
   },
   "Michelle Kennedy": {
     "wikipedia_url": "https://en.wikipedia.org/wiki/Michelle_Kennedy",
@@ -2808,7 +3252,10 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Tiwari is technology executive and strategic adviser for a family violence refuge who immigrated to Australia 33 years ago. She was the Greens candidate for the federal seat of Holt at the 2025 election.",
+    "source": "Vic Greens",
+    "source_url": "https://greens.org.au/vic/person/payal-tiwari"
   },
   "Troy Steans": {
     "wikipedia_url": null,
@@ -2816,15 +3263,21 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Steans has worked for more than 20 years in the public transport and coach industry and volunteered for the Country Fire Authority for more than 25 years.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/kalk"
   },
   "Courtney Millett": {
     "wikipedia_url": null,
     "born": null,
-    "prior_occupation": null,
+    "prior_occupation": "local public school teacher",
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Millett is a local public school teacher and a unionist who is part of the Socialists In Schools union group.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/kalk"
   },
   "David Sun": {
     "wikipedia_url": null,
@@ -2832,7 +3285,10 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Sun describes himself as a local dad raising his family in Kew.",
+    "source": "Vic Labor",
+    "source_url": "https://www.viclabor.org.au/our-team/david-sun"
   },
   "Jackie Carter": {
     "wikipedia_url": "https://en.wikipedia.org/wiki/Jackie_Carter",
@@ -2860,7 +3316,10 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Lincolne says she has a history of community organising and activism as a member of her student union and in her workplace.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/kew"
   },
   "Sophie Torney (Ind)Ann Seeley": {
     "wikipedia_url": null,
@@ -2887,15 +3346,21 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Melnikov was born in Ukraine when it was still a part of the Soviet Union and migrated to Australia at the age of six. He studied psychology and philosophy at Monash University, going onto work at NAB. He now works in the cybersecurity field.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/koro"
   },
   "Rayan Hassan": {
     "wikipedia_url": null,
     "born": null,
-    "prior_occupation": null,
+    "prior_occupation": "youth worker",
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Hassan is a youth worker and Australian Services Union member who has been involved in the Palestine solidarity movement.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/koro"
   },
   "Vasundhara Kandpal (AJP)Donna Southern": {
     "wikipedia_url": null,
@@ -2908,18 +3373,24 @@
   "Theresa Slater": {
     "wikipedia_url": null,
     "born": null,
-    "prior_occupation": null,
+    "prior_occupation": "social worker",
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Slater was born and raised in Geelong, and is a social worker with more than 15 years' experience working with vulnerable families and people with disabilities.",
+    "source": "Vic Greens",
+    "source_url": "https://greens.org.au/vic/person/theresa-slater"
   },
   "Stephen Spyros": {
     "wikipedia_url": null,
     "born": null,
-    "prior_occupation": null,
+    "prior_occupation": "lifelong local",
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Spyros is a lifelong local who has worked for Victoria Police since 2018, first as a protective services officer before becoming a fully sworn police officer in 2021.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/lara"
   },
   "Oliver Randall": {
     "wikipedia_url": null,
@@ -2927,7 +3398,10 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Randall describes himself as a longtime resident and worker in Geelong as well as a passionate socialist.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/lara"
   },
   "Sarah Hathway": {
     "wikipedia_url": null,
@@ -2935,7 +3409,10 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Hathway works as a social worker in community mental health services and has previously been a councillor for the City of Greater Geelong. She is standing as the candidate for the unregistered Socialist Alliance Party.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/lara"
   },
   "Ghada Noune": {
     "wikipedia_url": null,
@@ -2943,15 +3420,21 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Noune has years of experience as an accountant and has run a food van supporting people experiencing homelessness.",
+    "source": "Vic Liberals",
+    "source_url": "https://vicliberal.org.au/team/ghada-noune"
   },
   "Lucy Nguyen": {
     "wikipedia_url": null,
     "born": null,
-    "prior_occupation": null,
+    "prior_occupation": "vietnamese australian",
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Nguyen is a Vietnamese Australian who grew up in public housing. She currently serves on Brimbank City Council.",
+    "source": "Vic Greens",
+    "source_url": "https://greens.org.au/vic/person/lucy-nguyen"
   },
   "Rufo Paredes": {
     "wikipedia_url": null,
@@ -2959,7 +3442,10 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Paredes is the CEO of a migration agency and also runs an organisation which encourages greater participation in Australian’s democratic and public institutions by Filipino Australians. He stood as an independent candidate for Laverton at the last state election.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/lave"
   },
   "Van Thanh Rudd": {
     "wikipedia_url": "https://en.wikipedia.org/wiki/Van_Thanh_Rudd",
@@ -2972,10 +3458,13 @@
   "Shohre Mansouri": {
     "wikipedia_url": null,
     "born": null,
-    "prior_occupation": null,
+    "prior_occupation": "qualified software engineer",
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Mansouri is a qualified software engineer with more than 25 years of experience. She migrated to Australia 20 years ago and in 2012 she founded a charity to help disadvantaged children with their education. She has been an Animal Justice Party candidate twice: first in Footscray at the 2022 state election and then in Werribee at the 2025 by-election.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/lave"
   },
   "Jeff Moran": {
     "wikipedia_url": "https://en.wikipedia.org/wiki/Jeff_Moran",
@@ -3002,7 +3491,10 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Downey says he has been an organised socialist since the start of the decade and was a member of Students For Palestine at university.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/lowa"
   },
   "Lee Ann Elms": {
     "wikipedia_url": null,
@@ -3018,7 +3510,10 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Death is a former Macedon Ranges Shire councillor who served a year as mayor from 2023 to 2024. She previously worked in public policy at St Vincent's Health.",
+    "source": "Vic Labor",
+    "source_url": "https://www.viclabor.org.au/our-team/annette-death"
   },
   "Kate Kendall": {
     "wikipedia_url": "https://en.wikipedia.org/wiki/Kate_Kendall",
@@ -3034,15 +3529,21 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "McRae McLeod works as a mental health peer worker in a youth mental health service and has degrees in psychology and gender studies. They ran as the candidate for this seat at the last state election and have also run for the federal seat of McEwen at the 2025 election as well as City of Melbourne deputy lord mayor in 2024.",
+    "source": "Vic Greens",
+    "source_url": "https://greens.org.au/vic/person/marley-mcrae-mcleod"
   },
   "Damien Parolin": {
     "wikipedia_url": null,
     "born": null,
-    "prior_occupation": null,
+    "prior_occupation": "mechanic",
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Parolin is a mechanic and has lived in the Macedon Ranges since 1994. He works in the construction industry and owns a small transport business.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/mace"
   },
   "Catherine Wilson": {
     "wikipedia_url": "https://en.wikipedia.org/wiki/Catherine_Wilson",
@@ -3057,26 +3558,35 @@
   "Natalie Korinfsky": {
     "wikipedia_url": null,
     "born": null,
-    "prior_occupation": null,
+    "prior_occupation": "social",
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Korinfsky is a social and youth worker who has worked with Macedon Ranges Shire Council and schools throughout the Loddon Campaspe region. She holds degrees in nature tourism, psychology, and social work.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/mace"
   },
   "Amelia Hamer": {
     "wikipedia_url": null,
     "born": null,
-    "prior_occupation": null,
+    "prior_occupation": "equities analyst",
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Hamer is an equities analyst and former adviser to Senator Jane Hume who has worked in banking and finance in the United Kingdom and Melbourne. She was the Liberal candidate for the seat of Kooyong at the 2025 federal election, achieving a 1.85 percentage point swing towards the party.",
+    "source": "Vic Liberals",
+    "source_url": "https://vicliberal.org.au/team/amelia-hamer"
   },
   "Georgia Katsikis": {
     "wikipedia_url": null,
     "born": null,
-    "prior_occupation": null,
+    "prior_occupation": "disability advocate",
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Katsikis is a disability advocate and researcher who formerly worked as a psychologist. She serves on the City of Melbourne’s disability advisory committee.",
+    "source": "Vic Greens",
+    "source_url": "https://greens.org.au/vic/person/georgia-katsikis"
   },
   "Edward Bode": {
     "wikipedia_url": null,
@@ -3084,7 +3594,10 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Bode migrated to Australia from Canada as an infant, growing up in Mount Waverley. He studied chemical engineering and commerce and has more than 20 years of experience in the banking sector.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/malv"
   },
   "Gavin Leonard": {
     "wikipedia_url": "https://en.wikipedia.org/wiki/Gavin_Leonard",
@@ -3104,7 +3617,10 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Zigouras is a small business owner, building designer, and vocational trainer. She has also worked in her family's manufacturing business. She has previously stood as a Greens candidate for the upper house at the 2022 state election and as the Labor candidate for Sandringham at the 2014 state election.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/malv"
   },
   "Davydd Griffiths": {
     "wikipedia_url": null,
@@ -3112,7 +3628,10 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Griffiths is a former teacher and small business owner who moved to Melbourne in 1993 and was first elected to Melbourne City Council in 2020. He has worked as an education and health policy adviser and has previously owned hospitality venues in Melbourne’s west.",
+    "source": "Vic Labor",
+    "source_url": "https://www.viclabor.org.au/our-team/davydd-griffiths"
   },
   "Matthew Collins": {
     "wikipedia_url": null,
@@ -3120,7 +3639,10 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Collins says he has enjoyed success in a local small business and built his career in sales.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/melb"
   },
   "Jordan van den Lamb": {
     "wikipedia_url": "https://en.wikipedia.org/wiki/Jordan_van_den_Lamb",
@@ -3144,7 +3666,10 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Borg says he was raised by his grandparents and became a teacher to give back to the community he grew up in.",
+    "source": "Vic Labor",
+    "source_url": "https://www.viclabor.org.au/our-team/broden-borg"
   },
   "Jarrod Bingham": {
     "wikipedia_url": null,
@@ -3152,7 +3677,10 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Bingham has lived in Bacchus Marsh for more than two decades and has run a snake catching business in the area as well as serving as a volunteer firefighter. He has previously stood as an independent candidate in Melton at the 2018 and 2022 state elections as well as for the federal seats of Gorton and Hawke at the 2019 and 2022 elections, respectively.",
+    "source": "Vic Liberals",
+    "source_url": "https://vicliberal.org.au/team/jarrod-bingham"
   },
   "Veronika Levchenkova": {
     "wikipedia_url": null,
@@ -3160,15 +3688,21 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Levchenkova describes herself as a local mum of four, carer for her elderly parent, and community organiser who has been active in local clubs, environmental groups and parents' programs.",
+    "source": "Vic Greens",
+    "source_url": "https://greens.org.au/vic/person/veronika-levchenkova"
   },
   "Matthew Katselis": {
     "wikipedia_url": null,
     "born": null,
-    "prior_occupation": null,
+    "prior_occupation": "logistics professional",
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Katselis is a logistics professional with eight years of experience. He stood as the One Nation candidate for the overlapping federal seat of Hawke at the 2025 election, attracting 9.7 per cent of the primary vote.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/melt"
   },
   "Fiona Adin-Jones (AJP)Marlene West": {
     "wikipedia_url": null,
@@ -3181,10 +3715,13 @@
   "Katie Clements": {
     "wikipedia_url": null,
     "born": null,
-    "prior_occupation": null,
+    "prior_occupation": "senior high school teacher",
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Clements is a senior high school teacher who moved to Mildura 25 years ago to take up jobs in tourism. She ran as the Greens candidate for this seat at the last state election and was elected as a Mildura Rural City councillor in November 2024.",
+    "source": "Vic Greens",
+    "source_url": "https://greens.org.au/vic/person/katie-clements"
   },
   "Guy Cooper": {
     "wikipedia_url": "https://en.wikipedia.org/wiki/Guy_Cooper",
@@ -3204,7 +3741,10 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Nayef grew up in Robinvale and says her grandparents migrated to the region to pick grapes. She is a history student and activist for several years, and has been an organiser in Melbourne's Palestine solidarity movement.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/mild"
   },
   "Ali Cupper": {
     "wikipedia_url": "https://en.wikipedia.org/wiki/Ali_Cupper",
@@ -3223,7 +3763,10 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Nealy has been a teacher in Melbourne's north for 20 years and served on Banyule City Council from 2020 to July 2026. She was the mayor for two one-year terms, most recently between 2024 and 2025. She was also a Whittlesea Councillor between 2005 and 2008.",
+    "source": "Vic Labor",
+    "source_url": "https://www.viclabor.org.au/our-team/elizabeth-nealy"
   },
   "Joel Drysdale": {
     "wikipedia_url": null,
@@ -3231,7 +3774,10 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Drysdale was raised in regional Victoria and moved to Melbourne at the age of 21. He is a publican and brewer who owns a small business.",
+    "source": "Vic Liberals",
+    "source_url": "https://vicliberal.org.au/team/joel-drysdale"
   },
   "Binoy Zacharias": {
     "wikipedia_url": null,
@@ -3239,7 +3785,10 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Zacharias is self-employed as a mortgage broker after working as a library technician. He has lived in Mill Park for 18 years.",
+    "source": "Vic Greens",
+    "source_url": "https://greens.org.au/vic/person/binoy-zacharias"
   },
   "Arthur Tsoutsoulis": {
     "wikipedia_url": null,
@@ -3247,23 +3796,32 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Tsoutsoulis has more than 20 years of experience in traffic and transport engineering as well as project management. He was the One Nation candidate for Scullin at the 2025 federal election and won 6.6 per cent of the primary vote.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/mill"
   },
   "Jesse Lambourn": {
     "wikipedia_url": null,
     "born": null,
-    "prior_occupation": null,
+    "prior_occupation": "public school teacher",
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Lambourn is a public school teacher and Australian Education Union member.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/mill"
   },
   "Eve Levens": {
     "wikipedia_url": null,
     "born": null,
-    "prior_occupation": null,
+    "prior_occupation": "clerk across multiple hospital wards and sites",
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Levens has lived in the area for 12 years and works as a clerk across multiple hospital wards and sites. She has degrees in psychology and applied linguistics.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/mill"
   },
   "Clare Fitzmaurice": {
     "wikipedia_url": null,
@@ -3271,15 +3829,21 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Fitzmaurice is a former physio and public policy professional who has worked in hospitals and national advocacy organisations. Since November 2024, she has been a policy adviser to federal Nationals MP Anne Webster.",
+    "source": "Vic Liberals",
+    "source_url": "https://vicliberal.org.au/team/clare-fitzmaurice"
   },
   "Merran Blair": {
     "wikipedia_url": null,
     "born": null,
-    "prior_occupation": null,
+    "prior_occupation": "lecturer at monash university",
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Blair is a dietitian who works as a lecturer at Monash University. She was the Greens candidate for the federal seat of Casey at least year's federal election.",
+    "source": "Vic Greens",
+    "source_url": "https://greens.org.au/vic/person/dr-merran-blair"
   },
   "Adrian Dowell": {
     "wikipedia_url": null,
@@ -3287,7 +3851,10 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Dowell has lived across the electorate and is a registered building inspector after previously working in logistics, automotive repair and construction.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/monb"
   },
   "Alyssa Wormald (AJP)Craig Manners": {
     "wikipedia_url": null,
@@ -3310,18 +3877,24 @@
   "Alex Breskin": {
     "wikipedia_url": null,
     "born": null,
-    "prior_occupation": null,
+    "prior_occupation": "software developer",
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Breskin is a software developer and has been secretary of the Kingston Residents Association. He has stood as a Greens candidate several times over the past decade including twice for the federal seat of Isaacs, once in the federal seat of Dunkley in the 2024 by-election, once for this seat at the 2014 state election, and for the upper house at the 2022 state election.",
+    "source": "Vic Greens",
+    "source_url": "https://greens.org.au/vic/person/alex-breskin"
   },
   "Nadia Ticehurst": {
     "wikipedia_url": null,
     "born": null,
-    "prior_occupation": null,
+    "prior_occupation": "critical care",
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Ticehurst is a critical care and operating suite nurse who has worked in the public health system for 26 years. She was born in eastern Melbourne and has represented Australia in the world championships for the Half Ironman distance triathlon.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/mord"
   },
   "Mahee Hossain": {
     "wikipedia_url": null,
@@ -3329,23 +3902,32 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Hossain was born in Dandenong and has lived in south-east Melbourne for his entire life. He is a software engineer for NAB and a delegate with the Finance Sector Union.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/mord"
   },
   "Kai Titcher": {
     "wikipedia_url": null,
     "born": null,
-    "prior_occupation": null,
+    "prior_occupation": "university student",
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Titcher is a university student who lives in Mornington and is studying law and international studies. He works as a sales assistant at a clothing store and is a volunteer paralegal and community event facilitator.",
+    "source": "Vic Greens",
+    "source_url": "https://greens.org.au/vic/person/kai-titcher"
   },
   "Ashli Beards": {
     "wikipedia_url": null,
     "born": null,
-    "prior_occupation": null,
+    "prior_occupation": "lawyer",
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Beards is a lawyer who has worked in commercial, corporate and criminal law. She grew up in Watsonia North and moved to the Mornington Peninsula 14 years ago.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/morn"
   },
   "Gene Brownlie": {
     "wikipedia_url": null,
@@ -3369,15 +3951,21 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Lund has lived in the seat since 2011 and spent 13 years managing Morwell Neighbourhood House. She has contested this seat as an independent at the last three state elections, achieving her largest primary vote share of 10.9 per cent at the 2014 election. Lund was a La Trobe City councillor between November 2020 and March 2026.",
+    "source": "Vic Labor",
+    "source_url": "https://www.viclabor.org.au/our-team/tracie-lund"
   },
   "Rochelle Hine": {
     "wikipedia_url": null,
     "born": null,
-    "prior_occupation": null,
+    "prior_occupation": "health professional",
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Hine is a health professional and academic who works for Monash Rural Health. She was previously a social work clinician and stood for this seat at the last state election in 2022, as well as for the federal seat of Gippsland at the 2025 election.",
+    "source": "Vic Greens",
+    "source_url": "https://greens.org.au/vic/person/rochelle-hine"
   },
   "Casey Murphy": {
     "wikipedia_url": "https://en.wikipedia.org/wiki/Casey_Murphy",
@@ -3415,7 +4003,10 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Rebbechi works in logistics, retail, hospitality management, repair services and disability support. He has rented in Springvale with his wife since 2018.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/mulg"
   },
   "Connor Buchanan": {
     "wikipedia_url": null,
@@ -3423,7 +4014,10 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Buchanan works as a maintenance fitter and is a member of the Australian Manufacturing Workers' Union",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/mulg"
   },
   "Ian Cook": {
     "wikipedia_url": null,
@@ -3431,23 +4025,32 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Cook ran a local catering business that was initially shut down by the Victorian Department of Health in 2019 after a listeria outbreak before a court ruled his business had not received procedural fairness. He claimed that inspectors had planted a slug during the course of the assessment. Cook ran for Mulgrave at the 2022 state election and the 2023 by-election, finishing second after preferences on both occasions.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/mulg"
   },
   "Brett Hosking": {
     "wikipedia_url": null,
     "born": null,
-    "prior_occupation": null,
+    "prior_occupation": "grain grower",
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Hosking is a grain grower and has lived in the local area with his family for more than 30 years. He served in leadership roles in the Victorian Farmers Federation for more than a decade, including as president between December 2024 and June 2026.",
+    "source": "Vic Nationals",
+    "source_url": "https://vic.nationals.org.au/candidates-brett-hosking/"
   },
   "Zoe Cook": {
     "wikipedia_url": null,
     "born": null,
-    "prior_occupation": null,
+    "prior_occupation": "councillor on campaspe shire council",
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Cook is a councillor on Campaspe Shire Council and describes herself as passionate about making the region a liveable and sustainable place for everyone.",
+    "source": "Vic Greens",
+    "source_url": "https://greens.org.au/vic/person/zoe-cook"
   },
   "Garner Smith": {
     "wikipedia_url": null,
@@ -3455,23 +4058,32 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Smith has been an economist, farmer and small business owner as well as mayor of Gannawarra Shire Council since 2024. He has previously worked as an electorate officer for then-senator Julian McGauran and as a minister adviser for Nationals MP Bill Baxter. He continues to run businesses in the region as well as irrigated beef farms.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/murr"
   },
   "Jannette Langley": {
     "wikipedia_url": null,
     "born": null,
-    "prior_occupation": null,
+    "prior_occupation": "drouin local",
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Langley is a Drouin local who has worked as a public servant and is now a personal care assistant.",
+    "source": "Vic Labor",
+    "source_url": "https://www.viclabor.org.au/our-team/jannette-langley"
   },
   "Alyssa Weaver": {
     "wikipedia_url": null,
     "born": null,
-    "prior_occupation": null,
+    "prior_occupation": "local disability support worker",
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Weaver is a local disability support worker and children's book author. She was the Greens candidate for this seat at the February 2023 supplementary election.",
+    "source": "Vic Greens",
+    "source_url": "https://greens.org.au/vic/person/alyssa-weaver"
   },
   "Ben Lucas": {
     "wikipedia_url": null,
@@ -3479,7 +4091,10 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Lucas grew up in Drouin and served for seven years in the Australian Army, in ordnance and the infantry corps. After finishing his service, he spent four years as a plumbing apprentice and went on to buy a gym in his home town which he continues to operate. Lucas is a twice-elected Baw Baw Shire councillor.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/narr"
   },
   "Moss Page": {
     "wikipedia_url": null,
@@ -3487,23 +4102,32 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Page was born in Iran and is an engineer by trade, having studied and worked in Japan, China and New Zealand before settling in Australia 13 years ago. He has lived in Drouin for the past nine years and works as a disability and education support worker, and is a member of the Health and Community Services Union.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/narr"
   },
   "Geoff Dethlefs": {
     "wikipedia_url": null,
     "born": null,
-    "prior_occupation": null,
+    "prior_occupation": "retired school teacher",
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Dethlefs is a retired school teacher and principal, and more recently a pastor at a small west Gippsland church. He and his wife have taught in Christian schools across Australia, and for a year in the United Stated, since 1983. Dethlefs was the Family First candidate for the federal seat of Monash at the 2025 election.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/narr"
   },
   "Hayley Perry": {
     "wikipedia_url": null,
     "born": null,
-    "prior_occupation": null,
+    "prior_occupation": "project coordinator",
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Perry runs a small advertising agency and is a project coordinator. She was the Greens candidate for Berwick at the 2022 state election.",
+    "source": "Vic Greens",
+    "source_url": "https://greens.org.au/vic/person/hayley-perry"
   },
   "Sebastian Crutchfield": {
     "wikipedia_url": null,
@@ -3511,7 +4135,10 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Crutchfield is a managing director of his family's construction company which works on road and civil infrastructure projects across the state.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/nano"
   },
   "Lachlan McCracken": {
     "wikipedia_url": null,
@@ -3519,7 +4146,10 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "McCracken says he is the father of two young children and grew up working class as the son of a single mother, and has worked blue-collar jobs since he was 14.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/nano"
   },
   "Stefan Koomen": {
     "wikipedia_url": null,
@@ -3527,15 +4157,21 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Koomen was elected to the City of Casey council in 2024 and was in his second consecutive term as mayor before stepping down to run for parliament. He has a degree in commerce, majoring in accounting and economics, and has worked as a truck driver, business manager and government adviser.",
+    "source": "Vic Labor",
+    "source_url": "https://www.viclabor.org.au/our-team/stefan-koomen"
   },
   "Norliah Peterson": {
     "wikipedia_url": null,
     "born": null,
-    "prior_occupation": null,
+    "prior_occupation": "music teacher",
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Peterson is a music teacher and owns her own music school in the area alongside working at a local school. After losing her son to meningococcal B, she successfully campaigned for free access to vaccines for young people.",
+    "source": "Vic Liberals",
+    "source_url": "https://vicliberal.org.au/team/norliah-peterson"
   },
   "Jill Nambu": {
     "wikipedia_url": null,
@@ -3543,7 +4179,10 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Nambu works in the disability sector and volunteers as a school councillor, English tutor and migrant playgroup facilitator. She has been involved in campaigns regarding the former Cranbourne Golf Course redevelopment, proposed Hampton Park Waste Transfer Station, and proposed data centre in Clyde North.",
+    "source": "Vic Greens",
+    "source_url": "https://greens.org.au/vic/person/jill-nambu"
   },
   "Trevor Hammond": {
     "wikipedia_url": "https://en.wikipedia.org/wiki/Trevor_Hammond",
@@ -3558,10 +4197,13 @@
   "Bailey McCracken": {
     "wikipedia_url": null,
     "born": null,
-    "prior_occupation": null,
+    "prior_occupation": "boilermaker",
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "McCracken is a boilermaker who describes himself as a unionist and proud socialist who is running in this election to fight for the interests of the working class.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/naso"
   },
   "Scott Watson": {
     "wikipedia_url": "https://en.wikipedia.org/wiki/Scott_Watson",
@@ -3585,39 +4227,54 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Healy works in healthcare advocacy and manages the Evidence and Capacity Building team at Women’s Health Victoria. Before that, she was a qualitative researcher investigating experiences of infertility and fertility treatment. She holds a PhD in history from the University of Melbourne. She also contested this seat at the May 2026 by-election.",
+    "source": "Vic Greens",
+    "source_url": "https://greens.org.au/vic/person/sianan-healy"
   },
   "Darren Hercus": {
     "wikipedia_url": null,
     "born": null,
-    "prior_occupation": null,
+    "prior_occupation": "civil engineer",
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Hercus is a civil engineer and owns a joist and truss manufacturing business in Dromana. He was the One Nation candidate for Nepean at the May 2026 by-election, finishing second on the primary vote.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/nepe"
   },
   "Seth Willcocks": {
     "wikipedia_url": null,
     "born": null,
-    "prior_occupation": null,
+    "prior_occupation": "concreter",
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Willcocks is a concreter who has lived and worked in Nepean his whole life.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/nepe"
   },
   "Mike Brown": {
     "wikipedia_url": null,
     "born": null,
-    "prior_occupation": null,
+    "prior_occupation": "certified anglican lay minister",
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Brown has worked in engineering, business and real estate and is a certified Anglican lay minister and community chaplain. He has previously stood as an Australian Christians candidate as well as for One Nation at the 2025 federal election for the seat of Flinders.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/nepe"
   },
   "Samantha Byrne": {
     "wikipedia_url": null,
     "born": null,
-    "prior_occupation": null,
+    "prior_occupation": "podiatrist",
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Byrne is a podiatrist and has served on Moonee Valley City Council since 2016, including two one-year terms as mayor.",
+    "source": "Vic Liberals",
+    "source_url": "https://vicliberal.org.au/team/samantha-byrne"
   },
   "Lana Nguyen": {
     "wikipedia_url": null,
@@ -3625,23 +4282,32 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Nguyen says she coordinates community-based events that centre local voices and has recently supported her father through cancer.",
+    "source": "Vic Greens",
+    "source_url": "https://greens.org.au/vic/person/lana-nguyen"
   },
   "Jason Taverna": {
     "wikipedia_url": null,
     "born": null,
-    "prior_occupation": null,
+    "prior_occupation": "property investor",
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Taverna is a property investor who owns and operates his own building firm. He says he comes from a hard-working Italian migrant family.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/nidd"
   },
   "Brendan Laws": {
     "wikipedia_url": null,
     "born": null,
-    "prior_occupation": null,
+    "prior_occupation": "public high school biology",
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Laws is a public high school biology and science teacher who is involved in the Socialists In School group. He immigrated from Houston, Texas where he earned a science degree and studied a postgraduate qualification in teaching at the University of Melbourne.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/nidd"
   },
   "Elisabetta Celata (West)Salomae Haselgrove": {
     "wikipedia_url": null,
@@ -3657,7 +4323,10 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Awad has worked as a financial consultant and an international arts curator. She worked internationally for a decade before returning to Melbourne in 2019 and is an active volunteer at a local church.",
+    "source": "Vic Liberals",
+    "source_url": "https://vicliberal.org.au/team/lynda-awad"
   },
   "Campbell Gome": {
     "wikipedia_url": null,
@@ -3665,7 +4334,10 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Gome is a local public school teacher, unionist and community activist who has lived in the area for nearly 30 years. He is a two-time Greens candidate, first as an upper house candidate at the 2018 election and then the candidate for this seat in 2022 where he fell short by just 184 votes.",
+    "source": "Vic Greens",
+    "source_url": "https://greens.org.au/vic/person/campbell-gome"
   },
   "Kath Larkin": {
     "wikipedia_url": null,
@@ -3673,7 +4345,10 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Larkin worked for almost a decade in the railway industry, becoming the first female Rail, Tram, and Bus Union delegate at Flinders Street Station. In 2015, she helped lead the first strike on the Victorian railways in 17 years. This is Larkin’s sixth run for state and federal parliament after candidacies in the state seat of Thomastown in 2018, this seat in 2022 as well as three runs for the federal seat of Cooper in 2019, 2022 and 2025.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/nort"
   },
   "Jim Penman": {
     "wikipedia_url": "https://en.wikipedia.org/wiki/Jim_Penman",
@@ -3691,7 +4366,10 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Jung has worked as an electorate officer as well as being a youth ambassador for ReachOut Australia. He has a social work degree from Deakin University.",
+    "source": "Vic Liberals",
+    "source_url": "https://vicliberal.org.au/team/martin-jung"
   },
   "Hsiang Han-Hsieh": {
     "wikipedia_url": null,
@@ -3715,18 +4393,24 @@
   "Rowdy Bugter": {
     "wikipedia_url": null,
     "born": null,
-    "prior_occupation": null,
+    "prior_occupation": "carpenter in commercial construction",
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Bugter is a carpenter in commercial construction and an active member of the CFMEU.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/oakl"
   },
   "Ben Gilbert": {
     "wikipedia_url": null,
     "born": null,
-    "prior_occupation": null,
+    "prior_occupation": "local father of two young children",
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Gilbert is a local father of two young children and was the Greens candidate for the overlapping seat of Indi at the 2022 federal election.",
+    "source": "Vic Greens",
+    "source_url": "https://greens.org.au/vic/person/ben-gilbert"
   },
   "James Rouel": {
     "wikipedia_url": null,
@@ -3734,39 +4418,54 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Rouel has a business degree and works in rural food relief, leading a program supporting more than 5,000 people each month across more than 20 towns in northern Victoria and southern New South Wales. He was previously an executive officer and event manager at the Bendigo Tennis Association.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/oven"
   },
   "Steve Manning": {
     "wikipedia_url": null,
     "born": null,
-    "prior_occupation": null,
+    "prior_occupation": "local electrician",
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Manning is a local electrician and TAFE lecturer endorsed by the Voices for Ovens Valley group who moved to the area around five years ago. He is involved in a local mental health initiative and is a senior coach with the North Wangaratta Football and Netball Club.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/oven"
   },
   "Alessandra Soliven": {
     "wikipedia_url": null,
     "born": null,
-    "prior_occupation": null,
+    "prior_occupation": "union organiser",
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Soliven is a union organiser with the Australian Services Union, has worked as an electorate officer and is pursuing a law degree at the University of Melbourne.",
+    "source": "Vic Labor",
+    "source_url": "https://www.viclabor.org.au/our-team/alessandra-soliven"
   },
   "Radmila Dyson": {
     "wikipedia_url": null,
     "born": null,
-    "prior_occupation": null,
+    "prior_occupation": "businesswoman",
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Dyson is a businesswoman and local soccer club volunteer. She is reported to have been a Liberal Party member for less than a year before her preselection and required special dispensation to run.",
+    "source": "Vic Liberals",
+    "source_url": "https://vicliberal.org.au/team/radmila-dyson"
   },
   "Nasser Yawari": {
     "wikipedia_url": null,
     "born": null,
-    "prior_occupation": null,
+    "prior_occupation": "non-legal practitioner at victoria legal aid",
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Yawari arrived in Australia as a refugee and works as a non-legal practitioner at Victoria Legal Aid. He has a sociology degree and works with Jesuit Social Services. Yawari was on the Greens’ Senate ticket at the 2025 federal election.",
+    "source": "Vic Greens",
+    "source_url": "https://greens.org.au/vic/person/nasser-yawari"
   },
   "Warren Pickering": {
     "wikipedia_url": "https://en.wikipedia.org/wiki/Warren_Pickering",
@@ -3783,10 +4482,13 @@
   "Stephanie Grigg": {
     "wikipedia_url": null,
     "born": null,
-    "prior_occupation": null,
+    "prior_occupation": "local graphic designer",
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Grigg is a local graphic designer and queer disabled activist. She is a member of the Public Housing Defence Network, through which she says she helps organise resistance to government public housing privatisation plans.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/pake"
   },
   "Raymond French": {
     "wikipedia_url": "https://en.wikipedia.org/wiki/Raymond_French",
@@ -3817,15 +4519,21 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Forehan describes himself as a family man and has been a real estate sales consultant since 2024.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/pasc"
   },
   "Yasemin Shamsili": {
     "wikipedia_url": null,
     "born": null,
-    "prior_occupation": null,
+    "prior_occupation": "local medical receptionist",
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Shamsili is a local medical receptionist and yoga teacher who has also worked at local schools as a business manager and administrator.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/pasc"
   },
   "Jacob Andrewartha (SA)Kathrine Ashton": {
     "wikipedia_url": null,
@@ -3838,10 +4546,13 @@
   "Raja Reddy": {
     "wikipedia_url": null,
     "born": null,
-    "prior_occupation": null,
+    "prior_occupation": "migration agent",
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Reddy is a migration agent who runs his own business and serves as the president of Wyndham Diwali. He is a member of the Liberal Party's community engagement committee and was the party's candidate for Laverton at the last state election, achieving a five percentage point swing to the party.",
+    "source": "Vic Liberals",
+    "source_url": "https://vicliberal.org.au/team/raja-reddy"
   },
   "Ponraj Krishna Pandi": {
     "wikipedia_url": null,
@@ -3849,7 +4560,10 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Krishna is first-generation migrant from India who works in information technology as a site reliability engineer. He was the Greens candidate for Gellibrand at the 2025 federal election and won 17 per cent of the vote.",
+    "source": "Vic Greens",
+    "source_url": "https://greens.org.au/vic/person/ponraj-krishna-pandi"
   },
   "Cameron Reid": {
     "wikipedia_url": "https://en.wikipedia.org/wiki/Cameron_Reid",
@@ -3862,18 +4576,24 @@
   "Taylor Laine": {
     "wikipedia_url": null,
     "born": null,
-    "prior_occupation": null,
+    "prior_occupation": "hairdresser",
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Laune has been a local in Melbourne's west for five years and works as a hairdresser.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/poin"
   },
   "Mark Grech": {
     "wikipedia_url": null,
     "born": null,
-    "prior_occupation": null,
+    "prior_occupation": "small business owner",
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Grech says he has lived in Wyndham for over 40 years and is a small business owner with a young child about to start school.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/poin"
   },
   "Hutch Hussein": {
     "wikipedia_url": "https://en.wikipedia.org/wiki/Hutch_Hussein",
@@ -3886,18 +4606,24 @@
   "Jesse Holden": {
     "wikipedia_url": null,
     "born": null,
-    "prior_occupation": null,
+    "prior_occupation": "visitation officer at bush heritage australia",
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Holden is a visitation officer at Bush Heritage Australia and has been a community program coordinator for local environment groups after working as a wilderness guide in Tasmania for six years. He has a degree in environmental social science.",
+    "source": "Vic Greens",
+    "source_url": "https://greens.org.au/vic/person/jesse-holden"
   },
   "Anna Malcolm": {
     "wikipedia_url": null,
     "born": null,
-    "prior_occupation": null,
+    "prior_occupation": "flight attendant and small business owner",
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Malcolm is a Larpent local, former flight attendant and small business owner. She ran an eco-business for 13 years and also worked in superannuation and insurance.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/polw"
   },
   "Meghan Hopper": {
     "wikipedia_url": null,
@@ -3905,7 +4631,10 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Hopper is a lecturer in the school of media, film and journalism at Monash University and was a community and corporate planning manager at Moonee Valley City Council. She was elected to Stonnington City Council in 2024 and has served as mayor. Hopper was the Labor candidate for Warrandyte at the 2010 state election.",
+    "source": "Vic Labor",
+    "source_url": "https://www.viclabor.org.au/our-team/meghan-hopper"
   },
   "Angelica Di Camillo": {
     "wikipedia_url": null,
@@ -3913,7 +4642,10 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Di Camillo is an environmental engineer, project manager and climate strategist who grew up in an Italian migrant family. She lives in an apartment in St Kilda East and is also a Pilates instructor. Di Camillo was the Greens candidate for Rowville at the 2022 state election and for the federal Aston by-election in 2023. She ran for Prahran at last year’s by-election but the Greens suffered a 13.4 percentage point swing against them and she was defeated by the Liberal candidate.",
+    "source": "Vic Greens",
+    "source_url": "https://greens.org.au/vic/person/angelica-di-camillo"
   },
   "Shaun Virsu": {
     "wikipedia_url": null,
@@ -3921,15 +4653,21 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Virsu works in pharmaceutical manufacturing and is also a reservist in the Royal Australian Navy who says he is managing a mortgage.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/prah"
   },
   "Clayton Doueihi": {
     "wikipedia_url": null,
     "born": null,
-    "prior_occupation": null,
+    "prior_occupation": "hospitality",
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Doueihi is a hospitality and retail worker as well as a member of the United Workers Union. He says he has spent much of his time over the last seven years as a community activist, organising and rallying in solidarity with the Palestinian people.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/prah"
   },
   "Loki Sangarya": {
     "wikipedia_url": null,
@@ -3937,7 +4675,10 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Sangarya is an engineer, policy researcher and unionist. He was the Greens candidate for Scullin at the 2025 federal election, attracting 9.4 per cent of the primary vote.",
+    "source": "Vic Greens",
+    "source_url": "https://greens.org.au/vic/person/loki-sangarya"
   },
   "Franco Guardiani": {
     "wikipedia_url": null,
@@ -3945,7 +4686,10 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Guardiani ran his family's concreting business and has an MBA from RMIT. He twice ran as a candidate for the overlapping federal seat of Batman in 2013 and 2016, first for the Palmer United Party and then as an independent.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/pres"
   },
   "Serena Ashmore": {
     "wikipedia_url": null,
@@ -3953,7 +4697,10 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Ashmore lives in Reservoir and has been a local for seven years. She works in the mental health sector and is an activist and unionist.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/pres"
   },
   "Rachel Unicomb": {
     "wikipedia_url": null,
@@ -3961,7 +4708,10 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Unicomb grew up in Newcastle and previously worked in marketing in the United Kingdom. She returned to Australia in 2018 and now lives in Reservoir, and was involved in campaigns to protect Edwardes Lake and Preston Market. She was the Animal Justice Party candidate for Preston at the last state election.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/broa"
   },
   "Sarah McKenzie": {
     "wikipedia_url": "https://en.wikipedia.org/wiki/Sarah_McKenzie",
@@ -3974,10 +4724,13 @@
   "Harrison Rindfleish": {
     "wikipedia_url": null,
     "born": null,
-    "prior_occupation": null,
+    "prior_occupation": "law",
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Rindfleish is a law and commerce student who grew up on the central coast of New South Wales.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/rich"
   },
   "Chris Dite": {
     "wikipedia_url": null,
@@ -3985,7 +4738,10 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Dite first moved to the area in 2006 and began his teacher career at a local public high school, also working nights in a local bookshop. He has been involved in local campaigns to prevent the sale of public housing and against the East-West Link.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/rich"
   },
   "David Meyer": {
     "wikipedia_url": "https://en.wikipedia.org/wiki/David_Meyer",
@@ -3998,10 +4754,13 @@
   "Rachel Halse": {
     "wikipedia_url": null,
     "born": null,
-    "prior_occupation": null,
+    "prior_occupation": "emergency nurse in the local area",
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Halse is an emergency nurse in the local area and has also worked as a policy officer at the Victorian branch of the Australian Nursing and Midwifery Federation. She is the wife of former Ringwood MP Dustin Halse.",
+    "source": "Vic Labor",
+    "source_url": "https://www.viclabor.org.au/our-team/rachel-halse"
   },
   "Amy Mills": {
     "wikipedia_url": "https://en.wikipedia.org/wiki/Amy_Mills",
@@ -4026,10 +4785,13 @@
   "Jack Gardner": {
     "wikipedia_url": null,
     "born": null,
-    "prior_occupation": null,
+    "prior_occupation": "bartender",
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Gardner is a bartender and a language student at Deakin University who says he has campaigned for the closure of weapons factories in Melbourne’s east.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/ring"
   },
   "Prue Cutts": {
     "wikipedia_url": null,
@@ -4037,7 +4799,10 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Cutts has been a City of Whitehorse councillor since 2016 and served two one-year terms as deputy mayor between 2022 and 2025. She has been a teacher, a careers counsellor, a vocational psychologist and a small business owner. Cutts is endorsed by the Voices of Deakin group, which also endorsed an independent candidate at the 2025 federal election for the seat of the same name.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/ring"
   },
   "Jo Armstrong (N)Megan Read": {
     "wikipedia_url": null,
@@ -4050,26 +4815,35 @@
   "Tim Drylie": {
     "wikipedia_url": null,
     "born": null,
-    "prior_occupation": null,
+    "prior_occupation": "hepburn shire councillor",
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Drylie is a Hepburn Shire councillor who was elected in November 2020. He has worked in emissions reduction, including in Bendigo local government, as well as president of a local business and tourism group.",
+    "source": "Vic Greens",
+    "source_url": "https://greens.org.au/vic/person/tim-drylie"
   },
   "Donna Buxton": {
     "wikipedia_url": null,
     "born": null,
-    "prior_occupation": null,
+    "prior_occupation": "speech pathologist and owns a small business",
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Buxton lives in Charlton, where she works as a speech pathologist and owns a small business. She has a business degree and a postgraduate qualification in education, and was formerly a primary school teacher.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/ripo"
   },
   "Taylah Brennan-Jones": {
     "wikipedia_url": null,
     "born": null,
-    "prior_occupation": null,
+    "prior_occupation": "swim teacher and job coach to people with disabilities",
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Brennan-Jones works as a swim teacher and job coach to people with disabilities. She says she is involved in an Ararat community initiative targeted at creating more youth-focused events and opportunities across the region.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/ripo"
   },
   "Muhammad Shahbaz": {
     "wikipedia_url": "https://en.wikipedia.org/wiki/Muhammad_Shahbaz",
@@ -4096,7 +4870,10 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Massey describes himself as a local resident, father, and grandfather who has a strong desire to advocate for safer, more frequent transport options, better health care and environmental protection. He says he has represented people in trade unions and volunteers.",
+    "source": "Vic Greens",
+    "source_url": "https://greens.org.au/vic/person/dave-massey"
   },
   "Bradley Watt": {
     "wikipedia_url": null,
@@ -4104,7 +4881,10 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Watt is a former state and national badminton representative who has held senior roles in business management and product development with international sports brands. He stood for the overlapping federal seat of Aston at the 2013 election for the Palmer United Party.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/rowv"
   },
   "Lars Hiemstra": {
     "wikipedia_url": null,
@@ -4112,31 +4892,43 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Hiemstra says he has lived and worked in Melbourne’s south-east since immigrating to Australia while raising his family. He has worked as a labourer and now works in transaction banking, and is a member of the Finance Sector Union.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/rowv"
   },
   "Anastasia Sagris-Desmond": {
     "wikipedia_url": null,
     "born": null,
-    "prior_occupation": null,
+    "prior_occupation": "psychologist",
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Sagris-Desmond is a psychologist with more than 30 years of experience. She has also been a workplace trainer and an Australian Health Practitioner Regulation Agency board-approved supervisor.",
+    "source": "Vic Labor",
+    "source_url": "https://www.viclabor.org.au/our-team/anastasia-sagris-desmond"
   },
   "Timon Fotakis": {
     "wikipedia_url": null,
     "born": null,
-    "prior_occupation": null,
+    "prior_occupation": "labourer",
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Fotakis is a Sandringham resident who is a Monash University student who works as a labourer, warehouse worker and researcher.",
+    "source": "Vic Greens",
+    "source_url": "https://greens.org.au/vic/person/timon-fotakis"
   },
   "Anthony Blight": {
     "wikipedia_url": null,
     "born": null,
-    "prior_occupation": null,
+    "prior_occupation": "royal australian navy veteran",
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Blight is a Royal Australian Navy veteran with more than 30 years of working experience in defence, infrastructure, engineering, transport and energy. He has owned and operated a truck-servicing company for almost 15 years.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/sand"
   },
   "Lauren Stevenson": {
     "wikipedia_url": null,
@@ -4144,7 +4936,10 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Stevenson grew up in the local area and has been a public servant for the last four years. She says she is active in the Community Public Sector Union and is a delegate in her workplace.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/sand"
   },
   "Cayla Fin": {
     "wikipedia_url": null,
@@ -4152,15 +4947,21 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Fin has more than 15 years of experience working in vocational and higher education, and has been regional lead for Shepparton for TAFE Victoria.",
+    "source": "Vic Labor",
+    "source_url": "https://www.viclabor.org.au/our-team/cayla-fin"
   },
   "Grace Verney": {
     "wikipedia_url": null,
     "born": null,
-    "prior_occupation": null,
+    "prior_occupation": "university student",
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Verney is a university student and health sector worker who says she knows firsthand how hard it is to make ends meet in a regional community like Shepparton.",
+    "source": "Vic Greens",
+    "source_url": "https://greens.org.au/vic/person/grace-verney"
   },
   "Phillip Bryant": {
     "wikipedia_url": null,
@@ -4168,15 +4969,21 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Bryant was in the Australian Defence Force for seven and a half years, co-owned a family business for 10 years and spent nearly 20 years as a retail manager.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/shep"
   },
   "Karen Hocking": {
     "wikipedia_url": null,
     "born": null,
-    "prior_occupation": null,
+    "prior_occupation": "shepparton local",
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Hocking is a Shepparton local who works as a nurse and is a longtime volunteer administrator with Shepparton Junior Soccer Association. She stood as an upper house candidate for the Victorian socialists at the last election.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/shep"
   },
   "Rebecca Thistleton": {
     "wikipedia_url": null,
@@ -4184,7 +4991,10 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Thistleton is a former journalist who began her career in community newspapers and now leads the McKell Institute think tank. She was the Labor candidate for the state seat of Melbourne at the 2022 election.",
+    "source": "Vic Labor",
+    "source_url": "https://www.viclabor.org.au/our-team/rebecca-thistleton"
   },
   "Libby Pettit": {
     "wikipedia_url": null,
@@ -4192,7 +5002,10 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Pettit is a former national champion runner and founded the global fashion brand Zerafima which she continues to operate. She holds degrees in fashion marketing and optometry, and previously worked as a design and production manager.",
+    "source": "Vic Liberals",
+    "source_url": "https://vicliberal.org.au/team/libby-pettit"
   },
   "Izzy Scherrer": {
     "wikipedia_url": null,
@@ -4200,7 +5013,10 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Scherrer is a teacher, women’s health advocate and communications coordinator who says her work has shown her the pressures people are facing and how government decisions can either support communities or leave people behind.",
+    "source": "Vic Greens",
+    "source_url": "https://greens.org.au/vic/person/izzy-scherrer"
   },
   "Josh Geard": {
     "wikipedia_url": null,
@@ -4208,7 +5024,10 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Geard has worked in health care in a corporate capacity for more than two decades and says this has given him a front-row view of a system that is crumbling.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/soba"
   },
   "Madilyn Gorman": {
     "wikipedia_url": null,
@@ -4216,7 +5035,10 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Gorman grew up in Geelong and moved back to this electorate to raise her two children. She is a mental health and social worker who has worked in the public health system for close to 20 years. She has also served as a union delegate and branch committee member.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/soba"
   },
   "Freya Hedley (SA)Ron Nelson": {
     "wikipedia_url": null,
@@ -4232,7 +5054,10 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Govanstone describes himself as a proud Portland local who has dedicated his career to strengthening south-west communities. He has worked as a community engagement officer at the Victorian Department of Energy, Environment and Climate Action.",
+    "source": "Vic Labor",
+    "source_url": "https://www.viclabor.org.au/our-team/andrew-govanstone"
   },
   "Silver Rose": {
     "wikipedia_url": "https://en.wikipedia.org/wiki/Silver_Rose",
@@ -4248,7 +5073,10 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Hughes has worked with Victoria Police for more than 28 years and currently serves as a detective at Warrnambool Crime Investigation Unit. He has investigated methamphetamine trafficking and arson in south-west Victoria.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/soco"
   },
   "Hera Sheppard": {
     "wikipedia_url": null,
@@ -4256,39 +5084,54 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Sheppard describes herself as a proud, active union member in the Retail and Fast Food Workers’ Union who has played a role in organising the local McDonalds where she works for the first time in its history. The 18-year-old is currently a high school student at Warrnambool College.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/soco"
   },
   "Tamhas Buchan": {
     "wikipedia_url": null,
     "born": null,
-    "prior_occupation": null,
+    "prior_occupation": "marketing consultant",
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Buchan is a marketing consultant who owns his own business and has previously been a search consultant in the finance sector in Hong Kong and Sydney.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/soco"
   },
   "Bao Huynh": {
     "wikipedia_url": null,
     "born": null,
-    "prior_occupation": null,
+    "prior_occupation": "socal policy academic",
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Huynh is a socal policy academic and was the Greens candidate for the federal seat of Gorton at the 2025 election.",
+    "source": "Vic Greens",
+    "source_url": "https://greens.org.au/vic/person/bao-huynh"
   },
   "John Cowell": {
     "wikipedia_url": null,
     "born": null,
-    "prior_occupation": null,
+    "prior_occupation": "construction industry professional",
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Cowell was born and raised in western Victoria and says he is a construction industry professional with strong family ties.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/stal"
   },
   "Leanna Nguyen": {
     "wikipedia_url": null,
     "born": null,
-    "prior_occupation": null,
+    "prior_occupation": "st albans local",
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Nguyen says she is a St Albans local who has lived in the area her whole life and that she participated in a campaign to shut down a gym being used to recruit people in neo-Nazi groups.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/stal"
   },
   "Luận Walker": {
     "wikipedia_url": null,
@@ -4304,7 +5147,10 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Cottom completed her secondary schooling at Salesian College in Sunbury and has lived in the area for more than 20 years. Her first job was at the local Big W and she now works as a senior tax consultant. Cottom was the Liberal candidate for this seat at the last state election as well as for the overlapping seat of Hawke at the 2025 federal election.",
+    "source": "Vic Liberals",
+    "source_url": "https://vicliberal.org.au/team/simmone-cottom"
   },
   "Lauren Granger-Brown": {
     "wikipedia_url": null,
@@ -4312,15 +5158,21 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Granger-Brown has more than two decades of experience in education, teaching English to migrants and refugees, as a tutor for students entering university, and as a teacher trainer. She is originally from Melbourne but has twice been a Greens candidate for state elections in Queensland, in 2020 and 2024.",
+    "source": "Vic Greens",
+    "source_url": "https://greens.org.au/vic/person/lauren-granger-brown"
   },
   "Elita Dabrowski": {
     "wikipedia_url": null,
     "born": null,
-    "prior_occupation": null,
+    "prior_occupation": "small business owner",
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Dabrowski is a small business owner and naturopath who grew up in Melbourne’s north-west. She is a Sunbury local whose father migrated from Indonesia.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/sunb"
   },
   "Adam Bremner": {
     "wikipedia_url": null,
@@ -4328,7 +5180,10 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Bremner describes himself as a proud socialist, teacher, unionist and dad. He is the lead organiser for the No Sunbury Waste Incinerator campaign against the proposed incinerator on Sunbury and Bulla roads.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/sunb"
   },
   "Uros Rasic": {
     "wikipedia_url": null,
@@ -4336,7 +5191,10 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Rasic attended Mackellar Public School, Lakeview Senior College, La Trobe University. He has worked at the Parliament of Victoria since 2013.",
+    "source": "Vic Labor",
+    "source_url": "https://www.viclabor.org.au/our-team/uros-rasic"
   },
   "Nathalie Moussi": {
     "wikipedia_url": null,
@@ -4344,31 +5202,43 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Moussi has run a small family business in the local area for 15 years. She has also worked as the managing director of a restaurant as well as a sales manager in genetic technology businesses.",
+    "source": "Vic Liberals",
+    "source_url": "https://vicliberal.org.au/team/nathalie-moussi"
   },
   "Maggie Jane": {
     "wikipedia_url": null,
     "born": null,
-    "prior_occupation": null,
+    "prior_occupation": "social worker",
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Jane is a social worker and carer who says she decided to run while stuck in traffic on Taylors Road, stressing about the cost of living, moving house, caring responsibilities and work.",
+    "source": "Vic Greens",
+    "source_url": "https://greens.org.au/vic/person/maggie-jane"
   },
   "Joh Bauch": {
     "wikipedia_url": null,
     "born": null,
-    "prior_occupation": null,
+    "prior_occupation": "local councillor",
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Bauch is a local councillor who was elected to Brimbank City Council in 2024. He has business and law degrees, previously operating a media enterprise and working in migration law. This is his fifth run for state or federal parliament having run as the Liberal candidate for the state seat of Niddrie and the federal seat of Jagajaga in 2010 as well as an independent in the state seats of Tarneit in 2014 and Kororoit in 2022.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/syde"
   },
   "Shania Khan": {
     "wikipedia_url": null,
     "born": null,
-    "prior_occupation": null,
+    "prior_occupation": "train driver for the metropolitan network",
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Khan is a train driver for the metropolitan network and a member of the Rail, Tram and Bus Union. She has lived in the western suburbs of Melbourne her whole life.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/syde"
   },
   "Maria Kerr (Ind)Ashley Vandenburg (Ind)Bruce Lancashire": {
     "wikipedia_url": null,
@@ -4384,15 +5254,21 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Raheem has worked in community services in the area for more than 15 years and has served in leadership positions of local community organisations, including the Werribee Islamic Centre. He is a long-time unionist who says he has personally recruited more than 1,600 members and possesses academic qualifications in agricultural science and business. He was the Greens candidate for this seat at the 2025 by-election.",
+    "source": "Vic Greens",
+    "source_url": "https://greens.org.au/vic/person/rifai-raheem"
   },
   "Walter Villagonzalo": {
     "wikipedia_url": null,
     "born": null,
-    "prior_occupation": null,
+    "prior_occupation": "order of australia medal recipient",
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Villagonzalo is an Order of Australia Medal recipient who has lived in Tarneit for 38 years and describes himself as a respected leader in the Filipino community. He was a Wyndham City councillor from 2016 to 2020, which included one year-long term as deputy mayor. Villagonzallo has a professional background in the military and information technology, and has led a migrant support service and multicultural entrepreneurs association. He stood on an independent ticket for the upper house at the 2022 state election.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/tarn"
   },
   "Leah Van Koulen": {
     "wikipedia_url": null,
@@ -4416,7 +5292,10 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Anthony immigrated to Australian from Mauritius in 2007 to study. She is a counsellor who says she has worked with people from diverse backgrounds, the unemployed, and has been activity involved in local communities and churches.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/thom"
   },
   "Priya Reddy": {
     "wikipedia_url": "https://en.wikipedia.org/wiki/Priya_Reddy",
@@ -4432,7 +5311,10 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Burnside was raised in rural Western Australia and has worked for more than three decades in aged care hospitality. He says he is married and the proud father of two adult children.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/warr"
   },
   "John Stanley": {
     "wikipedia_url": null,
@@ -4440,7 +5322,10 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Stanley is a Warrandyte local, student, and socialist activist who believes that politics is rigged for the rich and that a political alternative is needed that puts people before profit.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/warr"
   },
   "Ellen Burns": {
     "wikipedia_url": "https://en.wikipedia.org/wiki/Ellen_Burns",
@@ -4460,7 +5345,10 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Robinson grew up on his family’s farm in Clunes which he continues to work. He has lived with his family in Soldiers Hill for more than three decades and before retiring was a general manager for a family business as well as a property manager.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/wend"
   },
   "Chris Meagher": {
     "wikipedia_url": "https://en.wikipedia.org/wiki/Chris_Meagher",
@@ -4495,18 +5383,24 @@
   "Reece Clark": {
     "wikipedia_url": null,
     "born": null,
-    "prior_occupation": null,
+    "prior_occupation": "lifelong local committed to standing up for his home town",
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Clark says he is a lifelong local committed to standing up for his home town. He has been a security guard and project manager.",
+    "source": "Vic Liberals",
+    "source_url": "https://vicliberal.org.au/team/reece-clark"
   },
   "Tushar Kumar": {
     "wikipedia_url": null,
     "born": null,
-    "prior_occupation": null,
+    "prior_occupation": "it professional",
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Kumar is an IT professional who has worked as a project manager and product owner at ANZ since February 2013. He immigrated to Australia from India.",
+    "source": "Vic Greens",
+    "source_url": "https://greens.org.au/vic/person/tushar-kumar"
   },
   "Paul Pateras": {
     "wikipedia_url": null,
@@ -4514,7 +5408,10 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Pateras was born in Werribee and worked part-time on his family's farm while growing up. He is a small business owner and works as a security contractor.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/werr"
   },
   "Sue Munro": {
     "wikipedia_url": null,
@@ -4522,7 +5419,10 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Munro has lived in the local area for 20 years and a nurse working in the public acute care system. She was the Victorian Socialists candidate for this seat at the 2022 state election and 2025 by-election, polling 7.1 per cent at the latter.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/werr"
   },
   "Paul Hopper (West)Matthew Emerson": {
     "wikipedia_url": null,
@@ -4550,7 +5450,10 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Hocking works in the surveillance industry where he is also a union delegate. He has previously been a journalist.",
+    "source": "Vic Greens",
+    "source_url": "https://greens.org.au/vic/person/ben-hocking"
   },
   "Catherine Loughnan": {
     "wikipedia_url": null,
@@ -4558,15 +5461,21 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Loughnan says she has lived in Melbourne's west for 45 years and spent almost four decades in business. She works in logistics and transport, and has previously owned small businesses.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/will"
   },
   "Oskar Martin": {
     "wikipedia_url": null,
     "born": null,
-    "prior_occupation": null,
+    "prior_occupation": "proud bundjalung",
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Martin is a proud Bundjalung and Kamilaroi man who has been a Williamstown local for most of his life. He works in mental health research at the University of Melbourne and is part of the National Tertiary Education Union.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/will"
   },
   "Gil Gannon (West)Tony Briffa": {
     "wikipedia_url": null,
@@ -4579,10 +5488,13 @@
   "Amanda Dow": {
     "wikipedia_url": null,
     "born": null,
-    "prior_occupation": null,
+    "prior_occupation": "primary school teacher",
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Dow is a primary school teacher who has previously worked in sales and administration and holds a degree in accounting and human resources.",
+    "source": "Vic Liberals",
+    "source_url": "https://vicliberal.org.au/team/amanda-dow"
   },
   "Gufran Mohammed": {
     "wikipedia_url": null,
@@ -4590,23 +5502,32 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Gufran immigrated to Australia from India in 2017 and initially worked as a business manager at a local school. He went on to work as an auditor and manager at Deloitte and KPMG before founding his own not-for-profit finance firm advising schools.",
+    "source": "Vic Greens",
+    "source_url": "https://greens.org.au/vic/person/gufran-mohammed"
   },
   "Jeremy Johnson": {
     "wikipedia_url": null,
     "born": null,
-    "prior_occupation": null,
+    "prior_occupation": "cybersecurity professional",
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Johnson is a cybersecurity professional and former army reservist. He was the One Nation candidate for the overlapping federal seat of McEwen at the 2025 election.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/yany"
   },
   "Andrew Bell": {
     "wikipedia_url": null,
     "born": null,
-    "prior_occupation": null,
+    "prior_occupation": "mernda local",
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Bell is a Mernda local who says he is a community organiser and activist as well as a member of the Community and Public Sector Union.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/yany"
   },
   "Sinan Okatan": {
     "wikipedia_url": null,
@@ -4614,7 +5535,10 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Okatan was born in Melbourne’s north and has lived in the electorate for the past five years. He has studied construction management and engineering, and works as a project manager in the horticulture sector.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/yany"
   },
   "Matt Green": {
     "wikipedia_url": null,
@@ -4715,10 +5639,13 @@
   "Chloe Nicolosi": {
     "wikipedia_url": null,
     "born": null,
-    "prior_occupation": null,
+    "prior_occupation": "corporate analyst",
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Nicolosi is a corporate analyst who has degrees in information technology and psychology. She is currently completing a Juris Doctor and has volunteer experience as a paralegal.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/bund"
   },
   "Natalie Adams": {
     "wikipedia_url": "https://en.wikipedia.org/wiki/Natalie_Adams",
@@ -4812,7 +5739,10 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Collard was born in Brisbane and moved to Melbourne in her early twenties to pursue a career in theatre, later establishing and leading a successful independent theatre company. She holds degrees in arts, counselling and community services.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/pres"
   },
   "Mark Nicholson": {
     "wikipedia_url": "https://en.wikipedia.org/wiki/Mark_Nicholson_(Australian_politician)",
@@ -4980,7 +5910,10 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "Champion has spent the past decade working in bushland restoration, restoring native vegetation, protecting biodiversity and helping conserve threatened ecosystems on the Mornington Peninsula. She holds an environmental science degree with a focus on wildlife and conservation biology from Deakin University.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/nepe"
   },
   "Kelly Cvetkova": {
     "wikipedia_url": null,
@@ -5028,7 +5961,10 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "summary": "O’Neill is an equity, diversity, and inclusion consultant employed at Monash University. He was born and raised in Sydney, where he obtained qualifications in English and linguistics. He is also a registered marriage celebrant.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/albe"
   },
   "Bettina Terry": {
     "wikipedia_url": null,

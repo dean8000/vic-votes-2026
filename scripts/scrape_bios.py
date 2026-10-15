@@ -518,10 +518,41 @@ def resolve_and_fetch(name, manual_title):
         # Did Wikipedia redirect/match? Reject disambiguation pages.
         if 'class="disambigbox"' in html or 'disambiguation page' in html.lower()[:5000]:
             continue
-        # Confirm it's actually about a Victorian politician: lead should
-        # mention Victorian / Legislative. Soft check only.
+        # Validate: this Wikipedia page should actually be about a Victorian
+        # politician / public figure in politics. Reject pages about athletes,
+        # musicians etc. who happen to share a name.
+        if not is_victorian_politician(html):
+            continue
         return url, html
     return None, None
+
+
+# Patterns that strongly indicate the page is about a Victorian / Australian
+# politician. Checked against the first ~15kB of HTML (which covers the lead +
+# infobox but not the long references/categories section).
+_POLITICAL_MARKERS = [
+    r'\bMember of the Victorian\b',
+    r'\bVictorian Legislative (Assembly|Council)\b',
+    r'\bMember of the Legislative (Assembly|Council) of Victoria\b',
+    r'\bPremier of Victoria\b',
+    r'\bDeputy Premier of Victoria\b',
+    r'\bMinister for [A-Z][^<\n]{0,60}\bVictoria\b',
+    r'\bVictorian (Labor|Liberal|National|Greens|Nationals) Party\b',
+    r'\bAustralian (politician|senator|member of parliament)\b',
+    r'\bMember of the Australian House of Representatives\b',
+    r'\bshadow (minister|cabinet)\b',
+    r'\bparty whip\b',
+    r'\binfobox[^"]*officeholder',   # officeholder infobox template
+    r'\binfobox[^"]*politician',
+]
+
+
+def is_victorian_politician(html):
+    sample = html[:20000]
+    for pat in _POLITICAL_MARKERS:
+        if re.search(pat, sample, re.I):
+            return True
+    return False
 
 
 # ---------------- Driver ----------------
