@@ -264,30 +264,28 @@
       const swing = (typeof mg.swing === 'number')
         ? (mg.swing >= 0 ? '+' + mg.swing.toFixed(1) : mg.swing.toFixed(1)) + '% swing'
         : '';
-      const safetyBadge = '<span class="pill" style="background:' + safetyColour(mg.safety) + ';color:#fff">' + esc(mg.safety) + '</span>';
+      const combinedBadge = (safety, margin) =>
+        (safety && typeof margin === 'number')
+          ? '<span class="pill" style="background:' + safetyColour(safety) + ';color:#fff">' + esc(safety) + ' ' + margin.toFixed(1) + '%</span>'
+          : '';
       html += '<h3>Trajectory <a class="src" href="https://en.wikipedia.org/wiki/Results_of_the_2022_Victorian_state_election_(Legislative_Assembly)" target="_blank" rel="noopener">source</a></h3>';
       const m2018 = margins2018[key];
       const row = (label, bodyHtml) =>
         '<p class="trajectory-row"><span class="year-label">' + label + '</span>' +
         '<span class="year-content">' + bodyHtml + '</span></p>';
-      const yearRow = (label, m, extraBadge) => {
+      const yearRow = (label, m) => {
         if (!m || !m.winner) return '';
-        const marginTxt = (typeof m.margin === 'number')
-          ? ' <small style="color:var(--muted)">· margin ' + m.margin.toFixed(1) + '% ·</small> ' + extraBadge
-          : '';
+        const badge = combinedBadge(m.safety, m.margin);
         return row(label,
           esc(m.winner) + ' <strong>' + m.tpp_winner_pct.toFixed(1) + '%</strong> vs ' + esc(m.tpp_opponent) +
-          ' <small style="color:var(--muted)">(' + m.basis + ')</small>' + marginTxt);
+          ' <small style="color:var(--muted)">(' + m.basis + ')</small>' + (badge ? ' ' + badge : ''));
       };
       if (m2018 === null) {
         html += row('2018', '<em>district did not exist (2021 redistribution)</em>');
       } else {
-        const safe2018 = (m2018 && m2018.safety)
-          ? '<span class="pill" style="background:' + safetyColour(m2018.safety) + ';color:#fff">' + esc(m2018.safety) + '</span>'
-          : '';
-        html += yearRow('2018', m2018, safe2018);
+        html += yearRow('2018', m2018);
       }
-      html += yearRow('2022', mg, safetyBadge);
+      html += yearRow('2022', mg);
       if (swing) {
         html += '<p class="bio">Swing to ' + esc(mg.winner) + ' from 2018 to 2022: <strong>' + swing + '</strong></p>';
       }
