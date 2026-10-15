@@ -248,6 +248,7 @@ main.wide { padding: 0 !important; max-width: none !important; }
 
 .map-layout {
   display: grid;
+  /* grid-template-columns overridden inline in map.html — this is just a fallback */
   grid-template-columns: 1fr 380px;
 }
 

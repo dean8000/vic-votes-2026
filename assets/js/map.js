@@ -9,6 +9,53 @@
   setTimeout(() => map.invalidateSize(), 100);
   window.addEventListener('resize', () => map.invalidateSize());
 
+  // --- Draggable sidebar divider ---
+  (function wireDivider() {
+    const divider = document.getElementById('divider');
+    const layout = document.querySelector('.map-layout');
+    if (!divider || !layout) return;
+    const MIN = 280;
+    const MAX = Math.min(900, Math.round(window.innerWidth * 0.7));
+    const saved = parseInt(localStorage.getItem('sidebar-w') || '', 10);
+    if (saved && saved >= MIN) layout.style.setProperty('--sidebar-w', saved + 'px');
+
+    let dragging = false;
+    const onDown = (e) => {
+      dragging = true;
+      divider.classList.add('dragging');
+      document.body.classList.add('dragging');
+      e.preventDefault();
+    };
+    const onMove = (e) => {
+      if (!dragging) return;
+      const x = e.touches ? e.touches[0].clientX : e.clientX;
+      const w = Math.min(Math.max(window.innerWidth - x, MIN), MAX);
+      layout.style.setProperty('--sidebar-w', w + 'px');
+      map.invalidateSize(false);
+    };
+    const onUp = () => {
+      if (!dragging) return;
+      dragging = false;
+      divider.classList.remove('dragging');
+      document.body.classList.remove('dragging');
+      const w = parseInt(getComputedStyle(layout).gridTemplateColumns.split(' ').pop(), 10);
+      if (!isNaN(w)) localStorage.setItem('sidebar-w', String(w));
+      map.invalidateSize();
+    };
+    divider.addEventListener('mousedown', onDown);
+    divider.addEventListener('touchstart', onDown, { passive: false });
+    window.addEventListener('mousemove', onMove);
+    window.addEventListener('touchmove', onMove, { passive: false });
+    window.addEventListener('mouseup', onUp);
+    window.addEventListener('touchend', onUp);
+    // Double-click to reset to default width.
+    divider.addEventListener('dblclick', () => {
+      layout.style.removeProperty('--sidebar-w');
+      localStorage.removeItem('sidebar-w');
+      map.invalidateSize();
+    });
+  })();
+
   L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     maxZoom: 18,
     attribution:

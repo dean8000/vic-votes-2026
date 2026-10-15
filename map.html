@@ -19,11 +19,33 @@
   .map-layout {
     min-height: calc(100vh - 70px);
     height: calc(100vh - 70px);
+    grid-template-columns: 1fr 6px var(--sidebar-w, 380px);
   }
   #map { width: 100%; height: 100%; min-height: calc(100vh - 70px); background: #e6edef; }
+  #divider {
+    background: var(--rule);
+    cursor: col-resize;
+    position: relative;
+    transition: background 0.15s;
+  }
+  #divider::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 2px;
+    height: 32px;
+    background: var(--muted);
+    opacity: 0.5;
+    transform: translate(-50%, -50%);
+    border-radius: 1px;
+  }
+  #divider:hover, #divider.dragging { background: var(--accent); }
+  body.dragging { user-select: none; cursor: col-resize; }
   @media (max-width: 900px) {
     .map-layout { grid-template-columns: 1fr; grid-template-rows: 60vh auto; height: auto; min-height: 0; }
     #map { min-height: 60vh; height: 60vh; }
+    #divider { display: none; }
   }
 </style>
 </head>
@@ -49,6 +71,7 @@
 <main class="wide">
   <div class="map-layout">
     <div id="map"></div>
+    <div id="divider" title="Drag to resize sidebar" aria-label="Resize sidebar"></div>
     <aside class="sidebar">
       <h2 id="panel-title">Find your area</h2>
       <div class="toggles" role="tablist">
@@ -56,9 +79,11 @@
         <button id="btn-regions" aria-pressed="false">Regions (upper house)</button>
       </div>
       <div class="toggles subtoggles" role="tablist">
-        <button id="btn-colour-party" class="active" aria-pressed="true">Colour: party</button>
-        <button id="btn-colour-safety" aria-pressed="false">Colour: 2022 safety</button>
+        <button id="btn-colour-party" class="active" aria-pressed="true" title="Colour each district by the party of the sitting MP">Party</button>
+        <button id="btn-colour-safety" aria-pressed="false" title="Colour each district by how safe the 2022 result was">2022 safety</button>
+        <button id="btn-colour-projection" aria-pressed="false" title="Colour each district by its projected 2026 winner">2026 projection</button>
       </div>
+      <p id="colour-explainer" class="colour-explainer"></p>
       <div id="legend" class="legend"></div>
       <form class="search" id="search-form" autocomplete="off">
         <input type="search" id="search-input" placeholder="Suburb or address (Victoria only)" aria-label="Search address">
