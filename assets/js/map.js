@@ -443,26 +443,28 @@
   }
 
   function legendHtml(mode, layer) {
+    const item = (col, label) =>
+      '<span class="legend-item"><span class="sw" style="background:' + col + '"></span>' + label + '</span>';
     if (mode === 'safety' && layer === 'districts') {
-      return '<span style="background:#e879f9"></span>marginal (&lt;6%)' +
-             '<span style="background:#c084fc"></span>fairly safe (6–10%)' +
-             '<span style="background:#8b5cf6"></span>safe (10–20%)' +
-             '<span style="background:#581c87"></span>very safe (20%+)';
+      return item('#e879f9', 'marginal (&lt;6%)') +
+             item('#c084fc', 'fairly safe (6–10%)') +
+             item('#8b5cf6', 'safe (10–20%)') +
+             item('#581c87', 'very safe (20%+)');
     }
     if (mode === 'projection' && layer === 'districts') {
-      return '<span style="background:#e52a2a"></span>Labor hold/gain' +
-             '<span style="background:#1565c0"></span>Coalition hold/gain' +
-             '<span style="background:#0f8f3a"></span>Greens hold (assumed)' +
-             '<span style="background:#a3a3a3"></span>Independent hold (assumed)' +
+      return item('#e52a2a', 'Labor hold/gain') +
+             item('#1565c0', 'Coalition hold/gain') +
+             item('#0f8f3a', 'Greens hold (assumed)') +
+             item('#a3a3a3', 'Independent hold (assumed)') +
              '<br><small>Intensity by projected margin — faint = tight race, saturated = safe. Non-two-party seats shown at the sitting party\'s colour since statewide swing doesn\'t apply.</small>';
     }
     const prefix = layer === 'regions' ? '<em>Coloured by majority sitting MLC party</em><br>' : '';
     return prefix +
-           '<span style="background:#e52a2a"></span>Labor' +
-           '<span style="background:#1565c0"></span>Liberal' +
-           '<span style="background:#374151"></span>National' +
-           '<span style="background:#0f8f3a"></span>Greens' +
-           '<span style="background:#a3a3a3"></span>Independent';
+           item('#e52a2a', 'Labor') +
+           item('#1565c0', 'Liberal') +
+           item('#374151', 'National') +
+           item('#0f8f3a', 'Greens') +
+           item('#a3a3a3', 'Independent');
   }
   setColour('party');
 

@@ -293,7 +293,12 @@ p.colour-explainer {
   color: var(--muted);
   align-items: center;
 }
-.legend span {
+.legend-item {
+  display: inline-flex;
+  align-items: center;
+  white-space: nowrap;
+}
+.legend-item .sw {
   display: inline-block;
   width: 14px;
   height: 14px;
