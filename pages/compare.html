@@ -20,13 +20,20 @@
     margin: 20px 0;
     border: 1px solid var(--rule);
     border-radius: var(--radius);
-    overflow: hidden;
+    /* NO overflow: hidden — it breaks position: sticky on children */
   }
   .compare-grid .issue-row {
     display: grid;
     border-top: 1px solid var(--rule);
   }
   .compare-grid .issue-row:first-child { border-top: 0; }
+  .compare-grid .header-row {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background: var(--panel);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.08);
+  }
   .compare-grid .issue-title {
     background: var(--accent-soft);
     padding: 10px 14px;
@@ -49,8 +56,6 @@
     padding: 8px 14px;
     border-bottom: 2px solid;
     border-left: 1px solid var(--rule);
-    position: sticky; top: 0;
-    z-index: 1;
   }
   .compare-grid .party-header:first-child { border-left: 0; }
   @media (max-width: 850px) {
@@ -106,8 +111,8 @@
       const colours = data.party_colours;
       const cols = 'repeat(' + parties.length + ', 1fr)';
       let html = '<div class="compare-grid">';
-      // header
-      html += '<div class="issue-row" style="grid-template-columns:' + cols + '">';
+      // header — sticky, stays pinned to top as you scroll
+      html += '<div class="issue-row header-row" style="grid-template-columns:' + cols + '">';
       for (const p of parties) {
         html += '<div class="party-header" style="border-bottom-color:' + colours[p] + '">' + p + '</div>';
       }
