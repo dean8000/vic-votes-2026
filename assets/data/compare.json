@@ -31,7 +31,7 @@
         "Labor": "Target 95% renewable electricity by 2035; State Electricity Commission expansion; offshore wind development; EV incentives.",
         "Coalition": "Energy policy prioritising reliability and cost; supports gas as a transition fuel; cautious on renewables timelines.",
         "Greens": "Faster coal exit (2030); community-owned renewables; expanded national parks; ending native-forest logging and new fossil-fuel projects.",
-        "One Nation": "Prioritises energy affordability and reliability; supports continued use of coal and gas; opposes net-zero legislation and large-scale wind development."
+        "One Nation": "Prioritises energy affordability and reliability; supports continued use of coal and gas; prefers an energy mix without binding net-zero timelines; cautious on large-scale wind development."
       }
     },
     {
@@ -41,7 +41,7 @@
         "Labor": "Continued hospital infrastructure investment; women's health focus; mental health reforms post-Royal Commission; GP respite clinics.",
         "Coalition": "Reduce elective-surgery waiting lists; shift resources from administration to frontline care; review hospital governance structures.",
         "Greens": "Free dental in Medicare (state advocacy); fully funded public hospitals; mental-health care parity; harm-reduction drug policy.",
-        "One Nation": "Supports individual medical choice (including on vaccination); opposes vaccine mandates; raises concerns about health-workforce pressures from population growth."
+        "One Nation": "Supports individual medical choice (including voluntary, non-mandated vaccination); raises concerns about health-workforce pressures from population growth."
       }
     },
     {
@@ -59,9 +59,9 @@
       "title": "Transport & infrastructure",
       "positions": {
         "Labor": "Suburban Rail Loop (SRL) delivery; Metro Tunnel operation; continued level crossing removals; EV charging rollout; airport rail commitment.",
-        "Coalition": "Opposes SRL in current form on cost grounds; prioritises road investment; faster regional rail; review of major-project procurement.",
+        "Coalition": "Considers SRL in current form too costly and wants it scaled back; prioritises road investment; faster regional rail; review of major-project procurement.",
         "Greens": "Scrap SRL and divert funds to buses, trams, cycling, and local rail electrification; halt urban freeway expansion; free public transport.",
-        "One Nation": "Prioritises road and freight infrastructure; opposes congestion pricing; cautious on large rail megaprojects."
+        "One Nation": "Prioritises road and freight infrastructure; prefers road access without congestion charges; cautious on large rail megaprojects."
       }
     },
     {
@@ -69,7 +69,7 @@
       "title": "Cost of living",
       "positions": {
         "Labor": "Energy bill relief payments; continued power saving bonus; cheaper public-transport fares; targeted cost-of-living package in last budget.",
-        "Coalition": "Cut state taxes and levies; oppose Vic-specific property taxes; emphasis on cost-of-doing-business for small employers.",
+        "Coalition": "Cut state taxes and levies (including Vic-specific property taxes); emphasis on cost-of-doing-business for small employers.",
         "Greens": "Reduce costs of essentials via public ownership (energy, housing); dental in Medicare; rent caps; levies on large corporations.",
         "One Nation": "Identifies immigration and current energy policy as primary drivers of inflation; proposes reducing migration and changing the energy mix."
       }
@@ -81,7 +81,7 @@
         "Labor": "Youth justice reform combining diversion programs with stronger accountability; new stalking and family-violence laws; expanded police resources.",
         "Coalition": "Tougher bail laws; mandatory minimum sentences for some offences; opposition to raising the age of criminal responsibility.",
         "Greens": "Raise the age of criminal responsibility to 14; invest in diversion and treatment over incarceration; address drivers of crime.",
-        "One Nation": "Supports tougher sentencing (including mandatory minimums for some offences); expanded police resources; opposes drug decriminalisation."
+        "One Nation": "Supports tougher sentencing (including mandatory minimums for some offences); expanded police resources; favours maintaining current drug laws."
       }
     },
     {
@@ -89,9 +89,9 @@
       "title": "First Nations & Treaty",
       "positions": {
         "Labor": "Continue the Treaty process via the First Peoples' Assembly; implement Yoorrook Justice Commission recommendations.",
-        "Coalition": "Withdrew support for Treaty in 2024; opposes a statewide treaty framework; favours practical reconciliation over structural reforms.",
+        "Coalition": "Withdrew support for a statewide Treaty framework in 2024; favours practical reconciliation initiatives over structural reforms.",
         "Greens": "Full treaty implementation; truth-telling; return of Crown lands; backing Yoorrook recommendations in full.",
-        "One Nation": "Opposes a Treaty with First Peoples; opposes race-based policy; advocates formal equality in all public programs."
+        "One Nation": "Advocates formal equality in all public programs; prefers citizenship-based rather than Treaty-based or race-based policy frameworks."
       }
     }
   ]
