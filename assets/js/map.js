@@ -494,6 +494,16 @@
   btnD.addEventListener('click', () => activate('districts'));
   btnR.addEventListener('click', () => activate('regions'));
 
+  // Keyboard shortcuts: d = districts, r = regions, / = focus search.
+  document.addEventListener('keydown', (e) => {
+    // Ignore if typing in an input/textarea
+    const tag = (e.target && e.target.tagName) || '';
+    if (tag === 'INPUT' || tag === 'TEXTAREA' || e.ctrlKey || e.metaKey || e.altKey) return;
+    if (e.key === 'd' || e.key === 'D') { activate('districts'); e.preventDefault(); }
+    else if (e.key === 'r' || e.key === 'R') { activate('regions'); e.preventDefault(); }
+    else if (e.key === '/') { const i = document.getElementById('search-input'); if (i) { i.focus(); e.preventDefault(); } }
+  });
+
   // Colour mode toggle
   const btnColourParty = document.getElementById('btn-colour-party');
   const btnColourSafety = document.getElementById('btn-colour-safety');
