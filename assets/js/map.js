@@ -199,6 +199,36 @@
   // Intentionally don't fitBounds — keep the Melbourne-metro default view so
   // most users immediately see their area without having to zoom in.
 
+  // --- Hash routing: #district/<KEY> or #region/<KEY> ---
+  function applyHash() {
+    const m = (location.hash || '').match(/^#(district|region)\/(.+)$/i);
+    if (!m) return;
+    const kind = m[1].toLowerCase();
+    const key = decodeKey(m[2]).toUpperCase();
+    if (kind === 'district') {
+      const feature = districtsGeo.features.find(f => f.properties.district === key);
+      if (!feature) return;
+      activate('districts');
+      showDistrict(key, feature.properties.district_label, { updateHash: false });
+      try {
+        const layer = L.geoJSON(feature);
+        map.fitBounds(layer.getBounds(), { padding: [40, 40], maxZoom: 13 });
+      } catch (e) { /* ignore */ }
+    } else {
+      const feature = regionsGeo.features.find(f => f.properties.region === key);
+      if (!feature) return;
+      activate('regions');
+      showRegion(key, feature.properties.region_label, { updateHash: false });
+      try {
+        const layer = L.geoJSON(feature);
+        map.fitBounds(layer.getBounds(), { padding: [40, 40], maxZoom: 11 });
+      } catch (e) { /* ignore */ }
+    }
+  }
+  window.addEventListener('hashchange', applyHash);
+  // Fire once on load, after layers are set up.
+  setTimeout(applyHash, 0);
+
   // --- Panel updates ---
   const title = document.getElementById('panel-title');
   const body = document.getElementById('panel-body');
@@ -268,13 +298,22 @@
   const sidebarEl = document.querySelector('.sidebar');
   const scrollSidebarTop = () => { if (sidebarEl) sidebarEl.scrollTop = 0; };
 
-  function showDistrict(key, label) {
+  // --- Deep-link helpers ---
+  const encodeKey = (k) => encodeURIComponent(k.replace(/\s+/g, '_'));
+  const decodeKey = (k) => decodeURIComponent(k).replace(/_/g, ' ').trim();
+  const updateHash = (kind, key) => {
+    const target = '#' + kind + '/' + encodeKey(key);
+    if (location.hash !== target) history.replaceState(null, '', target);
+  };
+
+  function showDistrict(key, label, opts) {
     const mem = members.districts[key];
     const cand = candidates.districts[key] || candidates.districts[(key || '').replace(/\s+/g, ' ')];
     const mg = margins[key];
     const proj = projections[key]; // hoisted so it's available in both Trajectory and Candidates blocks
     title.textContent = label;
     scrollSidebarTop();
+    if (!opts || opts.updateHash !== false) updateHash('district', key);
     let html = '<p><em>Legislative Assembly district</em></p>';
     html += '<h3>Current MP <a class="src" href="https://en.wikipedia.org/wiki/Members_of_the_Victorian_Legislative_Assembly,_2022%E2%80%932026" target="_blank" rel="noopener" title="Source">source</a></h3>';
     if (mem) {
@@ -378,11 +417,12 @@
     body.innerHTML = html;
   }
 
-  function showRegion(key, label) {
+  function showRegion(key, label, opts) {
     const mlcs = members.regions[key] || [];
     const cand = candidates.regions && candidates.regions[key];
     title.textContent = label;
     scrollSidebarTop();
+    if (!opts || opts.updateHash !== false) updateHash('region', key);
     let html = '<p><em>Legislative Council region — elects 5 members by proportional representation</em></p>';
     html += '<h3>Current MLCs <a class="src" href="https://en.wikipedia.org/wiki/Members_of_the_Victorian_Legislative_Council,_2022%E2%80%932026" target="_blank" rel="noopener">source</a></h3>';
     if (mlcs.length) {
