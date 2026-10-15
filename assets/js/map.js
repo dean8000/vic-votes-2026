@@ -301,13 +301,13 @@
           'non-two-party': '#999',
         }[proj.status] || '#999';
         const badge = '<span class="pill" style="background:' + statusColour + ';color:#fff">' + esc(proj.status) + '</span>';
-        html += row('2026 projected',
+        html += row('2026<br><em>projected</em>',
           '<strong>' + esc(proj.projected_winner) + '</strong> ' +
           (proj.projected_winner === 'Labor' ? proj.projected_labor_tpp.toFixed(1) : (100 - proj.projected_labor_tpp).toFixed(1)) + '% TPP ' +
           badge);
         html += '<p class="bio">Based on uniform swing of ' + aggregateSwing.toFixed(1) + '% applied to 2022 TPP — see <a href="/pages/projections.html">how it works &amp; caveats</a>.</p>';
       } else if (proj && proj.status === 'non-two-party') {
-        html += row('2026 projected', '<em>' + esc(proj.note) + '</em>');
+        html += row('2026<br><em>projected</em>', '<em>' + esc(proj.note) + '</em>');
         html += '<p class="bio">See <a href="/pages/projections.html">projections page</a> for why uniform swing doesn\'t apply here.</p>';
       }
     }

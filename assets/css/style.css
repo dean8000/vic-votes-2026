@@ -395,11 +395,17 @@ a.src:hover { background: var(--accent-soft); color: var(--accent); }
   line-height: 1.5;
 }
 .trajectory-row .year-label {
-  flex: 0 0 95px;
+  flex: 0 0 56px;
   color: var(--muted);
   font-size: 0.85em;
   font-weight: 500;
   text-align: left;
+  line-height: 1.25;
+}
+.trajectory-row .year-label em {
+  font-style: normal;
+  font-size: 0.9em;
+  display: block;
 }
 .trajectory-row .year-content {
   flex: 1 1 auto;
