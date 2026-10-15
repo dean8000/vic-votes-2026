@@ -1431,15 +1431,11 @@
     "source_url": "https://vicliberal.org.au/team/theo-zographos"
   },
   "Tim Randall": {
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Tim_Randall",
-    "born": "19 June 1986",
+    "wikipedia_url": null,
+    "born": null,
     "prior_occupation": null,
     "elected_since": null,
-    "prior_roles": [
-      "Personal information",
-      "Sport",
-      "Medal record Men´s Bobsleigh"
-    ],
+    "prior_roles": null,
     "education": null
   },
   "Steven Mitchell": {
@@ -3990,9 +3986,9 @@
     "education": null
   },
   "Paul Schofield": {
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Paul_Schofield",
-    "born": "21 January 1922",
-    "prior_occupation": "Actor",
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
     "education": null
@@ -4491,15 +4487,11 @@
     "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/pake"
   },
   "Raymond French": {
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Raymond_French",
-    "born": "23 December 1939",
+    "wikipedia_url": null,
+    "born": null,
     "prior_occupation": null,
     "elected_since": null,
-    "prior_roles": [
-      "Personal information",
-      "Playing information",
-      "Rugby union"
-    ],
+    "prior_roles": null,
     "education": null
   },
   "Angelica Panopoulos": {
@@ -4744,9 +4736,9 @@
     "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/rich"
   },
   "David Meyer": {
-    "wikipedia_url": "https://en.wikipedia.org/wiki/David_Meyer",
-    "born": "24 July 1947",
-    "prior_occupation": "Actor",
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
     "education": null

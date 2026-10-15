@@ -1,21 +1,17 @@
 {
   "note": "Short neutral paraphrases of each party's publicly stated priorities for the 2026 Victorian state election, drawn from the parties' own websites and announcements. Not endorsements. Policies evolve — the party's own website is canonical. Blank cells mean the party has made no major public commitment on that issue specific to Victoria 2026.",
-  "parties": ["Labor", "Coalition", "Greens", "One Nation", "Victorian Socialists", "Family First"],
+  "parties": ["Labor", "Coalition", "Greens", "One Nation"],
   "party_colours": {
     "Labor": "#e52a2a",
     "Coalition": "#1565c0",
     "Greens": "#0f8f3a",
-    "One Nation": "#f36c21",
-    "Victorian Socialists": "#7a0010",
-    "Family First": "#5b2c86"
+    "One Nation": "#f36c21"
   },
   "party_sites": {
     "Labor": "https://www.viclabor.com.au",
     "Coalition": "https://vic.liberal.org.au",
     "Greens": "https://greens.org.au/vic",
-    "One Nation": "https://www.onenation.org.au",
-    "Victorian Socialists": "https://victoriansocialists.org.au",
-    "Family First": "https://www.familyfirst.org.au"
+    "One Nation": "https://www.onenation.org.au"
   },
   "issues": [
     {
