@@ -243,11 +243,15 @@
     return '<h3>About the parties on this ballot</h3>' + shown.join('');
   }
 
+  const sidebarEl = document.querySelector('.sidebar');
+  const scrollSidebarTop = () => { if (sidebarEl) sidebarEl.scrollTop = 0; };
+
   function showDistrict(key, label) {
     const mem = members.districts[key];
     const cand = candidates.districts[key] || candidates.districts[(key || '').replace(/\s+/g, ' ')];
     const mg = margins[key];
     title.textContent = label;
+    scrollSidebarTop();
     let html = '<p><em>Legislative Assembly district</em></p>';
     html += '<h3>Current MP <a class="src" href="https://en.wikipedia.org/wiki/Members_of_the_Victorian_Legislative_Assembly,_2022%E2%80%932026" target="_blank" rel="noopener" title="Source">source</a></h3>';
     if (mem) {
@@ -339,6 +343,7 @@
     const mlcs = members.regions[key] || [];
     const cand = candidates.regions && candidates.regions[key];
     title.textContent = label;
+    scrollSidebarTop();
     let html = '<p><em>Legislative Council region — elects 5 members by proportional representation</em></p>';
     html += '<h3>Current MLCs <a class="src" href="https://en.wikipedia.org/wiki/Members_of_the_Victorian_Legislative_Council,_2022%E2%80%932026" target="_blank" rel="noopener">source</a></h3>';
     if (mlcs.length) {
