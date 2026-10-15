@@ -1,6 +1,6 @@
 {
   "note": "Short, neutral paraphrases of each party's publicly stated priorities for the 2026 Victorian state election, drawn from the parties' own websites and announcements. Deliberately paraphrased in a positive 'what the party supports' voice where possible, rather than 'what it opposes'. Not endorsements. Policies evolve — the party's own website is canonical. If a line misrepresents a position, treat the party site as authoritative.",
-  "parties": ["Labor", "Coalition", "One Nation", "Greens"],
+  "parties": ["Coalition", "Labor", "One Nation", "Greens"],
   "party_colours": {
     "Labor": "#e52a2a",
     "Coalition": "#1565c0",
