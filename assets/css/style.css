@@ -272,6 +272,17 @@ main.wide { padding: 0 !important; max-width: none !important; }
   margin-bottom: 12px;
 }
 .sidebar .subtoggles button { font-size: 0.8rem; padding: 6px 8px; }
+.sidebar .subtoggles button:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+p.colour-explainer {
+  font-size: 0.8rem;
+  color: var(--muted);
+  line-height: 1.4;
+  margin: 2px 0 8px;
+  font-style: italic;
+}
 .legend {
   display: flex;
   flex-wrap: wrap;

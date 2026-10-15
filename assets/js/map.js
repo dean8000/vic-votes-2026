@@ -55,15 +55,28 @@
   const projections = projectionsFile.projections || {};
   const aggregateSwing = projectionsFile.aggregate_swing;
 
-  // Safety colour ramp — red (marginal) → amber (fairly safe) → blue (safe) → navy (very safe).
+  // Safety colour ramp — purple sequential, intentionally non-partisan so it
+  // doesn't visually overlap with Labor red / Liberal blue.
   const safetyColour = (s) => ({
-    'marginal': '#d7301f',
-    'fairly safe': '#fc8d59',
-    'safe': '#4575b4',
-    'very safe': '#313695',
+    'marginal': '#e879f9',
+    'fairly safe': '#c084fc',
+    'safe': '#8b5cf6',
+    'very safe': '#581c87',
   })[s] || '#999';
 
-  let colourMode = 'party'; // or 'safety'
+  // 2026 projection colour: party colour of projected winner, intensity by margin.
+  const projectionColour = (proj) => {
+    if (!proj || proj.status === 'non-two-party' || proj.projected_labor_tpp == null) {
+      return { fill: '#bbb', opacity: 0.35 };
+    }
+    const base = proj.projected_winner === 'Labor' ? '#e52a2a' : '#1565c0';
+    const margin = Math.abs(proj.projected_labor_tpp - 50);
+    // margin 0 → opacity 0.35 (ambiguous), margin >=10 → opacity 0.75 (confident)
+    const opacity = Math.min(0.75, 0.35 + margin * 0.04);
+    return { fill: base, opacity };
+  };
+
+  let colourMode = 'party'; // 'party' | 'safety' | 'projection'
 
   // For regions, pre-compute the dominant party from the sitting MLCs.
   const regionDominant = {};
@@ -80,6 +93,10 @@
     if (colourMode === 'safety') {
       const m = margins[key];
       return { fillColor: m ? safetyColour(m.safety) : '#999', fillOpacity: 0.55, color: '#333', weight: 1 };
+    }
+    if (colourMode === 'projection') {
+      const p = projectionColour(projections[key]);
+      return { fillColor: p.fill, fillOpacity: p.opacity, color: '#333', weight: 1 };
     }
     const party = members.districts[key] ? members.districts[key].party : '';
     return { fillColor: partyColour(party), fillOpacity: 0.45, color: '#333', weight: 1 };
@@ -311,17 +328,22 @@
       btnR.classList.remove('active'); btnR.setAttribute('aria-pressed', 'false');
       // Safety colouring only makes sense for single-member districts.
       btnColourSafety.disabled = false;
-      btnColourSafety.title = '';
+      btnColourSafety.title = 'Colour each district by how safe the 2022 result was';
+      btnColourProjection.disabled = false;
+      btnColourProjection.title = 'Colour each district by its projected 2026 winner';
     } else {
       if (!map.hasLayer(regionLayer)) regionLayer.addTo(map);
       if (map.hasLayer(districtLayer)) map.removeLayer(districtLayer);
       btnR.classList.add('active'); btnR.setAttribute('aria-pressed', 'true');
       btnD.classList.remove('active'); btnD.setAttribute('aria-pressed', 'false');
-      // Force party mode in region view — safety doesn't apply to PR.
+      // Force party mode in region view — safety and projection don't apply to PR.
       if (colourMode !== 'party') setColour('party');
       btnColourSafety.disabled = true;
       btnColourSafety.title = 'Safety ratings only apply to single-member districts';
+      btnColourProjection.disabled = true;
+      btnColourProjection.title = 'Projections only apply to single-member districts';
     }
+    colourExplainer.innerHTML = explainerHtml(colourMode, mode);
     document.getElementById('legend').innerHTML = legendHtml(colourMode, mode);
   }
   btnD.addEventListener('click', () => activate('districts'));
@@ -330,25 +352,45 @@
   // Colour mode toggle
   const btnColourParty = document.getElementById('btn-colour-party');
   const btnColourSafety = document.getElementById('btn-colour-safety');
+  const btnColourProjection = document.getElementById('btn-colour-projection');
+  const colourExplainer = document.getElementById('colour-explainer');
   function setColour(mode) {
     colourMode = mode;
     districtLayer.setStyle(styleFor);
     btnColourParty.classList.toggle('active', mode === 'party');
     btnColourSafety.classList.toggle('active', mode === 'safety');
+    btnColourProjection.classList.toggle('active', mode === 'projection');
     btnColourParty.setAttribute('aria-pressed', mode === 'party');
     btnColourSafety.setAttribute('aria-pressed', mode === 'safety');
+    btnColourProjection.setAttribute('aria-pressed', mode === 'projection');
     const layer = map.hasLayer(regionLayer) ? 'regions' : 'districts';
+    colourExplainer.innerHTML = explainerHtml(mode, layer);
     document.getElementById('legend').innerHTML = legendHtml(mode, layer);
   }
   btnColourParty.addEventListener('click', () => setColour('party'));
   btnColourSafety.addEventListener('click', () => setColour('safety'));
+  btnColourProjection.addEventListener('click', () => setColour('projection'));
+
+  function explainerHtml(mode, layer) {
+    if (layer === 'regions') return 'Regions coloured by the party holding the most sitting MLCs.';
+    if (mode === 'party') return 'Districts coloured by the party of the sitting MP.';
+    if (mode === 'safety') return "How safe each district's 2022 result was — bigger margin, darker colour. Marginal seats most likely to change hands.";
+    if (mode === 'projection') return 'Projected 2026 winner (party colour), with intensity by projected margin. Grey = non-two-party contest (Greens- or Independent-held seats).';
+    return '';
+  }
 
   function legendHtml(mode, layer) {
     if (mode === 'safety' && layer === 'districts') {
-      return '<span style="background:#d7301f"></span>marginal (&lt;6%)' +
-             '<span style="background:#fc8d59"></span>fairly safe (6–10%)' +
-             '<span style="background:#4575b4"></span>safe (10–20%)' +
-             '<span style="background:#313695"></span>very safe (20%+)';
+      return '<span style="background:#e879f9"></span>marginal (&lt;6%)' +
+             '<span style="background:#c084fc"></span>fairly safe (6–10%)' +
+             '<span style="background:#8b5cf6"></span>safe (10–20%)' +
+             '<span style="background:#581c87"></span>very safe (20%+)';
+    }
+    if (mode === 'projection' && layer === 'districts') {
+      return '<span style="background:#e52a2a"></span>Labor hold/gain' +
+             '<span style="background:#1565c0"></span>Coalition hold/gain' +
+             '<span style="background:#bbb"></span>non-two-party (Greens/Ind)' +
+             '<br><small>Intensity by projected margin — faint = tight race, saturated = safe.</small>';
     }
     const prefix = layer === 'regions' ? '<em>Coloured by majority sitting MLC party</em><br>' : '';
     return prefix +
