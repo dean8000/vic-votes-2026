@@ -355,15 +355,33 @@ p.colour-explainer {
   flex-wrap: wrap;
 }
 .candidate-list li.sitting { font-weight: 600; }
-.candidate-list li.sitting::after {
-  content: "sitting MP";
-  font-size: 0.75rem;
-  color: var(--muted);
-  background: #eee;
+/* Legacy ::after badge — superseded by explicit .role-badge spans below.
+   Kept blank to avoid double-rendering if any old markup remains. */
+.candidate-list li.sitting::after { content: none; }
+.cand-head {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+.cand-badges {
+  margin-left: auto;
+  display: inline-flex;
+  gap: 4px;
+  flex-wrap: wrap;
+}
+.role-badge {
+  font-size: 0.72rem;
   padding: 2px 8px;
   border-radius: 4px;
-  margin-left: auto;
-  font-weight: 400;
+  font-weight: 500;
+  white-space: nowrap;
+}
+.role-badge.sitting { background: #eee; color: #555; }
+.role-badge.projected { background: #fff3cd; color: #665000; border: 1px solid #e9d08a; }
+@media (prefers-color-scheme: dark) {
+  .role-badge.sitting { background: #333; color: #ccc; }
+  .role-badge.projected { background: #3d3620; color: #f0d87a; border-color: #665000; }
 }
 .candidate-list.detailed li {
   flex-direction: column;

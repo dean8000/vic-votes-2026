@@ -326,18 +326,34 @@
     }
     html += '<h3>Candidates for 2026 <a class="src" href="https://en.wikipedia.org/wiki/Candidates_of_the_2026_Victorian_state_election" target="_blank" rel="noopener">source</a></h3>';
     if (cand && cand.candidates && cand.candidates.length) {
+      // Match the projection winner to candidates by party.
+      const projWinner = proj && proj.projected_winner;
+      const isCoalitionParty = (p) => /liberal|national|coalition/i.test(p || '');
+      const matchesProjection = (party) => {
+        if (!projWinner) return false;
+        if (projWinner === 'Coalition') return isCoalitionParty(party);
+        if (projWinner === 'Labor') return /labor/i.test(party || '') && !/independent/i.test(party || '');
+        if (projWinner === 'Greens') return /greens/i.test(party || '');
+        if (projWinner === 'Independent') return /independent/i.test(party || '');
+        return false;
+      };
       html += '<ul class="candidate-list detailed">';
       for (const c of cand.candidates) {
         const sitting = mem && c.name === mem.mp;
-        html += '<li' + (sitting ? ' class="sitting"' : '') + '>'
-             + '<div><strong>' + esc(c.name) + '</strong> '
+        const projected = matchesProjection(c.party);
+        const badges = [];
+        if (sitting) badges.push('<span class="role-badge sitting">sitting MP</span>');
+        if (projected) badges.push('<span class="role-badge projected" title="Projected by uniform swing from current polling — not a prediction">projected winner</span>');
+        html += '<li>'
+             + '<div class="cand-head"><strong>' + esc(c.name) + '</strong> '
              + partyPill(c.party)
+             + (badges.length ? ' <span class="cand-badges">' + badges.join(' ') + '</span>' : '')
              + '</div>'
              + bioBlock(c.name)
              + '</li>';
       }
       html += '</ul>';
-      html += '<p style="font-size:0.85rem;color:var(--muted)">Candidate data from Wikipedia, pre-nomination (last updated 15 Oct 2026) and may be partial or imperfectly party-coded. The official list is published by the <a href="https://www.vec.vic.gov.au" target="_blank" rel="noopener">VEC</a> after nominations close on 9 November 2026. Bios are drawn from Wikipedia — many non-sitting candidates have no public bio yet.</p>';
+      html += '<p style="font-size:0.85rem;color:var(--muted)">Candidate data from Wikipedia, pre-nomination (last updated 15 Oct 2026) and may be partial or imperfectly party-coded. The official list is published by the <a href="https://www.vec.vic.gov.au" target="_blank" rel="noopener">VEC</a> after nominations close on 9 November 2026. Bios are drawn from Wikipedia — many non-sitting candidates have no public bio yet. "Projected winner" is based on applying statewide polling swing to the 2022 result (see <a href="/pages/projections.html">caveats</a>) — the projection names the party, not the specific candidate.</p>';
     } else {
       html += '<p>No candidate list available yet. Nominations close 9 November 2026.</p>';
     }
