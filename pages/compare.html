@@ -59,6 +59,34 @@
     border-left: 1px solid var(--rule);
   }
   .compare-grid .party-header:first-child { border-left: 0; }
+  .party-header-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 6px;
+  }
+  .col-move {
+    background: transparent;
+    border: 1px solid var(--rule);
+    color: var(--muted);
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 0.8rem;
+    line-height: 1;
+    padding: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+  .col-move:hover:not(:disabled) {
+    background: var(--accent);
+    color: #fff;
+    border-color: var(--accent);
+  }
+  .col-move:disabled { opacity: 0.25; cursor: not-allowed; }
   @media (max-width: 850px) {
     .compare-grid .party-cell { font-size: 0.82rem; padding: 8px 10px; }
     .compare-grid .party-header { font-size: 0.78rem; padding: 6px 10px; }
@@ -170,13 +198,31 @@
         render();
       });
 
+      const ORDER_KEY = 'compare-party-order';
+      let partyOrder;
+      try {
+        const saved = JSON.parse(localStorage.getItem(ORDER_KEY) || '[]');
+        partyOrder = saved.length
+          ? [...saved.filter(p => data.parties.includes(p)),
+             ...data.parties.filter(p => !saved.includes(p))]
+          : [...data.parties];
+      } catch (e) { partyOrder = [...data.parties]; }
+
       function render() {
-        const parties = data.parties.filter(p => visible.has(p));
+        const parties = partyOrder.filter(p => visible.has(p));
         const cols = 'repeat(' + parties.length + ', 1fr)';
         let html = '<div class="compare-grid">';
         html += '<div class="issue-row header-row" style="grid-template-columns:' + cols + '">';
-        for (const p of parties) {
-          html += '<div class="party-header" style="border-bottom-color:' + colours[p] + '">' + p + '</div>';
+        for (let i = 0; i < parties.length; i++) {
+          const p = parties[i];
+          const canLeft = i > 0;
+          const canRight = i < parties.length - 1;
+          html += '<div class="party-header" style="border-bottom-color:' + colours[p] + '">' +
+                  '<div class="party-header-inner">' +
+                  '<button class="col-move" data-dir="left" data-party="' + p + '"' + (canLeft ? '' : ' disabled') + ' aria-label="Move left" title="Move column left">←</button>' +
+                  '<span>' + p + '</span>' +
+                  '<button class="col-move" data-dir="right" data-party="' + p + '"' + (canRight ? '' : ' disabled') + ' aria-label="Move right" title="Move column right">→</button>' +
+                  '</div></div>';
         }
         html += '</div>';
         for (const issue of data.issues) {
@@ -191,6 +237,22 @@
         html += '</div>';
         root.innerHTML = html;
       }
+      root.addEventListener('click', (e) => {
+        const btn = e.target.closest('.col-move');
+        if (!btn) return;
+        const p = btn.dataset.party;
+        const dir = btn.dataset.dir;
+        const visibleOrdered = partyOrder.filter(x => visible.has(x));
+        const vi = visibleOrdered.indexOf(p);
+        if (vi < 0) return;
+        const neighbour = dir === 'left' ? visibleOrdered[vi - 1] : visibleOrdered[vi + 1];
+        if (!neighbour) return;
+        const i1 = partyOrder.indexOf(p);
+        const i2 = partyOrder.indexOf(neighbour);
+        [partyOrder[i1], partyOrder[i2]] = [partyOrder[i2], partyOrder[i1]];
+        localStorage.setItem(ORDER_KEY, JSON.stringify(partyOrder));
+        render();
+      });
       render();
 
       const ul = document.getElementById('party-sites');
