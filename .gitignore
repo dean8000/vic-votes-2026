@@ -1,0 +1,11 @@
+.DS_Store
+.claude/
+.cache/
+*.log
+node_modules/
+__pycache__/
+*.pyc
+/tmp
+/private
+# Server/local artefacts
+vote-site.zip

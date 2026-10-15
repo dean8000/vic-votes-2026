@@ -1,0 +1,31 @@
+{
+  "source": "Wikipedia: Opinion polling for the 2026 Victorian state election",
+  "retrieved": "2026-10-15",
+  "note": "Aggregate is a simple average of the last 5 published 2PP polls. Primary-vote figures are averaged across the same 5. Not a weighted or house-adjusted model — see sources for individual poll details.",
+  "aggregate": {
+    "as_of": "2026-10-15",
+    "n_polls": 5,
+    "tpp_labor": 46.2,
+    "tpp_coalition": 53.8,
+    "tpp_swing_from_2022": -8.8,
+    "primary": {
+      "Labor": 24.4,
+      "Coalition": 29.0,
+      "Greens": 14.6,
+      "One Nation": 22.6,
+      "Others": 9.4
+    }
+  },
+  "polls": [
+    { "pollster": "Resolve", "date": "2026-10-10", "sample": 1000, "primary": {"Labor": 25, "Coalition": 28, "Greens": 15, "One Nation": 23, "Others": 9}, "tpp_labor": null, "tpp_coalition": null },
+    { "pollster": "RedBridge / Accent", "date": "2026-10-08", "sample": 1008, "primary": {"Labor": 24, "Coalition": 30, "Greens": 16, "One Nation": 24, "Others": 6}, "tpp_labor": 44, "tpp_coalition": 56 },
+    { "pollster": "Freshwater", "date": "2026-09-28", "sample": 1030, "primary": {"Labor": 24, "Coalition": 29, "Greens": 14, "One Nation": 22, "Others": 11}, "tpp_labor": 47, "tpp_coalition": 53 },
+    { "pollster": "DemosAU / Premier", "date": "2026-09-20", "sample": 1020, "primary": {"Labor": 25, "Coalition": 30, "Greens": 14, "One Nation": 20, "Others": 11}, "tpp_labor": 48, "tpp_coalition": 52 },
+    { "pollster": "RedBridge / Accent", "date": "2026-09-14", "sample": 2371, "primary": {"Labor": 24, "Coalition": 29, "Greens": 15, "One Nation": 25, "Others": 7}, "tpp_labor": 44, "tpp_coalition": 56 },
+    { "pollster": "Resolve", "date": "2026-09-13", "sample": 1000, "primary": {"Labor": 25, "Coalition": 28, "Greens": 12, "One Nation": 23, "Others": 13}, "tpp_labor": null, "tpp_coalition": null },
+    { "pollster": "Resolve", "date": "2026-08-16", "sample": 1000, "primary": {"Labor": 25, "Coalition": 27, "Greens": 12, "One Nation": 23, "Others": 13}, "tpp_labor": null, "tpp_coalition": null },
+    { "pollster": "DemosAU / Premier", "date": "2026-08-11", "sample": 1007, "primary": {"Labor": 23, "Coalition": 32, "Greens": 13, "One Nation": 22, "Others": 10}, "tpp_labor": 45, "tpp_coalition": 55 },
+    { "pollster": "Roy Morgan", "date": "2026-08-07", "sample": 2084, "primary": {"Labor": 26, "Coalition": 26, "Greens": 12.5, "One Nation": 23.5, "Others": 8}, "tpp_labor": 49, "tpp_coalition": 51 },
+    { "pollster": "Freshwater", "date": "2026-08-03", "sample": 1020, "primary": {"Labor": 25, "Coalition": 30, "Greens": 14, "One Nation": 22, "Others": 9}, "tpp_labor": 48, "tpp_coalition": 52 }
+  ]
+}

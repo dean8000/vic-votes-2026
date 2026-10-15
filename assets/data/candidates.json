@@ -1,0 +1,2889 @@
+{
+  "source": "Wikipedia: Candidates of the 2026 Victorian state election",
+  "retrieved": "2026-10-15",
+  "note": "Nominations officially close 9 November 2026 — this list is best-effort pre-close and will be incomplete. See VEC for the authoritative post-nomination candidate list.",
+  "districts": {
+    "ALBERT PARK": {
+      "label": "Albert Park",
+      "sitting_party": "Labor",
+      "candidates": [
+        {
+          "name": "Nina Taylor",
+          "party": "Labor"
+        },
+        {
+          "name": "Sonya Semmens",
+          "party": "Greens"
+        },
+        {
+          "name": "Tammy Lindrum",
+          "party": "One Nation"
+        },
+        {
+          "name": "Colleen Bolger",
+          "party": "Socialists"
+        },
+        {
+          "name": "Georgie Dragwidge",
+          "party": "Independent"
+        },
+        {
+          "name": "Daniel O'Neill",
+          "party": "Animal Justice"
+        }
+      ]
+    },
+    "ASHWOOD": {
+      "label": "Ashwood",
+      "sitting_party": "Labor",
+      "candidates": [
+        {
+          "name": "Matt Fregon",
+          "party": "Labor"
+        },
+        {
+          "name": "Theo Zographos",
+          "party": "Liberal"
+        },
+        {
+          "name": "Tim Randall",
+          "party": "Greens"
+        },
+        {
+          "name": "Steven Mitchell",
+          "party": "One Nation"
+        },
+        {
+          "name": "Jacob van der Eynden",
+          "party": "Socialists"
+        },
+        {
+          "name": "Hitendra Joshi",
+          "party": "Independent"
+        }
+      ]
+    },
+    "BASS": {
+      "label": "Bass",
+      "sitting_party": "Labor",
+      "candidates": [
+        {
+          "name": "Chris Buckingham",
+          "party": "Labor"
+        },
+        {
+          "name": "Rochelle Halstead",
+          "party": "Liberal"
+        },
+        {
+          "name": "Sophie Thorn",
+          "party": "Greens"
+        },
+        {
+          "name": "Nikole Schellekens",
+          "party": "One Nation"
+        },
+        {
+          "name": "Chris Jobe",
+          "party": "Socialists"
+        }
+      ]
+    },
+    "BAYSWATER": {
+      "label": "Bayswater",
+      "sitting_party": "Labor",
+      "candidates": [
+        {
+          "name": "Julie Buxton",
+          "party": "Labor"
+        },
+        {
+          "name": "David Kitchen",
+          "party": "Liberal"
+        },
+        {
+          "name": "Jess Kennedy",
+          "party": "Greens"
+        },
+        {
+          "name": "Kayte Bleakney",
+          "party": "One Nation"
+        },
+        {
+          "name": "Alec Ferguson",
+          "party": "Socialists"
+        },
+        {
+          "name": "Gary Coombs",
+          "party": "Family First"
+        }
+      ]
+    },
+    "BELLARINE": {
+      "label": "Bellarine",
+      "sitting_party": "Labor",
+      "candidates": [
+        {
+          "name": "Alison Marchant",
+          "party": "Labor"
+        },
+        {
+          "name": "Callum Whitehead",
+          "party": "Liberal"
+        },
+        {
+          "name": "Mitch Pope",
+          "party": "Greens"
+        },
+        {
+          "name": "Ross McRae",
+          "party": "One Nation"
+        },
+        {
+          "name": "Ronan Keogh",
+          "party": "Socialists"
+        },
+        {
+          "name": "Dom Williams",
+          "party": "Sustainable Australia"
+        }
+      ]
+    },
+    "BENAMBRA": {
+      "label": "Benambra",
+      "sitting_party": "Liberal",
+      "candidates": [
+        {
+          "name": "Steve Martin",
+          "party": "Liberal"
+        },
+        {
+          "name": "Graham Parton",
+          "party": "Greens"
+        },
+        {
+          "name": "Kellie Sheppard",
+          "party": "One Nation"
+        },
+        {
+          "name": "Alex Vangalen",
+          "party": "Socialists"
+        },
+        {
+          "name": "Lachie McKeeman",
+          "party": "Independent"
+        },
+        {
+          "name": "Mike Fruery",
+          "party": "Animal Justice"
+        }
+      ]
+    },
+    "BENDIGO EAST": {
+      "label": "Bendigo East",
+      "sitting_party": "Labor",
+      "candidates": [
+        {
+          "name": "Tim Rickwood",
+          "party": "Labor"
+        },
+        {
+          "name": "Andrew Lethlean",
+          "party": "National"
+        },
+        {
+          "name": "Michael Tolhurst",
+          "party": "Greens"
+        },
+        {
+          "name": "Cheryl Hawken",
+          "party": "One Nation"
+        },
+        {
+          "name": "Denali Norsen",
+          "party": "Socialists"
+        },
+        {
+          "name": "Liz Wright",
+          "party": "Independent"
+        }
+      ]
+    },
+    "BENDIGO WEST": {
+      "label": "Bendigo West",
+      "sitting_party": "Labor",
+      "candidates": [
+        {
+          "name": "Brenton Baldwin",
+          "party": "Labor"
+        },
+        {
+          "name": "David Hutchings",
+          "party": "National"
+        },
+        {
+          "name": "Liza Shaw",
+          "party": "Greens"
+        },
+        {
+          "name": "Ellen Morgan",
+          "party": "One Nation"
+        },
+        {
+          "name": "Tayne Shalevski",
+          "party": "Socialists"
+        }
+      ]
+    },
+    "BENTLEIGH": {
+      "label": "Bentleigh",
+      "sitting_party": "Labor",
+      "candidates": [
+        {
+          "name": "Nick Staikos",
+          "party": "Labor"
+        },
+        {
+          "name": "Tynan Putt",
+          "party": "Liberal"
+        },
+        {
+          "name": "Karli McRostie",
+          "party": "Greens"
+        },
+        {
+          "name": "Herbert Lonsing",
+          "party": "One Nation"
+        },
+        {
+          "name": "Liam Kruger",
+          "party": "Socialists"
+        }
+      ]
+    },
+    "BERWICK": {
+      "label": "Berwick",
+      "sitting_party": "Liberal",
+      "candidates": [
+        {
+          "name": "Rana Khan",
+          "party": "Labor"
+        },
+        {
+          "name": "Brad Battin",
+          "party": "Liberal"
+        },
+        {
+          "name": "Roshan De Silva",
+          "party": "Greens"
+        },
+        {
+          "name": "Michael Piastrino",
+          "party": "One Nation"
+        },
+        {
+          "name": "Nalinda Amarasiri Gunawardana",
+          "party": "Socialists"
+        },
+        {
+          "name": "Vincenzo De Paolis",
+          "party": "Family First"
+        }
+      ]
+    },
+    "BOX HILL": {
+      "label": "Box Hill",
+      "sitting_party": "Labor",
+      "candidates": [
+        {
+          "name": "Paul Hamer",
+          "party": "Labor"
+        },
+        {
+          "name": "Sally Houguet",
+          "party": "Liberal"
+        },
+        {
+          "name": "Aaron Qin",
+          "party": "Greens"
+        },
+        {
+          "name": "Jamie Baker",
+          "party": "One Nation"
+        },
+        {
+          "name": "Saravina Afaj",
+          "party": "Socialists"
+        },
+        {
+          "name": "Heena Sinha Cheung",
+          "party": "Independent"
+        },
+        {
+          "name": "Peter Fagg",
+          "party": "Family First"
+        }
+      ]
+    },
+    "BRIGHTON": {
+      "label": "Brighton",
+      "sitting_party": "Liberal",
+      "candidates": [
+        {
+          "name": "Bridget Mullahy",
+          "party": "Labor"
+        },
+        {
+          "name": "James Newbury",
+          "party": "Liberal"
+        },
+        {
+          "name": "Ebony Bain",
+          "party": "Greens"
+        },
+        {
+          "name": "Alexander Fagan",
+          "party": "One Nation"
+        },
+        {
+          "name": "Jessica Smith",
+          "party": "Socialists"
+        }
+      ]
+    },
+    "BROADMEADOWS": {
+      "label": "Broadmeadows",
+      "sitting_party": "Labor",
+      "candidates": [
+        {
+          "name": "Kathleen Matthews-Ward",
+          "party": "Labor"
+        },
+        {
+          "name": "Maryam Nasim",
+          "party": "Greens"
+        },
+        {
+          "name": "Ethan Keirs",
+          "party": "One Nation"
+        },
+        {
+          "name": "Mutullah Can Yolbulan",
+          "party": "Socialists"
+        },
+        {
+          "name": "Sue Bolton",
+          "party": "Sustainable Australia"
+        },
+        {
+          "name": "Candace Feild",
+          "party": "Animal Justice"
+        }
+      ]
+    },
+    "BRUNSWICK": {
+      "label": "Brunswick",
+      "sitting_party": "Greens",
+      "candidates": [
+        {
+          "name": "Gabriel Steger",
+          "party": "Labor"
+        },
+        {
+          "name": "Adam Pulford",
+          "party": "Greens"
+        },
+        {
+          "name": "Adam Helman",
+          "party": "One Nation"
+        },
+        {
+          "name": "Naomi Farmer",
+          "party": "Socialists"
+        }
+      ]
+    },
+    "BULLEEN": {
+      "label": "Bulleen",
+      "sitting_party": "Liberal",
+      "candidates": [
+        {
+          "name": "Matthew Guy",
+          "party": "Liberal"
+        },
+        {
+          "name": "Tomas Lightbody",
+          "party": "Greens"
+        },
+        {
+          "name": "Mahdi Athari",
+          "party": "One Nation"
+        },
+        {
+          "name": "Dimitrios Tafidis",
+          "party": "Socialists"
+        },
+        {
+          "name": "Greg Rublee",
+          "party": "Independent"
+        }
+      ]
+    },
+    "BUNDOORA": {
+      "label": "Bundoora",
+      "sitting_party": "Labor",
+      "candidates": [
+        {
+          "name": "Colin Brooks",
+          "party": "Labor"
+        },
+        {
+          "name": "Chris Parr",
+          "party": "Liberal"
+        },
+        {
+          "name": "Nina Laitala",
+          "party": "Greens"
+        },
+        {
+          "name": "Bruce Whalley",
+          "party": "One Nation"
+        },
+        {
+          "name": "Sagar Sanyal",
+          "party": "Socialists"
+        },
+        {
+          "name": "Melissa Murphy-Webster",
+          "party": "Independent"
+        },
+        {
+          "name": "Chloe Nicolosi",
+          "party": "Animal Justice"
+        }
+      ]
+    },
+    "CARRUM": {
+      "label": "Carrum",
+      "sitting_party": "Labor",
+      "candidates": [
+        {
+          "name": "Sonya Kilkenny",
+          "party": "Labor"
+        },
+        {
+          "name": "Jeff Shelley",
+          "party": "Liberal"
+        },
+        {
+          "name": "Zoe Pegrum",
+          "party": "Greens"
+        },
+        {
+          "name": "Joshua Mathews",
+          "party": "One Nation"
+        },
+        {
+          "name": "Reema Ababneh",
+          "party": "Socialists"
+        },
+        {
+          "name": "Carolyn Moore",
+          "party": "Animal Justice"
+        }
+      ]
+    },
+    "CAULFIELD": {
+      "label": "Caulfield",
+      "sitting_party": "Liberal",
+      "candidates": [
+        {
+          "name": "Mikaela Stafrace",
+          "party": "Labor"
+        },
+        {
+          "name": "David Southwick",
+          "party": "Liberal"
+        },
+        {
+          "name": "Angel Dolejsí",
+          "party": "Greens"
+        },
+        {
+          "name": "Michael Abelman",
+          "party": "One Nation"
+        },
+        {
+          "name": "Malak Ababneh",
+          "party": "Socialists"
+        },
+        {
+          "name": "Geneviève Gilbert",
+          "party": "Family First"
+        }
+      ]
+    },
+    "CLARINDA": {
+      "label": "Clarinda",
+      "sitting_party": "Labor",
+      "candidates": [
+        {
+          "name": "Meng Heang Tak",
+          "party": "Labor"
+        },
+        {
+          "name": "Conor Boyd-Eedle",
+          "party": "Greens"
+        },
+        {
+          "name": "Gavin Bain",
+          "party": "One Nation"
+        },
+        {
+          "name": "Kit Message",
+          "party": "Socialists"
+        }
+      ]
+    },
+    "CRANBOURNE": {
+      "label": "Cranbourne",
+      "sitting_party": "Labor",
+      "candidates": [
+        {
+          "name": "Pauline Richards",
+          "party": "Labor"
+        },
+        {
+          "name": "Annalise Mercer",
+          "party": "Greens"
+        },
+        {
+          "name": "Andrew Hirst",
+          "party": "One Nation"
+        },
+        {
+          "name": "Reem Yunis",
+          "party": "Socialists"
+        },
+        {
+          "name": "Shane Foreman",
+          "party": "Family First"
+        }
+      ]
+    },
+    "CROYDON": {
+      "label": "Croydon",
+      "sitting_party": "Liberal",
+      "candidates": [
+        {
+          "name": "Richard Farr",
+          "party": "Labor"
+        },
+        {
+          "name": "Toby Wooldridge",
+          "party": "Coalition"
+        },
+        {
+          "name": "Lini Fernando",
+          "party": "Greens"
+        },
+        {
+          "name": "Glenn Brindley",
+          "party": "One Nation"
+        },
+        {
+          "name": "Beth Grimshaw",
+          "party": "Socialists"
+        },
+        {
+          "name": "David Vanderwolf",
+          "party": "Independent"
+        }
+      ]
+    },
+    "DANDENONG": {
+      "label": "Dandenong",
+      "sitting_party": "Labor",
+      "candidates": [
+        {
+          "name": "Gabrielle Williams",
+          "party": "Labor"
+        },
+        {
+          "name": "Catherine D'Arcy",
+          "party": "Greens"
+        },
+        {
+          "name": "Glenda Wright",
+          "party": "One Nation"
+        },
+        {
+          "name": "Jack McMahon",
+          "party": "Socialists"
+        }
+      ]
+    },
+    "EILDON": {
+      "label": "Eildon",
+      "sitting_party": "Liberal",
+      "candidates": [
+        {
+          "name": "Kevin Gibson",
+          "party": "Labor"
+        },
+        {
+          "name": "Cindy McLeish",
+          "party": "Liberal"
+        },
+        {
+          "name": "Talia Gulpilil",
+          "party": "Greens"
+        },
+        {
+          "name": "Tim Barber",
+          "party": "One Nation"
+        },
+        {
+          "name": "Dylan Little",
+          "party": "Socialists"
+        },
+        {
+          "name": "Chloe Bond",
+          "party": "Animal Justice"
+        }
+      ]
+    },
+    "ELTHAM": {
+      "label": "Eltham",
+      "sitting_party": "Labor",
+      "candidates": [
+        {
+          "name": "Vicki Ward",
+          "party": "Labor"
+        },
+        {
+          "name": "Paul Byrnes",
+          "party": "Liberal"
+        },
+        {
+          "name": "Rachel Busbridge",
+          "party": "Greens"
+        },
+        {
+          "name": "Jessie Weatherly",
+          "party": "One Nation"
+        },
+        {
+          "name": "Maeve Riches",
+          "party": "Socialists"
+        }
+      ]
+    },
+    "ESSENDON": {
+      "label": "Essendon",
+      "sitting_party": "Labor",
+      "candidates": [
+        {
+          "name": "Katerine Theodosis",
+          "party": "Labor"
+        },
+        {
+          "name": "Tommy Le Deux",
+          "party": "Liberal"
+        },
+        {
+          "name": "James Williams",
+          "party": "Greens"
+        },
+        {
+          "name": "John Barnes",
+          "party": "One Nation"
+        },
+        {
+          "name": "Michal Kedem",
+          "party": "Socialists"
+        },
+        {
+          "name": "Oscar Yildiz",
+          "party": "Independent"
+        }
+      ]
+    },
+    "EUREKA": {
+      "label": "Eureka",
+      "sitting_party": "Labor",
+      "candidates": [
+        {
+          "name": "Michaela Settle",
+          "party": "Labor"
+        },
+        {
+          "name": "Emma Muir",
+          "party": "Liberal"
+        },
+        {
+          "name": "Sam McColl",
+          "party": "Greens"
+        },
+        {
+          "name": "Paul Ballinger",
+          "party": "One Nation"
+        },
+        {
+          "name": "Andy Raven",
+          "party": "Socialists"
+        },
+        {
+          "name": "Wendy Morrison",
+          "party": "Animal Justice"
+        },
+        {
+          "name": "Ian Harkness",
+          "party": "Family First"
+        }
+      ]
+    },
+    "EUROA": {
+      "label": "Euroa",
+      "sitting_party": "National",
+      "candidates": [
+        {
+          "name": "Annabelle Cleeland",
+          "party": "National"
+        },
+        {
+          "name": "Alysia Regan",
+          "party": "Greens"
+        },
+        {
+          "name": "Steve Campbell",
+          "party": "One Nation"
+        },
+        {
+          "name": "Zoe Lyle",
+          "party": "Socialists"
+        }
+      ]
+    },
+    "EVELYN": {
+      "label": "Evelyn",
+      "sitting_party": "Liberal",
+      "candidates": [
+        {
+          "name": "Analise Sherlock",
+          "party": "Labor"
+        },
+        {
+          "name": "Bridget Vallence",
+          "party": "Liberal"
+        },
+        {
+          "name": "Andrew Henley",
+          "party": "Greens"
+        },
+        {
+          "name": "Daniel Killey",
+          "party": "One Nation"
+        },
+        {
+          "name": "Jan Heald",
+          "party": "Animal Justice"
+        }
+      ]
+    },
+    "FOOTSCRAY": {
+      "label": "Footscray",
+      "sitting_party": "Labor",
+      "candidates": [
+        {
+          "name": "Katie Hall",
+          "party": "Labor"
+        },
+        {
+          "name": "Elena Pereyra",
+          "party": "Greens"
+        },
+        {
+          "name": "Alexander Lopez",
+          "party": "One Nation"
+        },
+        {
+          "name": "Jasmine Duff",
+          "party": "Socialists"
+        },
+        {
+          "name": "Minh Quan Nguyen",
+          "party": "West"
+        },
+        {
+          "name": "Jess Marsh",
+          "party": "Independent"
+        }
+      ]
+    },
+    "FRANKSTON": {
+      "label": "Frankston",
+      "sitting_party": "Labor",
+      "candidates": [
+        {
+          "name": "Paul Edbrooke",
+          "party": "Labor"
+        },
+        {
+          "name": "Bree Ambry",
+          "party": "Liberal"
+        },
+        {
+          "name": "Katie Goulas",
+          "party": "Greens"
+        },
+        {
+          "name": "Paul Stafford",
+          "party": "One Nation"
+        },
+        {
+          "name": "Andrew Cheeseman",
+          "party": "Socialists"
+        },
+        {
+          "name": "Chrysten Abraham",
+          "party": "Independent"
+        },
+        {
+          "name": "Julie Harman",
+          "party": "Animal Justice"
+        }
+      ]
+    },
+    "GEELONG": {
+      "label": "Geelong",
+      "sitting_party": "Labor",
+      "candidates": [
+        {
+          "name": "Christine Couzens",
+          "party": "Labor"
+        },
+        {
+          "name": "Andy Pobjoy",
+          "party": "Liberal"
+        },
+        {
+          "name": "Emilie Flynn",
+          "party": "Greens"
+        },
+        {
+          "name": "John De Lorenzo",
+          "party": "One Nation"
+        },
+        {
+          "name": "Bree Vanderpol",
+          "party": "Socialists"
+        },
+        {
+          "name": "Brenden Grull",
+          "party": "Sustainable Australia"
+        }
+      ]
+    },
+    "GIPPSLAND EAST": {
+      "label": "Gippsland East",
+      "sitting_party": "National",
+      "candidates": [
+        {
+          "name": "Sonny Stephens",
+          "party": "Labor"
+        },
+        {
+          "name": "Gemma Rendell",
+          "party": "National"
+        },
+        {
+          "name": "Ash Munro",
+          "party": "Greens"
+        },
+        {
+          "name": "Steve Goodman",
+          "party": "One Nation"
+        },
+        {
+          "name": "Amy Espeseth",
+          "party": "Socialists"
+        }
+      ]
+    },
+    "GIPPSLAND SOUTH": {
+      "label": "Gippsland South",
+      "sitting_party": "National",
+      "candidates": [
+        {
+          "name": "Danny O'Brien",
+          "party": "National"
+        },
+        {
+          "name": "Zave Evans",
+          "party": "Greens"
+        },
+        {
+          "name": "Bianca Wilke",
+          "party": "One Nation"
+        },
+        {
+          "name": "Lachie McGennisken",
+          "party": "Socialists"
+        }
+      ]
+    },
+    "GLEN WAVERLEY": {
+      "label": "Glen Waverley",
+      "sitting_party": "Labor",
+      "candidates": [
+        {
+          "name": "John Mullahy",
+          "party": "Labor"
+        },
+        {
+          "name": "Jacky Sun",
+          "party": "Liberal"
+        },
+        {
+          "name": "Toyo White",
+          "party": "Greens"
+        },
+        {
+          "name": "Brad Cox",
+          "party": "One Nation"
+        },
+        {
+          "name": "Nicholas Siow",
+          "party": "Socialists"
+        }
+      ]
+    },
+    "GREENVALE": {
+      "label": "Greenvale",
+      "sitting_party": "Labor",
+      "candidates": [
+        {
+          "name": "Iwan Walters",
+          "party": "Labor"
+        },
+        {
+          "name": "Jim Overend",
+          "party": "Liberal"
+        },
+        {
+          "name": "Declan McGinness",
+          "party": "Greens"
+        },
+        {
+          "name": "Chris Moore",
+          "party": "One Nation"
+        },
+        {
+          "name": "Kirill Smelov",
+          "party": "Socialists"
+        },
+        {
+          "name": "Rosanna Furina",
+          "party": "Animal Justice"
+        }
+      ]
+    },
+    "HASTINGS": {
+      "label": "Hastings",
+      "sitting_party": "Labor",
+      "candidates": [
+        {
+          "name": "Paul Mercurio",
+          "party": "Labor"
+        },
+        {
+          "name": "Frank Schiefler",
+          "party": "Liberal"
+        },
+        {
+          "name": "Isaac Willoughby",
+          "party": "Greens"
+        },
+        {
+          "name": "Peter Angelico",
+          "party": "One Nation"
+        },
+        {
+          "name": "Michael Denman",
+          "party": "Socialists"
+        },
+        {
+          "name": "Chloe Coulson",
+          "party": "Animal Justice"
+        }
+      ]
+    },
+    "HAWTHORN": {
+      "label": "Hawthorn",
+      "sitting_party": "Liberal",
+      "candidates": [
+        {
+          "name": "Clive Crosby",
+          "party": "Labor"
+        },
+        {
+          "name": "John Pesutto",
+          "party": "Liberal"
+        },
+        {
+          "name": "Kylie Rocha",
+          "party": "Greens"
+        },
+        {
+          "name": "Paul Pribilovics",
+          "party": "One Nation"
+        },
+        {
+          "name": "Tess McEnearney",
+          "party": "Socialists"
+        },
+        {
+          "name": "Shima Ibuki",
+          "party": "Independent"
+        }
+      ]
+    },
+    "IVANHOE": {
+      "label": "Ivanhoe",
+      "sitting_party": "Labor",
+      "candidates": [
+        {
+          "name": "Anthony Carbines",
+          "party": "Labor"
+        },
+        {
+          "name": "Oscar Lopez",
+          "party": "Liberal"
+        },
+        {
+          "name": "Nina Crawley",
+          "party": "Greens"
+        },
+        {
+          "name": "Wayne Hutchins",
+          "party": "One Nation"
+        },
+        {
+          "name": "Ben Milne",
+          "party": "Socialists"
+        },
+        {
+          "name": "Michelle Kennedy",
+          "party": "Independent"
+        }
+      ]
+    },
+    "KALKALLO": {
+      "label": "Kalkallo",
+      "sitting_party": "Labor",
+      "candidates": [
+        {
+          "name": "Ros Spence",
+          "party": "Labor"
+        },
+        {
+          "name": "Payal Tiwari",
+          "party": "Greens"
+        },
+        {
+          "name": "Troy Steans",
+          "party": "One Nation"
+        },
+        {
+          "name": "Courtney Millett",
+          "party": "Socialists"
+        }
+      ]
+    },
+    "KEW": {
+      "label": "Kew",
+      "sitting_party": "Liberal",
+      "candidates": [
+        {
+          "name": "David Sun",
+          "party": "Labor"
+        },
+        {
+          "name": "Jess Wilson",
+          "party": "Liberal"
+        },
+        {
+          "name": "Jackie Carter",
+          "party": "Greens"
+        },
+        {
+          "name": "David Laird",
+          "party": "One Nation"
+        },
+        {
+          "name": "Samantha Lincolne",
+          "party": "Socialists"
+        },
+        {
+          "name": "Sophie Torney",
+          "party": "Independent"
+        },
+        {
+          "name": "Ann Seeley",
+          "party": "Family First"
+        }
+      ]
+    },
+    "KOROROIT": {
+      "label": "Kororoit",
+      "sitting_party": "Labor",
+      "candidates": [
+        {
+          "name": "Luba Grigorovitch",
+          "party": "Labor"
+        },
+        {
+          "name": "Joyce McDonald",
+          "party": "Greens"
+        },
+        {
+          "name": "Seva Melnikov",
+          "party": "One Nation"
+        },
+        {
+          "name": "Rayan Hassan",
+          "party": "Socialists"
+        },
+        {
+          "name": "Vasundhara Kandpal",
+          "party": "Animal Justice"
+        },
+        {
+          "name": "Donna Southern",
+          "party": "West"
+        }
+      ]
+    },
+    "LARA": {
+      "label": "Lara",
+      "sitting_party": "Labor",
+      "candidates": [
+        {
+          "name": "Ella George",
+          "party": "Labor"
+        },
+        {
+          "name": "Theresa Slater",
+          "party": "Greens"
+        },
+        {
+          "name": "Stephen Spyros",
+          "party": "One Nation"
+        },
+        {
+          "name": "Oliver Randall",
+          "party": "Socialists"
+        },
+        {
+          "name": "Sarah Hathway",
+          "party": "Sustainable Australia"
+        }
+      ]
+    },
+    "LAVERTON": {
+      "label": "Laverton",
+      "sitting_party": "Labor",
+      "candidates": [
+        {
+          "name": "Sarah Connolly",
+          "party": "Labor"
+        },
+        {
+          "name": "Ghada Noune",
+          "party": "Liberal"
+        },
+        {
+          "name": "Lucy Nguyen",
+          "party": "Greens"
+        },
+        {
+          "name": "Rufo Paredes",
+          "party": "One Nation"
+        },
+        {
+          "name": "Van Thanh Rudd",
+          "party": "Socialists"
+        },
+        {
+          "name": "Shohre Mansouri",
+          "party": "Animal Justice"
+        }
+      ]
+    },
+    "LOWAN": {
+      "label": "Lowan",
+      "sitting_party": "National",
+      "candidates": [
+        {
+          "name": "Emma Kealy",
+          "party": "National"
+        },
+        {
+          "name": "Jeff Moran",
+          "party": "Greens"
+        },
+        {
+          "name": "Andrew Partridge",
+          "party": "One Nation"
+        },
+        {
+          "name": "Jos Downey",
+          "party": "Socialists"
+        },
+        {
+          "name": "Lee Ann Elms",
+          "party": "Family First"
+        }
+      ]
+    },
+    "MACEDON": {
+      "label": "Macedon",
+      "sitting_party": "Labor",
+      "candidates": [
+        {
+          "name": "Annette Death",
+          "party": "Labor"
+        },
+        {
+          "name": "Kate Kendall",
+          "party": "Liberal"
+        },
+        {
+          "name": "Marley McRae McLeod",
+          "party": "Greens"
+        },
+        {
+          "name": "Damien Parolin",
+          "party": "One Nation"
+        },
+        {
+          "name": "Catherine Wilson",
+          "party": "Socialists"
+        },
+        {
+          "name": "Natalie Korinfsky",
+          "party": "Animal Justice"
+        }
+      ]
+    },
+    "MALVERN": {
+      "label": "Malvern",
+      "sitting_party": "Liberal",
+      "candidates": [
+        {
+          "name": "Amelia Hamer",
+          "party": "Liberal"
+        },
+        {
+          "name": "Georgia Katsikis",
+          "party": "Greens"
+        },
+        {
+          "name": "Edward Bode",
+          "party": "One Nation"
+        },
+        {
+          "name": "Gavin Leonard",
+          "party": "Socialists"
+        },
+        {
+          "name": "Christina Zigouras",
+          "party": "Independent"
+        }
+      ]
+    },
+    "MELBOURNE": {
+      "label": "Melbourne",
+      "sitting_party": "Greens",
+      "candidates": [
+        {
+          "name": "Davydd Griffiths",
+          "party": "Labor"
+        },
+        {
+          "name": "Ellen Sandell",
+          "party": "Greens"
+        },
+        {
+          "name": "Matthew Collins",
+          "party": "One Nation"
+        },
+        {
+          "name": "Jordan van den Lamb",
+          "party": "Socialists"
+        },
+        {
+          "name": "Naomi Jones",
+          "party": "Animal Justice"
+        }
+      ]
+    },
+    "MELTON": {
+      "label": "Melton",
+      "sitting_party": "Labor",
+      "candidates": [
+        {
+          "name": "Broden Borg",
+          "party": "Labor"
+        },
+        {
+          "name": "Jarrod Bingham",
+          "party": "Liberal"
+        },
+        {
+          "name": "Veronika Levchenkova",
+          "party": "Greens"
+        },
+        {
+          "name": "Matthew Katselis",
+          "party": "One Nation"
+        },
+        {
+          "name": "Fiona Adin-Jones",
+          "party": "Animal Justice"
+        },
+        {
+          "name": "Marlene West",
+          "party": "Family First"
+        }
+      ]
+    },
+    "MILDURA": {
+      "label": "Mildura",
+      "sitting_party": "National",
+      "candidates": [
+        {
+          "name": "Jade Benham",
+          "party": "National"
+        },
+        {
+          "name": "Katie Clements",
+          "party": "Greens"
+        },
+        {
+          "name": "Guy Cooper",
+          "party": "One Nation"
+        },
+        {
+          "name": "Renee Nayef",
+          "party": "Socialists"
+        },
+        {
+          "name": "Ali Cupper",
+          "party": "Independent"
+        }
+      ]
+    },
+    "MILL PARK": {
+      "label": "Mill Park",
+      "sitting_party": "Labor",
+      "candidates": [
+        {
+          "name": "Elizabeth Nealy",
+          "party": "Labor"
+        },
+        {
+          "name": "Joel Drysdale",
+          "party": "Liberal"
+        },
+        {
+          "name": "Binoy Zacharias",
+          "party": "Greens"
+        },
+        {
+          "name": "Arthur Tsoutsoulis",
+          "party": "One Nation"
+        },
+        {
+          "name": "Jesse Lambourn",
+          "party": "Socialists"
+        },
+        {
+          "name": "Eve Levens",
+          "party": "Animal Justice"
+        }
+      ]
+    },
+    "MONBULK": {
+      "label": "Monbulk",
+      "sitting_party": "Labor",
+      "candidates": [
+        {
+          "name": "Daniela De Martino",
+          "party": "Labor"
+        },
+        {
+          "name": "Clare Fitzmaurice",
+          "party": "Liberal"
+        },
+        {
+          "name": "Merran Blair",
+          "party": "Greens"
+        },
+        {
+          "name": "Adrian Dowell",
+          "party": "One Nation"
+        },
+        {
+          "name": "Alyssa Wormald",
+          "party": "Animal Justice"
+        },
+        {
+          "name": "Craig Manners",
+          "party": "Family First"
+        }
+      ]
+    },
+    "MORDIALLOC": {
+      "label": "Mordialloc",
+      "sitting_party": "Labor",
+      "candidates": [
+        {
+          "name": "Tim Richardson",
+          "party": "Labor"
+        },
+        {
+          "name": "Paul O'Halloran",
+          "party": "Liberal"
+        },
+        {
+          "name": "Alex Breskin",
+          "party": "Greens"
+        },
+        {
+          "name": "Nadia Ticehurst",
+          "party": "One Nation"
+        },
+        {
+          "name": "Mahee Hossain",
+          "party": "Socialists"
+        }
+      ]
+    },
+    "MORNINGTON": {
+      "label": "Mornington",
+      "sitting_party": "Liberal",
+      "candidates": [
+        {
+          "name": "Chris Crewther",
+          "party": "Liberal"
+        },
+        {
+          "name": "Kai Titcher",
+          "party": "Greens"
+        },
+        {
+          "name": "Ashli Beards",
+          "party": "One Nation"
+        },
+        {
+          "name": "Gene Brownlie",
+          "party": "Socialists"
+        },
+        {
+          "name": "Adrian Maher Melissa Goffin",
+          "party": "Independent"
+        }
+      ]
+    },
+    "MORWELL": {
+      "label": "Morwell",
+      "sitting_party": "National",
+      "candidates": [
+        {
+          "name": "Tracie Lund",
+          "party": "Labor"
+        },
+        {
+          "name": "Martin Cameron",
+          "party": "National"
+        },
+        {
+          "name": "Rochelle Hine",
+          "party": "Greens"
+        },
+        {
+          "name": "Casey Murphy",
+          "party": "One Nation"
+        }
+      ]
+    },
+    "MULGRAVE": {
+      "label": "Mulgrave",
+      "sitting_party": "Labor",
+      "candidates": [
+        {
+          "name": "Eden Foster",
+          "party": "Labor"
+        },
+        {
+          "name": "Charles Tran",
+          "party": "Liberal"
+        },
+        {
+          "name": "Paul Schofield",
+          "party": "Greens"
+        },
+        {
+          "name": "Cody Rebbechi",
+          "party": "One Nation"
+        },
+        {
+          "name": "Connor Buchanan",
+          "party": "Socialists"
+        },
+        {
+          "name": "Ian Cook",
+          "party": "Independent"
+        }
+      ]
+    },
+    "MURRAY PLAINS": {
+      "label": "Murray Plains",
+      "sitting_party": "National",
+      "candidates": [
+        {
+          "name": "Brett Hosking",
+          "party": "National"
+        },
+        {
+          "name": "Zoe Cook",
+          "party": "Greens"
+        },
+        {
+          "name": "Garner Smith",
+          "party": "One Nation"
+        }
+      ]
+    },
+    "NARRACAN": {
+      "label": "Narracan",
+      "sitting_party": "Liberal",
+      "candidates": [
+        {
+          "name": "Jannette Langley",
+          "party": "Labor"
+        },
+        {
+          "name": "Wayne Farnham",
+          "party": "Liberal"
+        },
+        {
+          "name": "Alyssa Weaver",
+          "party": "Greens"
+        },
+        {
+          "name": "Ben Lucas",
+          "party": "One Nation"
+        },
+        {
+          "name": "Moss Page",
+          "party": "Socialists"
+        },
+        {
+          "name": "Geoff Dethlefs",
+          "party": "Family First"
+        }
+      ]
+    },
+    "NARRE WARREN NORTH": {
+      "label": "Narre Warren North",
+      "sitting_party": "Labor",
+      "candidates": [
+        {
+          "name": "Belinda Wilson",
+          "party": "Labor"
+        },
+        {
+          "name": "Hayley Perry",
+          "party": "Greens"
+        },
+        {
+          "name": "Sebastian Crutchfield",
+          "party": "One Nation"
+        },
+        {
+          "name": "Lachlan McCracken",
+          "party": "Socialists"
+        }
+      ]
+    },
+    "NARRE WARREN SOUTH": {
+      "label": "Narre Warren South",
+      "sitting_party": "Labor",
+      "candidates": [
+        {
+          "name": "Stefan Koomen",
+          "party": "Labor"
+        },
+        {
+          "name": "Norliah Peterson",
+          "party": "Liberal"
+        },
+        {
+          "name": "Jill Nambu",
+          "party": "Greens"
+        },
+        {
+          "name": "Trevor Hammond",
+          "party": "One Nation"
+        },
+        {
+          "name": "Bailey McCracken",
+          "party": "Socialists"
+        },
+        {
+          "name": "Scott Watson",
+          "party": "Independent"
+        }
+      ]
+    },
+    "NEPEAN": {
+      "label": "Nepean",
+      "sitting_party": "Liberal",
+      "candidates": [
+        {
+          "name": "Kim Robbins",
+          "party": "Independent"
+        },
+        {
+          "name": "Anthony Marsh",
+          "party": "Liberal"
+        },
+        {
+          "name": "Sianan Healy",
+          "party": "Greens"
+        },
+        {
+          "name": "Darren Hercus",
+          "party": "One Nation"
+        },
+        {
+          "name": "Seth Willcocks",
+          "party": "Socialists"
+        },
+        {
+          "name": "Mike Brown",
+          "party": "Family First"
+        }
+      ]
+    },
+    "NIDDRIE": {
+      "label": "Niddrie",
+      "sitting_party": "Labor",
+      "candidates": [
+        {
+          "name": "Ben Carroll",
+          "party": "Labor"
+        },
+        {
+          "name": "Samantha Byrne",
+          "party": "Liberal"
+        },
+        {
+          "name": "Lana Nguyen",
+          "party": "Greens"
+        },
+        {
+          "name": "Jason Taverna",
+          "party": "One Nation"
+        },
+        {
+          "name": "Brendan Laws",
+          "party": "Socialists"
+        },
+        {
+          "name": "Elisabetta Celata",
+          "party": "West"
+        },
+        {
+          "name": "Salomae Haselgrove",
+          "party": "Animal Justice"
+        }
+      ]
+    },
+    "NORTHCOTE": {
+      "label": "Northcote",
+      "sitting_party": "Labor",
+      "candidates": [
+        {
+          "name": "Kat Theophanous",
+          "party": "Labor"
+        },
+        {
+          "name": "Lynda Awad",
+          "party": "Liberal"
+        },
+        {
+          "name": "Campbell Gome",
+          "party": "Greens"
+        },
+        {
+          "name": "Kath Larkin",
+          "party": "Socialists"
+        },
+        {
+          "name": "Jim Penman",
+          "party": "LBT"
+        }
+      ]
+    },
+    "OAKLEIGH": {
+      "label": "Oakleigh",
+      "sitting_party": "Labor",
+      "candidates": [
+        {
+          "name": "Steve Dimopoulos",
+          "party": "Labor"
+        },
+        {
+          "name": "Martin Jung",
+          "party": "Liberal"
+        },
+        {
+          "name": "Hsiang Han-Hsieh",
+          "party": "Greens"
+        },
+        {
+          "name": "Brooke Carter",
+          "party": "One Nation"
+        },
+        {
+          "name": "Rowdy Bugter",
+          "party": "Socialists"
+        }
+      ]
+    },
+    "OVENS VALLEY": {
+      "label": "Ovens Valley",
+      "sitting_party": "National",
+      "candidates": [
+        {
+          "name": "Tim McCurdy",
+          "party": "National"
+        },
+        {
+          "name": "Ben Gilbert",
+          "party": "Greens"
+        },
+        {
+          "name": "James Rouel",
+          "party": "One Nation"
+        },
+        {
+          "name": "Steve Manning",
+          "party": "Independent"
+        }
+      ]
+    },
+    "PAKENHAM": {
+      "label": "Pakenham",
+      "sitting_party": "Labor",
+      "candidates": [
+        {
+          "name": "Alessandra Soliven",
+          "party": "Labor"
+        },
+        {
+          "name": "Radmila Dyson",
+          "party": "Liberal"
+        },
+        {
+          "name": "Nasser Yawari",
+          "party": "Greens"
+        },
+        {
+          "name": "Warren Pickering",
+          "party": "One Nation"
+        },
+        {
+          "name": "Stephanie Grigg",
+          "party": "Socialists"
+        },
+        {
+          "name": "Raymond French",
+          "party": "Independent"
+        }
+      ]
+    },
+    "PASCOE VALE": {
+      "label": "Pascoe Vale",
+      "sitting_party": "Labor",
+      "candidates": [
+        {
+          "name": "Anthony Cianflone",
+          "party": "Labor"
+        },
+        {
+          "name": "Angelica Panopoulos",
+          "party": "Greens"
+        },
+        {
+          "name": "Andrew Forehan",
+          "party": "One Nation"
+        },
+        {
+          "name": "Yasemin Shamsili",
+          "party": "Socialists"
+        },
+        {
+          "name": "Jacob Andrewartha",
+          "party": "Sustainable Australia"
+        },
+        {
+          "name": "Kathrine Ashton",
+          "party": "Family First"
+        }
+      ]
+    },
+    "POINT COOK": {
+      "label": "Point Cook",
+      "sitting_party": "Labor",
+      "candidates": [
+        {
+          "name": "Mathew Hilakari",
+          "party": "Labor"
+        },
+        {
+          "name": "Raja Reddy",
+          "party": "Liberal"
+        },
+        {
+          "name": "Ponraj Krishna Pandi",
+          "party": "Greens"
+        },
+        {
+          "name": "Cameron Reid",
+          "party": "One Nation"
+        },
+        {
+          "name": "Taylor Laine",
+          "party": "Socialists"
+        },
+        {
+          "name": "Mark Grech",
+          "party": "West"
+        }
+      ]
+    },
+    "POLWARTH": {
+      "label": "Polwarth",
+      "sitting_party": "Liberal",
+      "candidates": [
+        {
+          "name": "Hutch Hussein",
+          "party": "Labor"
+        },
+        {
+          "name": "Richard Riordan",
+          "party": "Liberal"
+        },
+        {
+          "name": "Jesse Holden",
+          "party": "Greens"
+        },
+        {
+          "name": "Anna Malcolm",
+          "party": "One Nation"
+        }
+      ]
+    },
+    "PRAHRAN": {
+      "label": "Prahran",
+      "sitting_party": "Liberal",
+      "candidates": [
+        {
+          "name": "Meghan Hopper",
+          "party": "Labor"
+        },
+        {
+          "name": "Rachel Westaway",
+          "party": "Liberal"
+        },
+        {
+          "name": "Angelica Di Camillo",
+          "party": "Greens"
+        },
+        {
+          "name": "Shaun Virsu",
+          "party": "One Nation"
+        },
+        {
+          "name": "Clayton Doueihi",
+          "party": "Socialists"
+        }
+      ]
+    },
+    "PRESTON": {
+      "label": "Preston",
+      "sitting_party": "Labor",
+      "candidates": [
+        {
+          "name": "Nathan Lambert",
+          "party": "Labor"
+        },
+        {
+          "name": "Loki Sangarya",
+          "party": "Greens"
+        },
+        {
+          "name": "Franco Guardiani",
+          "party": "One Nation"
+        },
+        {
+          "name": "Serena Ashmore",
+          "party": "Socialists"
+        },
+        {
+          "name": "Rachel Unicomb",
+          "party": "Animal Justice"
+        }
+      ]
+    },
+    "RICHMOND": {
+      "label": "Richmond",
+      "sitting_party": "Greens",
+      "candidates": [
+        {
+          "name": "Sarah McKenzie",
+          "party": "Labor"
+        },
+        {
+          "name": "Gabrielle de Vietri",
+          "party": "Greens"
+        },
+        {
+          "name": "Harrison Rindfleish",
+          "party": "One Nation"
+        },
+        {
+          "name": "Chris Dite",
+          "party": "Socialists"
+        },
+        {
+          "name": "David Meyer",
+          "party": "Independent"
+        }
+      ]
+    },
+    "RINGWOOD": {
+      "label": "Ringwood",
+      "sitting_party": "Independent",
+      "candidates": [
+        {
+          "name": "Rachel Halse",
+          "party": "Labor"
+        },
+        {
+          "name": "Nick McGowan",
+          "party": "Liberal"
+        },
+        {
+          "name": "Amy Mills",
+          "party": "Greens"
+        },
+        {
+          "name": "John O'Connor",
+          "party": "One Nation"
+        },
+        {
+          "name": "Jack Gardner",
+          "party": "Socialists"
+        },
+        {
+          "name": "Prue Cutts",
+          "party": "Independent"
+        }
+      ]
+    },
+    "RIPON": {
+      "label": "Ripon",
+      "sitting_party": "Labor",
+      "candidates": [
+        {
+          "name": "Martha Haylett",
+          "party": "Labor"
+        },
+        {
+          "name": "Jo Armstrong (N)Megan Read",
+          "party": "Liberal"
+        },
+        {
+          "name": "Tim Drylie",
+          "party": "Greens"
+        },
+        {
+          "name": "Donna Buxton",
+          "party": "One Nation"
+        },
+        {
+          "name": "Taylah Brennan-Jones",
+          "party": "Socialists"
+        }
+      ]
+    },
+    "ROWVILLE": {
+      "label": "Rowville",
+      "sitting_party": "Liberal",
+      "candidates": [
+        {
+          "name": "Muhammad Shahbaz",
+          "party": "Labor"
+        },
+        {
+          "name": "Max Williams",
+          "party": "Liberal"
+        },
+        {
+          "name": "Dave Massey",
+          "party": "Greens"
+        },
+        {
+          "name": "Bradley Watt",
+          "party": "One Nation"
+        },
+        {
+          "name": "Lars Hiemstra",
+          "party": "Socialists"
+        }
+      ]
+    },
+    "SANDRINGHAM": {
+      "label": "Sandringham",
+      "sitting_party": "Liberal",
+      "candidates": [
+        {
+          "name": "Anastasia Sagris-Desmond",
+          "party": "Labor"
+        },
+        {
+          "name": "Brad Rowswell",
+          "party": "Liberal"
+        },
+        {
+          "name": "Timon Fotakis",
+          "party": "Greens"
+        },
+        {
+          "name": "Anthony Blight",
+          "party": "One Nation"
+        },
+        {
+          "name": "Lauren Stevenson",
+          "party": "Socialists"
+        }
+      ]
+    },
+    "SHEPPARTON": {
+      "label": "Shepparton",
+      "sitting_party": "National",
+      "candidates": [
+        {
+          "name": "Cayla Fin",
+          "party": "Labor"
+        },
+        {
+          "name": "Grace Verney",
+          "party": "Greens"
+        },
+        {
+          "name": "Phillip Bryant",
+          "party": "One Nation"
+        },
+        {
+          "name": "Karen Hocking",
+          "party": "Socialists"
+        }
+      ]
+    },
+    "SOUTH BARWON": {
+      "label": "South Barwon",
+      "sitting_party": "Independent",
+      "candidates": [
+        {
+          "name": "Rebecca Thistleton",
+          "party": "Labor"
+        },
+        {
+          "name": "Libby Pettit",
+          "party": "Liberal"
+        },
+        {
+          "name": "Izzy Scherrer",
+          "party": "Greens"
+        },
+        {
+          "name": "Josh Geard",
+          "party": "One Nation"
+        },
+        {
+          "name": "Madilyn Gorman",
+          "party": "Socialists"
+        },
+        {
+          "name": "Freya Hedley",
+          "party": "Sustainable Australia"
+        },
+        {
+          "name": "Ron Nelson",
+          "party": "Independent"
+        }
+      ]
+    },
+    "SOUTH-WEST COAST": {
+      "label": "South-West Coast",
+      "sitting_party": "Liberal",
+      "candidates": [
+        {
+          "name": "Andrew Govanstone",
+          "party": "Labor"
+        },
+        {
+          "name": "Roma Britnell",
+          "party": "Liberal"
+        },
+        {
+          "name": "Silver Rose",
+          "party": "Greens"
+        },
+        {
+          "name": "Richard Hughes",
+          "party": "One Nation"
+        },
+        {
+          "name": "Hera Sheppard",
+          "party": "Socialists"
+        },
+        {
+          "name": "Tamhas Buchan",
+          "party": "Family First"
+        }
+      ]
+    },
+    "ST ALBANS": {
+      "label": "St Albans",
+      "sitting_party": "Labor",
+      "candidates": [
+        {
+          "name": "Natalie Suleyman",
+          "party": "Labor"
+        },
+        {
+          "name": "Bao Huynh",
+          "party": "Greens"
+        },
+        {
+          "name": "John Cowell",
+          "party": "One Nation"
+        },
+        {
+          "name": "Leanna Nguyen",
+          "party": "Socialists"
+        },
+        {
+          "name": "Luận Walker",
+          "party": "West"
+        }
+      ]
+    },
+    "SUNBURY": {
+      "label": "Sunbury",
+      "sitting_party": "Labor",
+      "candidates": [
+        {
+          "name": "Josh Bull",
+          "party": "Labor"
+        },
+        {
+          "name": "Simmone Cottom",
+          "party": "Liberal"
+        },
+        {
+          "name": "Lauren Granger-Brown",
+          "party": "Greens"
+        },
+        {
+          "name": "Elita Dabrowski",
+          "party": "One Nation"
+        },
+        {
+          "name": "Adam Bremner",
+          "party": "Socialists"
+        }
+      ]
+    },
+    "SYDENHAM": {
+      "label": "Sydenham",
+      "sitting_party": "Labor",
+      "candidates": [
+        {
+          "name": "Uros Rasic",
+          "party": "Labor"
+        },
+        {
+          "name": "Nathalie Moussi",
+          "party": "Liberal"
+        },
+        {
+          "name": "Maggie Jane",
+          "party": "Greens"
+        },
+        {
+          "name": "Joh Bauch",
+          "party": "One Nation"
+        },
+        {
+          "name": "Shania Khan",
+          "party": "Socialists"
+        },
+        {
+          "name": "Maria Kerr",
+          "party": "Independent"
+        },
+        {
+          "name": "Ashley Vandenburg",
+          "party": "Independent"
+        },
+        {
+          "name": "Bruce Lancashire",
+          "party": "West"
+        }
+      ]
+    },
+    "TARNEIT": {
+      "label": "Tarneit",
+      "sitting_party": "Labor",
+      "candidates": [
+        {
+          "name": "Dylan Wight",
+          "party": "Labor"
+        },
+        {
+          "name": "Rifai Raheem",
+          "party": "Greens"
+        },
+        {
+          "name": "Walter Villagonzalo",
+          "party": "One Nation"
+        },
+        {
+          "name": "Leah Van Koulen",
+          "party": "Socialists"
+        },
+        {
+          "name": "Andrew Elsbury",
+          "party": "West"
+        },
+        {
+          "name": "Maurita Rahn",
+          "party": "Animal Justice"
+        }
+      ]
+    },
+    "THOMASTOWN": {
+      "label": "Thomastown",
+      "sitting_party": "Labor",
+      "candidates": [
+        {
+          "name": "Bronwyn Halfpenny",
+          "party": "Labor"
+        },
+        {
+          "name": "Nadia Anthony",
+          "party": "One Nation"
+        },
+        {
+          "name": "Priya Reddy",
+          "party": "Socialists"
+        }
+      ]
+    },
+    "WARRANDYTE": {
+      "label": "Warrandyte",
+      "sitting_party": "Liberal",
+      "candidates": [
+        {
+          "name": "Nicole Werner",
+          "party": "Liberal"
+        },
+        {
+          "name": "Mark Burnside",
+          "party": "One Nation"
+        },
+        {
+          "name": "John Stanley",
+          "party": "Socialists"
+        }
+      ]
+    },
+    "WENDOUREE": {
+      "label": "Wendouree",
+      "sitting_party": "Labor",
+      "candidates": [
+        {
+          "name": "Juliana Addison",
+          "party": "Labor"
+        },
+        {
+          "name": "Ellen Burns",
+          "party": "Greens"
+        },
+        {
+          "name": "Stuart Robinson",
+          "party": "One Nation"
+        },
+        {
+          "name": "Chris Meagher",
+          "party": "Socialists"
+        },
+        {
+          "name": "Melissa Collins",
+          "party": "Animal Justice"
+        },
+        {
+          "name": "Ruth Byrne",
+          "party": "Family First"
+        }
+      ]
+    },
+    "WERRIBEE": {
+      "label": "Werribee",
+      "sitting_party": "Labor",
+      "candidates": [
+        {
+          "name": "John Lister",
+          "party": "Labor"
+        },
+        {
+          "name": "Reece Clark",
+          "party": "Liberal"
+        },
+        {
+          "name": "Tushar Kumar",
+          "party": "Greens"
+        },
+        {
+          "name": "Paul Pateras",
+          "party": "One Nation"
+        },
+        {
+          "name": "Sue Munro",
+          "party": "Socialists"
+        },
+        {
+          "name": "Paul Hopper",
+          "party": "West"
+        },
+        {
+          "name": "Matthew Emerson",
+          "party": "Family First"
+        }
+      ]
+    },
+    "WILLIAMSTOWN": {
+      "label": "Williamstown",
+      "sitting_party": "Labor",
+      "candidates": [
+        {
+          "name": "Melissa Horne",
+          "party": "Labor"
+        },
+        {
+          "name": "Paul Lindemann",
+          "party": "Liberal"
+        },
+        {
+          "name": "Ben Hocking",
+          "party": "Greens"
+        },
+        {
+          "name": "Catherine Loughnan",
+          "party": "One Nation"
+        },
+        {
+          "name": "Oskar Martin",
+          "party": "Socialists"
+        },
+        {
+          "name": "Gil Gannon",
+          "party": "West"
+        },
+        {
+          "name": "Tony Briffa",
+          "party": "Independent"
+        }
+      ]
+    },
+    "YAN YEAN": {
+      "label": "Yan Yean",
+      "sitting_party": "Labor",
+      "candidates": [
+        {
+          "name": "Lauren Kathage",
+          "party": "Labor"
+        },
+        {
+          "name": "Amanda Dow",
+          "party": "Liberal"
+        },
+        {
+          "name": "Gufran Mohammed",
+          "party": "Greens"
+        },
+        {
+          "name": "Jeremy Johnson",
+          "party": "One Nation"
+        },
+        {
+          "name": "Andrew Bell",
+          "party": "Socialists"
+        },
+        {
+          "name": "Sinan Okatan",
+          "party": "Animal Justice"
+        }
+      ]
+    }
+  },
+  "regions": {
+    "EASTERN VICTORIA": {
+      "label": "Eastern Victoria Region",
+      "candidates": [
+        {
+          "name": "Renee Heath",
+          "party": "Coalition"
+        },
+        {
+          "name": "Melina Bath",
+          "party": "Coalition"
+        },
+        {
+          "name": "Matt Green",
+          "party": "Coalition"
+        },
+        {
+          "name": "Mat Morgan",
+          "party": "Greens"
+        },
+        {
+          "name": "Danielle Burridge",
+          "party": "Legalise Cannabis"
+        },
+        {
+          "name": "Neil Davison",
+          "party": "One Nation"
+        },
+        {
+          "name": "Helen Jaeges",
+          "party": "AJP"
+        },
+        {
+          "name": "Max Forward",
+          "party": "Socialists"
+        },
+        {
+          "name": "Reade Smith",
+          "party": "Sustainable"
+        },
+        {
+          "name": "Antoinette Pitt",
+          "party": "Independent"
+        }
+      ]
+    },
+    "NORTH-EASTERN METROPOLITAN": {
+      "label": "North-Eastern Metropolitan Region",
+      "candidates": [
+        {
+          "name": "Richard Welch",
+          "party": "Liberal"
+        },
+        {
+          "name": "Deirdre Diamante",
+          "party": "Liberal"
+        },
+        {
+          "name": "John Pyrros",
+          "party": "Liberal"
+        },
+        {
+          "name": "Aiv Puglielli",
+          "party": "Greens"
+        },
+        {
+          "name": "Gianni Del",
+          "party": "Legalise Cannabis"
+        },
+        {
+          "name": "Rosario-Makridis",
+          "party": "Legalise Cannabis"
+        },
+        {
+          "name": "Chloe Nicolosi",
+          "party": "AJP"
+        },
+        {
+          "name": "Natalie Adams",
+          "party": "One Nation"
+        },
+        {
+          "name": "Lucas Deviesseux",
+          "party": "Socialists"
+        },
+        {
+          "name": "Heather Maltby",
+          "party": "Socialists"
+        },
+        {
+          "name": "Jack Corcoran",
+          "party": "Sustainable"
+        },
+        {
+          "name": "William Clow",
+          "party": "Sustainable"
+        }
+      ]
+    },
+    "NORTHERN METROPOLITAN": {
+      "label": "Northern Metropolitan Region",
+      "candidates": [
+        {
+          "name": "Evan Mulholland",
+          "party": "Liberal"
+        },
+        {
+          "name": "Bernadette Khoury",
+          "party": "Liberal"
+        },
+        {
+          "name": "Anasina Gray-Barberio",
+          "party": "Greens"
+        },
+        {
+          "name": "Omar Hassan",
+          "party": "Socialists"
+        },
+        {
+          "name": "Louisa Bassini",
+          "party": "Socialists"
+        },
+        {
+          "name": "Riley Aickin",
+          "party": "Legalise Cannabis"
+        },
+        {
+          "name": "Imad Hirmiz",
+          "party": "Family First"
+        },
+        {
+          "name": "Peita Collard",
+          "party": "AJP"
+        },
+        {
+          "name": "Mark Nicholson",
+          "party": "One Nation"
+        },
+        {
+          "name": "Bert Jessup",
+          "party": "Sustainable"
+        },
+        {
+          "name": "Meredith Lawrence",
+          "party": "Socialist Alliance"
+        },
+        {
+          "name": "Chloe Beaton",
+          "party": "Socialist Alliance"
+        },
+        {
+          "name": "Darren Saffin",
+          "party": "Socialist Alliance"
+        }
+      ]
+    },
+    "NORTHERN VICTORIA": {
+      "label": "Northern Victoria Region",
+      "candidates": [
+        {
+          "name": "Steve Brooks",
+          "party": "Coalition"
+        },
+        {
+          "name": "Gaelle Broad",
+          "party": "Coalition"
+        },
+        {
+          "name": "Amanda Millar",
+          "party": "Coalition"
+        },
+        {
+          "name": "Cate Sinclair",
+          "party": "Greens"
+        },
+        {
+          "name": "Wayne Taylor",
+          "party": "Legalise Cannabis"
+        },
+        {
+          "name": "Rikkie-Lee Tyrrell",
+          "party": "One Nation"
+        },
+        {
+          "name": "Athol Thomas",
+          "party": "One Nation"
+        },
+        {
+          "name": "Michael White",
+          "party": "Family First"
+        },
+        {
+          "name": "Georgie Purcell",
+          "party": "AJP"
+        },
+        {
+          "name": "Dorothy Lamond",
+          "party": "Socialists"
+        },
+        {
+          "name": "Rohan Tyler",
+          "party": "Socialists"
+        },
+        {
+          "name": "Kate White",
+          "party": "Independent"
+        }
+      ]
+    },
+    "SOUTH-EASTERN METROPOLITAN": {
+      "label": "South-Eastern Metropolitan Region",
+      "candidates": [
+        {
+          "name": "Phillip Pease",
+          "party": "Liberal"
+        },
+        {
+          "name": "Ann-Marie Hermans",
+          "party": "Liberal"
+        },
+        {
+          "name": "Matthew Kirwan",
+          "party": "Greens"
+        },
+        {
+          "name": "Rachel Payne",
+          "party": "Legalise Cannabis"
+        },
+        {
+          "name": "Jane Foreman",
+          "party": "Family First"
+        },
+        {
+          "name": "Colleen Harkin",
+          "party": "One Nation"
+        },
+        {
+          "name": "Geoff Goddard",
+          "party": "One Nation"
+        },
+        {
+          "name": "Tamara Champion",
+          "party": "AJP"
+        },
+        {
+          "name": "Kelly Cvetkova",
+          "party": "Socialists"
+        },
+        {
+          "name": "Keeley Hopper",
+          "party": "Socialists"
+        },
+        {
+          "name": "Brandon Hoult",
+          "party": "Sustainable"
+        }
+      ]
+    },
+    "SOUTHERN METROPOLITAN": {
+      "label": "Southern Metropolitan Region",
+      "candidates": [
+        {
+          "name": "David Davis",
+          "party": "Liberal"
+        },
+        {
+          "name": "Georgie Crozier",
+          "party": "Liberal"
+        },
+        {
+          "name": "Xavier Boffa",
+          "party": "Liberal"
+        },
+        {
+          "name": "Katherine Copsey",
+          "party": "Greens"
+        },
+        {
+          "name": "Zofia Pawlaczek",
+          "party": "Legalise Cannabis"
+        },
+        {
+          "name": "Daniel O'Neill",
+          "party": "AJP"
+        },
+        {
+          "name": "Bettina Terry",
+          "party": "Sustainable"
+        },
+        {
+          "name": "Aaron Sanford",
+          "party": "One Nation"
+        },
+        {
+          "name": "Kristina Kaulenas",
+          "party": "One Nation"
+        },
+        {
+          "name": "Catherine Holder",
+          "party": "Socialists"
+        },
+        {
+          "name": "April Worsley",
+          "party": "Socialists"
+        }
+      ]
+    },
+    "WESTERN METROPOLITAN": {
+      "label": "Western Metropolitan Region",
+      "candidates": [
+        {
+          "name": "Roshena Campbell",
+          "party": "Liberal"
+        },
+        {
+          "name": "Trung Luu",
+          "party": "Liberal"
+        },
+        {
+          "name": "Brittney Henderson",
+          "party": "Greens"
+        },
+        {
+          "name": "Xavier Menta",
+          "party": "Legalise Cannabis"
+        },
+        {
+          "name": "Anneke Demanuele",
+          "party": "Socialists"
+        },
+        {
+          "name": "Jorge Jorquera",
+          "party": "Socialists"
+        },
+        {
+          "name": "Moira Deeming",
+          "party": "Family First"
+        },
+        {
+          "name": "Fiona Lopez",
+          "party": "One Nation"
+        },
+        {
+          "name": "Shohre Mansouri",
+          "party": "AJP"
+        },
+        {
+          "name": "Dennis Bilic",
+          "party": "Sustainable"
+        },
+        {
+          "name": "Joe Garra",
+          "party": "West"
+        },
+        {
+          "name": "Sahana Ramesh",
+          "party": "West"
+        },
+        {
+          "name": "Brett Patrikeos",
+          "party": "West"
+        }
+      ]
+    },
+    "WESTERN VICTORIA": {
+      "label": "Western Victoria Region",
+      "candidates": [
+        {
+          "name": "Bev McArthur",
+          "party": "Coalition"
+        },
+        {
+          "name": "Graham Watt",
+          "party": "Coalition"
+        },
+        {
+          "name": "Sarah Mansfield",
+          "party": "Greens"
+        },
+        {
+          "name": "Peter Mitchell",
+          "party": "Legalise Cannabis"
+        },
+        {
+          "name": "Chris Burson",
+          "party": "One Nation"
+        },
+        {
+          "name": "Vaughan Williams",
+          "party": "One Nation"
+        },
+        {
+          "name": "Dianne Colbert",
+          "party": "Family First"
+        },
+        {
+          "name": "Ben Nunquam",
+          "party": "Socialists"
+        },
+        {
+          "name": "Dominique Houzet",
+          "party": "Socialists"
+        },
+        {
+          "name": "Madeleine Wearne",
+          "party": "Sustainable"
+        },
+        {
+          "name": "Ian Chivers",
+          "party": "Sustainable"
+        },
+        {
+          "name": "Tim Gooden",
+          "party": "Socialist Alliance"
+        },
+        {
+          "name": "Sue Bull",
+          "party": "Socialist Alliance"
+        },
+        {
+          "name": "Ross Smith",
+          "party": "Socialist Alliance"
+        },
+        {
+          "name": "Aleta Moriarty",
+          "party": "Independent"
+        }
+      ]
+    }
+  }
+}

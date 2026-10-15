@@ -1,0 +1,110 @@
+{
+  "note": "Neutral, descriptive summaries of each party's stated priorities, drawn from the parties' own public materials. Not endorsements. Policies evolve — the party's own website is the authoritative source for current positions.",
+  "source_disclaimer": "If a party is missing or you think a summary misrepresents, treat the party's website as canonical.",
+  "parties": {
+    "Labor": {
+      "fullname": "Australian Labor Party (Victorian Branch)",
+      "founded": 1891,
+      "position": "centre-left",
+      "stated_priorities": "Labor's stated priorities centre on public services (health, education, early childhood), workers' rights and wages, infrastructure (particularly transport), and progressive taxation. In government in Victoria since 2014.",
+      "website": "https://www.viclabor.com.au"
+    },
+    "Liberal": {
+      "fullname": "Liberal Party of Australia (Victorian Division)",
+      "founded": 1945,
+      "position": "centre-right",
+      "stated_priorities": "The Liberals' stated priorities centre on economic management, smaller government, lower taxes, support for small business, law and order, and parental choice in education. Currently in opposition in Victoria.",
+      "website": "https://vic.liberal.org.au"
+    },
+    "Coalition": {
+      "fullname": "Liberal–National Coalition",
+      "position": "centre-right",
+      "stated_priorities": "The Liberals and Nationals contest some seats jointly as the Coalition and sit together in opposition. See the individual party entries for policy focus.",
+      "website": "https://vic.liberal.org.au"
+    },
+    "National": {
+      "fullname": "The Nationals Victoria",
+      "founded": 1917,
+      "position": "centre-right / rural",
+      "stated_priorities": "The Nationals focus on regional and rural Victoria: agriculture, water, decentralisation, rural roads and services, and local economic development. They sit in coalition with the Liberals.",
+      "website": "https://www.nationalsvic.org.au"
+    },
+    "Greens": {
+      "fullname": "Australian Greens Victoria",
+      "founded": 1992,
+      "position": "left",
+      "stated_priorities": "The Greens' stated priorities include faster climate action, protection of nature, housing affordability (including public and renters' rights), well-funded public services, and a treaty with First Nations Victorians.",
+      "website": "https://greens.org.au/vic"
+    },
+    "One Nation": {
+      "fullname": "Pauline Hanson's One Nation",
+      "founded": 1997,
+      "position": "right-populist",
+      "stated_priorities": "One Nation's stated priorities include lower immigration levels, Australian nationalism, scepticism of some climate policies, and reduced government regulation.",
+      "website": "https://www.onenation.org.au"
+    },
+    "Socialists": {
+      "fullname": "Victorian Socialists",
+      "founded": 2018,
+      "position": "left / democratic socialist",
+      "stated_priorities": "Victorian Socialists' stated priorities include public ownership of essential services, large increases to the minimum wage, massive expansion of public housing, climate action via public investment, and workers' control in the workplace.",
+      "website": "https://victoriansocialists.org.au"
+    },
+    "Legalise Cannabis": {
+      "fullname": "Legalise Cannabis Victoria",
+      "position": "single-issue / drug reform",
+      "stated_priorities": "The party's stated priority is cannabis law reform — legalisation of personal use and a regulated adult market. It also advocates broader drug-law reform and civil-liberties positions.",
+      "website": "https://www.legalisecannabis.org.au"
+    },
+    "Libertarian": {
+      "fullname": "Libertarian Party (formerly Liberal Democrats)",
+      "position": "classical liberal / libertarian",
+      "stated_priorities": "The Libertarian Party's stated priorities include smaller government, lower taxes, free-market economics, strong civil liberties, and opposition to government mandates.",
+      "website": "https://libertarian.org.au"
+    },
+    "Family First": {
+      "fullname": "Family First Party (2021)",
+      "position": "social-conservative",
+      "stated_priorities": "Family First's stated priorities centre on family-focused social conservatism grounded in Christian values: traditional family, parental rights, religious freedom, opposition to abortion and voluntary assisted dying.",
+      "website": "https://www.familyfirst.org.au"
+    },
+    "Animal Justice": {
+      "fullname": "Animal Justice Party",
+      "founded": 2009,
+      "position": "single-issue / animal welfare",
+      "stated_priorities": "The AJP's stated priorities are animal protection, ending factory farming and live export, environmental conservation, and plant-based food policy.",
+      "website": "https://www.animaljusticeparty.org"
+    },
+    "Shooters, Fishers and Farmers": {
+      "fullname": "Shooters, Fishers and Farmers Party",
+      "position": "rural / outdoor-interests",
+      "stated_priorities": "SFF's stated priorities are protecting firearms, fishing and hunting rights, decentralisation of government services, and representing rural and outdoor-recreation communities.",
+      "website": "https://www.sff.org.au"
+    },
+    "Democratic Labour": {
+      "fullname": "Democratic Labour Party",
+      "founded": 1955,
+      "position": "centrist / social-conservative",
+      "stated_priorities": "The DLP's stated priorities include family-focused social policy, support for workers and small business, Catholic social teaching, and traditional values on social issues.",
+      "website": "https://www.dlp.org.au"
+    },
+    "Sustainable Australia": {
+      "fullname": "Sustainable Australia Party",
+      "position": "environmental / anti-overdevelopment",
+      "stated_priorities": "Sustainable Australia's stated priorities include stabilising population growth, opposing overdevelopment, strengthening environmental protections, and anti-corruption reform.",
+      "website": "https://www.sustainableaustralia.org.au"
+    },
+    "Freedom": {
+      "fullname": "Freedom Party",
+      "position": "libertarian / anti-mandate",
+      "stated_priorities": "The Freedom Party formed in reaction to COVID-era mandates and emphasises individual liberty, limits on government power, and opposition to vaccine mandates.",
+      "website": null
+    },
+    "Independent": {
+      "fullname": "Independent",
+      "position": "varies",
+      "stated_priorities": "Independent candidates are not aligned with any party and set their own policies. Platforms vary widely; see the candidate's own site for their specific pitch.",
+      "website": null
+    }
+  }
+}

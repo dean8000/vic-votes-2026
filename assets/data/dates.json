@@ -1,0 +1,13 @@
+{
+  "election_day": "2026-11-28",
+  "election_day_label": "Saturday 28 November 2026",
+  "key_dates": [
+    { "date": "2026-11-03", "label": "Tuesday 3 November 2026, 8pm", "event": "Close of rolls — you must be enrolled by this time to vote" },
+    { "date": "2026-11-03", "label": "Tuesday 3 November 2026", "event": "Writs issued by the Governor" },
+    { "date": "2026-11-04", "label": "Wednesday 4 November 2026, 9am", "event": "Candidate nominations open" },
+    { "date": "2026-11-09", "label": "Monday 9 November 2026, 12 noon", "event": "Candidate nominations close" },
+    { "date": "2026-11-18", "label": "Wednesday 18 November 2026", "event": "Early voting opens at early voting centres" },
+    { "date": "2026-11-28", "label": "Saturday 28 November 2026", "event": "Election day — polls open 8am–6pm" },
+    { "date": "2026-12-19", "label": "Saturday 19 December 2026", "event": "Writs returned (deadline for declaring results)" }
+  ]
+}

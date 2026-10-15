@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Map — Victoria votes 2026</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<meta name="theme-color" content="#26457a" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#15181d" media="(prefers-color-scheme: dark)">
+<meta property="og:title" content="Victorian State Election 2026 — a plain-English guide">
+<meta property="og:description" content="Independent, non-partisan explainer of the 28 November 2026 Victorian state election: how voting works, preferences, candidates, and an interactive map of your electorate.">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_AU">
+<meta name="twitter:card" content="summary">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="">
+<link rel="stylesheet" href="/assets/css/style.css">
+<style>
+  html, body { margin: 0; padding: 0; }
+  .map-layout {
+    min-height: calc(100vh - 70px);
+    height: calc(100vh - 70px);
+  }
+  #map { width: 100%; height: 100%; min-height: calc(100vh - 70px); background: #e6edef; }
+  @media (max-width: 900px) {
+    .map-layout { grid-template-columns: 1fr; grid-template-rows: 60vh auto; height: auto; min-height: 0; }
+    #map { min-height: 60vh; height: 60vh; }
+  }
+</style>
+</head>
+<body>
+<header class="site">
+  <div class="inner">
+    <h1><a href="/index.html">Victoria votes 2026</a></h1>
+    <nav>
+      <a href="/index.html">Home</a>
+      <a href="/pages/voting.html">How voting works</a>
+      <a href="/pages/preferences.html">Preferences</a>
+      <a href="/pages/upper-house.html">Upper house</a>
+      <a href="/pages/compare.html">Compare parties</a>
+      <a href="/pages/cycles.html">Election cycles</a>
+      <a href="/map.html" aria-current="page">Map</a>
+      <a href="/pages/projections.html">Polling</a>
+      <a href="/pages/dates.html">Key dates</a>
+      <a href="/pages/glossary.html">Glossary</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wide">
+  <div class="map-layout">
+    <div id="map"></div>
+    <aside class="sidebar">
+      <h2 id="panel-title">Find your area</h2>
+      <div class="toggles" role="tablist">
+        <button id="btn-districts" class="active" aria-pressed="true">Districts (lower house)</button>
+        <button id="btn-regions" aria-pressed="false">Regions (upper house)</button>
+      </div>
+      <div class="toggles subtoggles" role="tablist">
+        <button id="btn-colour-party" class="active" aria-pressed="true">Colour: party</button>
+        <button id="btn-colour-safety" aria-pressed="false">Colour: 2022 safety</button>
+      </div>
+      <div id="legend" class="legend"></div>
+      <form class="search" id="search-form" autocomplete="off">
+        <input type="search" id="search-input" placeholder="Suburb or address (Victoria only)" aria-label="Search address">
+        <button type="submit">Find</button>
+      </form>
+      <div id="panel-body">
+        <p>Click any shape on the map to see who represents that area and who's running in 2026. Toggle between the lower house (88 districts) and the upper house (8 regions).</p>
+        <p><em>Loading boundaries…</em></p>
+      </div>
+    </aside>
+  </div>
+</main>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
+<script src="/assets/js/map.js"></script>
+</body>
+</html>

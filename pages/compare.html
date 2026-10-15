@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Compare parties — Victoria votes 2026</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<meta name="theme-color" content="#26457a" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#15181d" media="(prefers-color-scheme: dark)">
+<meta property="og:title" content="Victorian State Election 2026 — a plain-English guide">
+<meta property="og:description" content="Independent, non-partisan explainer of the 28 November 2026 Victorian state election: how voting works, preferences, candidates, and an interactive map of your electorate.">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_AU">
+<meta name="twitter:card" content="summary">
+<link rel="stylesheet" href="/assets/css/style.css">
+<style>
+  .compare-grid {
+    display: grid;
+    gap: 0;
+    margin: 20px 0;
+    border: 1px solid var(--rule);
+    border-radius: var(--radius);
+    overflow: hidden;
+  }
+  .compare-grid .issue-row {
+    display: grid;
+    border-top: 1px solid var(--rule);
+  }
+  .compare-grid .issue-row:first-child { border-top: 0; }
+  .compare-grid .issue-title {
+    background: var(--accent-soft);
+    padding: 10px 14px;
+    font-weight: 600;
+    font-size: 1rem;
+    grid-column: 1 / -1;
+    border-bottom: 1px solid var(--rule);
+  }
+  .compare-grid .party-cell {
+    padding: 10px 14px;
+    border-left: 1px solid var(--rule);
+    font-size: 0.9rem;
+    line-height: 1.45;
+  }
+  .compare-grid .party-cell:first-child { border-left: 0; }
+  .compare-grid .party-header {
+    background: var(--panel);
+    font-weight: 600;
+    font-size: 0.9rem;
+    padding: 8px 14px;
+    border-bottom: 2px solid;
+    border-left: 1px solid var(--rule);
+    position: sticky; top: 0;
+    z-index: 1;
+  }
+  .compare-grid .party-header:first-child { border-left: 0; }
+  @media (max-width: 850px) {
+    .compare-grid .party-cell { font-size: 0.82rem; padding: 8px 10px; }
+    .compare-grid .party-header { font-size: 0.78rem; padding: 6px 10px; }
+  }
+</style>
+</head>
+<body>
+<header class="site">
+  <div class="inner">
+    <h1><a href="/index.html">Victoria votes 2026</a></h1>
+    <nav>
+      <a href="/index.html">Home</a>
+      <a href="/pages/voting.html">How voting works</a>
+      <a href="/pages/preferences.html">Preferences</a>
+      <a href="/pages/upper-house.html">Upper house</a>
+      <a href="/pages/compare.html" aria-current="page">Compare parties</a>
+      <a href="/pages/cycles.html">Election cycles</a>
+      <a href="/map.html">Map</a>
+      <a href="/pages/projections.html">Polling</a>
+      <a href="/pages/dates.html">Key dates</a>
+      <a href="/pages/glossary.html">Glossary</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <h2>Compare the parties</h2>
+  <p class="lede">Where the main 2026 parties stand on the big issues — paraphrased from their own public materials, not editorialised.</p>
+
+  <div class="callout warn">
+    <strong>Read with care.</strong> This is a short-form summary. Parties say many things on many channels; the paraphrases below focus on their most prominent stated positions. For specifics, follow the link to each party's site at the bottom. If you think something misrepresents a position, the party's own website is canonical — not this page.
+  </div>
+
+  <div id="compare-root">Loading…</div>
+
+  <h3>Party websites</h3>
+  <ul id="party-sites"></ul>
+
+  <h3>What's not here</h3>
+  <ul>
+    <li>Smaller parties and independents aren't included on the table — pick a shape to click on the <a href="/map.html">map</a> to see every candidate on your ballot and each party's platform.</li>
+    <li>Policies evolve. We do not re-pull from party sites automatically — the summaries here reflect their positions as of October 2026.</li>
+    <li>Some big issues (abortion, voluntary assisted dying, drug policy) are matters of conscience and MPs often vote differently from their party — a party-level comparison can't capture that.</li>
+  </ul>
+
+  <script>
+    (async function () {
+      const data = await fetch('/assets/data/compare.json').then(r => r.json());
+      const root = document.getElementById('compare-root');
+      const parties = data.parties;
+      const colours = data.party_colours;
+      const cols = 'repeat(' + parties.length + ', 1fr)';
+      let html = '<div class="compare-grid">';
+      // header
+      html += '<div class="issue-row" style="grid-template-columns:' + cols + '">';
+      for (const p of parties) {
+        html += '<div class="party-header" style="border-bottom-color:' + colours[p] + '">' + p + '</div>';
+      }
+      html += '</div>';
+      // issues
+      for (const issue of data.issues) {
+        html += '<div class="issue-row" style="grid-template-columns:' + cols + '">';
+        html += '<div class="issue-title">' + issue.title + '</div>';
+        for (const p of parties) {
+          const text = issue.positions[p] || '<em style="color:var(--muted)">No public position recorded.</em>';
+          html += '<div class="party-cell">' + text + '</div>';
+        }
+        html += '</div>';
+      }
+      html += '</div>';
+      root.innerHTML = html;
+
+      const ul = document.getElementById('party-sites');
+      for (const [p, url] of Object.entries(data.party_sites || {})) {
+        const li = document.createElement('li');
+        li.innerHTML = '<strong>' + p + '</strong> — <a href="' + url + '" target="_blank" rel="noopener">' + url + '</a>';
+        ul.appendChild(li);
+      }
+    })();
+  </script>
+</main>
+
+<footer class="site">
+  <div class="inner">
+    <p>Authoritative source: <a href="https://www.vec.vic.gov.au">Victorian Electoral Commission</a>. Party positions summarised from each party's own public materials; for anything that matters to you, verify directly on the party's site.</p>
+  </div>
+</footer>
+</body>
+</html>

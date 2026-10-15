@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Polling &amp; projections — Victoria votes 2026</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<meta name="theme-color" content="#26457a" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#15181d" media="(prefers-color-scheme: dark)">
+<meta property="og:title" content="Victorian State Election 2026 — a plain-English guide">
+<meta property="og:description" content="Independent, non-partisan explainer of the 28 November 2026 Victorian state election: how voting works, preferences, candidates, and an interactive map of your electorate.">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_AU">
+<meta name="twitter:card" content="summary">
+<link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+<header class="site">
+  <div class="inner">
+    <h1><a href="/index.html">Victoria votes 2026</a></h1>
+    <nav>
+      <a href="/index.html">Home</a>
+      <a href="/pages/voting.html">How voting works</a>
+      <a href="/pages/preferences.html">Preferences</a>
+      <a href="/pages/upper-house.html">Upper house</a>
+      <a href="/pages/compare.html">Compare parties</a>
+      <a href="/pages/cycles.html">Election cycles</a>
+      <a href="/map.html">Map</a>
+      <a href="/pages/projections.html" aria-current="page">Polling</a>
+      <a href="/pages/dates.html">Key dates</a>
+      <a href="/pages/glossary.html">Glossary</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <h2>Polling &amp; projections</h2>
+  <p class="lede">What recent polls say about the 2026 Victorian state election and what a naive uniform-swing projection would predict seat-by-seat.</p>
+
+  <div class="callout warn">
+    <strong>Big caveat.</strong> Uniform-swing projections are a rough indicator, not a forecast. They ignore regional variation, candidate quality, incumbency effects, the influence of high-profile independents, and the unusual rise of smaller parties in current polling. Treat the numbers below as context, not predictions.
+  </div>
+
+  <h3 id="aggregate">Current polling snapshot</h3>
+  <p id="agg-summary">Loading…</p>
+
+  <h3>Primary vote (10-poll average)</h3>
+  <div id="primary-bars"></div>
+
+  <h3>Recent polls</h3>
+  <table id="polls-table">
+    <thead>
+      <tr><th>Pollster</th><th>Date</th><th>N</th><th>ALP</th><th>Coa</th><th>Grn</th><th>ON</th><th>Oth</th><th>2PP (ALP–Coa)</th></tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+
+  <h3 id="method">How the seat projection works</h3>
+  <ol>
+    <li>Take the average Labor-vs-Coalition two-party-preferred (2PP) from the most recent 5 published polls.</li>
+    <li>Compare that to Labor's actual 2022 statewide 2PP of 55.0%. The difference is the <strong>uniform swing</strong>.</li>
+    <li>Apply that swing to <em>every</em> district's 2022 2PP result — e.g. if Labor swing is −9%, a district that was Labor 55% TPP in 2022 is projected at 46% TPP in 2026 (Coalition win).</li>
+    <li>Classify each seat as <strong>safe hold</strong> (projected margin ≥5%), <strong>close hold</strong> (2–5%), <strong>in play</strong> (&lt;2%), or <strong>likely flip</strong> (projected winner differs from sitting MP).</li>
+  </ol>
+  <p>Why this is simplistic:</p>
+  <ul>
+    <li>Real swings are rarely uniform. Some districts move more, some less, some against the trend.</li>
+    <li>High-profile independents (e.g. Teal) can completely rewrite the two-party dynamic in a seat.</li>
+    <li>Greens- and Independent-held seats aren't a Labor-vs-Coalition contest, so uniform swing doesn't apply cleanly. We flag these.</li>
+    <li>One Nation's rise in Victoria to >20% primary (per current polls) could redistribute preferences in ways the 2022 pattern doesn't capture.</li>
+    <li>Local candidate quality, campaign events, and the final weeks' media cycle all matter.</li>
+  </ul>
+
+  <h3>Projected seats-to-watch</h3>
+  <p>Districts the uniform-swing model flags as <em>likely flip</em> or <em>in play</em>:</p>
+  <ul id="watch-list"></ul>
+
+  <h3>Sources</h3>
+  <ul>
+    <li>Polls aggregated from <a href="https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Victorian_state_election">Wikipedia's running poll tracker</a> for the 2026 Victorian state election.</li>
+    <li>2022 TPP by district: <a href="https://en.wikipedia.org/wiki/Results_of_the_2022_Victorian_state_election_(Legislative_Assembly)">Wikipedia</a> / cross-checked against <a href="https://antonygreen.com.au/vic22-2-party-preferred-results-and-swings-by-district/">Antony Green</a>.</li>
+  </ul>
+
+  <script>
+    (async function () {
+      const [polling, projections] = await Promise.all([
+        fetch('/assets/data/polling.json').then(r => r.json()),
+        fetch('/assets/data/projections.json').then(r => r.json()),
+      ]);
+      const agg = polling.aggregate;
+      document.getElementById('agg-summary').innerHTML =
+        'Average of the ' + agg.n_polls + ' most recent 2PP polls (as of ' + agg.as_of + '): ' +
+        '<strong>Labor ' + agg.tpp_labor.toFixed(1) + '%</strong> vs <strong>Coalition ' + agg.tpp_coalition.toFixed(1) + '%</strong> ' +
+        'two-party-preferred. That is a swing of <strong>' + agg.tpp_swing_from_2022.toFixed(1) + '%</strong> ' +
+        'from the 2022 result (Labor 55.0%).';
+
+      // Primary bars
+      const bars = document.getElementById('primary-bars');
+      const prim = agg.primary;
+      const partyCol = { Labor: '#e52a2a', Coalition: '#1565c0', Greens: '#0f8f3a', 'One Nation': '#f36c21', Others: '#999' };
+      let barHtml = '<div style="display:flex;flex-direction:column;gap:6px;max-width:500px;margin:16px 0">';
+      for (const [k, v] of Object.entries(prim)) {
+        barHtml += '<div style="display:grid;grid-template-columns:120px 1fr 60px;gap:8px;align-items:center">' +
+          '<div>' + k + '</div>' +
+          '<div style="background:#eee;border-radius:4px;height:14px;position:relative"><div style="background:' + partyCol[k] + ';width:' + (v * 2) + '%;height:100%;border-radius:4px"></div></div>' +
+          '<div style="text-align:right"><strong>' + v + '%</strong></div>' +
+          '</div>';
+      }
+      barHtml += '</div>';
+      bars.innerHTML = barHtml;
+
+      // Polls table
+      const tbody = document.querySelector('#polls-table tbody');
+      for (const p of polling.polls) {
+        const tr = document.createElement('tr');
+        tr.innerHTML =
+          '<td>' + p.pollster + '</td>' +
+          '<td>' + p.date + '</td>' +
+          '<td>' + p.sample + '</td>' +
+          '<td>' + p.primary.Labor + '%</td>' +
+          '<td>' + p.primary.Coalition + '%</td>' +
+          '<td>' + p.primary.Greens + '%</td>' +
+          '<td>' + p.primary['One Nation'] + '%</td>' +
+          '<td>' + p.primary.Others + '%</td>' +
+          '<td>' + (p.tpp_labor != null ? p.tpp_labor + '–' + p.tpp_coalition : '—') + '</td>';
+        tbody.appendChild(tr);
+      }
+
+      // Watch list — likely flips + in play
+      const watch = Object.entries(projections.projections)
+        .filter(([k, v]) => v.status === 'likely flip' || v.status === 'in play')
+        .sort((a, b) => Math.abs((a[1].projected_labor_tpp || 50) - 50) - Math.abs((b[1].projected_labor_tpp || 50) - 50));
+      const ul = document.getElementById('watch-list');
+      for (const [key, v] of watch) {
+        const li = document.createElement('li');
+        const margin = Math.abs((v.projected_labor_tpp || 50) - 50);
+        li.innerHTML = '<strong>' + key.toLowerCase().replace(/\b\w/g, c => c.toUpperCase()) + '</strong> — ' +
+          'sitting ' + v.sitting_winner + ', projected ' + v.projected_winner + ' ' +
+          (v.projected_winner === 'Labor' ? v.projected_labor_tpp.toFixed(1) : (100 - v.projected_labor_tpp).toFixed(1)) + '% ' +
+          '(<em>' + v.status + '</em>)';
+        ul.appendChild(li);
+      }
+    })();
+  </script>
+</main>
+
+<footer class="site">
+  <div class="inner">
+    <p>Authoritative source: <a href="https://www.vec.vic.gov.au">Victorian Electoral Commission</a>. Polling data from Wikipedia; interpret with care.</p>
+  </div>
+</footer>
+</body>
+</html>

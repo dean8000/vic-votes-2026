@@ -1,0 +1,5290 @@
+{
+  "Nina Taylor": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Nina_Taylor",
+    "born": null,
+    "prior_occupation": "Lawyer Product manager School teacher",
+    "elected_since": 2018,
+    "prior_roles": [
+      "Cabinet Secretary since 2026",
+      "Government Whip in the Victorian Legislative Council 2020–2022",
+      "Councillor of the City of Glen Eira for Tucker Ward 2016–2018"
+    ],
+    "education": "Monash University (BA); University of Queensland (DipEd); University of Melbourne (LLB)"
+  },
+  "Matt Fregon": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Matt_Fregon",
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": 2018,
+    "prior_roles": [
+      "Member of the Victorian Legislative Assembly for Ashwood since 2022",
+      "Member of the Victorian Legislative Assembly for Mount Waverley 2018–2022"
+    ],
+    "education": "Deakin University"
+  },
+  "Jordan Crugnale": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Jordan_Crugnale",
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": 2018,
+    "prior_roles": [
+      "Member of the Victorian Legislative Assembly for Bass since 2018"
+    ],
+    "education": null
+  },
+  "Jackson Taylor": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Jackson_Taylor",
+    "born": "1991",
+    "prior_occupation": null,
+    "elected_since": 2018,
+    "prior_roles": [
+      "Deputy Mayor of Knox City Council 2018–2018",
+      "Member of the Victorian Legislative Assembly for Bayswater since 2018",
+      "Member of the Knox City Council 2016–2018"
+    ],
+    "education": "Dandenong Primary School; Dandenong High School"
+  },
+  "Alison Marchant": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Alison_Marchant",
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": 2022,
+    "prior_roles": [
+      "Member of the Victorian Legislative Assembly for Bellarine since 2022"
+    ],
+    "education": null
+  },
+  "Bill Tilley": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Bill_Tilley",
+    "born": "29 March 1963",
+    "prior_occupation": "Police officer",
+    "elected_since": 2006,
+    "prior_roles": [
+      "Military service",
+      "Member of the Victorian Legislative Assembly for Benambra since 2006"
+    ],
+    "education": null
+  },
+  "Jacinta Allan": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Jacinta_Allan",
+    "born": "19 September 1973",
+    "prior_occupation": null,
+    "elected_since": 1999,
+    "prior_roles": [
+      "Premier of Victoria 2023–2026",
+      "Leader of the Victorian Labor Party 2023–2026",
+      "Deputy Premier of Victoria 2022–2023"
+    ],
+    "education": "La Trobe University (BA)"
+  },
+  "Maree Edwards": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Maree_Edwards",
+    "born": "2 February 1962",
+    "prior_occupation": null,
+    "elected_since": 2010,
+    "prior_roles": [
+      "Speaker of the Victorian Legislative Assembly since 2022",
+      "Member of the Victorian Legislative Assembly for Bendigo West since 2010"
+    ],
+    "education": "La Trobe University, Bendigo"
+  },
+  "Nick Staikos": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Nick_Staikos",
+    "born": "4 July 1986",
+    "prior_occupation": null,
+    "elected_since": 2014,
+    "prior_roles": [
+      "Minister for Housing, Building and Precincts since 2026",
+      "Minister for Homelessness since 2026",
+      "Minister for Seniors since 2026"
+    ],
+    "education": "Monash University"
+  },
+  "Brad Battin": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Brad_Battin",
+    "born": "12 December 1975",
+    "prior_occupation": "Police officer",
+    "elected_since": 2010,
+    "prior_roles": [
+      "Leader of the Opposition in Victoria 2024–2025",
+      "Leader of the Victorian Liberal Party 2024–2025",
+      "Member of the Victorian Legislative Assembly for Berwick since 2022"
+    ],
+    "education": null
+  },
+  "Paul Hamer": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Paul_Hamer",
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": 2018,
+    "prior_roles": [
+      "Minister for Roads and Road Safety since 2026",
+      "Minister for Local Government 2026–2026",
+      "Minister for Corrections 2026–2026"
+    ],
+    "education": null
+  },
+  "James Newbury": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/James_Newbury",
+    "born": "13 May 1978",
+    "prior_occupation": null,
+    "elected_since": 2018,
+    "prior_roles": [
+      "Member of the Victorian Legislative Assembly for Brighton since 2018"
+    ],
+    "education": null
+  },
+  "Kathleen Matthews-Ward": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Kathleen_Matthews-Ward",
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": 2022,
+    "prior_roles": [
+      "Councillor of the City of Moreland for North-East Ward 2004–2012",
+      "Member of the Victorian Legislative Assembly for Broadmeadows since 2022"
+    ],
+    "education": null
+  },
+  "Vacant": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null,
+    "note": "Seat vacant"
+  },
+  "Matthew Guy": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Matthew_Guy",
+    "born": "6 March 1974",
+    "prior_occupation": null,
+    "elected_since": 2006,
+    "prior_roles": [
+      "Leader of the Opposition in Victoria 2021–2022",
+      "Leader of the Liberal Party in Victoria 2021–2022",
+      "Minister for Planning 2010–2014"
+    ],
+    "education": "La Trobe University (BA)"
+  },
+  "Colin Brooks": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Colin_Brooks_(politician)",
+    "born": "9 January 1970",
+    "prior_occupation": null,
+    "elected_since": 2006,
+    "prior_roles": [
+      "Treasurer of Victoria since 2026",
+      "Minister for Industrial Relations since 2026",
+      "Minister for Skills and TAFE 2026–2026"
+    ],
+    "education": null
+  },
+  "Sonya Kilkenny": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Sonya_Kilkenny",
+    "born": "15 May 1969",
+    "prior_occupation": "Commercial lawyer",
+    "elected_since": 2014,
+    "prior_roles": [
+      "Attorney-General of Victoria since 2024",
+      "Minister for Planning since 2022",
+      "Minister for Prevention of Family Violence since 2026"
+    ],
+    "education": "University of New South Wales; University of Melbourne"
+  },
+  "David Southwick": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/David_Southwick",
+    "born": "31 March 1968",
+    "prior_occupation": "Politicianmanaging directorlecturer",
+    "elected_since": 2010,
+    "prior_roles": [
+      "Deputy Leader of the Liberal Party in Victoria since 2026",
+      "Member of the Victorian Legislative Assembly for Caulfield since 2010"
+    ],
+    "education": null
+  },
+  "Meng Heang Tak": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Meng_Heang_Tak",
+    "born": null,
+    "prior_occupation": "LawyerBroadcasterPolitician",
+    "elected_since": 2018,
+    "prior_roles": [
+      "Mayor of Greater Dandenong 2015–2016",
+      "Councillor of the City of Greater Dandenong for Paperback Ward 2012–2018",
+      "Member of the Victorian Legislative Assembly for Clarinda since 2018"
+    ],
+    "education": "Victoria University (BA, LLB)"
+  },
+  "Pauline Richards": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Pauline_Richards",
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": 2018,
+    "prior_roles": [
+      "Member of the Victorian Legislative Assembly for Cranbourne since 2018"
+    ],
+    "education": null
+  },
+  "David Hodgett": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/David_Hodgett",
+    "born": "18 September 1963",
+    "prior_occupation": null,
+    "elected_since": 2006,
+    "prior_roles": [
+      "Minister for Ports 2013–2014",
+      "Member of the Legislative Assembly for Croydon since 2014",
+      "Member of the Legislative Assembly for Kilsyth 2006–2014"
+    ],
+    "education": "RMIT University; Swinburne University of Technology"
+  },
+  "Gabrielle Williams": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Gabrielle_Williams",
+    "born": "27 October 1982",
+    "prior_occupation": "Lawyer",
+    "elected_since": 2018,
+    "prior_roles": [
+      "Deputy Premier of Victoria since 2026",
+      "Deputy Leader of the Victorian Labor Party since 2026",
+      "Minister for Education since 2026"
+    ],
+    "education": "Monash University"
+  },
+  "Cindy McLeish": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Cindy_McLeish",
+    "born": "26 April 1962",
+    "prior_occupation": null,
+    "elected_since": 2010,
+    "prior_roles": [
+      "Deputy Leader of the Victorian Liberal Party 2018–2021",
+      "Member of the Victorian Legislative Assembly for Eildon since 2014",
+      "Member of the Victorian Legislative Assembly for Seymour 2010–2014"
+    ],
+    "education": "University of Melbourne"
+  },
+  "Vicki Ward": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Vicki_Ward",
+    "born": "30 June 1969",
+    "prior_occupation": null,
+    "elected_since": 2014,
+    "prior_roles": [
+      "Minister for Public Transport since 2026",
+      "Minister for Creative Industries since 2026",
+      "Minister for Equality 2024–2026"
+    ],
+    "education": "La Trobe University"
+  },
+  "Danny Pearson": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Danny_Pearson_(politician)",
+    "born": "15 February 1973",
+    "prior_occupation": "Consultant Political advisor",
+    "elected_since": 2014,
+    "prior_roles": [
+      "Minister for Economic Growth and Jobs 2024–2026",
+      "Minister for Finance 2024–2026",
+      "Assistant Treasurer 2020–2024"
+    ],
+    "education": "University of Melbourne"
+  },
+  "Michaela Settle": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Michaela_Settle",
+    "born": "20 August 1964",
+    "prior_occupation": null,
+    "elected_since": 2018,
+    "prior_roles": [
+      "Minister for Rural and Regional Development since 2026",
+      "Minister for Agriculture since 2026",
+      "Minister for Water since 2026"
+    ],
+    "education": null
+  },
+  "Annabelle Cleeland": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Annabelle_Cleeland",
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": 2022,
+    "prior_roles": [
+      "Member of the Victorian Legislative Assembly for Euroa since 2022"
+    ],
+    "education": null
+  },
+  "Bridget Vallence": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Bridget_Vallence",
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": 2018,
+    "prior_roles": [
+      "Member of the Victorian Legislative Assembly for Evelyn since 2018"
+    ],
+    "education": null
+  },
+  "Katie Hall": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Katie_Hall_(Australian_politician)",
+    "born": "1981",
+    "prior_occupation": null,
+    "elected_since": 2018,
+    "prior_roles": [
+      "Member of the Victorian Legislative Assembly for Footscray since 2018"
+    ],
+    "education": null
+  },
+  "Paul Edbrooke": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Paul_Edbrooke",
+    "born": "5 December 1978",
+    "prior_occupation": "Firefighter",
+    "elected_since": 2014,
+    "prior_roles": [
+      "Minister for Police Minister for Emergency Services Minister for Multicultural Affairs Minister for Crime Prevention since 2026",
+      "Minister for Consumer Affairs 2026–2026",
+      "Minister for Cost of Living 2026–2026"
+    ],
+    "education": "Monash University"
+  },
+  "Christine Couzens": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Christine_Couzens",
+    "born": "6 February 1958",
+    "prior_occupation": "Community Development Officer",
+    "elected_since": 2014,
+    "prior_roles": [
+      "Member of the Victorian Legislative Assembly for Geelong since 2014"
+    ],
+    "education": "Victoria University"
+  },
+  "Tim Bull": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Tim_Bull",
+    "born": "9 December 1966",
+    "prior_occupation": "Newspaper editor, sports program coordinator with the Australian Sports Commission",
+    "elected_since": 2010,
+    "prior_roles": [
+      "Minister for Local Government 2014–2014",
+      "Minister for Aboriginal Affairs 2014–2014",
+      "Member of the Victorian Parliament for Gippsland East since 2010"
+    ],
+    "education": null
+  },
+  "Danny O'Brien": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Danny_O'Brien_(politician)",
+    "born": "2 April 1974",
+    "prior_occupation": "Journalist",
+    "elected_since": 2014,
+    "prior_roles": [
+      "Leader of the Victorian National Party since 2024",
+      "Member of the Victorian Legislative Assembly for Gippsland South since 2015",
+      "Member of the Victorian Legislative Council for Eastern Victoria Region 2014–2015"
+    ],
+    "education": null
+  },
+  "John Mullahy": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/John_Mullahy",
+    "born": "14 December 1982",
+    "prior_occupation": null,
+    "elected_since": 2022,
+    "prior_roles": [
+      "Member of the Victorian Legislative Assembly for Glen Waverley since 2022"
+    ],
+    "education": null
+  },
+  "Iwan Walters": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Iwan_Walters",
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": 2022,
+    "prior_roles": [
+      "Member of the Victorian Legislative Assembly for Greenvale since 2022"
+    ],
+    "education": null
+  },
+  "Paul Mercurio": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Paul_Mercurio",
+    "born": "31 March 1963",
+    "prior_occupation": "ActorDancerChoreographerTelevision presenterPolitician",
+    "elected_since": 2022,
+    "prior_roles": [
+      "Councillor of the Mornington Peninsula Shire Council for Watson Ward 2020–2022",
+      "Member of the Victorian Legislative Assembly for Hastings since 2022"
+    ],
+    "education": null
+  },
+  "John Pesutto": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/John_Pesutto",
+    "born": "5 September 1970",
+    "prior_occupation": "Lawyer",
+    "elected_since": 2014,
+    "prior_roles": [
+      "Leader of the Opposition in Victoria 2022–2024",
+      "Leader of the Victorian Liberal Party 2022–2024",
+      "Member of the Victorian Legislative Assembly for Hawthorn since 2022"
+    ],
+    "education": "University of Melbourne"
+  },
+  "Anthony Carbines": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Anthony_Carbines",
+    "born": null,
+    "prior_occupation": "Journalist",
+    "elected_since": 2010,
+    "prior_roles": [
+      "Leader of the House since 2026",
+      "Minister for Artificial Intelligence and Digital Economy since 2026",
+      "Minister for Major Events since 2026"
+    ],
+    "education": "RMIT University"
+  },
+  "Ros Spence": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Ros_Spence",
+    "born": "16 December 1970",
+    "prior_occupation": null,
+    "elected_since": 2014,
+    "prior_roles": [
+      "Minister for Youth Justice since 2026",
+      "Minister for Corrections since 2026",
+      "Minister for Victim Support since 2026"
+    ],
+    "education": null
+  },
+  "Jess Wilson": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Jess_Wilson",
+    "born": "25 April 1990",
+    "prior_occupation": "Lawyer",
+    "elected_since": 2022,
+    "prior_roles": [
+      "Leader of the Opposition in Victoria since 2025",
+      "Leader of the Victorian Liberal Party since 2025",
+      "Member of the Victorian Parliament for Kew since 2022"
+    ],
+    "education": "Monash University"
+  },
+  "Luba Grigorovitch": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Luba_Grigorovitch",
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": 2022,
+    "prior_roles": [
+      "Minister for Youth since 2026",
+      "Minister for Carers and Volunteers since 2026",
+      "Member of the Victorian Legislative Assembly for Kororoit since 2022"
+    ],
+    "education": null
+  },
+  "Ella George": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Ella_George",
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": 2022,
+    "prior_roles": [
+      "Member of the Victorian Legislative Assembly for Lara since 2022"
+    ],
+    "education": null
+  },
+  "Sarah Connolly": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Sarah_Connolly",
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Emma Kealy": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Emma_Kealy",
+    "born": "29 May 1977",
+    "prior_occupation": null,
+    "elected_since": 2014,
+    "prior_roles": [
+      "Deputy Leader of the National Party in Victoria since 2022",
+      "Member of the Victorian Legislative Assembly for Lowan since 2014"
+    ],
+    "education": "University of South Australia"
+  },
+  "Mary-Anne Thomas": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Mary-Anne_Thomas",
+    "born": "26 February 1963",
+    "prior_occupation": null,
+    "elected_since": 2014,
+    "prior_roles": [
+      "Minister for Women 2025–2026",
+      "Leader of the House 2022–2026",
+      "Minister for Health Infrastructure 2022–2024"
+    ],
+    "education": null
+  },
+  "Michael O'Brien": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Michael_O'Brien_(Victorian_politician)",
+    "born": "5 August 1971",
+    "prior_occupation": "Barrister",
+    "elected_since": 2006,
+    "prior_roles": [
+      "Leader of the Opposition in Victoria 2018–2021",
+      "Leader of the Liberal Party in Victoria 2018–2021",
+      "Treasurer of Victoria 2013–2014"
+    ],
+    "education": null
+  },
+  "Ellen Sandell": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Ellen_Sandell",
+    "born": "26 November 1984",
+    "prior_occupation": null,
+    "elected_since": 2014,
+    "prior_roles": [
+      "Leader of the Victorian Greens since 2024",
+      "Deputy leader of the Victorian Greens 2018–2024",
+      "Member of the Victorian Legislative Assembly for Melbourne since 2014"
+    ],
+    "education": "University of Melbourne"
+  },
+  "Steve McGhie": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Steve_McGhie",
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": 2018,
+    "prior_roles": [
+      "Member of the Victorian Legislative Assembly for Melton since 2018"
+    ],
+    "education": null
+  },
+  "Jade Benham": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Jade_Benham",
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": 2022,
+    "prior_roles": [
+      "Member of the Victorian Legislative Assembly for Mildura since 2022"
+    ],
+    "education": null
+  },
+  "Lily D'Ambrosio": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Lily_D'Ambrosio",
+    "born": "30 July 1964",
+    "prior_occupation": null,
+    "elected_since": 2002,
+    "prior_roles": [
+      "Minister for Energy and Resources Minister for Climate Action Minister for the State Electricity Commission 2022–2026",
+      "Minister for Energy, Environment and Climate Change 2014–2022",
+      "Minister for Solar Homes 2018–2022"
+    ],
+    "education": "University of Melbourne"
+  },
+  "Daniela De Martino": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Daniela_De_Martino",
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": 2022,
+    "prior_roles": [
+      "Member of the Victorian Legislative Assembly for Monbulk since 2022"
+    ],
+    "education": null
+  },
+  "Tim Richardson": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Tim_Richardson_(Australian_politician)",
+    "born": "18 September 1988",
+    "prior_occupation": null,
+    "elected_since": 2014,
+    "prior_roles": [
+      "Minister for Local Government since 2026",
+      "Minister for Consumer Affairs since 2026",
+      "Minister for Renters since 2026"
+    ],
+    "education": "Deakin University (LLB/BCom)"
+  },
+  "Chris Crewther": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Chris_Crewther",
+    "born": "6 August 1983",
+    "prior_occupation": null,
+    "elected_since": 2022,
+    "prior_roles": [
+      "Member of the Victorian Legislative Assembly for Mornington since 2022",
+      "Member of the Australian Parliament for Dunkley 2016–2019"
+    ],
+    "education": "Australian National University; University of Canberra; The University of Melbourne"
+  },
+  "Martin Cameron": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Martin_Cameron_(Victorian_politician)",
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": 2022,
+    "prior_roles": [
+      "Member of the Victorian Legislative Assembly for Morwell since 2022"
+    ],
+    "education": null
+  },
+  "Eden Foster": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Eden_Foster",
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": 2023,
+    "prior_roles": [
+      "Mayor of Greater Dandenong 2022–2023",
+      "Councillor of the City of Greater Dandenong for Yarraman Ward 2020–2023",
+      "Member of the Victorian Legislative Assembly for Mulgrave since 2023"
+    ],
+    "education": null
+  },
+  "Peter Walsh": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Peter_Walsh_(Victorian_politician)",
+    "born": "9 January 1954",
+    "prior_occupation": null,
+    "elected_since": 2002,
+    "prior_roles": [
+      "Deputy Leader of the Opposition in Victoria 2014–2024",
+      "Leader of the Nationals in Victoria 2014–2024",
+      "Minister for Agriculture 2010–2014"
+    ],
+    "education": null
+  },
+  "Wayne Farnham": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Wayne_Farnham",
+    "born": null,
+    "prior_occupation": "Construction company owner",
+    "elected_since": 2023,
+    "prior_roles": [
+      "Member of the Victorian Legislative Assembly for Narracan since 2023"
+    ],
+    "education": "Warragul Technical College"
+  },
+  "Belinda Wilson": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Belinda_Wilson",
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": 2022,
+    "prior_roles": [
+      "Member of the Victorian Legislative Assembly for Narre Warren North since 2022"
+    ],
+    "education": null
+  },
+  "Gary Maas": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Gary_Maas",
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": 2018,
+    "prior_roles": [
+      "Member of the Victorian Legislative Assembly for Narre Warren South since 2018"
+    ],
+    "education": null
+  },
+  "Anthony Marsh": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Anthony_Marsh",
+    "born": "1986",
+    "prior_occupation": null,
+    "elected_since": 2026,
+    "prior_roles": [
+      "Mayor of Mornington Peninsula Shire 2024–2026",
+      "Member of the Victorian Legislative Assembly for Nepean since 2026"
+    ],
+    "education": null
+  },
+  "Ben Carroll": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Ben_Carroll",
+    "born": "12 July 1975",
+    "prior_occupation": null,
+    "elected_since": 2012,
+    "prior_roles": [
+      "Premier of Victoria since 2026",
+      "Leader of the Victorian Labor Party since 2026",
+      "Deputy Premier of Victoria 2023–2026"
+    ],
+    "education": "La Trobe University (LL.M.)"
+  },
+  "Kat Theophanous": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Kat_Theophanous",
+    "born": "December 9, 1986",
+    "prior_occupation": null,
+    "elected_since": 2018,
+    "prior_roles": [
+      "Member of the Victorian Legislative Assembly for Northcote since 2018"
+    ],
+    "education": null
+  },
+  "Steve Dimopoulos": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Steve_Dimopoulos",
+    "born": "1972",
+    "prior_occupation": null,
+    "elected_since": 2014,
+    "prior_roles": [
+      "Minister for WorkSafe and the TAC since 2026",
+      "Minister for Equality since 2026",
+      "Minister for Sport since 2026"
+    ],
+    "education": "Monash University"
+  },
+  "Tim McCurdy": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Tim_McCurdy",
+    "born": "16 January 1963",
+    "prior_occupation": null,
+    "elected_since": 2010,
+    "prior_roles": [
+      "Member of the Victorian Legislative Assembly for Ovens Valley since 2014",
+      "Member of the Victorian Legislative Assembly for Murray Valley 2010–2014"
+    ],
+    "education": null
+  },
+  "Emma Vulin": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Emma_Vulin",
+    "born": "1980",
+    "prior_occupation": null,
+    "elected_since": 2022,
+    "prior_roles": [
+      "Member of the Victorian Legislative Assembly for Pakenham since 2022"
+    ],
+    "education": null
+  },
+  "Anthony Cianflone": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Anthony_Cianflone",
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": 2022,
+    "prior_roles": [
+      "Member of the Victorian Legislative Assembly for Pascoe Vale since 2022"
+    ],
+    "education": null
+  },
+  "Mathew Hilakari": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Mathew_Hilakari",
+    "born": null,
+    "prior_occupation": "PoliticianWriterResearcher",
+    "elected_since": 2022,
+    "prior_roles": [
+      "Parliamentary Secretary for Education since 2026",
+      "Member of the Victorian Legislative Assembly for Point Cook since 2022"
+    ],
+    "education": "Monash University"
+  },
+  "Richard Riordan": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Richard_Riordan_(Australian_politician)",
+    "born": "11 April 1972",
+    "prior_occupation": null,
+    "elected_since": 2015,
+    "prior_roles": [
+      "Member of the Victorian Legislative Assembly for Polwarth since 2015"
+    ],
+    "education": "Monash University"
+  },
+  "Rachel Westaway": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Rachel_Westaway",
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": 2025,
+    "prior_roles": [
+      "Member of the Victorian Legislative Assembly for Prahran since 2025"
+    ],
+    "education": null
+  },
+  "Nathan Lambert": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Nathan_Lambert",
+    "born": null,
+    "prior_occupation": "Public servant Political staffer",
+    "elected_since": 2022,
+    "prior_roles": [
+      "Member of the Victorian Legislative Assembly for Preston since 2022"
+    ],
+    "education": "Oxford University (MBA); University of Melbourne (BCS)"
+  },
+  "Gabrielle de Vietri": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Gabrielle_de_Vietri",
+    "born": "1983",
+    "prior_occupation": null,
+    "elected_since": 2022,
+    "prior_roles": [
+      "Councillor of the City of Yarra for Langridge Ward 2020–2022",
+      "Mayor of Yarra 2020–2021",
+      "Member of the Victorian Legislative Assembly for Richmond since 2022"
+    ],
+    "education": null
+  },
+  "Will Fowles": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Will_Fowles",
+    "born": "27 July 1978",
+    "prior_occupation": null,
+    "elected_since": 2018,
+    "prior_roles": [
+      "Member of the Victorian Legislative Assembly for Ringwood since 2022",
+      "Member of the Victorian Legislative Assembly for Burwood 2018–2022"
+    ],
+    "education": "Monash University"
+  },
+  "Martha Haylett": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Martha_Haylett",
+    "born": "7 January 1991",
+    "prior_occupation": null,
+    "elected_since": 2022,
+    "prior_roles": [
+      "Member of the Victorian Legislative Assembly for Ripon since 2022"
+    ],
+    "education": null
+  },
+  "Kim Wells": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Kim_Wells_(Victorian_politician)",
+    "born": "6 August 1958",
+    "prior_occupation": null,
+    "elected_since": 1992,
+    "prior_roles": [
+      "Treasurer of Victoria 2010–2013",
+      "Member of the Victorian Legislative Assembly for Rowville since 2014",
+      "Member of the Victorian Legislative Assembly for Scoresby 2002–2014"
+    ],
+    "education": null
+  },
+  "Brad Rowswell": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Brad_Rowswell",
+    "born": "1985",
+    "prior_occupation": null,
+    "elected_since": 2018,
+    "prior_roles": [
+      "Member of the Victorian Legislative Assembly for Sandringham since 2018"
+    ],
+    "education": null
+  },
+  "Kim O'Keeffe": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Kim_O'Keeffe",
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": 2022,
+    "prior_roles": [
+      "Member of the Victorian Legislative Assembly for Shepparton since 2022"
+    ],
+    "education": null
+  },
+  "Darren Cheeseman": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Darren_Cheeseman",
+    "born": "8 June 1976",
+    "prior_occupation": "Union organiser",
+    "elected_since": 2018,
+    "prior_roles": [
+      "Member of the Victorian Parliament for South Barwon since 2018",
+      "Member of the Australian Parliament for Corangamite 2007–2013"
+    ],
+    "education": "University of Ballarat"
+  },
+  "Roma Britnell": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Roma_Britnell",
+    "born": "17 January 1967",
+    "prior_occupation": null,
+    "elected_since": 2015,
+    "prior_roles": [
+      "Member of the Victorian Legislative Assembly for South-West Coast since 2015"
+    ],
+    "education": null
+  },
+  "Natalie Suleyman": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Natalie_Suleyman",
+    "born": "6 June 1974",
+    "prior_occupation": null,
+    "elected_since": 2014,
+    "prior_roles": [
+      "Minister for Small and Family Business since 2026",
+      "Minister for Trade, Tourism and Investment since 2026",
+      "Minister for Veterans since 2022"
+    ],
+    "education": null
+  },
+  "Josh Bull": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Josh_Bull",
+    "born": "4 April 1985",
+    "prior_occupation": "Teacher",
+    "elected_since": 2014,
+    "prior_roles": [
+      "Member of the Victorian Legislative Assembly for Sunbury since 2014"
+    ],
+    "education": "Deakin University"
+  },
+  "Natalie Hutchins": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Natalie_Hutchins",
+    "born": "9 March 1972",
+    "prior_occupation": null,
+    "elected_since": 2010,
+    "prior_roles": [
+      "Minister for Government Services 2024–2025",
+      "Minister for Prevention of Family Violence 2024–2025",
+      "Minister for Women 2022–2025"
+    ],
+    "education": null
+  },
+  "Dylan Wight": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Dylan_Wight",
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": 2022,
+    "prior_roles": [
+      "Member of the Victorian Legislative Assembly for Tarneit since 2022"
+    ],
+    "education": null
+  },
+  "Bronwyn Halfpenny": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Bronwyn_Halfpenny",
+    "born": "30 July 1963",
+    "prior_occupation": null,
+    "elected_since": 2010,
+    "prior_roles": [
+      "Member of the Victorian Legislative Assembly for Thomastown since 2010"
+    ],
+    "education": null
+  },
+  "Nicole Werner": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Nicole_Werner",
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": 2023,
+    "prior_roles": [
+      "Member of the Victorian Legislative Assembly for Warrandyte since 2023"
+    ],
+    "education": null
+  },
+  "Juliana Addison": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Juliana_Addison",
+    "born": "1 August 1974",
+    "prior_occupation": null,
+    "elected_since": 2018,
+    "prior_roles": [
+      "Member of the Victorian Legislative Assembly for Wendouree since 2018"
+    ],
+    "education": "Monash University; University of Melbourne"
+  },
+  "John Lister": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/John_Lister_(Victorian_politician)",
+    "born": null,
+    "prior_occupation": "PoliticianTeacher",
+    "elected_since": 2025,
+    "prior_roles": [
+      "Member of the Victorian Legislative Assembly for Werribee since 2025"
+    ],
+    "education": null
+  },
+  "Melissa Horne": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Melissa_Horne",
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": 2018,
+    "prior_roles": [
+      "Minister for Ports and Freight since 2018",
+      "Minister for Jobs since 2026",
+      "Minister for Industry and Advanced Manufacturing since 2026"
+    ],
+    "education": null
+  },
+  "Lauren Kathage": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Lauren_Kathage",
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": 2022,
+    "prior_roles": [
+      "14 Alliance Ave, Mernda VIC 3754",
+      "Member of the Victorian Legislative Assembly for Yan Yean since 2022"
+    ],
+    "education": null
+  },
+  "Sheena Watt": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Sheena_Watt",
+    "born": "1983",
+    "prior_occupation": null,
+    "elected_since": 2020,
+    "prior_roles": [
+      "Member of the Victorian Legislative Council for Northern Metropolitan Region since 2020"
+    ],
+    "education": null
+  },
+  "Enver Erdogan": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Enver_Erdogan",
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": 2019,
+    "prior_roles": [
+      "Minister for Finance since 2026",
+      "Minister for Government Services since 2026",
+      "Minister for Casino, Gaming and Liquor Regulation since 2024"
+    ],
+    "education": "La Trobe University"
+  },
+  "Evan Mulholland": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Evan_Mulholland",
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": 2022,
+    "prior_roles": [
+      "Deputy Leader of the Liberal Party in the Victorian Legislative Council since 2023",
+      "Member of the Victorian Legislative Council for Northern Metropolitan Region since 2022"
+    ],
+    "education": null
+  },
+  "Anasina Gray-Barberio": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Anasina_Gray-Barberio",
+    "born": "1981",
+    "prior_occupation": "Social workerPolitician",
+    "elected_since": 2024,
+    "prior_roles": [
+      "Member of the Victorian Legislative Council for Northern Metropolitan Region since 2024"
+    ],
+    "education": "Deakin University"
+  },
+  "Adem Somyurek": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Adem_Somyurek",
+    "born": "25 September 1967",
+    "prior_occupation": null,
+    "elected_since": 2002,
+    "prior_roles": [
+      "Minister for Local Government 2018–2020",
+      "Minister for Small Business 2018–2020",
+      "Minister for Small Business, Innovation and Trade 2014–2015"
+    ],
+    "education": "Deakin University (MPol&Policy); Monash University (BA); Chisholm (CertBus(Acc)"
+  },
+  "David Davis": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/David_Davis_(Australian_politician)",
+    "born": "8 April 1962",
+    "prior_occupation": "Chiropractor",
+    "elected_since": 1996,
+    "prior_roles": [
+      "Leader of the Opposition in the Victorian Legislative Council 2024–2025",
+      "Leader of the Liberal Party in the Victorian Legislative Council 2024–2025",
+      "Minister for Health 2010–2014"
+    ],
+    "education": "University of Melbourne"
+  },
+  "Georgie Crozier": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Georgie_Crozier",
+    "born": "16 November 1963",
+    "prior_occupation": "Nurse Midwife Business Manager Consultant Politician",
+    "elected_since": 2010,
+    "prior_roles": [
+      "Leader of the Opposition in the Victorian Legislative Council 2022–2024",
+      "Leader of the Liberal Party in the Victorian Legislative Council 2022–2024",
+      "Deputy Leader of the Liberal Party in the Victorian Legislative Council 2018–2022"
+    ],
+    "education": "Deakin University; Swinburne University"
+  },
+  "John Berger": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/John_Berger_(politician)",
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": 2022,
+    "prior_roles": [
+      "Deputy Government Whip in the Victorian Legislative Council since 2022",
+      "Member of the Victorian Legislative Council for Southern Metropolitan Region since 2022"
+    ],
+    "education": null
+  },
+  "Ryan Batchelor": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Ryan_Batchelor",
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": 2022,
+    "prior_roles": [
+      "Member of the Victorian Legislative Council for Southern Metropolitan Region since 2022"
+    ],
+    "education": null
+  },
+  "Katherine Copsey": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Katherine_Copsey",
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": 2022,
+    "prior_roles": [
+      "Deputy Mayor of Port Phillip 2016–2017",
+      "Member of the Victorian Legislative Council for Southern Metropolitan Region since 2022"
+    ],
+    "education": null
+  },
+  "Shaun Leane": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Shaun_Leane",
+    "born": "20 August 1963",
+    "prior_occupation": "Electrician, union representative",
+    "elected_since": 2006,
+    "prior_roles": [
+      "President of the Victorian Legislative Council since 2022",
+      "Minister for Commonwealth Games Legacy 2022–2022",
+      "Minister for Veterans 2020–2022"
+    ],
+    "education": null
+  },
+  "Sonja Terpstra": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Sonja_Terpstra",
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": 2018,
+    "prior_roles": [
+      "Member of the Victorian Legislative Council for North-Eastern Metropolitan Region since 2018"
+    ],
+    "education": null
+  },
+  "Richard Welch": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Richard_Welch_(Australian_politician)",
+    "born": null,
+    "prior_occupation": "Businessman, inventor, politician",
+    "elected_since": 2024,
+    "prior_roles": [
+      "Member of the Victorian Legislative Council for North-Eastern Metropolitan Region since 2024"
+    ],
+    "education": null
+  },
+  "Nick McGowan": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Nick_McGowan",
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": 2022,
+    "prior_roles": [
+      "Member of the Victorian Legislative Council for North-Eastern Metropolitan since 2022"
+    ],
+    "education": "Galvin Park Secondary College (Now Wyndham Central College), Eltham High School"
+  },
+  "Aiv Puglielli": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Aiv_Puglielli",
+    "born": "1995",
+    "prior_occupation": null,
+    "elected_since": 2022,
+    "prior_roles": [
+      "Member of the Victorian Legislative Council for North-Eastern Metropolitan Region since 2022"
+    ],
+    "education": null
+  },
+  "Lee Tarlamis": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Lee_Tarlamis",
+    "born": "10 July 1975",
+    "prior_occupation": null,
+    "elected_since": 2010,
+    "prior_roles": [
+      "Member of the Victorian Legislative Council for South-Eastern Metropolitan Region since 2020"
+    ],
+    "education": null
+  },
+  "Michael Galea": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Michael_Galea_(politician)",
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": 2022,
+    "prior_roles": [
+      "Member of the Victorian Legislative Council for South-Eastern Metropolitan Region since 2022"
+    ],
+    "education": null
+  },
+  "Ann-Marie Hermans": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Ann-Marie_Hermans",
+    "born": null,
+    "prior_occupation": "Teacher",
+    "elected_since": 2022,
+    "prior_roles": [
+      "Member of the Victorian Legislative Council for South-Eastern Metropolitan Region since 2022"
+    ],
+    "education": null
+  },
+  "Rachel Payne": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Rachel_Payne",
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": 2022,
+    "prior_roles": [
+      "Member of the Victorian Legislative Council for South-Eastern Metropolitan Region since 2022"
+    ],
+    "education": null
+  },
+  "David Limbrick": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/David_Limbrick",
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": 2018,
+    "prior_roles": [
+      "Member of the Victorian Legislative Council for South-Eastern Metropolitan Region since 2022"
+    ],
+    "education": null
+  },
+  "Lizzie Blandthorn": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Lizzie_Blandthorn",
+    "born": "1 August 1977",
+    "prior_occupation": null,
+    "elected_since": 2014,
+    "prior_roles": [
+      "Deputy Leader of the Government in the Victorian Legislative Council since 2022",
+      "Leader of the House 2022–2022",
+      "Minister for Disability since 2023"
+    ],
+    "education": null
+  },
+  "Ingrid Stitt": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Ingrid_Stitt",
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": 2018,
+    "prior_roles": [
+      "Minister for Health since 2026",
+      "Minister for Mental Health since 2023",
+      "Minister for Ambulance Services since 2026"
+    ],
+    "education": null
+  },
+  "Moira Deeming": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Moira_Deeming",
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": 2022,
+    "prior_roles": [
+      "Councillor of the City of Melton 2020–2022",
+      "Member of the Victorian Legislative Council for the Western Metropolitan Region since 2022"
+    ],
+    "education": "La Trobe University; University of Melbourne"
+  },
+  "Trung Luu": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Trung_Luu",
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": 2022,
+    "prior_roles": [
+      "Member of the Victorian Legislative Council for Western Metropolitan Region since 2022"
+    ],
+    "education": null
+  },
+  "David Ettershank": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/David_Ettershank",
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": 2022,
+    "prior_roles": [
+      "Member of the Victorian Legislative Council for Western Metropolitan Region since 2022"
+    ],
+    "education": null
+  },
+  "Jaclyn Symes": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Jaclyn_Symes",
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": 2014,
+    "prior_roles": [
+      "Leader of the Government in the Legislative Council since 2020",
+      "Minister for Energy and Resources Minister for Climate Action Minister for the State Electricity Commission Minister for the Environment since 2026",
+      "Treasurer of Victoria 2024–2026"
+    ],
+    "education": "Deakin University"
+  },
+  "Wendy Lovell": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Wendy_Lovell",
+    "born": "11 August 1959",
+    "prior_occupation": null,
+    "elected_since": 2002,
+    "prior_roles": [
+      "Minister for Housing 2010–2014",
+      "Minister for Children and Early Childhood Development 2010–2014",
+      "Member of the Victorian Legislative Council for Northern Victoria Region since 2006"
+    ],
+    "education": null
+  },
+  "Gaelle Broad": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Gaelle_Broad",
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": 2022,
+    "prior_roles": [
+      "Member of the Victorian Legislative Council for Northern Victoria Region since 2022"
+    ],
+    "education": null
+  },
+  "Georgie Purcell": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Georgie_Purcell",
+    "born": "13 July 1992",
+    "prior_occupation": null,
+    "elected_since": 2022,
+    "prior_roles": [
+      "Member of the Victorian Legislative Council for Northern Victoria since 2022"
+    ],
+    "education": "Deakin University"
+  },
+  "Rikkie-Lee Tyrrell": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Rikkie-Lee_Tyrrell",
+    "born": "1982",
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Harriet Shing": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Harriet_Shing",
+    "born": "17 October 1976",
+    "prior_occupation": null,
+    "elected_since": 2014,
+    "prior_roles": [
+      "Minister for Health 2026–2026",
+      "Minister for Ambulance Services 2026–2026",
+      "Minister for Water 2026–2026"
+    ],
+    "education": null
+  },
+  "Tom McIntosh": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Tom_McIntosh_(politician)",
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": 2022,
+    "prior_roles": [
+      "Member of the Victorian Legislative Council for Eastern Victoria Region since 2022"
+    ],
+    "education": null
+  },
+  "Renee Heath": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Renee_Heath",
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": 2022,
+    "prior_roles": [
+      "Secretary of the Parliamentary Liberal Party since 2022",
+      "Member of the Victorian Legislative Council for Eastern Victoria Region since 2022"
+    ],
+    "education": null
+  },
+  "Melina Bath": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Melina_Bath",
+    "born": "18 December 1966",
+    "prior_occupation": "Teacher",
+    "elected_since": 2015,
+    "prior_roles": [
+      "Member of the Victorian Legislative Council for Eastern Victoria Region since 2015"
+    ],
+    "education": "University of Melbourne"
+  },
+  "Jeff Bourman": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Jeff_Bourman",
+    "born": "19 February 1967",
+    "prior_occupation": "Parliamentarian, Police officer, IT contractor",
+    "elected_since": 2014,
+    "prior_roles": [
+      "Member of the Victorian Legislative Council for Eastern Victoria Region since 2014"
+    ],
+    "education": null
+  },
+  "Gayle Tierney": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Gayle_Tierney",
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": 2006,
+    "prior_roles": [
+      "Minister for Water 2024–2026",
+      "Minister for Skills and TAFE 2023–2026",
+      "Minister for Regional Development 2023–2024"
+    ],
+    "education": "Flinders University"
+  },
+  "Jacinta Ermacora": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Jacinta_Ermacora",
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": 2022,
+    "prior_roles": [
+      "Member of the Victorian Legislative Council for Western Victoria since 2022"
+    ],
+    "education": null
+  },
+  "Bev McArthur": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Bev_McArthur",
+    "born": "10 September 1949",
+    "prior_occupation": null,
+    "elected_since": 2018,
+    "prior_roles": [
+      "Leader of the Opposition in the Victorian Legislative Council since 2025",
+      "Leader of the Liberal Party in the Victorian Legislative Council since 2025",
+      "Member of the Victorian Legislative Council for Western Victoria Region since 2018"
+    ],
+    "education": null
+  },
+  "Joe McCracken": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Joe_McCracken",
+    "born": "30 January 1988",
+    "prior_occupation": null,
+    "elected_since": 2022,
+    "prior_roles": [
+      "Member of the Victorian Legislative Council for Western Victoria Region since 2022"
+    ],
+    "education": null
+  },
+  "Sarah Mansfield": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Sarah_Mansfield",
+    "born": null,
+    "prior_occupation": "General Practitioner Politician",
+    "elected_since": 2022,
+    "prior_roles": [
+      "Deputy leader of the Victorian Greens since 2024",
+      "Councillor of the City of Greater Geelong for Brownbill Ward 2017–2022",
+      "Member of the Victorian Legislative Council for Western Victoria Region since 2022"
+    ],
+    "education": "London School of Economics"
+  },
+  "Sonya Semmens": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Tammy Lindrum": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Colleen Bolger": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Georgie Dragwidge (Ind)Daniel O'Neill": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Theo Zographos": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Tim Randall": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Tim_Randall",
+    "born": "19 June 1986",
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": [
+      "Personal information",
+      "Sport",
+      "Medal record Men´s Bobsleigh"
+    ],
+    "education": null
+  },
+  "Steven Mitchell": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Jacob van der Eynden": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Hitendra Joshi": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Chris Buckingham": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Rochelle Halstead": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Sophie Thorn": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Nikole Schellekens": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Chris Jobe": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Julie Buxton": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "David Kitchen": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/David_Kitchen",
+    "born": "15 September 1953",
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": [
+      "Personal information",
+      "Sport"
+    ],
+    "education": null
+  },
+  "Jess Kennedy": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Jess_Kennedy",
+    "born": "12 July 1990",
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": [
+      "Personal information",
+      "Playing career",
+      "Career highlights"
+    ],
+    "education": null
+  },
+  "Kayte Bleakney": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Alec Ferguson": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Alec_Ferguson",
+    "born": "19 July 1978",
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": [
+      "Personal information",
+      "International information",
+      "Career statistics"
+    ],
+    "education": null
+  },
+  "Gary Coombs": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Callum Whitehead": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Mitch Pope": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Ross McRae": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Ronan Keogh": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Dom Williams": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Dom_Williams",
+    "born": "December 11, 1992",
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": [
+      "No. 84",
+      "Personal information",
+      "Career information"
+    ],
+    "education": null
+  },
+  "Steve Martin": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Steve_Martin",
+    "born": "August 14, 1945",
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": [
+      "Comedy career",
+      "Signature"
+    ],
+    "education": null
+  },
+  "Graham Parton": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Kellie Sheppard": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Alex Vangalen": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Lachie McKeeman (Ind)Mike Fruery": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Tim Rickwood": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Andrew Lethlean": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Michael Tolhurst": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Cheryl Hawken": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Denali Norsen": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Liz Wright": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Brenton Baldwin": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "David Hutchings": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Liza Shaw": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Ellen Morgan": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Tayne Shalevski": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Tynan Putt": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Karli McRostie": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Herbert Lonsing": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Liam Kruger": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Rana Khan": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Roshan De Silva": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Michael Piastrino": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Nalinda Amarasiri Gunawardana": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Vincenzo De Paolis": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Sally Houguet": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Aaron Qin": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Jamie Baker": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Saravina Afaj": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Heena Sinha Cheung (Ind)Peter Fagg": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Bridget Mullahy": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Ebony Bain": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Alexander Fagan": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Jessica Smith": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Maryam Nasim": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Ethan Keirs": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Mutullah Can Yolbulan": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Sue Bolton (SA)Candace Feild": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Gabriel Steger": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Adam Pulford": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Adam Helman": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Naomi Farmer": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Tomas Lightbody": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Mahdi Athari": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Dimitrios Tafidis": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Greg Rublee": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Chris Parr": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Chris_Parr",
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Nina Laitala": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Bruce Whalley": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Sagar Sanyal": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Melissa Murphy-Webster (Ind)Chloe Nicolosi": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Jeff Shelley": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Zoe Pegrum": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Joshua Mathews": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Reema Ababneh": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Carolyn Moore": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Mikaela Stafrace": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Angel Dolejsí": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Michael Abelman": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Michael_Abelman",
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Malak Ababneh": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Geneviève Gilbert": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Conor Boyd-Eedle": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Gavin Bain": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Gavin_Bain",
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Kit Message": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Annalise Mercer": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Andrew Hirst": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Reem Yunis": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Shane Foreman": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Richard Farr": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Toby Wooldridge": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Lini Fernando": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Glenn Brindley": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Beth Grimshaw": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "David Vanderwolf": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Catherine D'Arcy": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Glenda Wright": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Jack McMahon": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Jack_McMahon",
+    "born": "December 3, 1928",
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": [
+      "Personal information",
+      "Career information",
+      "Career history"
+    ],
+    "education": null
+  },
+  "Kevin Gibson": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Talia Gulpilil": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Tim Barber": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Dylan Little": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Chloe Bond": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Paul Byrnes": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Rachel Busbridge": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Jessie Weatherly": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Maeve Riches": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Katerine Theodosis": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Tommy Le Deux": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "James Williams": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "John Barnes": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/John_Barnes",
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": [
+      "Personal information",
+      "Youth career",
+      "Senior career*"
+    ],
+    "education": null
+  },
+  "Michal Kedem": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Oscar Yildiz": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Emma Muir": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Sam McColl": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Paul Ballinger": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Paul_Ballinger",
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Andy Raven": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Wendy Morrison (AJP)Ian Harkness": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Alysia Regan": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Steve Campbell": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Zoe Lyle": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Analise Sherlock": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Andrew Henley": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Andrew_Henley",
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Daniel Killey": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Jan Heald": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Elena Pereyra": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Alexander Lopez": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Alexander_Lopez",
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": [
+      "Personal information",
+      "Team information",
+      "Youth career"
+    ],
+    "education": null
+  },
+  "Jasmine Duff": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Minh Quan Nguyen (West)Jess Marsh": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Bree Ambry": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Katie Goulas": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Paul Stafford": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Andrew Cheeseman": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Chrysten Abraham (Ind)Julie Harman": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Andy Pobjoy": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Emilie Flynn": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "John De Lorenzo": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Bree Vanderpol": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Brenden Grull": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Sonny Stephens": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Gemma Rendell": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Ash Munro": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Steve Goodman": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Steve_Goodman",
+    "born": "July 25, 1948",
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": [
+      "Background information"
+    ],
+    "education": null
+  },
+  "Amy Espeseth": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Zave Evans": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Bianca Wilke": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Lachie McGennisken": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Jacky Sun": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Toyo White": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Brad Cox": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Brad_Cox",
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Nicholas Siow": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Jim Overend": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Declan McGinness": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Chris Moore": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Kirill Smelov": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Rosanna Furina": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Frank Schiefler": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Isaac Willoughby": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Peter Angelico": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Michael Denman": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Chloe Coulson": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Clive Crosby": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Kylie Rocha": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Paul Pribilovics": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Tess McEnearney": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Shima Ibuki": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Oscar Lopez": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Nina Crawley": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Wayne Hutchins": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Ben Milne": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Michelle Kennedy": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Michelle_Kennedy",
+    "born": "July 12, 1972",
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Payal Tiwari": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Troy Steans": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Courtney Millett": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "David Sun": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Jackie Carter": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Jackie_Carter",
+    "born": "June 28, 1953",
+    "prior_occupation": "Children's literature",
+    "elected_since": null,
+    "prior_roles": null,
+    "education": "Hampton University; New York University (MS)"
+  },
+  "David Laird": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/David_Laird",
+    "born": "March 12, 1833",
+    "prior_occupation": "newspaper editor, publisher",
+    "elected_since": 1871,
+    "prior_roles": [
+      "Lieutenant Governor of the North-West Territories 1876–1881",
+      "Member of the Canadian Parliament for Queen's County 1873–1876",
+      "Member of the General Assembly of Prince Edward Island for 4th Queens 1871"
+    ],
+    "education": "Presbyterian Theological Seminary"
+  },
+  "Samantha Lincolne": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Sophie Torney (Ind)Ann Seeley": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Joyce McDonald": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Joyce_McDonald",
+    "born": "December 14, 1952",
+    "prior_occupation": null,
+    "elected_since": 1997,
+    "prior_roles": [
+      "Member of the Washington House of Representatives from the 25th district 2017–2019",
+      "Member of the Pierce County Council from the 2nd District 2009–2017"
+    ],
+    "education": null
+  },
+  "Seva Melnikov": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Rayan Hassan": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Vasundhara Kandpal (AJP)Donna Southern": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Theresa Slater": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Stephen Spyros": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Oliver Randall": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Sarah Hathway": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Ghada Noune": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Lucy Nguyen": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Rufo Paredes": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Van Thanh Rudd": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Shohre Mansouri": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Jeff Moran": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Andrew Partridge": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Jos Downey": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Lee Ann Elms": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Annette Death": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Kate Kendall": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Marley McRae McLeod": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Damien Parolin": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Catherine Wilson": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Natalie Korinfsky": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Amelia Hamer": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Georgia Katsikis": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Edward Bode": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Gavin Leonard": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Christina Zigouras": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Davydd Griffiths": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Matthew Collins": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Jordan van den Lamb": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Jordan_van_den_Lamb",
+    "born": "1995",
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Naomi Jones": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Naomi_Jones",
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Broden Borg": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Jarrod Bingham": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Veronika Levchenkova": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Matthew Katselis": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Fiona Adin-Jones (AJP)Marlene West": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Katie Clements": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Guy Cooper": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Guy_Cooper",
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": [
+      "MLB debut",
+      "Last MLB appearance",
+      "MLB statistics"
+    ],
+    "education": null
+  },
+  "Renee Nayef": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Ali Cupper": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Ali_Cupper",
+    "born": null,
+    "prior_occupation": "SolicitorSocial worker",
+    "elected_since": 2018,
+    "prior_roles": [
+      "Deputy Leader of Reason Coalition 2020–2021",
+      "Member of the Victorian Legislative Assembly for Mildura 2018–2022"
+    ],
+    "education": null
+  },
+  "Elizabeth Nealy": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Joel Drysdale": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Binoy Zacharias": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Arthur Tsoutsoulis": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Jesse Lambourn": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Eve Levens": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Clare Fitzmaurice": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Merran Blair": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Adrian Dowell": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Alyssa Wormald (AJP)Craig Manners": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Paul O'Halloran": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Paul_O'Halloran",
+    "born": "17 April 1950",
+    "prior_occupation": null,
+    "elected_since": 2010,
+    "prior_roles": [
+      "Member of the Tasmanian House of Assembly for Braddon 2010–2014"
+    ],
+    "education": null
+  },
+  "Alex Breskin": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Nadia Ticehurst": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Mahee Hossain": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Kai Titcher": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Ashli Beards": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Gene Brownlie": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Adrian Maher Melissa Goffin Independent": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Tracie Lund": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Rochelle Hine": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Casey Murphy": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Casey_Murphy",
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": [
+      "Personal information",
+      "Team information",
+      "Youth career"
+    ],
+    "education": null
+  },
+  "Charles Tran": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Charles_Tran",
+    "born": "January 29, 1878",
+    "prior_occupation": "physician",
+    "elected_since": 1925,
+    "prior_roles": [
+      "MLA for Pelly 1925–1929"
+    ],
+    "education": null
+  },
+  "Paul Schofield": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Paul_Schofield",
+    "born": "21 January 1922",
+    "prior_occupation": "Actor",
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Cody Rebbechi": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Connor Buchanan": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Ian Cook": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Brett Hosking": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Zoe Cook": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Garner Smith": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Jannette Langley": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Alyssa Weaver": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Ben Lucas": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Moss Page": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Geoff Dethlefs": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Hayley Perry": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Sebastian Crutchfield": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Lachlan McCracken": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Stefan Koomen": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Norliah Peterson": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Jill Nambu": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Trevor Hammond": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Trevor_Hammond",
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": [
+      "Website"
+    ],
+    "education": null
+  },
+  "Bailey McCracken": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Scott Watson": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Scott_Watson",
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Kim Robbins Independent": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Sianan Healy": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Darren Hercus": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Seth Willcocks": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Mike Brown": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Samantha Byrne": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Lana Nguyen": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Jason Taverna": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Brendan Laws": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Elisabetta Celata (West)Salomae Haselgrove": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Lynda Awad": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Campbell Gome": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Kath Larkin": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Jim Penman": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Jim_Penman",
+    "born": "25 May 1952",
+    "prior_occupation": "Franchisor, historian",
+    "elected_since": null,
+    "prior_roles": [
+      "Owner of Jim's Group"
+    ],
+    "education": "La Trobe University"
+  },
+  "Martin Jung": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Hsiang Han-Hsieh": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Brooke Carter": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Brooke_Carter",
+    "born": "April 29, 1987",
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": [
+      "Personal information",
+      "Professional wrestling career"
+    ],
+    "education": null
+  },
+  "Rowdy Bugter": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Ben Gilbert": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "James Rouel": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Steve Manning": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Alessandra Soliven": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Radmila Dyson": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Nasser Yawari": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Warren Pickering": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Warren_Pickering",
+    "born": "1983",
+    "prior_occupation": null,
+    "elected_since": 2026,
+    "prior_roles": [
+      "Leader of One Nation Victoria since 2026",
+      "State President of One Nation - Victoria",
+      "Military service"
+    ],
+    "education": null
+  },
+  "Stephanie Grigg": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Raymond French": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Raymond_French",
+    "born": "23 December 1939",
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": [
+      "Personal information",
+      "Playing information",
+      "Rugby union"
+    ],
+    "education": null
+  },
+  "Angelica Panopoulos": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Angelica_Panopoulos",
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": 2020,
+    "prior_roles": [
+      "Mayor of the City of Merri-bek 2022–2023",
+      "Councillor of the City of Merri-bek for North-West Ward 2020–2024"
+    ],
+    "education": null
+  },
+  "Andrew Forehan": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Yasemin Shamsili": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Jacob Andrewartha (SA)Kathrine Ashton": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Raja Reddy": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Ponraj Krishna Pandi": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Cameron Reid": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Cameron_Reid",
+    "born": "April 8, 2007",
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Taylor Laine": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Mark Grech": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Hutch Hussein": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Hutch_Hussein",
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Jesse Holden": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Anna Malcolm": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Meghan Hopper": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Angelica Di Camillo": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Shaun Virsu": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Clayton Doueihi": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Loki Sangarya": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Franco Guardiani": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Serena Ashmore": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Rachel Unicomb": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Sarah McKenzie": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Sarah_McKenzie",
+    "born": "6 November 1987",
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Harrison Rindfleish": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Chris Dite": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "David Meyer": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/David_Meyer",
+    "born": "24 July 1947",
+    "prior_occupation": "Actor",
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Rachel Halse": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Amy Mills": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Amy_Mills",
+    "born": "31 August 1986",
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": [
+      "Personal information",
+      "Sport",
+      "Medal record Deaflympics"
+    ],
+    "education": null
+  },
+  "John O'Connor": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/John_O'Connor_(Australian_politician)",
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Jack Gardner": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Prue Cutts": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Jo Armstrong (N)Megan Read": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Tim Drylie": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Donna Buxton": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Taylah Brennan-Jones": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Muhammad Shahbaz": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Muhammad_Shahbaz",
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Max Williams": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Max_Williams_(politician)",
+    "born": "1963",
+    "prior_occupation": null,
+    "elected_since": 1999,
+    "prior_roles": [
+      "Director of Oregon Department of Corrections 2004–2011",
+      "Member of the Oregon House of Representatives from the 35th, 9th district 1999–2005"
+    ],
+    "education": null
+  },
+  "Dave Massey": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Bradley Watt": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Lars Hiemstra": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Anastasia Sagris-Desmond": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Timon Fotakis": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Anthony Blight": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Lauren Stevenson": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Cayla Fin": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Grace Verney": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Phillip Bryant": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Karen Hocking": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Rebecca Thistleton": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Libby Pettit": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Izzy Scherrer": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Josh Geard": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Madilyn Gorman": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Freya Hedley (SA)Ron Nelson": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Andrew Govanstone": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Silver Rose": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Silver_Rose",
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Richard Hughes": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Hera Sheppard": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Tamhas Buchan": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Bao Huynh": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "John Cowell": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Leanna Nguyen": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Luận Walker": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Simmone Cottom": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Lauren Granger-Brown": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Elita Dabrowski": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Adam Bremner": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Uros Rasic": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Nathalie Moussi": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Maggie Jane": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Joh Bauch": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Shania Khan": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Maria Kerr (Ind)Ashley Vandenburg (Ind)Bruce Lancashire": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Rifai Raheem": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Walter Villagonzalo": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Leah Van Koulen": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Andrew Elsbury (West)Maurita Rahn": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Nadia Anthony": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Priya Reddy": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Priya_Reddy",
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Mark Burnside": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "John Stanley": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Ellen Burns": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Ellen_Burns",
+    "born": "December 13, 1923",
+    "prior_occupation": null,
+    "elected_since": 1978,
+    "prior_roles": [
+      "Senior Judge of the United States District Court for the District of Connecticut 1992–2019",
+      "Chief Judge of the United States District Court for the District of Connecticut 1988–1992",
+      "Judge of the United States District Court for the District of Connecticut 1978–1992"
+    ],
+    "education": "Albertus Magnus College (BA); Yale Law School (LLB)"
+  },
+  "Stuart Robinson": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Chris Meagher": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Chris_Meagher",
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": 2021,
+    "prior_roles": [
+      "Assistant to the Secretary of Defense for Public Affairs 2022–2025",
+      "White House Deputy Press Secretary 2021"
+    ],
+    "education": "Michigan State University (BA); Santa Barbara and Ventura Colleges of Law (JD)"
+  },
+  "Melissa Collins": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Melissa_Collins",
+    "born": "September 25, 1976",
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": [
+      "Personal information",
+      "Medal record Women's water polo"
+    ],
+    "education": null
+  },
+  "Ruth Byrne": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Ruth_Byrne",
+    "born": "1 March 1962",
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": "University College Dublin; Trinity College Dublin"
+  },
+  "Reece Clark": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Tushar Kumar": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Paul Pateras": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Sue Munro": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Paul Hopper (West)Matthew Emerson": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Paul Lindemann": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Paul_Lindemann",
+    "born": "April 30, 1918",
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": [
+      "Personal information",
+      "Career information",
+      "Career highlights"
+    ],
+    "education": null
+  },
+  "Ben Hocking": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Catherine Loughnan": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Oskar Martin": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Gil Gannon (West)Tony Briffa": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Amanda Dow": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Gufran Mohammed": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Jeremy Johnson": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Andrew Bell": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Sinan Okatan": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Matt Green": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Mat Morgan": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Danielle Burridge": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Neil Davison": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Helen Jaeges": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Max Forward": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Reade Smith": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Antoinette Pitt": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Deirdre Diamante": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "John Pyrros": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Gianni Del": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Rosario-Makridis": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Chloe Nicolosi": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Natalie Adams": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Natalie_Adams",
+    "born": "1965",
+    "prior_occupation": "Judge, lawyer",
+    "elected_since": 2016,
+    "prior_roles": [
+      "Judge of the Supreme Court of NSW since 2016"
+    ],
+    "education": "St Joseph's Convent Primary School; St Francis de Sales Regional College; Kincoppal School; University of Sydney; University of New South Wales"
+  },
+  "Lucas Deviesseux": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Heather Maltby": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Jack Corcoran": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Jack_Corcoran",
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": [
+      "MLB debut",
+      "Last MLB appearance",
+      "MLB statistics"
+    ],
+    "education": null
+  },
+  "William Clow": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Bernadette Khoury": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Omar Hassan": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Louisa Bassini": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Riley Aickin": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Imad Hirmiz": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Peita Collard": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Mark Nicholson": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Mark_Nicholson_(Australian_politician)",
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Bert Jessup": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Meredith Lawrence": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Chloe Beaton": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Darren Saffin": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Steve Brooks": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Amanda Millar": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Amanda_Millar",
+    "born": "1967",
+    "prior_occupation": null,
+    "elected_since": 2013,
+    "prior_roles": [
+      "Member of the Victorian Legislative Council for Northern Victoria Region 2013–2014"
+    ],
+    "education": "University of Melbourne"
+  },
+  "Cate Sinclair": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Wayne Taylor": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Wayne_Taylor",
+    "born": "15 July 1956",
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": [
+      "24 Hours of Le Mans career"
+    ],
+    "education": null
+  },
+  "Athol Thomas": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Michael White": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Dorothy Lamond": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Rohan Tyler": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Kate White": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Kate_White_(politician)",
+    "born": "April 6, 1977",
+    "prior_occupation": null,
+    "elected_since": 2011,
+    "prior_roles": [
+      "Leader of the Opposition in Yukon since 2025",
+      "Leader of the Yukon New Democratic Party since 2019",
+      "Member of the Yukon Legislative Assembly for Takhini since 2011"
+    ],
+    "education": null
+  },
+  "Phillip Pease": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Matthew Kirwan": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Jane Foreman": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Colleen Harkin": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Geoff Goddard": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Geoff_Goddard",
+    "born": "19 November 1937",
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Tamara Champion": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Kelly Cvetkova": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Keeley Hopper": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Brandon Hoult": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Xavier Boffa": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Zofia Pawlaczek": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Daniel O'Neill": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Bettina Terry": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Aaron Sanford": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Kristina Kaulenas": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Catherine Holder": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "April Worsley": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Roshena Campbell": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Roshena_Campbell",
+    "born": null,
+    "prior_occupation": "Barrister, politician",
+    "elected_since": 2020,
+    "prior_roles": [
+      "Deputy Lord Mayor of Melbourne since 2024",
+      "Councillor of the City of Melbourne since 2020"
+    ],
+    "education": "The University of Melbourne (LLM); Monash University (LLB (Hons)/BA)"
+  },
+  "Brittney Henderson": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Xavier Menta": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Anneke Demanuele": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Jorge Jorquera": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Fiona Lopez": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Dennis Bilic": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Joe Garra": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Sahana Ramesh": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Brett Patrikeos": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Graham Watt": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Graham_Watt",
+    "born": "18 August 1976",
+    "prior_occupation": null,
+    "elected_since": 2010,
+    "prior_roles": [
+      "Member of the Victorian Legislative Assembly for Burwood 2010–2018"
+    ],
+    "education": "Edith Cowan University"
+  },
+  "Peter Mitchell": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Peter_Mitchell_(politician)",
+    "born": "January 24, 1824",
+    "prior_occupation": null,
+    "elected_since": 1866,
+    "prior_roles": [
+      "Premier of the Colony of New Brunswick 1866–1867",
+      "Senator for New Brunswick 1867–1872",
+      "Member of the Canadian Parliament for Northumberland 1872–1878"
+    ],
+    "education": null
+  },
+  "Chris Burson": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Vaughan Williams": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Vaughan_Williams",
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Dianne Colbert": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Ben Nunquam": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Dominique Houzet": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Madeleine Wearne": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Ian Chivers": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Ian_Chivers",
+    "born": "5 November 1964",
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": [
+      "Personal information",
+      "Domestic team information",
+      "Career statistics"
+    ],
+    "education": null
+  },
+  "Tim Gooden": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Sue Bull": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Ross Smith": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Ross_Smith_(Australian_politician)",
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  },
+  "Aleta Moriarty": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null
+  }
+}

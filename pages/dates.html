@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Key dates — Victoria votes 2026</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<meta name="theme-color" content="#26457a" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#15181d" media="(prefers-color-scheme: dark)">
+<meta property="og:title" content="Victorian State Election 2026 — a plain-English guide">
+<meta property="og:description" content="Independent, non-partisan explainer of the 28 November 2026 Victorian state election: how voting works, preferences, candidates, and an interactive map of your electorate.">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_AU">
+<meta name="twitter:card" content="summary">
+<link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+<header class="site">
+  <div class="inner">
+    <h1><a href="/index.html">Victoria votes 2026</a></h1>
+    <nav>
+      <a href="/index.html">Home</a>
+      <a href="/pages/voting.html">How voting works</a>
+      <a href="/pages/preferences.html">Preferences</a>
+      <a href="/pages/upper-house.html">Upper house</a>
+      <a href="/pages/compare.html">Compare parties</a>
+      <a href="/pages/cycles.html">Election cycles</a>
+      <a href="/map.html">Map</a>
+      <a href="/pages/projections.html">Polling</a>
+      <a href="/pages/dates.html" aria-current="page">Key dates</a>
+      <a href="/pages/glossary.html">Glossary</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <h2>Key dates — 2026 Victorian state election</h2>
+  <p class="lede">The election is <strong>Saturday 28 November 2026</strong>. Here are the dates in the lead-up and after.</p>
+
+  <ul class="timeline" id="timeline"></ul>
+
+  <div class="callout">
+    <strong>Make sure you're enrolled.</strong> The absolute cut-off is 8pm on Tuesday 3 November. If you're not enrolled by then, you can't vote in this election. Check your enrolment at <a href="https://www.vec.vic.gov.au/enrolment">vec.vic.gov.au/enrolment</a>.
+  </div>
+
+  <script>
+    (async function() {
+      const res = await fetch('/assets/data/dates.json');
+      const data = await res.json();
+      const today = new Date().toISOString().slice(0, 10);
+      const ul = document.getElementById('timeline');
+      for (const d of data.key_dates) {
+        const li = document.createElement('li');
+        if (d.date < today) li.classList.add('past');
+        if (d.date === today) li.classList.add('today');
+        const date = document.createElement('div');
+        date.innerHTML = '<strong>' + d.label + '</strong>';
+        const ev = document.createElement('div');
+        ev.textContent = d.event;
+        li.append(date, ev);
+        ul.appendChild(li);
+      }
+    })();
+  </script>
+</main>
+
+<footer class="site">
+  <div class="inner">
+    <p>Authoritative source: <a href="https://www.vec.vic.gov.au">Victorian Electoral Commission</a>.</p>
+  </div>
+</footer>
+</body>
+</html>

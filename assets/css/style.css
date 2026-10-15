@@ -1,0 +1,431 @@
+:root {
+  --bg: #faf7f2;
+  --panel: #ffffff;
+  --ink: #1b1b1b;
+  --muted: #5a5a5a;
+  --rule: #e4ded4;
+  --accent: #26457a;
+  --accent-soft: #e8eef7;
+  --warn: #a04a0e;
+  color-scheme: light dark;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #15181d;
+    --panel: #1d2128;
+    --ink: #e8e8e8;
+    --muted: #a0a0a8;
+    --rule: #2d313a;
+    --accent: #6ea0e8;
+    --accent-soft: #1f2a3d;
+    --warn: #f0a060;
+  }
+}
+
+:root {
+  --labor: #e52a2a;
+  --liberal: #1565c0;
+  --national: #6b7280;
+  --greens: #0f8f3a;
+  --one-nation: #f36c21;
+  --socialists: #7a0010;
+  --family-first: #5b2c86;
+  --independent: #a3a3a3;
+  --cannabis: #72c342;
+  --libertarian: #fec327;
+  --animal-justice: #008080;
+  --other: #777777;
+  --radius: 6px;
+  --maxw: 980px;
+  font-size: 16px;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.55;
+}
+
+a { color: var(--accent); }
+a:hover { text-decoration: none; }
+
+header.site {
+  background: var(--panel);
+  border-bottom: 1px solid var(--rule);
+  padding: 14px 20px;
+}
+
+header.site .inner {
+  max-width: var(--maxw);
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+header.site h1 {
+  margin: 0;
+  font-size: 1.2rem;
+  letter-spacing: -0.01em;
+}
+
+header.site h1 a {
+  color: var(--ink);
+  text-decoration: none;
+}
+
+header.site nav {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  font-size: 0.95rem;
+}
+
+header.site nav a {
+  color: var(--muted);
+  text-decoration: none;
+  padding: 4px 2px;
+  border-bottom: 2px solid transparent;
+}
+
+header.site nav a:hover,
+header.site nav a[aria-current="page"] {
+  color: var(--ink);
+  border-bottom-color: var(--accent);
+}
+
+main {
+  max-width: var(--maxw);
+  margin: 0 auto;
+  padding: 32px 20px 80px;
+}
+
+main.wide {
+  max-width: none;
+  padding: 0;
+}
+
+h2, h3, h4 {
+  letter-spacing: -0.01em;
+  margin-top: 2em;
+  margin-bottom: 0.5em;
+}
+
+h2 { font-size: 1.6rem; }
+h3 { font-size: 1.2rem; }
+
+p, ul, ol { margin: 0.6em 0; }
+
+.lede {
+  font-size: 1.15rem;
+  color: var(--muted);
+}
+
+.card {
+  background: var(--panel);
+  border: 1px solid var(--rule);
+  border-radius: var(--radius);
+  padding: 20px 24px;
+  margin: 20px 0;
+}
+
+.card h3 { margin-top: 0.4em; }
+
+.callout {
+  background: var(--accent-soft);
+  border-left: 4px solid var(--accent);
+  padding: 14px 18px;
+  border-radius: 4px;
+  margin: 20px 0;
+  color: var(--ink);
+}
+
+.callout.warn {
+  background: #fdf2e3;
+  border-left-color: var(--warn);
+}
+@media (prefers-color-scheme: dark) {
+  .callout.warn { background: #3a2a14; color: var(--ink); }
+  .ballot { background: #1a1d22; border-color: #666; color: var(--ink); }
+  .ballot .box { border-color: #aaa; color: var(--ink); }
+  table th { color: var(--ink); }
+  .pill { background: #3a4253; color: #d4dbe8; }
+  .candidate-list li.sitting::after { background: #333; color: #ccc; }
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 14px 0;
+}
+table th, table td {
+  text-align: left;
+  padding: 6px 10px;
+  border-bottom: 1px solid var(--rule);
+}
+table th {
+  background: var(--panel);
+  font-weight: 600;
+}
+
+.pill {
+  display: inline-block;
+  padding: 2px 10px;
+  font-size: 0.8rem;
+  border-radius: 999px;
+  background: #d7e0ee;
+  color: #233a5e;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.pill.party {
+  color: #fff;
+  background: var(--other);
+}
+
+.party-labor { background: var(--labor); }
+.party-liberal, .party-coalition { background: var(--liberal); }
+.party-national { background: var(--national); }
+.party-greens { background: var(--greens); }
+.party-one-nation { background: var(--one-nation); }
+.party-socialists { background: var(--socialists); }
+.party-family-first { background: var(--family-first); }
+.party-legalise-cannabis, .party-cannabis { background: var(--cannabis); color: #0b2412; }
+.party-libertarian { background: var(--libertarian); color: #333; }
+.party-animal-justice { background: var(--animal-justice); }
+.party-independent, .party-ind { background: var(--independent); }
+.party-vacant { background: #999; }
+
+.timeline {
+  list-style: none;
+  padding: 0;
+}
+
+.timeline li {
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  gap: 12px;
+  padding: 10px 0;
+  border-bottom: 1px dashed var(--rule);
+}
+
+.timeline li.past { opacity: 0.5; }
+.timeline li.today { background: #fff8dc; padding-left: 10px; }
+
+.grid-cols-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+@media (max-width: 700px) {
+  .grid-cols-2 { grid-template-columns: 1fr; }
+  .timeline li { grid-template-columns: 1fr; }
+}
+
+footer.site {
+  border-top: 1px solid var(--rule);
+  padding: 24px 20px;
+  font-size: 0.9rem;
+  color: var(--muted);
+  background: var(--panel);
+}
+
+footer.site .inner {
+  max-width: var(--maxw);
+  margin: 0 auto;
+}
+
+/* --- Map page --- */
+main.wide { padding: 0 !important; max-width: none !important; }
+
+.map-layout {
+  display: grid;
+  grid-template-columns: 1fr 380px;
+}
+
+#map {
+  width: 100%;
+  height: 100%;
+  background: #e6edef;
+}
+
+.sidebar {
+  background: var(--panel);
+  border-left: 1px solid var(--rule);
+  overflow-y: auto;
+  padding: 20px 22px 60px;
+}
+
+.sidebar h2 { margin-top: 0; }
+
+.sidebar .toggles {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+.sidebar .subtoggles button { font-size: 0.8rem; padding: 6px 8px; }
+.legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 6px 0 14px;
+  font-size: 0.78rem;
+  color: var(--muted);
+  align-items: center;
+}
+.legend span {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  border-radius: 3px;
+  margin-right: 4px;
+  vertical-align: middle;
+}
+.sidebar .toggles button {
+  flex: 1;
+  padding: 8px 10px;
+  border: 1px solid var(--rule);
+  background: var(--bg);
+  color: var(--ink);
+  border-radius: var(--radius);
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+.sidebar .toggles button.active {
+  background: var(--accent);
+  color: #fff;
+  border-color: var(--accent);
+}
+
+.sidebar .search {
+  display: flex;
+  gap: 6px;
+  margin-bottom: 16px;
+}
+.sidebar .search input {
+  flex: 1;
+  padding: 8px 10px;
+  border: 1px solid var(--rule);
+  border-radius: var(--radius);
+  font-size: 0.95rem;
+}
+.sidebar .search button {
+  padding: 8px 12px;
+  border: 1px solid var(--accent);
+  background: var(--accent);
+  color: #fff;
+  border-radius: var(--radius);
+  cursor: pointer;
+}
+
+.candidate-list {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0;
+}
+.candidate-list li {
+  padding: 8px 0;
+  border-bottom: 1px dashed var(--rule);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.candidate-list li.sitting { font-weight: 600; }
+.candidate-list li.sitting::after {
+  content: "sitting MP";
+  font-size: 0.75rem;
+  color: var(--muted);
+  background: #eee;
+  padding: 2px 8px;
+  border-radius: 4px;
+  margin-left: auto;
+  font-weight: 400;
+}
+.candidate-list.detailed li {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2px;
+}
+p.bio {
+  margin: 2px 0 0;
+  font-size: 0.85rem;
+  color: var(--muted);
+  line-height: 1.4;
+}
+details.party-about {
+  border: 1px solid var(--rule);
+  border-radius: var(--radius);
+  padding: 6px 10px;
+  margin: 6px 0;
+  background: var(--panel);
+}
+details.party-about summary {
+  cursor: pointer;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.85rem;
+}
+details.party-about summary::-webkit-details-marker { display: none; }
+details.party-about[open] summary { margin-bottom: 6px; }
+details.party-about p {
+  font-size: 0.85rem;
+  margin: 4px 0 2px;
+  line-height: 1.45;
+}
+
+@media (max-width: 900px) {
+  .map-layout {
+    grid-template-columns: 1fr;
+    grid-template-rows: 55vh 1fr;
+    height: auto;
+  }
+  .sidebar { border-left: none; border-top: 1px solid var(--rule); }
+}
+
+/* --- Diagrams --- */
+.ballot {
+  display: inline-block;
+  background: #fdfbf7;
+  border: 2px solid #333;
+  padding: 14px 18px;
+  margin: 10px 0;
+  font-family: Georgia, "Times New Roman", serif;
+  min-width: 300px;
+}
+.ballot .ballot-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 4px 0;
+  border-bottom: 1px solid #ccc;
+}
+.ballot .ballot-row:last-child { border-bottom: none; }
+.ballot .box {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  border: 2px solid #333;
+  font-family: Georgia, serif;
+  font-weight: bold;
+}
+.ballot .box.empty { color: transparent; }
+
+.party-key {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 10px 0 24px;
+}

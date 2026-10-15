@@ -1,0 +1,624 @@
+{
+  "basis": "Uniform swing from aggregated October 2026 polls applied to each district's 2022 Labor TPP.",
+  "warning": "Uniform-swing projection is simplistic \u2014 it ignores regional variation, high-profile independents, One Nation's unusual Victorian support in 2026, and local candidate effects. Treat as a rough indicator only.",
+  "aggregate_swing": -8.8,
+  "as_of": "2026-10-15",
+  "projections": {
+    "ALBERT PARK": {
+      "labor_2022_tpp": 61.2,
+      "projected_labor_tpp": 52.4,
+      "projected_winner": "Labor",
+      "sitting_winner": "Labor",
+      "status": "close hold"
+    },
+    "ASHWOOD": {
+      "labor_2022_tpp": 56.2,
+      "projected_labor_tpp": 47.4,
+      "projected_winner": "Coalition",
+      "sitting_winner": "Labor",
+      "status": "likely flip"
+    },
+    "BASS": {
+      "labor_2022_tpp": 50.2,
+      "projected_labor_tpp": 41.4,
+      "projected_winner": "Coalition",
+      "sitting_winner": "Labor",
+      "status": "likely flip"
+    },
+    "BAYSWATER": {
+      "labor_2022_tpp": 54.2,
+      "projected_labor_tpp": 45.4,
+      "projected_winner": "Coalition",
+      "sitting_winner": "Labor",
+      "status": "likely flip"
+    },
+    "BELLARINE": {
+      "labor_2022_tpp": 58.5,
+      "projected_labor_tpp": 49.7,
+      "projected_winner": "Coalition",
+      "sitting_winner": "Labor",
+      "status": "likely flip"
+    },
+    "BENAMBRA": {
+      "projected_labor_tpp": null,
+      "projected_winner": "Liberal",
+      "status": "non-two-party",
+      "note": "2022 was Liberal vs Independent; statewide swing doesn't directly apply"
+    },
+    "BENDIGO EAST": {
+      "labor_2022_tpp": 60.8,
+      "projected_labor_tpp": 52.0,
+      "projected_winner": "Labor",
+      "sitting_winner": "Labor",
+      "status": "close hold"
+    },
+    "BENDIGO WEST": {
+      "labor_2022_tpp": 64.6,
+      "projected_labor_tpp": 55.8,
+      "projected_winner": "Labor",
+      "sitting_winner": "Labor",
+      "status": "safe hold"
+    },
+    "BENTLEIGH": {
+      "labor_2022_tpp": 58.0,
+      "projected_labor_tpp": 49.2,
+      "projected_winner": "Coalition",
+      "sitting_winner": "Labor",
+      "status": "likely flip"
+    },
+    "BERWICK": {
+      "labor_2022_tpp": 45.3,
+      "projected_labor_tpp": 36.5,
+      "projected_winner": "Coalition",
+      "sitting_winner": "Liberal",
+      "status": "safe hold"
+    },
+    "BOX HILL": {
+      "labor_2022_tpp": 57.2,
+      "projected_labor_tpp": 48.4,
+      "projected_winner": "Coalition",
+      "sitting_winner": "Labor",
+      "status": "likely flip"
+    },
+    "BRIGHTON": {
+      "labor_2022_tpp": 44.9,
+      "projected_labor_tpp": 36.1,
+      "projected_winner": "Coalition",
+      "sitting_winner": "Liberal",
+      "status": "safe hold"
+    },
+    "BROADMEADOWS": {
+      "labor_2022_tpp": 65.5,
+      "projected_labor_tpp": 56.7,
+      "projected_winner": "Labor",
+      "sitting_winner": "Labor",
+      "status": "safe hold"
+    },
+    "BRUNSWICK": {
+      "labor_2022_tpp": 36.3,
+      "projected_labor_tpp": 27.5,
+      "projected_winner": "Coalition",
+      "sitting_winner": "Greens",
+      "status": "safe hold"
+    },
+    "BULLEEN": {
+      "labor_2022_tpp": 44.1,
+      "projected_labor_tpp": 35.3,
+      "projected_winner": "Coalition",
+      "sitting_winner": "Liberal",
+      "status": "safe hold"
+    },
+    "BUNDOORA": {
+      "labor_2022_tpp": 62.7,
+      "projected_labor_tpp": 53.9,
+      "projected_winner": "Labor",
+      "sitting_winner": "Labor",
+      "status": "close hold"
+    },
+    "CARRUM": {
+      "labor_2022_tpp": 59.8,
+      "projected_labor_tpp": 51.0,
+      "projected_winner": "Labor",
+      "sitting_winner": "Labor",
+      "status": "in play"
+    },
+    "CAULFIELD": {
+      "labor_2022_tpp": 47.9,
+      "projected_labor_tpp": 39.1,
+      "projected_winner": "Coalition",
+      "sitting_winner": "Liberal",
+      "status": "safe hold"
+    },
+    "CLARINDA": {
+      "labor_2022_tpp": 60.2,
+      "projected_labor_tpp": 51.4,
+      "projected_winner": "Labor",
+      "sitting_winner": "Labor",
+      "status": "in play"
+    },
+    "CRANBOURNE": {
+      "labor_2022_tpp": 59.0,
+      "projected_labor_tpp": 50.2,
+      "projected_winner": "Labor",
+      "sitting_winner": "Labor",
+      "status": "in play"
+    },
+    "CROYDON": {
+      "labor_2022_tpp": 48.6,
+      "projected_labor_tpp": 39.8,
+      "projected_winner": "Coalition",
+      "sitting_winner": "Liberal",
+      "status": "safe hold"
+    },
+    "DANDENONG": {
+      "labor_2022_tpp": 68.3,
+      "projected_labor_tpp": 59.5,
+      "projected_winner": "Labor",
+      "sitting_winner": "Labor",
+      "status": "safe hold"
+    },
+    "EILDON": {
+      "labor_2022_tpp": 43.0,
+      "projected_labor_tpp": 34.2,
+      "projected_winner": "Coalition",
+      "sitting_winner": "Liberal",
+      "status": "safe hold"
+    },
+    "ELTHAM": {
+      "labor_2022_tpp": 59.0,
+      "projected_labor_tpp": 50.2,
+      "projected_winner": "Labor",
+      "sitting_winner": "Labor",
+      "status": "in play"
+    },
+    "ESSENDON": {
+      "labor_2022_tpp": 62.5,
+      "projected_labor_tpp": 53.7,
+      "projected_winner": "Labor",
+      "sitting_winner": "Labor",
+      "status": "close hold"
+    },
+    "EUREKA": {
+      "labor_2022_tpp": 57.2,
+      "projected_labor_tpp": 48.4,
+      "projected_winner": "Coalition",
+      "sitting_winner": "Labor",
+      "status": "likely flip"
+    },
+    "EUROA": {
+      "labor_2022_tpp": 40.1,
+      "projected_labor_tpp": 31.3,
+      "projected_winner": "Coalition",
+      "sitting_winner": "National",
+      "status": "safe hold"
+    },
+    "EVELYN": {
+      "labor_2022_tpp": 44.6,
+      "projected_labor_tpp": 35.8,
+      "projected_winner": "Coalition",
+      "sitting_winner": "Liberal",
+      "status": "safe hold"
+    },
+    "FOOTSCRAY": {
+      "labor_2022_tpp": 54.2,
+      "projected_labor_tpp": 45.4,
+      "projected_winner": "Coalition",
+      "sitting_winner": "Labor",
+      "status": "likely flip"
+    },
+    "FRANKSTON": {
+      "labor_2022_tpp": 58.7,
+      "projected_labor_tpp": 49.9,
+      "projected_winner": "Coalition",
+      "sitting_winner": "Labor",
+      "status": "likely flip"
+    },
+    "GEELONG": {
+      "labor_2022_tpp": 64.7,
+      "projected_labor_tpp": 55.9,
+      "projected_winner": "Labor",
+      "sitting_winner": "Labor",
+      "status": "safe hold"
+    },
+    "GIPPSLAND EAST": {
+      "labor_2022_tpp": 25.4,
+      "projected_labor_tpp": 16.6,
+      "projected_winner": "Coalition",
+      "sitting_winner": "National",
+      "status": "safe hold"
+    },
+    "GIPPSLAND SOUTH": {
+      "labor_2022_tpp": 34.4,
+      "projected_labor_tpp": 25.6,
+      "projected_winner": "Coalition",
+      "sitting_winner": "National",
+      "status": "safe hold"
+    },
+    "GLEN WAVERLEY": {
+      "labor_2022_tpp": 53.3,
+      "projected_labor_tpp": 44.5,
+      "projected_winner": "Coalition",
+      "sitting_winner": "Labor",
+      "status": "likely flip"
+    },
+    "GREENVALE": {
+      "labor_2022_tpp": 57.1,
+      "projected_labor_tpp": 48.3,
+      "projected_winner": "Coalition",
+      "sitting_winner": "Labor",
+      "status": "likely flip"
+    },
+    "HASTINGS": {
+      "labor_2022_tpp": 51.4,
+      "projected_labor_tpp": 42.6,
+      "projected_winner": "Coalition",
+      "sitting_winner": "Labor",
+      "status": "likely flip"
+    },
+    "HAWTHORN": {
+      "labor_2022_tpp": 48.3,
+      "projected_labor_tpp": 39.5,
+      "projected_winner": "Coalition",
+      "sitting_winner": "Liberal",
+      "status": "safe hold"
+    },
+    "IVANHOE": {
+      "labor_2022_tpp": 62.8,
+      "projected_labor_tpp": 54.0,
+      "projected_winner": "Labor",
+      "sitting_winner": "Labor",
+      "status": "close hold"
+    },
+    "KALKALLO": {
+      "labor_2022_tpp": 66.5,
+      "projected_labor_tpp": 57.7,
+      "projected_winner": "Labor",
+      "sitting_winner": "Labor",
+      "status": "safe hold"
+    },
+    "KEW": {
+      "labor_2022_tpp": 46.0,
+      "projected_labor_tpp": 37.2,
+      "projected_winner": "Coalition",
+      "sitting_winner": "Liberal",
+      "status": "safe hold"
+    },
+    "KOROROIT": {
+      "labor_2022_tpp": 64.5,
+      "projected_labor_tpp": 55.7,
+      "projected_winner": "Labor",
+      "sitting_winner": "Labor",
+      "status": "safe hold"
+    },
+    "LARA": {
+      "labor_2022_tpp": 65.9,
+      "projected_labor_tpp": 57.1,
+      "projected_winner": "Labor",
+      "sitting_winner": "Labor",
+      "status": "safe hold"
+    },
+    "LAVERTON": {
+      "labor_2022_tpp": 68.4,
+      "projected_labor_tpp": 59.6,
+      "projected_winner": "Labor",
+      "sitting_winner": "Labor",
+      "status": "safe hold"
+    },
+    "LOWAN": {
+      "labor_2022_tpp": 28.4,
+      "projected_labor_tpp": 19.6,
+      "projected_winner": "Coalition",
+      "sitting_winner": "National",
+      "status": "safe hold"
+    },
+    "MACEDON": {
+      "labor_2022_tpp": 59.5,
+      "projected_labor_tpp": 50.7,
+      "projected_winner": "Labor",
+      "sitting_winner": "Labor",
+      "status": "in play"
+    },
+    "MALVERN": {
+      "labor_2022_tpp": 41.9,
+      "projected_labor_tpp": 33.1,
+      "projected_winner": "Coalition",
+      "sitting_winner": "Liberal",
+      "status": "safe hold"
+    },
+    "MELBOURNE": {
+      "labor_2022_tpp": 39.8,
+      "projected_labor_tpp": 31.0,
+      "projected_winner": "Coalition",
+      "sitting_winner": "Greens",
+      "status": "safe hold"
+    },
+    "MELTON": {
+      "labor_2022_tpp": 54.6,
+      "projected_labor_tpp": 45.8,
+      "projected_winner": "Coalition",
+      "sitting_winner": "Labor",
+      "status": "likely flip"
+    },
+    "MILDURA": {
+      "projected_labor_tpp": null,
+      "projected_winner": "National",
+      "status": "non-two-party",
+      "note": "2022 was National vs Independent; statewide swing doesn't directly apply"
+    },
+    "MILL PARK": {
+      "labor_2022_tpp": 61.6,
+      "projected_labor_tpp": 52.8,
+      "projected_winner": "Labor",
+      "sitting_winner": "Labor",
+      "status": "close hold"
+    },
+    "MONBULK": {
+      "labor_2022_tpp": 57.6,
+      "projected_labor_tpp": 48.8,
+      "projected_winner": "Coalition",
+      "sitting_winner": "Labor",
+      "status": "likely flip"
+    },
+    "MORDIALLOC": {
+      "labor_2022_tpp": 58.2,
+      "projected_labor_tpp": 49.4,
+      "projected_winner": "Coalition",
+      "sitting_winner": "Labor",
+      "status": "likely flip"
+    },
+    "MORNINGTON": {
+      "projected_labor_tpp": null,
+      "projected_winner": "Liberal",
+      "status": "non-two-party",
+      "note": "2022 was Liberal vs Independent; statewide swing doesn't directly apply"
+    },
+    "MORWELL": {
+      "labor_2022_tpp": 45.6,
+      "projected_labor_tpp": 36.8,
+      "projected_winner": "Coalition",
+      "sitting_winner": "National",
+      "status": "safe hold"
+    },
+    "MULGRAVE": {
+      "labor_2022_tpp": 60.8,
+      "projected_labor_tpp": 52.0,
+      "projected_winner": "Labor",
+      "sitting_winner": "Labor",
+      "status": "close hold"
+    },
+    "MURRAY PLAINS": {
+      "labor_2022_tpp": 26.6,
+      "projected_labor_tpp": 17.8,
+      "projected_winner": "Coalition",
+      "sitting_winner": "National",
+      "status": "safe hold"
+    },
+    "NARRACAN": {
+      "labor_2022_tpp": 37.0,
+      "projected_labor_tpp": 28.2,
+      "projected_winner": "Coalition",
+      "sitting_winner": "Liberal",
+      "status": "safe hold"
+    },
+    "NARRE WARREN NORTH": {
+      "labor_2022_tpp": 58.7,
+      "projected_labor_tpp": 49.9,
+      "projected_winner": "Coalition",
+      "sitting_winner": "Labor",
+      "status": "likely flip"
+    },
+    "NARRE WARREN SOUTH": {
+      "labor_2022_tpp": 58.3,
+      "projected_labor_tpp": 49.5,
+      "projected_winner": "Coalition",
+      "sitting_winner": "Labor",
+      "status": "likely flip"
+    },
+    "NEPEAN": {
+      "labor_2022_tpp": 43.6,
+      "projected_labor_tpp": 34.8,
+      "projected_winner": "Coalition",
+      "sitting_winner": "Liberal",
+      "status": "safe hold"
+    },
+    "NIDDRIE": {
+      "labor_2022_tpp": 56.7,
+      "projected_labor_tpp": 47.9,
+      "projected_winner": "Coalition",
+      "sitting_winner": "Labor",
+      "status": "likely flip"
+    },
+    "NORTHCOTE": {
+      "labor_2022_tpp": 50.2,
+      "projected_labor_tpp": 41.4,
+      "projected_winner": "Coalition",
+      "sitting_winner": "Labor",
+      "status": "likely flip"
+    },
+    "OAKLEIGH": {
+      "labor_2022_tpp": 63.5,
+      "projected_labor_tpp": 54.7,
+      "projected_winner": "Labor",
+      "sitting_winner": "Labor",
+      "status": "close hold"
+    },
+    "OVENS VALLEY": {
+      "labor_2022_tpp": 32.2,
+      "projected_labor_tpp": 23.4,
+      "projected_winner": "Coalition",
+      "sitting_winner": "National",
+      "status": "safe hold"
+    },
+    "PAKENHAM": {
+      "labor_2022_tpp": 50.4,
+      "projected_labor_tpp": 41.6,
+      "projected_winner": "Coalition",
+      "sitting_winner": "Labor",
+      "status": "likely flip"
+    },
+    "PASCOE VALE": {
+      "labor_2022_tpp": 52.0,
+      "projected_labor_tpp": 43.2,
+      "projected_winner": "Coalition",
+      "sitting_winner": "Labor",
+      "status": "likely flip"
+    },
+    "POINT COOK": {
+      "labor_2022_tpp": 58.3,
+      "projected_labor_tpp": 49.5,
+      "projected_winner": "Coalition",
+      "sitting_winner": "Labor",
+      "status": "likely flip"
+    },
+    "POLWARTH": {
+      "labor_2022_tpp": 48.2,
+      "projected_labor_tpp": 39.4,
+      "projected_winner": "Coalition",
+      "sitting_winner": "Liberal",
+      "status": "safe hold"
+    },
+    "PRAHRAN": {
+      "projected_labor_tpp": null,
+      "projected_winner": "Greens",
+      "status": "non-two-party",
+      "note": "2022 was Greens vs Liberal; statewide swing doesn't directly apply"
+    },
+    "PRESTON": {
+      "labor_2022_tpp": 52.1,
+      "projected_labor_tpp": 43.3,
+      "projected_winner": "Coalition",
+      "sitting_winner": "Labor",
+      "status": "likely flip"
+    },
+    "RICHMOND": {
+      "labor_2022_tpp": 42.8,
+      "projected_labor_tpp": 34.0,
+      "projected_winner": "Coalition",
+      "sitting_winner": "Greens",
+      "status": "safe hold"
+    },
+    "RINGWOOD": {
+      "labor_2022_tpp": 57.5,
+      "projected_labor_tpp": 48.7,
+      "projected_winner": "Coalition",
+      "sitting_winner": "Labor",
+      "status": "likely flip"
+    },
+    "RIPON": {
+      "labor_2022_tpp": 53.0,
+      "projected_labor_tpp": 44.2,
+      "projected_winner": "Coalition",
+      "sitting_winner": "Labor",
+      "status": "likely flip"
+    },
+    "ROWVILLE": {
+      "labor_2022_tpp": 46.3,
+      "projected_labor_tpp": 37.5,
+      "projected_winner": "Coalition",
+      "sitting_winner": "Liberal",
+      "status": "safe hold"
+    },
+    "SANDRINGHAM": {
+      "labor_2022_tpp": 45.0,
+      "projected_labor_tpp": 36.2,
+      "projected_winner": "Coalition",
+      "sitting_winner": "Liberal",
+      "status": "safe hold"
+    },
+    "SHEPPARTON": {
+      "projected_labor_tpp": null,
+      "projected_winner": "National",
+      "status": "non-two-party",
+      "note": "2022 was National vs Independent; statewide swing doesn't directly apply"
+    },
+    "SOUTH BARWON": {
+      "labor_2022_tpp": 59.8,
+      "projected_labor_tpp": 51.0,
+      "projected_winner": "Labor",
+      "sitting_winner": "Labor",
+      "status": "in play"
+    },
+    "SOUTH-WEST COAST": {
+      "labor_2022_tpp": 42.0,
+      "projected_labor_tpp": 33.2,
+      "projected_winner": "Coalition",
+      "sitting_winner": "Liberal",
+      "status": "safe hold"
+    },
+    "ST ALBANS": {
+      "labor_2022_tpp": 59.6,
+      "projected_labor_tpp": 50.8,
+      "projected_winner": "Labor",
+      "sitting_winner": "Labor",
+      "status": "in play"
+    },
+    "SUNBURY": {
+      "labor_2022_tpp": 56.4,
+      "projected_labor_tpp": 47.6,
+      "projected_winner": "Coalition",
+      "sitting_winner": "Labor",
+      "status": "likely flip"
+    },
+    "SYDENHAM": {
+      "labor_2022_tpp": 58.8,
+      "projected_labor_tpp": 50.0,
+      "projected_winner": "Coalition",
+      "sitting_winner": "Labor",
+      "status": "likely flip"
+    },
+    "TARNEIT": {
+      "labor_2022_tpp": 62.3,
+      "projected_labor_tpp": 53.5,
+      "projected_winner": "Labor",
+      "sitting_winner": "Labor",
+      "status": "close hold"
+    },
+    "THOMASTOWN": {
+      "labor_2022_tpp": 65.8,
+      "projected_labor_tpp": 57.0,
+      "projected_winner": "Labor",
+      "sitting_winner": "Labor",
+      "status": "safe hold"
+    },
+    "WARRANDYTE": {
+      "labor_2022_tpp": 45.7,
+      "projected_labor_tpp": 36.9,
+      "projected_winner": "Coalition",
+      "sitting_winner": "Liberal",
+      "status": "safe hold"
+    },
+    "WENDOUREE": {
+      "labor_2022_tpp": 61.9,
+      "projected_labor_tpp": 53.1,
+      "projected_winner": "Labor",
+      "sitting_winner": "Labor",
+      "status": "close hold"
+    },
+    "WERRIBEE": {
+      "labor_2022_tpp": 60.9,
+      "projected_labor_tpp": 52.1,
+      "projected_winner": "Labor",
+      "sitting_winner": "Labor",
+      "status": "close hold"
+    },
+    "WILLIAMSTOWN": {
+      "labor_2022_tpp": 63.4,
+      "projected_labor_tpp": 54.6,
+      "projected_winner": "Labor",
+      "sitting_winner": "Labor",
+      "status": "close hold"
+    },
+    "YAN YEAN": {
+      "labor_2022_tpp": 54.3,
+      "projected_labor_tpp": 45.5,
+      "projected_winner": "Coalition",
+      "sitting_winner": "Labor",
+      "status": "likely flip"
+    }
+  },
+  "summary": {
+    "flips_to_coalition": 28,
+    "flips_to_labor": 0,
+    "in_play": 7
+  }
+}
