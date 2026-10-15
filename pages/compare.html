@@ -62,6 +62,26 @@
     .compare-grid .party-cell { font-size: 0.82rem; padding: 8px 10px; }
     .compare-grid .party-header { font-size: 0.78rem; padding: 6px 10px; }
   }
+  .filter-row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px 16px;
+    margin: 16px 0;
+    padding: 10px 14px;
+    background: var(--panel);
+    border: 1px solid var(--rule);
+    border-radius: var(--radius);
+    font-size: 0.9rem;
+  }
+  .filter-row label {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    cursor: pointer;
+    white-space: nowrap;
+  }
+  .filter-row input[type="checkbox"] { cursor: pointer; }
 </style>
 </head>
 <body>
@@ -92,6 +112,10 @@
     <strong>Read with care.</strong> This is a short-form summary. Parties say many things on many channels; the paraphrases below focus on their most prominent stated positions. For specifics, follow the link to each party's site at the bottom. If you think something misrepresents a position, the party's own website is canonical — not this page.
   </div>
 
+  <div id="filter-row" class="filter-row" hidden>
+    <strong>Show:</strong>
+    <span id="filter-checks"></span>
+  </div>
   <div id="compare-root">Loading…</div>
 
   <h3>Party websites</h3>
@@ -108,28 +132,64 @@
     (async function () {
       const data = await fetch('/assets/data/compare.json').then(r => r.json());
       const root = document.getElementById('compare-root');
-      const parties = data.parties;
+      const filterRow = document.getElementById('filter-row');
+      const filterChecks = document.getElementById('filter-checks');
       const colours = data.party_colours;
-      const cols = 'repeat(' + parties.length + ', 1fr)';
-      let html = '<div class="compare-grid">';
-      // header — sticky, stays pinned to top as you scroll
-      html += '<div class="issue-row header-row" style="grid-template-columns:' + cols + '">';
-      for (const p of parties) {
-        html += '<div class="party-header" style="border-bottom-color:' + colours[p] + '">' + p + '</div>';
+
+      // Load saved party selection from localStorage, default to all.
+      const SAVE_KEY = 'compare-visible-parties';
+      let visible;
+      try {
+        const saved = JSON.parse(localStorage.getItem(SAVE_KEY) || '[]');
+        visible = new Set(saved.length ? saved.filter(p => data.parties.includes(p)) : data.parties);
+      } catch (e) {
+        visible = new Set(data.parties);
       }
-      html += '</div>';
-      // issues
-      for (const issue of data.issues) {
-        html += '<div class="issue-row" style="grid-template-columns:' + cols + '">';
-        html += '<div class="issue-title">' + issue.title + '</div>';
+      if (!visible.size) visible = new Set(data.parties);
+
+      // Build filter checkboxes.
+      filterRow.hidden = false;
+      filterChecks.innerHTML = data.parties.map(p =>
+        '<label><input type="checkbox" data-party="' + p + '"' +
+        (visible.has(p) ? ' checked' : '') + '> ' +
+        '<span style="background:' + colours[p] + ';display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:3px"></span>' + p + '</label>'
+      ).join('');
+      filterChecks.addEventListener('change', (e) => {
+        const cb = e.target.closest('input[type="checkbox"]');
+        if (!cb) return;
+        const p = cb.dataset.party;
+        if (cb.checked) visible.add(p); else visible.delete(p);
+        if (!visible.size) {
+          // never allow zero columns — re-check the one just unchecked
+          visible.add(p); cb.checked = true;
+          return;
+        }
+        localStorage.setItem(SAVE_KEY, JSON.stringify([...visible]));
+        render();
+      });
+
+      function render() {
+        const parties = data.parties.filter(p => visible.has(p));
+        const cols = 'repeat(' + parties.length + ', 1fr)';
+        let html = '<div class="compare-grid">';
+        html += '<div class="issue-row header-row" style="grid-template-columns:' + cols + '">';
         for (const p of parties) {
-          const text = issue.positions[p] || '<em style="color:var(--muted)">No public position recorded.</em>';
-          html += '<div class="party-cell">' + text + '</div>';
+          html += '<div class="party-header" style="border-bottom-color:' + colours[p] + '">' + p + '</div>';
         }
         html += '</div>';
+        for (const issue of data.issues) {
+          html += '<div class="issue-row" style="grid-template-columns:' + cols + '">';
+          html += '<div class="issue-title">' + issue.title + '</div>';
+          for (const p of parties) {
+            const text = issue.positions[p] || '<em style="color:var(--muted)">No public position recorded.</em>';
+            html += '<div class="party-cell">' + text + '</div>';
+          }
+          html += '</div>';
+        }
+        html += '</div>';
+        root.innerHTML = html;
       }
-      html += '</div>';
-      root.innerHTML = html;
+      render();
 
       const ul = document.getElementById('party-sites');
       for (const [p, url] of Object.entries(data.party_sites || {})) {
