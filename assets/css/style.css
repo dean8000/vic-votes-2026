@@ -373,6 +373,14 @@ a.src {
   vertical-align: middle;
 }
 a.src:hover { background: var(--accent-soft); color: var(--accent); }
+
+.trajectory-row {
+  margin: 4px 0;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+.trajectory-row small { color: var(--muted); font-size: 0.85em; }
+.trajectory-row small strong { color: var(--ink); }
 details.party-about {
   border: 1px solid var(--rule);
   border-radius: var(--radius);

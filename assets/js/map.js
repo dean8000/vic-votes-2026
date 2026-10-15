@@ -200,14 +200,14 @@
       html += '<h3>Trajectory <a class="src" href="https://en.wikipedia.org/wiki/Results_of_the_2022_Victorian_state_election_(Legislative_Assembly)" target="_blank" rel="noopener">source</a></h3>';
       const m2018 = margins2018[key];
       if (m2018 && m2018.winner) {
-        html += '<p><small>2018:</small> ' + esc(m2018.winner) + ' <strong>' + m2018.tpp_winner_pct.toFixed(1) + '%</strong> vs ' + esc(m2018.tpp_opponent) + ' <small>(' + m2018.basis + ')</small></p>';
+        html += '<p class="trajectory-row"><small>2018:</small> ' + esc(m2018.winner) + ' <strong>' + m2018.tpp_winner_pct.toFixed(1) + '%</strong> vs ' + esc(m2018.tpp_opponent) + ' <small>(' + m2018.basis + ')</small></p>';
       } else if (m2018 === null) {
-        html += '<p><small>2018:</small> <em>district did not exist (2021 redistribution)</em></p>';
+        html += '<p class="trajectory-row"><small>2018:</small> <em>district did not exist (2021 redistribution)</em></p>';
       }
-      html += '<p><small>2022:</small> ' + esc(mg.winner) + ' <strong>' + mg.tpp_winner_pct.toFixed(1) + '%</strong> vs ' +
-              esc(mg.tpp_opponent) + ' <small>(' + mg.basis + ')</small></p>';
-      html += '<p>Margin <strong>' + mg.margin.toFixed(1) + '%</strong> &middot; ' + safetyBadge +
-              (swing ? ' &middot; <small>' + swing + ' since 2018</small>' : '') + '</p>';
+      html += '<p class="trajectory-row"><small>2022:</small> ' + esc(mg.winner) + ' <strong>' + mg.tpp_winner_pct.toFixed(1) + '%</strong> vs ' +
+              esc(mg.tpp_opponent) + ' <small>(' + mg.basis + ')</small> ' +
+              '<small>· margin <strong>' + mg.margin.toFixed(1) + '%</strong> ·</small> ' + safetyBadge +
+              (swing ? ' <small>· ' + swing + ' since 2018</small>' : '') + '</p>';
 
       // 2026 projection (uniform swing from polling average)
       const proj = projections[key];
@@ -220,12 +220,12 @@
           'non-two-party': '#999',
         }[proj.status] || '#999';
         const badge = '<span class="pill" style="background:' + statusColour + ';color:#fff">' + esc(proj.status) + '</span>';
-        html += '<p><small>Projected 2026:</small> <strong>' + esc(proj.projected_winner) + '</strong> ' +
+        html += '<p class="trajectory-row"><small>2026 projected:</small> <strong>' + esc(proj.projected_winner) + '</strong> ' +
                 (proj.projected_winner === 'Labor' ? proj.projected_labor_tpp.toFixed(1) : (100 - proj.projected_labor_tpp).toFixed(1)) + '% TPP ' +
                 badge + '</p>';
         html += '<p class="bio">Based on uniform swing of ' + aggregateSwing.toFixed(1) + '% applied to 2022 TPP — see <a href="/pages/projections.html">how it works &amp; caveats</a>.</p>';
       } else if (proj && proj.status === 'non-two-party') {
-        html += '<p><small>Projected 2026:</small> <em>' + esc(proj.note) + '</em></p>';
+        html += '<p class="trajectory-row"><small>2026 projected:</small> <em>' + esc(proj.note) + '</em></p>';
         html += '<p class="bio">See <a href="/pages/projections.html">projections page</a> for why uniform swing doesn\'t apply here.</p>';
       }
     }
