@@ -298,6 +298,17 @@
   const sidebarEl = document.querySelector('.sidebar');
   const scrollSidebarTop = () => { if (sidebarEl) sidebarEl.scrollTop = 0; };
 
+  // Breadcrumb: if the user arrived from the Big board, show a tiny link back.
+  (function () {
+    const crumb = document.getElementById('breadcrumb');
+    if (!crumb) return;
+    const ref = document.referrer || '';
+    if (ref.includes('/pages/bigboard.html')) {
+      crumb.hidden = false;
+      crumb.innerHTML = '<a href="/pages/bigboard.html">← Back to Big board</a>';
+    }
+  })();
+
   // --- Deep-link helpers ---
   const encodeKey = (k) => encodeURIComponent(k.replace(/\s+/g, '_'));
   const decodeKey = (k) => decodeURIComponent(k).replace(/_/g, ' ').trim();

@@ -264,6 +264,15 @@ main.wide { padding: 0 !important; max-width: none !important; }
 }
 
 .sidebar h2 { margin-top: 0; }
+.breadcrumb {
+  margin: 0 0 10px;
+  font-size: 0.85rem;
+}
+.breadcrumb a {
+  color: var(--muted);
+  text-decoration: none;
+}
+.breadcrumb a:hover { color: var(--accent); text-decoration: underline; }
 
 .sidebar .toggles {
   display: flex;
