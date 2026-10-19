@@ -525,10 +525,11 @@ p.bio {
 }
 .bio-text { flex: 1 1 auto; min-width: 0; }
 .cand-photo {
-  width: 60px;
-  height: 60px;
+  width: 84px;
+  height: 100px;
   object-fit: cover;
-  border-radius: 50%;
+  object-position: center top;
+  border-radius: 8px;
   border: 1px solid var(--rule);
   flex-shrink: 0;
   background: var(--panel);
