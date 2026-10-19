@@ -1,3 +1,24 @@
+// Footer freshness line — reads /assets/data/last-refresh.json and appends a
+// subtle "what's new" line into every page footer.
+(function () {
+  const footer = document.querySelector('footer.site .inner');
+  if (!footer) return;
+  fetch('/assets/data/last-refresh.json').then(r => r.ok ? r.json() : null).then(d => {
+    if (!d) return;
+    const date = new Date(d.refreshed_on + 'T00:00:00Z').toLocaleDateString('en-AU', { day: 'numeric', month: 'long', year: 'numeric' });
+    const bits = [
+      '<strong>Data snapshot:</strong> ' + date,
+      d.polls_tracked + ' polls tracked',
+      d.candidates_with_bio + ' of ' + d.candidates_total + ' candidates with bios',
+    ];
+    if (d.projection_flips) bits.push(d.projection_flips + ' projected seat flips');
+    const p = document.createElement('p');
+    p.className = 'freshness';
+    p.innerHTML = bits.join(' · ');
+    footer.appendChild(p);
+  }).catch(() => {});
+})();
+
 // Mobile hamburger — collapses the nav behind a toggle button on narrow screens.
 (function () {
   const header = document.querySelector('header.site');

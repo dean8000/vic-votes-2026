@@ -400,6 +400,13 @@ footer.site .inner {
   max-width: var(--maxw);
   margin: 0 auto;
 }
+footer.site .freshness {
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px solid var(--rule);
+  font-size: 0.8rem;
+  color: var(--muted);
+}
 
 /* --- Map page --- */
 main.wide { padding: 0 !important; max-width: none !important; }

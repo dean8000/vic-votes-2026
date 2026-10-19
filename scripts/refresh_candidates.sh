@@ -18,7 +18,10 @@ python3 "$ROOT/scripts/refresh_polling.py"
 echo "[4/5] Refreshing candidate bios (ABC + party sites)…"
 python3 "$ROOT/scripts/scrape_party_bios.py" >/dev/null
 
-echo "[5/5] Rebuilding projections from current swing…"
+echo "[5/6] Rebuilding projections from current swing…"
 python3 "$ROOT/scripts/rebuild_projections.py"
+
+echo "[6/6] Updating last-refresh snapshot…"
+python3 "$ROOT/scripts/generate_refresh_summary.py"
 
 echo "Done."

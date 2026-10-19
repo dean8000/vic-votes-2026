@@ -1,0 +1,22 @@
+{
+  "refreshed_on": "2026-10-19",
+  "polls_tracked": 24,
+  "aggregate": {
+    "as_of": "2026-10-19",
+    "n_polls": 5,
+    "tpp_labor": 45.6,
+    "tpp_coalition": 54.4,
+    "tpp_swing_from_2022": -9.4,
+    "primary": {
+      "Labor": 24.0,
+      "Coalition": 30.0,
+      "Greens": 14.4,
+      "One Nation": 22.6,
+      "Others": 9.0
+    }
+  },
+  "candidates_total": 639,
+  "candidates_with_bio": 498,
+  "projection_flips": 26,
+  "projection_in_play": 8
+}
