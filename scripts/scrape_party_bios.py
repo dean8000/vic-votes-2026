@@ -150,11 +150,15 @@ def parse_abc_page(html, electorate_code):
         bio = None
         if bio_m:
             bio = strip_tags(bio_m.group(1)).strip()
+        # Candidate photo URL (ABC pattern: /dat/news/elections/vic/2026/guide/photos/<DIST>_<PARTY>_<LASTNAME>.jpg)
+        photo_m = re.search(r'src="(https://www\.abc\.net\.au/dat/news/elections/vic/2026/guide/photos/[^"]+\.(?:jpg|jpeg|png|webp))"', chunk)
+        photo = photo_m.group(1) if photo_m else None
         cards.append({
             "name": name,
             "party": party,
             "link": link,
             "bio": bio,
+            "photo": photo,
             "electorate_code": electorate_code,
         })
     return cards
@@ -280,6 +284,11 @@ def main():
                 unmatched.append((card["name"], code))
                 continue
             existing = bios[key]
+            # Always add photo_url from ABC if we don't already have one, even
+            # for sitting MPs whose bio text comes from Wikipedia.
+            if card.get("photo") and not existing.get("photo_url"):
+                existing["photo_url"] = card["photo"]
+                bios[key] = existing
             if existing.get("wikipedia_url"):
                 skipped_has_wiki += 1
                 continue
@@ -300,6 +309,8 @@ def main():
             merged["summary"] = card["bio"]
             merged["source"] = source_label
             merged["source_url"] = source_url
+            if card.get("photo"):
+                merged["photo_url"] = card["photo"]
             bios[key] = merged
             enriched += 1
             source_counts[source_label] = source_counts.get(source_label, 0) + 1

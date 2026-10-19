@@ -459,6 +459,22 @@ p.bio {
   color: var(--muted);
   line-height: 1.4;
 }
+.bio-row {
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+  margin-top: 4px;
+}
+.bio-text { flex: 1 1 auto; min-width: 0; }
+.cand-photo {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 1px solid var(--rule);
+  flex-shrink: 0;
+  background: var(--panel);
+}
 a.src {
   font-size: 0.7rem;
   font-weight: normal;

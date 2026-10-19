@@ -204,22 +204,26 @@
   function bioLine(name, bios) {
     const b = bios[name];
     if (!b) return '';
+    const photo = b.photo_url
+      ? '<img class="cand-photo" src="' + esc(b.photo_url) + '" alt="" loading="lazy" onerror="this.remove()">'
+      : '';
+    let text = '';
     if (b.wikipedia_url) {
       const bits = [];
       if (b.elected_since) bits.push('first elected ' + b.elected_since);
       if (b.prior_occupation) bits.push('prior: ' + b.prior_occupation);
-      let text = bits.join(' · ');
+      let t = bits.join(' · ');
       if (b.prior_roles && b.prior_roles.length) {
-        text += (text ? '. ' : '') + b.prior_roles.slice(0, 2).join('; ');
+        t += (t ? '. ' : '') + b.prior_roles.slice(0, 2).join('; ');
       }
-      return text ? '<p class="bio">' + esc(text) + ' <a href="' + esc(b.wikipedia_url) + '" target="_blank" rel="noopener">wikipedia</a></p>' : '';
-    }
-    if (b.summary) {
-      return '<p class="bio">' + esc(b.summary) +
+      if (t) text = '<p class="bio">' + esc(t) + ' <a href="' + esc(b.wikipedia_url) + '" target="_blank" rel="noopener">wikipedia</a></p>';
+    } else if (b.summary) {
+      text = '<p class="bio">' + esc(b.summary) +
         (b.source_url ? ' <a href="' + esc(b.source_url) + '" target="_blank" rel="noopener">' + esc(b.source || 'source') + '</a>' : '') +
         '</p>';
     }
-    return '';
+    if (!photo && !text) return '';
+    return '<div class="bio-row">' + photo + '<div class="bio-text">' + text + '</div></div>';
   }
 
   async function geocode(q) {
