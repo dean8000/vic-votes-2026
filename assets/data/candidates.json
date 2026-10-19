@@ -12,6 +12,10 @@
           "party": "Labor"
         },
         {
+          "name": "Andrew Cook",
+          "party": "Liberal"
+        },
+        {
           "name": "Sonya Semmens",
           "party": "Greens"
         },
@@ -360,6 +364,10 @@
           "party": "Labor"
         },
         {
+          "name": "Baris Duzova",
+          "party": "Liberal"
+        },
+        {
           "name": "Maryam Nasim",
           "party": "Greens"
         },
@@ -407,6 +415,10 @@
       "label": "Bulleen",
       "sitting_party": "Liberal",
       "candidates": [
+        {
+          "name": "Tim Dale",
+          "party": "Labor"
+        },
         {
           "name": "Matthew Guy",
           "party": "Liberal"
@@ -532,6 +544,10 @@
           "party": "Labor"
         },
         {
+          "name": "John Paganis",
+          "party": "Liberal"
+        },
+        {
           "name": "Conor Boyd-Eedle",
           "party": "Greens"
         },
@@ -552,6 +568,10 @@
         {
           "name": "Pauline Richards",
           "party": "Labor"
+        },
+        {
+          "name": "Gino Tripodi",
+          "party": "Liberal"
         },
         {
           "name": "Annalise Mercer",
@@ -610,6 +630,10 @@
           "party": "Labor"
         },
         {
+          "name": "William Billings",
+          "party": "Liberal"
+        },
+        {
           "name": "Catherine D'Arcy",
           "party": "Greens"
         },
@@ -646,6 +670,10 @@
         {
           "name": "Dylan Little",
           "party": "Socialists"
+        },
+        {
+          "name": "Tom Ward",
+          "party": "Independent"
         },
         {
           "name": "Chloe Bond",
@@ -800,6 +828,10 @@
           "party": "Labor"
         },
         {
+          "name": "Tim Chang",
+          "party": "Liberal"
+        },
+        {
           "name": "Elena Pereyra",
           "party": "Greens"
         },
@@ -915,6 +947,10 @@
       "label": "Gippsland South",
       "sitting_party": "National",
       "candidates": [
+        {
+          "name": "Amy Barry-Macaulay",
+          "party": "Labor"
+        },
         {
           "name": "Danny O'Brien",
           "party": "National"
@@ -1088,6 +1124,10 @@
           "party": "Labor"
         },
         {
+          "name": "Eddie Dadisho",
+          "party": "Liberal"
+        },
+        {
           "name": "Payal Tiwari",
           "party": "Greens"
         },
@@ -1142,6 +1182,10 @@
         {
           "name": "Luba Grigorovitch",
           "party": "Labor"
+        },
+        {
+          "name": "Jack Chakoma",
+          "party": "Liberal"
         },
         {
           "name": "Joyce McDonald",
@@ -1225,6 +1269,10 @@
       "label": "Lowan",
       "sitting_party": "National",
       "candidates": [
+        {
+          "name": "Sue Pavlovich",
+          "party": "Labor"
+        },
         {
           "name": "Emma Kealy",
           "party": "National"
@@ -1310,6 +1358,10 @@
         {
           "name": "Davydd Griffiths",
           "party": "Labor"
+        },
+        {
+          "name": "Rafael Camillo",
+          "party": "Coalition"
         },
         {
           "name": "Ellen Sandell",
@@ -1476,6 +1528,10 @@
       "sitting_party": "Liberal",
       "candidates": [
         {
+          "name": "Kerry Macdonald",
+          "party": "Labor"
+        },
+        {
           "name": "Chris Crewther",
           "party": "Liberal"
         },
@@ -1554,6 +1610,10 @@
       "sitting_party": "National",
       "candidates": [
         {
+          "name": "Christine Grundy",
+          "party": "Labor"
+        },
+        {
           "name": "Brett Hosking",
           "party": "National"
         },
@@ -1606,6 +1666,10 @@
           "party": "Labor"
         },
         {
+          "name": "Shemane Nathanielsz",
+          "party": "Liberal"
+        },
+        {
           "name": "Hayley Perry",
           "party": "Greens"
         },
@@ -1654,10 +1718,6 @@
       "sitting_party": "Liberal",
       "candidates": [
         {
-          "name": "Kim Robbins",
-          "party": "Independent"
-        },
-        {
           "name": "Anthony Marsh",
           "party": "Liberal"
         },
@@ -1676,6 +1736,10 @@
         {
           "name": "Mike Brown",
           "party": "Family First"
+        },
+        {
+          "name": "Kim Robbins independent",
+          "party": "Independent"
         }
       ]
     },
@@ -1960,6 +2024,10 @@
           "party": "Labor"
         },
         {
+          "name": "Charles Aponso",
+          "party": "Liberal"
+        },
+        {
           "name": "Gabrielle de Vietri",
           "party": "Greens"
         },
@@ -2094,6 +2162,10 @@
           "party": "Labor"
         },
         {
+          "name": "Shane Sali",
+          "party": "National"
+        },
+        {
           "name": "Grace Verney",
           "party": "Greens"
         },
@@ -2178,6 +2250,10 @@
         {
           "name": "Natalie Suleyman",
           "party": "Labor"
+        },
+        {
+          "name": "Rob Dunstan",
+          "party": "Liberal"
         },
         {
           "name": "Bao Huynh",
@@ -2270,6 +2346,10 @@
           "party": "Labor"
         },
         {
+          "name": "Venkat Ram Upparlapalle",
+          "party": "Liberal"
+        },
+        {
           "name": "Rifai Raheem",
           "party": "Greens"
         },
@@ -2298,6 +2378,10 @@
         {
           "name": "Bronwyn Halfpenny",
           "party": "Labor"
+        },
+        {
+          "name": "Belinda Stojcevski",
+          "party": "Liberal"
         },
         {
           "name": "Nadia Anthony",
@@ -2334,6 +2418,10 @@
         {
           "name": "Juliana Addison",
           "party": "Labor"
+        },
+        {
+          "name": "Gav Ronan",
+          "party": "Liberal"
         },
         {
           "name": "Ellen Burns",

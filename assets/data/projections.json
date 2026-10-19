@@ -1,8 +1,8 @@
 {
-  "basis": "Uniform swing from aggregated October 2026 polls (Labor TPP \u22128.8%) applied to each district's 2022 Labor TPP. Only applies to Labor-vs-Coalition contests; Greens- and Independent-held seats are marked non-two-party.",
-  "warning": "Uniform-swing projection is simplistic \u2014 ignores regional variation, high-profile independents, local candidate quality, and One Nation's unusual 22-25% Victorian polling in 2026.",
-  "aggregate_swing": -8.8,
-  "as_of": "2026-10-15",
+  "basis": "Uniform swing of -9.4% (from current polling average) applied to each district's 2022 Labor TPP. Only applies to Labor-vs-Coalition contests; Greens- and Independent-held seats are marked non-two-party.",
+  "warning": "Uniform-swing projection is simplistic — ignores regional variation, high-profile independents, local candidate quality, and preference-flow shifts (notably One Nation's unusual Victorian polling in 2026).",
+  "aggregate_swing": -9.4,
+  "as_of": "2026-10-19",
   "sources": {
     "2022_margins": "https://en.wikipedia.org/wiki/Results_of_the_2022_Victorian_state_election_(Legislative_Assembly)",
     "polling": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Victorian_state_election"
@@ -10,15 +10,15 @@
   "projections": {
     "ALBERT PARK": {
       "labor_2022_tpp": 61.2,
-      "projected_labor_tpp": 52.4,
+      "projected_labor_tpp": 51.8,
       "projected_winner": "Labor",
       "sitting_winner": "Labor",
       "sitting_winner_actual": "Labor",
-      "status": "close hold"
+      "status": "in play"
     },
     "ASHWOOD": {
       "labor_2022_tpp": 56.2,
-      "projected_labor_tpp": 47.4,
+      "projected_labor_tpp": 46.8,
       "projected_winner": "Coalition",
       "sitting_winner": "Labor",
       "sitting_winner_actual": "Labor",
@@ -26,7 +26,7 @@
     },
     "BASS": {
       "labor_2022_tpp": 50.2,
-      "projected_labor_tpp": 41.4,
+      "projected_labor_tpp": 40.8,
       "projected_winner": "Coalition",
       "sitting_winner": "Labor",
       "sitting_winner_actual": "Labor",
@@ -34,7 +34,7 @@
     },
     "BAYSWATER": {
       "labor_2022_tpp": 54.2,
-      "projected_labor_tpp": 45.4,
+      "projected_labor_tpp": 44.8,
       "projected_winner": "Coalition",
       "sitting_winner": "Labor",
       "sitting_winner_actual": "Labor",
@@ -42,7 +42,7 @@
     },
     "BELLARINE": {
       "labor_2022_tpp": 58.5,
-      "projected_labor_tpp": 49.7,
+      "projected_labor_tpp": 49.1,
       "projected_winner": "Coalition",
       "sitting_winner": "Labor",
       "sitting_winner_actual": "Labor",
@@ -57,15 +57,15 @@
     },
     "BENDIGO EAST": {
       "labor_2022_tpp": 60.8,
-      "projected_labor_tpp": 52.0,
+      "projected_labor_tpp": 51.4,
       "projected_winner": "Labor",
       "sitting_winner": "Labor",
       "sitting_winner_actual": "Labor",
-      "status": "close hold"
+      "status": "in play"
     },
     "BENDIGO WEST": {
       "labor_2022_tpp": 64.6,
-      "projected_labor_tpp": 55.8,
+      "projected_labor_tpp": 55.2,
       "projected_winner": "Labor",
       "sitting_winner": "Labor",
       "sitting_winner_actual": "Labor",
@@ -73,7 +73,7 @@
     },
     "BENTLEIGH": {
       "labor_2022_tpp": 58.0,
-      "projected_labor_tpp": 49.2,
+      "projected_labor_tpp": 48.6,
       "projected_winner": "Coalition",
       "sitting_winner": "Labor",
       "sitting_winner_actual": "Labor",
@@ -81,7 +81,7 @@
     },
     "BERWICK": {
       "labor_2022_tpp": 45.3,
-      "projected_labor_tpp": 36.5,
+      "projected_labor_tpp": 35.9,
       "projected_winner": "Coalition",
       "sitting_winner": "Coalition",
       "sitting_winner_actual": "Liberal",
@@ -89,7 +89,7 @@
     },
     "BOX HILL": {
       "labor_2022_tpp": 57.2,
-      "projected_labor_tpp": 48.4,
+      "projected_labor_tpp": 47.8,
       "projected_winner": "Coalition",
       "sitting_winner": "Labor",
       "sitting_winner_actual": "Labor",
@@ -97,7 +97,7 @@
     },
     "BRIGHTON": {
       "labor_2022_tpp": 44.9,
-      "projected_labor_tpp": 36.1,
+      "projected_labor_tpp": 35.5,
       "projected_winner": "Coalition",
       "sitting_winner": "Coalition",
       "sitting_winner_actual": "Liberal",
@@ -105,7 +105,7 @@
     },
     "BROADMEADOWS": {
       "labor_2022_tpp": 65.5,
-      "projected_labor_tpp": 56.7,
+      "projected_labor_tpp": 56.1,
       "projected_winner": "Labor",
       "sitting_winner": "Labor",
       "sitting_winner_actual": "Labor",
@@ -120,7 +120,7 @@
     },
     "BULLEEN": {
       "labor_2022_tpp": 44.1,
-      "projected_labor_tpp": 35.3,
+      "projected_labor_tpp": 34.7,
       "projected_winner": "Coalition",
       "sitting_winner": "Coalition",
       "sitting_winner_actual": "Liberal",
@@ -128,7 +128,7 @@
     },
     "BUNDOORA": {
       "labor_2022_tpp": 62.7,
-      "projected_labor_tpp": 53.9,
+      "projected_labor_tpp": 53.3,
       "projected_winner": "Labor",
       "sitting_winner": "Labor",
       "sitting_winner_actual": "Labor",
@@ -136,7 +136,7 @@
     },
     "CARRUM": {
       "labor_2022_tpp": 59.8,
-      "projected_labor_tpp": 51.0,
+      "projected_labor_tpp": 50.4,
       "projected_winner": "Labor",
       "sitting_winner": "Labor",
       "sitting_winner_actual": "Labor",
@@ -144,7 +144,7 @@
     },
     "CAULFIELD": {
       "labor_2022_tpp": 47.9,
-      "projected_labor_tpp": 39.1,
+      "projected_labor_tpp": 38.5,
       "projected_winner": "Coalition",
       "sitting_winner": "Coalition",
       "sitting_winner_actual": "Liberal",
@@ -152,7 +152,7 @@
     },
     "CLARINDA": {
       "labor_2022_tpp": 60.2,
-      "projected_labor_tpp": 51.4,
+      "projected_labor_tpp": 50.8,
       "projected_winner": "Labor",
       "sitting_winner": "Labor",
       "sitting_winner_actual": "Labor",
@@ -160,15 +160,15 @@
     },
     "CRANBOURNE": {
       "labor_2022_tpp": 59.0,
-      "projected_labor_tpp": 50.2,
-      "projected_winner": "Labor",
+      "projected_labor_tpp": 49.6,
+      "projected_winner": "Coalition",
       "sitting_winner": "Labor",
       "sitting_winner_actual": "Labor",
-      "status": "in play"
+      "status": "likely flip"
     },
     "CROYDON": {
       "labor_2022_tpp": 48.6,
-      "projected_labor_tpp": 39.8,
+      "projected_labor_tpp": 39.2,
       "projected_winner": "Coalition",
       "sitting_winner": "Coalition",
       "sitting_winner_actual": "Liberal",
@@ -176,7 +176,7 @@
     },
     "DANDENONG": {
       "labor_2022_tpp": 68.3,
-      "projected_labor_tpp": 59.5,
+      "projected_labor_tpp": 58.9,
       "projected_winner": "Labor",
       "sitting_winner": "Labor",
       "sitting_winner_actual": "Labor",
@@ -184,7 +184,7 @@
     },
     "EILDON": {
       "labor_2022_tpp": 43.0,
-      "projected_labor_tpp": 34.2,
+      "projected_labor_tpp": 33.6,
       "projected_winner": "Coalition",
       "sitting_winner": "Coalition",
       "sitting_winner_actual": "Liberal",
@@ -192,15 +192,15 @@
     },
     "ELTHAM": {
       "labor_2022_tpp": 59.0,
-      "projected_labor_tpp": 50.2,
-      "projected_winner": "Labor",
+      "projected_labor_tpp": 49.6,
+      "projected_winner": "Coalition",
       "sitting_winner": "Labor",
       "sitting_winner_actual": "Labor",
-      "status": "in play"
+      "status": "likely flip"
     },
     "ESSENDON": {
       "labor_2022_tpp": 62.5,
-      "projected_labor_tpp": 53.7,
+      "projected_labor_tpp": 53.1,
       "projected_winner": "Labor",
       "sitting_winner": "Labor",
       "sitting_winner_actual": "Labor",
@@ -208,7 +208,7 @@
     },
     "EUREKA": {
       "labor_2022_tpp": 57.2,
-      "projected_labor_tpp": 48.4,
+      "projected_labor_tpp": 47.8,
       "projected_winner": "Coalition",
       "sitting_winner": "Labor",
       "sitting_winner_actual": "Labor",
@@ -216,7 +216,7 @@
     },
     "EUROA": {
       "labor_2022_tpp": 40.1,
-      "projected_labor_tpp": 31.3,
+      "projected_labor_tpp": 30.7,
       "projected_winner": "Coalition",
       "sitting_winner": "Coalition",
       "sitting_winner_actual": "National",
@@ -224,7 +224,7 @@
     },
     "EVELYN": {
       "labor_2022_tpp": 44.6,
-      "projected_labor_tpp": 35.8,
+      "projected_labor_tpp": 35.2,
       "projected_winner": "Coalition",
       "sitting_winner": "Coalition",
       "sitting_winner_actual": "Liberal",
@@ -239,7 +239,7 @@
     },
     "FRANKSTON": {
       "labor_2022_tpp": 58.7,
-      "projected_labor_tpp": 49.9,
+      "projected_labor_tpp": 49.3,
       "projected_winner": "Coalition",
       "sitting_winner": "Labor",
       "sitting_winner_actual": "Labor",
@@ -247,7 +247,7 @@
     },
     "GEELONG": {
       "labor_2022_tpp": 64.7,
-      "projected_labor_tpp": 55.9,
+      "projected_labor_tpp": 55.3,
       "projected_winner": "Labor",
       "sitting_winner": "Labor",
       "sitting_winner_actual": "Labor",
@@ -255,7 +255,7 @@
     },
     "GIPPSLAND EAST": {
       "labor_2022_tpp": 25.4,
-      "projected_labor_tpp": 16.6,
+      "projected_labor_tpp": 16.0,
       "projected_winner": "Coalition",
       "sitting_winner": "Coalition",
       "sitting_winner_actual": "National",
@@ -263,7 +263,7 @@
     },
     "GIPPSLAND SOUTH": {
       "labor_2022_tpp": 34.4,
-      "projected_labor_tpp": 25.6,
+      "projected_labor_tpp": 25.0,
       "projected_winner": "Coalition",
       "sitting_winner": "Coalition",
       "sitting_winner_actual": "National",
@@ -271,7 +271,7 @@
     },
     "GLEN WAVERLEY": {
       "labor_2022_tpp": 53.3,
-      "projected_labor_tpp": 44.5,
+      "projected_labor_tpp": 43.9,
       "projected_winner": "Coalition",
       "sitting_winner": "Labor",
       "sitting_winner_actual": "Labor",
@@ -279,7 +279,7 @@
     },
     "GREENVALE": {
       "labor_2022_tpp": 57.1,
-      "projected_labor_tpp": 48.3,
+      "projected_labor_tpp": 47.7,
       "projected_winner": "Coalition",
       "sitting_winner": "Labor",
       "sitting_winner_actual": "Labor",
@@ -287,7 +287,7 @@
     },
     "HASTINGS": {
       "labor_2022_tpp": 51.4,
-      "projected_labor_tpp": 42.6,
+      "projected_labor_tpp": 42.0,
       "projected_winner": "Coalition",
       "sitting_winner": "Labor",
       "sitting_winner_actual": "Labor",
@@ -295,7 +295,7 @@
     },
     "HAWTHORN": {
       "labor_2022_tpp": 48.3,
-      "projected_labor_tpp": 39.5,
+      "projected_labor_tpp": 38.9,
       "projected_winner": "Coalition",
       "sitting_winner": "Coalition",
       "sitting_winner_actual": "Liberal",
@@ -303,7 +303,7 @@
     },
     "IVANHOE": {
       "labor_2022_tpp": 62.8,
-      "projected_labor_tpp": 54.0,
+      "projected_labor_tpp": 53.4,
       "projected_winner": "Labor",
       "sitting_winner": "Labor",
       "sitting_winner_actual": "Labor",
@@ -311,7 +311,7 @@
     },
     "KALKALLO": {
       "labor_2022_tpp": 66.5,
-      "projected_labor_tpp": 57.7,
+      "projected_labor_tpp": 57.1,
       "projected_winner": "Labor",
       "sitting_winner": "Labor",
       "sitting_winner_actual": "Labor",
@@ -319,7 +319,7 @@
     },
     "KEW": {
       "labor_2022_tpp": 46.0,
-      "projected_labor_tpp": 37.2,
+      "projected_labor_tpp": 36.6,
       "projected_winner": "Coalition",
       "sitting_winner": "Coalition",
       "sitting_winner_actual": "Liberal",
@@ -327,7 +327,7 @@
     },
     "KOROROIT": {
       "labor_2022_tpp": 64.5,
-      "projected_labor_tpp": 55.7,
+      "projected_labor_tpp": 55.1,
       "projected_winner": "Labor",
       "sitting_winner": "Labor",
       "sitting_winner_actual": "Labor",
@@ -335,7 +335,7 @@
     },
     "LARA": {
       "labor_2022_tpp": 65.9,
-      "projected_labor_tpp": 57.1,
+      "projected_labor_tpp": 56.5,
       "projected_winner": "Labor",
       "sitting_winner": "Labor",
       "sitting_winner_actual": "Labor",
@@ -343,7 +343,7 @@
     },
     "LAVERTON": {
       "labor_2022_tpp": 68.4,
-      "projected_labor_tpp": 59.6,
+      "projected_labor_tpp": 59.0,
       "projected_winner": "Labor",
       "sitting_winner": "Labor",
       "sitting_winner_actual": "Labor",
@@ -351,7 +351,7 @@
     },
     "LOWAN": {
       "labor_2022_tpp": 28.4,
-      "projected_labor_tpp": 19.6,
+      "projected_labor_tpp": 19.0,
       "projected_winner": "Coalition",
       "sitting_winner": "Coalition",
       "sitting_winner_actual": "National",
@@ -359,7 +359,7 @@
     },
     "MACEDON": {
       "labor_2022_tpp": 59.5,
-      "projected_labor_tpp": 50.7,
+      "projected_labor_tpp": 50.1,
       "projected_winner": "Labor",
       "sitting_winner": "Labor",
       "sitting_winner_actual": "Labor",
@@ -367,7 +367,7 @@
     },
     "MALVERN": {
       "labor_2022_tpp": 41.9,
-      "projected_labor_tpp": 33.1,
+      "projected_labor_tpp": 32.5,
       "projected_winner": "Coalition",
       "sitting_winner": "Coalition",
       "sitting_winner_actual": "Liberal",
@@ -382,7 +382,7 @@
     },
     "MELTON": {
       "labor_2022_tpp": 54.6,
-      "projected_labor_tpp": 45.8,
+      "projected_labor_tpp": 45.2,
       "projected_winner": "Coalition",
       "sitting_winner": "Labor",
       "sitting_winner_actual": "Labor",
@@ -397,7 +397,7 @@
     },
     "MILL PARK": {
       "labor_2022_tpp": 61.6,
-      "projected_labor_tpp": 52.8,
+      "projected_labor_tpp": 52.2,
       "projected_winner": "Labor",
       "sitting_winner": "Labor",
       "sitting_winner_actual": "Labor",
@@ -405,7 +405,7 @@
     },
     "MONBULK": {
       "labor_2022_tpp": 57.6,
-      "projected_labor_tpp": 48.8,
+      "projected_labor_tpp": 48.2,
       "projected_winner": "Coalition",
       "sitting_winner": "Labor",
       "sitting_winner_actual": "Labor",
@@ -413,7 +413,7 @@
     },
     "MORDIALLOC": {
       "labor_2022_tpp": 58.2,
-      "projected_labor_tpp": 49.4,
+      "projected_labor_tpp": 48.8,
       "projected_winner": "Coalition",
       "sitting_winner": "Labor",
       "sitting_winner_actual": "Labor",
@@ -428,7 +428,7 @@
     },
     "MORWELL": {
       "labor_2022_tpp": 45.6,
-      "projected_labor_tpp": 36.8,
+      "projected_labor_tpp": 36.2,
       "projected_winner": "Coalition",
       "sitting_winner": "Coalition",
       "sitting_winner_actual": "National",
@@ -443,7 +443,7 @@
     },
     "MURRAY PLAINS": {
       "labor_2022_tpp": 26.6,
-      "projected_labor_tpp": 17.8,
+      "projected_labor_tpp": 17.2,
       "projected_winner": "Coalition",
       "sitting_winner": "Coalition",
       "sitting_winner_actual": "National",
@@ -458,7 +458,7 @@
     },
     "NARRE WARREN NORTH": {
       "labor_2022_tpp": 58.7,
-      "projected_labor_tpp": 49.9,
+      "projected_labor_tpp": 49.3,
       "projected_winner": "Coalition",
       "sitting_winner": "Labor",
       "sitting_winner_actual": "Labor",
@@ -466,7 +466,7 @@
     },
     "NARRE WARREN SOUTH": {
       "labor_2022_tpp": 58.3,
-      "projected_labor_tpp": 49.5,
+      "projected_labor_tpp": 48.9,
       "projected_winner": "Coalition",
       "sitting_winner": "Labor",
       "sitting_winner_actual": "Labor",
@@ -474,7 +474,7 @@
     },
     "NEPEAN": {
       "labor_2022_tpp": 43.6,
-      "projected_labor_tpp": 34.8,
+      "projected_labor_tpp": 34.2,
       "projected_winner": "Coalition",
       "sitting_winner": "Coalition",
       "sitting_winner_actual": "Liberal",
@@ -482,7 +482,7 @@
     },
     "NIDDRIE": {
       "labor_2022_tpp": 56.7,
-      "projected_labor_tpp": 47.9,
+      "projected_labor_tpp": 47.3,
       "projected_winner": "Coalition",
       "sitting_winner": "Labor",
       "sitting_winner_actual": "Labor",
@@ -497,7 +497,7 @@
     },
     "OAKLEIGH": {
       "labor_2022_tpp": 63.5,
-      "projected_labor_tpp": 54.7,
+      "projected_labor_tpp": 54.1,
       "projected_winner": "Labor",
       "sitting_winner": "Labor",
       "sitting_winner_actual": "Labor",
@@ -505,7 +505,7 @@
     },
     "OVENS VALLEY": {
       "labor_2022_tpp": 32.2,
-      "projected_labor_tpp": 23.4,
+      "projected_labor_tpp": 22.8,
       "projected_winner": "Coalition",
       "sitting_winner": "Coalition",
       "sitting_winner_actual": "National",
@@ -513,7 +513,7 @@
     },
     "PAKENHAM": {
       "labor_2022_tpp": 50.4,
-      "projected_labor_tpp": 41.6,
+      "projected_labor_tpp": 41.0,
       "projected_winner": "Coalition",
       "sitting_winner": "Labor",
       "sitting_winner_actual": "Labor",
@@ -528,7 +528,7 @@
     },
     "POINT COOK": {
       "labor_2022_tpp": 58.3,
-      "projected_labor_tpp": 49.5,
+      "projected_labor_tpp": 48.9,
       "projected_winner": "Coalition",
       "sitting_winner": "Labor",
       "sitting_winner_actual": "Labor",
@@ -536,7 +536,7 @@
     },
     "POLWARTH": {
       "labor_2022_tpp": 48.2,
-      "projected_labor_tpp": 39.4,
+      "projected_labor_tpp": 38.8,
       "projected_winner": "Coalition",
       "sitting_winner": "Coalition",
       "sitting_winner_actual": "Liberal",
@@ -565,7 +565,7 @@
     },
     "RINGWOOD": {
       "labor_2022_tpp": 57.5,
-      "projected_labor_tpp": 48.7,
+      "projected_labor_tpp": 48.1,
       "projected_winner": "Coalition",
       "sitting_winner": "Labor",
       "sitting_winner_actual": "Labor",
@@ -573,7 +573,7 @@
     },
     "RIPON": {
       "labor_2022_tpp": 53.0,
-      "projected_labor_tpp": 44.2,
+      "projected_labor_tpp": 43.6,
       "projected_winner": "Coalition",
       "sitting_winner": "Labor",
       "sitting_winner_actual": "Labor",
@@ -581,7 +581,7 @@
     },
     "ROWVILLE": {
       "labor_2022_tpp": 46.3,
-      "projected_labor_tpp": 37.5,
+      "projected_labor_tpp": 36.9,
       "projected_winner": "Coalition",
       "sitting_winner": "Coalition",
       "sitting_winner_actual": "Liberal",
@@ -589,7 +589,7 @@
     },
     "SANDRINGHAM": {
       "labor_2022_tpp": 45.0,
-      "projected_labor_tpp": 36.2,
+      "projected_labor_tpp": 35.6,
       "projected_winner": "Coalition",
       "sitting_winner": "Coalition",
       "sitting_winner_actual": "Liberal",
@@ -604,7 +604,7 @@
     },
     "SOUTH BARWON": {
       "labor_2022_tpp": 59.8,
-      "projected_labor_tpp": 51.0,
+      "projected_labor_tpp": 50.4,
       "projected_winner": "Labor",
       "sitting_winner": "Labor",
       "sitting_winner_actual": "Labor",
@@ -612,7 +612,7 @@
     },
     "SOUTH-WEST COAST": {
       "labor_2022_tpp": 42.0,
-      "projected_labor_tpp": 33.2,
+      "projected_labor_tpp": 32.6,
       "projected_winner": "Coalition",
       "sitting_winner": "Coalition",
       "sitting_winner_actual": "Liberal",
@@ -620,7 +620,7 @@
     },
     "ST ALBANS": {
       "labor_2022_tpp": 59.6,
-      "projected_labor_tpp": 50.8,
+      "projected_labor_tpp": 50.2,
       "projected_winner": "Labor",
       "sitting_winner": "Labor",
       "sitting_winner_actual": "Labor",
@@ -628,7 +628,7 @@
     },
     "SUNBURY": {
       "labor_2022_tpp": 56.4,
-      "projected_labor_tpp": 47.6,
+      "projected_labor_tpp": 47.0,
       "projected_winner": "Coalition",
       "sitting_winner": "Labor",
       "sitting_winner_actual": "Labor",
@@ -636,7 +636,7 @@
     },
     "SYDENHAM": {
       "labor_2022_tpp": 58.8,
-      "projected_labor_tpp": 50.0,
+      "projected_labor_tpp": 49.4,
       "projected_winner": "Coalition",
       "sitting_winner": "Labor",
       "sitting_winner_actual": "Labor",
@@ -644,7 +644,7 @@
     },
     "TARNEIT": {
       "labor_2022_tpp": 62.3,
-      "projected_labor_tpp": 53.5,
+      "projected_labor_tpp": 52.9,
       "projected_winner": "Labor",
       "sitting_winner": "Labor",
       "sitting_winner_actual": "Labor",
@@ -652,7 +652,7 @@
     },
     "THOMASTOWN": {
       "labor_2022_tpp": 65.8,
-      "projected_labor_tpp": 57.0,
+      "projected_labor_tpp": 56.4,
       "projected_winner": "Labor",
       "sitting_winner": "Labor",
       "sitting_winner_actual": "Labor",
@@ -660,7 +660,7 @@
     },
     "WARRANDYTE": {
       "labor_2022_tpp": 45.7,
-      "projected_labor_tpp": 36.9,
+      "projected_labor_tpp": 36.3,
       "projected_winner": "Coalition",
       "sitting_winner": "Coalition",
       "sitting_winner_actual": "Liberal",
@@ -668,7 +668,7 @@
     },
     "WENDOUREE": {
       "labor_2022_tpp": 61.9,
-      "projected_labor_tpp": 53.1,
+      "projected_labor_tpp": 52.5,
       "projected_winner": "Labor",
       "sitting_winner": "Labor",
       "sitting_winner_actual": "Labor",
@@ -676,15 +676,15 @@
     },
     "WERRIBEE": {
       "labor_2022_tpp": 60.9,
-      "projected_labor_tpp": 52.1,
+      "projected_labor_tpp": 51.5,
       "projected_winner": "Labor",
       "sitting_winner": "Labor",
       "sitting_winner_actual": "Labor",
-      "status": "close hold"
+      "status": "in play"
     },
     "WILLIAMSTOWN": {
       "labor_2022_tpp": 63.4,
-      "projected_labor_tpp": 54.6,
+      "projected_labor_tpp": 54.0,
       "projected_winner": "Labor",
       "sitting_winner": "Labor",
       "sitting_winner_actual": "Labor",
@@ -692,7 +692,7 @@
     },
     "YAN YEAN": {
       "labor_2022_tpp": 54.3,
-      "projected_labor_tpp": 45.5,
+      "projected_labor_tpp": 44.9,
       "projected_winner": "Coalition",
       "sitting_winner": "Labor",
       "sitting_winner_actual": "Labor",
@@ -700,8 +700,8 @@
     }
   },
   "summary": {
-    "flips_to_coalition": 24,
+    "flips_to_coalition": 26,
     "flips_to_labor": 0,
-    "in_play": 7
+    "in_play": 8
   }
 }
