@@ -259,6 +259,54 @@ p, ul, ol { margin: 0.6em 0; }
   color: var(--ink);
 }
 
+.enrol-banner {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(135deg, var(--accent) 0%, #1a3a66 100%);
+  color: #fff;
+  padding: 18px 22px;
+  border-radius: 8px;
+  margin: 24px 0;
+}
+.enrol-banner.urgent { background: linear-gradient(135deg, #a04a0e 0%, #d47326 100%); }
+.enrol-banner.closed { background: #555; }
+.enrol-countdown strong {
+  display: block;
+  font-size: 1.2rem;
+  margin-bottom: 2px;
+}
+.enrol-countdown small {
+  display: block;
+  font-size: 0.85rem;
+  opacity: 0.9;
+}
+.enrol-actions {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+.enrol-btn {
+  padding: 10px 16px;
+  border-radius: 6px;
+  background: rgba(255,255,255,0.15);
+  color: #fff !important;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 0.95rem;
+  border: 1px solid rgba(255,255,255,0.3);
+  white-space: nowrap;
+}
+.enrol-btn:hover { background: rgba(255,255,255,0.25); }
+.enrol-btn.primary {
+  background: #fff;
+  color: var(--accent) !important;
+  border-color: #fff;
+}
+.enrol-btn.primary:hover { background: #f0f0f0; }
+
 .callout.warn {
   background: #fdf2e3;
   border-left-color: var(--warn);

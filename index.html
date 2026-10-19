@@ -46,9 +46,48 @@
 <main>
   <p class="lede">An independent, non-partisan explainer of the <strong>Victorian state election on Saturday 28 November 2026</strong> — what you're voting for, how the ballot papers work, and who's running in your area.</p>
 
+  <section id="enrol-banner" class="enrol-banner">
+    <div class="enrol-countdown">
+      <strong>Enrolment closes in <span id="enrol-countdown-value">…</span></strong>
+      <small>Deadline: Tuesday 3 November 2026, 8pm</small>
+    </div>
+    <div class="enrol-actions">
+      <a class="enrol-btn primary" href="https://www.vec.vic.gov.au/enrolment/check-enrolment" target="_blank" rel="noopener">Check my enrolment</a>
+      <a class="enrol-btn" href="https://www.vec.vic.gov.au/enrolment" target="_blank" rel="noopener">Enrol or update details</a>
+    </div>
+  </section>
+
   <div class="callout">
     <strong>Not sure what to do?</strong> If you're an enrolled voter in Victoria, voting is compulsory. On election day you'll fill in <em>two</em> ballot papers — a small green one for the lower house and a large white one for the upper house. The sections below explain how each works.
   </div>
+
+  <script>
+    (function () {
+      const target = new Date('2026-11-03T20:00:00+11:00'); // 8pm Melbourne (AEDT, UTC+11)
+      const el = document.getElementById('enrol-countdown-value');
+      const banner = document.getElementById('enrol-banner');
+      function tick() {
+        const now = new Date();
+        const diff = target - now;
+        if (diff <= 0) {
+          banner.classList.add('closed');
+          el.textContent = 'enrolment is now closed';
+          return;
+        }
+        const days = Math.floor(diff / 86400000);
+        const hours = Math.floor((diff % 86400000) / 3600000);
+        const mins = Math.floor((diff % 3600000) / 60000);
+        let s = '';
+        if (days > 0) s += days + ' day' + (days === 1 ? '' : 's') + ' ';
+        if (days < 3) s += hours + ' hr ' + mins + ' min';
+        else if (days < 7) s += hours + ' hrs';
+        el.textContent = s.trim();
+        if (days <= 1) banner.classList.add('urgent');
+      }
+      tick();
+      setInterval(tick, 60 * 1000);
+    })();
+  </script>
 
   <div class="grid-cols-2">
     <section class="card">
