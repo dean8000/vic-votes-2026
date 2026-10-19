@@ -309,7 +309,8 @@
     html += '<section class="area-section"><h3>Lower house ballot — <small>' + esc(dLabel) + '</small></h3>';
     html += '<p>You rank <em>every</em> box on the small green ballot in order of preference. The winner is decided by preferential (instant run-off) counting.</p>';
     if (mp.mp) {
-      html += '<div class="mp-card"><strong>Current MP:</strong> ' + esc(mp.mp) + ' ' + partyPill(mp.party) + bioLine(mp.mp, bios) + '</div>';
+      const retireBadge = mp.retiring ? ' <span class="role-badge retiring" title="Announced ' + esc(mp.retiring_announced || '') + '">retiring, not recontesting</span>' : '';
+      html += '<div class="mp-card"><strong>Current MP:</strong> ' + esc(mp.mp) + ' ' + partyPill(mp.party) + retireBadge + bioLine(mp.mp, bios) + '</div>';
     }
     if (cand.candidates && cand.candidates.length) {
       html += '<h4>Candidates running in 2026</h4>';
@@ -335,7 +336,8 @@
     if (mlcs.length) {
       html += '<h4>Current MLCs for your region</h4><div class="mlc-list">';
       for (const m of mlcs) {
-        html += '<div class="mlc-card"><strong>' + esc(m.mlc) + '</strong> ' + partyPill(m.party) + bioLine(m.mlc, bios) + '</div>';
+        const retireBadge = m.retiring ? ' <span class="role-badge retiring" title="Announced ' + esc(m.retiring_announced || '') + '">retiring</span>' : '';
+        html += '<div class="mlc-card"><strong>' + esc(m.mlc) + '</strong> ' + partyPill(m.party) + retireBadge + bioLine(m.mlc, bios) + '</div>';
       }
       html += '</div>';
     }

@@ -442,9 +442,11 @@ p.colour-explainer {
 }
 .role-badge.sitting { background: #eee; color: #555; }
 .role-badge.projected { background: #fff3cd; color: #665000; border: 1px solid #e9d08a; }
+.role-badge.retiring { background: #e3dafc; color: #4a2d7f; border: 1px solid #c7b2f0; }
 @media (prefers-color-scheme: dark) {
   .role-badge.sitting { background: #333; color: #ccc; }
   .role-badge.projected { background: #3d3620; color: #f0d87a; border-color: #665000; }
+  .role-badge.retiring { background: #2a2143; color: #c2b3ea; border-color: #4a3680; }
 }
 .candidate-list.detailed li {
   flex-direction: column;

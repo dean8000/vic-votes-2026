@@ -337,7 +337,10 @@
     let html = '<p><em>Legislative Assembly district</em></p>';
     html += '<h3>Current MP <a class="src" href="https://en.wikipedia.org/wiki/Members_of_the_Victorian_Legislative_Assembly,_2022%E2%80%932026" target="_blank" rel="noopener" title="Source">source</a></h3>';
     if (mem) {
-      html += '<p><strong>' + esc(mem.mp) + '</strong> ' + partyPill(mem.party) + '</p>';
+      const retiringBadge = mem.retiring
+        ? ' <span class="role-badge retiring" title="Announced ' + esc(mem.retiring_announced || '') + '">retiring, not recontesting</span>'
+        : '';
+      html += '<p><strong>' + esc(mem.mp) + '</strong> ' + partyPill(mem.party) + retiringBadge + '</p>';
       html += bioBlock(mem.mp);
     } else {
       html += '<p>Not available.</p>';
@@ -448,7 +451,10 @@
     if (mlcs.length) {
       html += '<ul class="candidate-list detailed">';
       for (const m of mlcs) {
-        html += '<li><div><strong>' + esc(m.mlc) + '</strong> ' + partyPill(m.party) + '</div>' + bioBlock(m.mlc) + '</li>';
+        const retiringBadge = m.retiring
+          ? ' <span class="role-badge retiring" title="Announced ' + esc(m.retiring_announced || '') + '">retiring</span>'
+          : '';
+        html += '<li><div><strong>' + esc(m.mlc) + '</strong> ' + partyPill(m.party) + retiringBadge + '</div>' + bioBlock(m.mlc) + '</li>';
       }
       html += '</ul>';
     } else {

@@ -182,6 +182,7 @@
           label: mg.label || key.split(' ').map(w => w[0] + w.slice(1).toLowerCase()).join(' '),
           mp: mem.mp,
           party: mem.party,
+          retiring: !!mem.retiring,
           status: proj.status || 'unknown',
           projectedWinner: proj.projected_winner || null,
           projectedMargin: proj.projected_labor_tpp != null
@@ -240,9 +241,10 @@
             ? '<small>' + r.projectedMargin.toFixed(1) + '%</small>'
             : '';
           const statusTxt = '<small style="color:var(--muted)">· ' + r.status + '</small>';
+          const retireMark = r.retiring ? ' <span class="role-badge retiring" style="font-size:0.65rem">retiring</span>' : '';
           return '<a class="district-card ' + cls + '" href="/map.html#district/' + encodeURIComponent(r.key.replace(/\s+/g, '_')) + '">' +
                  '<h3>' + r.label + '</h3>' +
-                 '<p class="mp">' + r.mp + ' <span class="pill party party-' + partySlug(r.party) + '">' + r.party + '</span></p>' +
+                 '<p class="mp">' + r.mp + ' <span class="pill party party-' + partySlug(r.party) + '">' + r.party + '</span>' + retireMark + '</p>' +
                  '<div class="proj-row">' +
                    '<span class="arrow">→ 2026</span>' + projPill + marginTxt + statusTxt +
                  '</div>' +
