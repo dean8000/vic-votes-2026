@@ -1,10 +1,9 @@
 name: Refresh election data
 
-on:
+"on":
   schedule:
-    # Run daily at 20:00 UTC (≈ 07:00 Melbourne during AEDT, 06:00 AEST).
-    - cron: '0 20 * * *'
-  workflow_dispatch: {}  # allow manual trigger from the Actions UI
+    - cron: "0 20 * * *"
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -13,26 +12,25 @@ jobs:
   refresh:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - name: Check out repository
+        uses: actions/checkout@v4
         with:
           fetch-depth: 1
 
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.12'
+          python-version: "3.12"
 
-      - name: Run refresh
-        env:
-          # Any script that writes to repo-absolute paths needs the right root.
-          # Our scripts hard-code /Users/dean/Dev/vote; symlink to the checkout.
-          REPO_ROOT: ${{ github.workspace }}
+      - name: Symlink repo to /Users/dean/Dev/vote (scripts hardcode this path)
         run: |
           sudo mkdir -p /Users/dean/Dev
-          sudo ln -s "$REPO_ROOT" /Users/dean/Dev/vote
-          bash scripts/refresh_candidates.sh
+          sudo ln -s "$GITHUB_WORKSPACE" /Users/dean/Dev/vote
 
-      - name: Commit changes (if any)
+      - name: Run refresh chain
+        run: bash scripts/refresh_candidates.sh
+
+      - name: Commit changes if any
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -40,15 +38,9 @@ jobs:
           if git diff --cached --quiet; then
             echo "No data changes."
           else
-            # Update home page 'last refreshed' date to today
-            TODAY=$(date -u +'%d %B %Y' | sed 's/^0//')
+            TODAY=$(date -u +"%-d %B %Y")
             sed -i -E "s|<strong id=\"data-date\">[^<]+</strong>|<strong id=\"data-date\">$TODAY</strong>|" index.html
             git add index.html
-            git commit -m "Automated data refresh ($(date -u +'%Y-%m-%d'))
-
-- Polling: re-pulled from Wikipedia tracker
-- Candidates: re-pulled from Wikipedia + ABC + party sites
-- Projections: rebuilt from current swing
-"
+            git commit -m "Automated data refresh ($(date -u +'%Y-%m-%d'))"
             git push
           fi
