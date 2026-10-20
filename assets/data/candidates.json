@@ -676,12 +676,12 @@
           "party": "Socialists"
         },
         {
-          "name": "Tom Ward",
-          "party": "Independent"
-        },
-        {
           "name": "Chloe Bond",
           "party": "Animal Justice"
+        },
+        {
+          "name": "Tom Ward",
+          "party": "Independent"
         }
       ]
     },
@@ -1556,7 +1556,7 @@
           "party": "Socialists"
         },
         {
-          "name": "Adrian Maher Melissa Goffin",
+          "name": "Adrian MaherMelissa Goffin",
           "party": "Independent"
         }
       ]
@@ -1746,7 +1746,7 @@
           "party": "Family First"
         },
         {
-          "name": "Kim Robbins independent",
+          "name": "Kim Robbins",
           "party": "Independent"
         }
       ]
