@@ -34,6 +34,10 @@
         {
           "name": "Daniel O'Neill",
           "party": "Animal Justice"
+        },
+        {
+          "name": "Adrian King",
+          "party": "Independent"
         }
       ]
     },
@@ -180,6 +184,10 @@
         {
           "name": "Mike Fruery",
           "party": "Animal Justice"
+        },
+        {
+          "name": "Tim Quilty",
+          "party": "LBT"
         }
       ]
     },
@@ -292,6 +300,10 @@
         {
           "name": "Vincenzo De Paolis",
           "party": "Family First"
+        },
+        {
+          "name": "Ethelyn King",
+          "party": "LBT"
         }
       ]
     },
@@ -352,6 +364,10 @@
         {
           "name": "Jessica Smith",
           "party": "Socialists"
+        },
+        {
+          "name": "Anthony Hain",
+          "party": "LBT"
         }
       ]
     },
@@ -412,6 +428,10 @@
         {
           "name": "India Rose",
           "party": "Animal Justice"
+        },
+        {
+          "name": "Mel Yuan",
+          "party": "Independent"
         }
       ]
     },
@@ -506,6 +526,10 @@
         {
           "name": "Carolyn Moore",
           "party": "Animal Justice"
+        },
+        {
+          "name": "Trevor Smith",
+          "party": "LBT"
         }
       ]
     },
@@ -562,6 +586,14 @@
         {
           "name": "Kit Message",
           "party": "Socialists"
+        },
+        {
+          "name": "Liam Roche",
+          "party": "LBT"
+        },
+        {
+          "name": "Caroline White",
+          "party": "Independent"
         }
       ]
     },
@@ -648,6 +680,10 @@
         {
           "name": "Jack McMahon",
           "party": "Socialists"
+        },
+        {
+          "name": "Jordan Forte",
+          "party": "LBT"
         }
       ]
     },
@@ -708,6 +744,10 @@
         {
           "name": "Maeve Riches",
           "party": "Socialists"
+        },
+        {
+          "name": "Steven Marasea",
+          "party": "LBT"
         }
       ]
     },
@@ -737,6 +777,10 @@
         },
         {
           "name": "Oscar Yildiz",
+          "party": "Independent"
+        },
+        {
+          "name": "Ava Adams",
           "party": "Independent"
         }
       ]
@@ -798,6 +842,10 @@
         {
           "name": "Karina Kelly",
           "party": "Animal Justice"
+        },
+        {
+          "name": "Moussa Taouk",
+          "party": "Family First"
         }
       ]
     },
@@ -820,6 +868,10 @@
         {
           "name": "Daniel Killey",
           "party": "One Nation"
+        },
+        {
+          "name": "James Scanlon",
+          "party": "Socialists"
         },
         {
           "name": "Jan Heald",
@@ -974,6 +1026,10 @@
         {
           "name": "Lachie McGennisken",
           "party": "Socialists"
+        },
+        {
+          "name": "Phillip Schuhmann",
+          "party": "Independent"
         }
       ]
     },
@@ -1330,6 +1386,14 @@
         {
           "name": "Natalie Korinfsky",
           "party": "Animal Justice"
+        },
+        {
+          "name": "Michael Seton",
+          "party": "Independent"
+        },
+        {
+          "name": "Dom Bonanno",
+          "party": "Independent"
         }
       ]
     },
@@ -1356,6 +1420,10 @@
         {
           "name": "Christina Zigouras",
           "party": "Independent"
+        },
+        {
+          "name": "David Segal",
+          "party": "LBT"
         }
       ]
     },
@@ -1386,6 +1454,14 @@
         {
           "name": "Naomi Jones",
           "party": "Animal Justice"
+        },
+        {
+          "name": "Rowan Tuckfield",
+          "party": "Independent"
+        },
+        {
+          "name": "Mathew Clarke",
+          "party": "Independent"
         }
       ]
     },
@@ -1410,12 +1486,20 @@
           "party": "One Nation"
         },
         {
+          "name": "Daire Kelly",
+          "party": "Socialists"
+        },
+        {
           "name": "Fiona Adin-Jones",
           "party": "Animal Justice"
         },
         {
           "name": "Marlene West",
           "party": "Family First"
+        },
+        {
+          "name": "Hayden Legro",
+          "party": "West"
         }
       ]
     },
@@ -1496,6 +1580,10 @@
           "party": "One Nation"
         },
         {
+          "name": "Noah Briggs",
+          "party": "Socialists"
+        },
+        {
           "name": "Alyssa Wormald",
           "party": "Animal Justice"
         },
@@ -1558,6 +1646,10 @@
         {
           "name": "Adrian MaherMelissa Goffin",
           "party": "Independent"
+        },
+        {
+          "name": "Adrian Maher",
+          "party": "Independent"
         }
       ]
     },
@@ -1580,6 +1672,10 @@
         {
           "name": "Casey Murphy",
           "party": "One Nation"
+        },
+        {
+          "name": "Natalie Acreman",
+          "party": "Socialists"
         }
       ]
     },
@@ -1610,6 +1706,10 @@
         {
           "name": "Ian Cook",
           "party": "Independent"
+        },
+        {
+          "name": "Fotini Theodossopoulou",
+          "party": "LBT"
         }
       ]
     },
@@ -1718,6 +1818,10 @@
         {
           "name": "Scott Watson",
           "party": "Independent"
+        },
+        {
+          "name": "Lydia Denker",
+          "party": "LBT"
         }
       ]
     },
@@ -1854,8 +1958,16 @@
           "party": "One Nation"
         },
         {
+          "name": "Bronwyn Murphy",
+          "party": "Socialists"
+        },
+        {
           "name": "Steve Manning",
           "party": "Independent"
+        },
+        {
+          "name": "Julian Fidge",
+          "party": "LBT"
         }
       ]
     },
@@ -1886,6 +1998,10 @@
         {
           "name": "Raymond French",
           "party": "Independent"
+        },
+        {
+          "name": "Kate Hands",
+          "party": "LBT"
         }
       ]
     },
@@ -1968,6 +2084,10 @@
         {
           "name": "Anna Malcolm",
           "party": "One Nation"
+        },
+        {
+          "name": "Lula Tolley",
+          "party": "Socialists"
         }
       ]
     },
@@ -2004,6 +2124,10 @@
         {
           "name": "Nathan Lambert",
           "party": "Labor"
+        },
+        {
+          "name": "Hamza Al Katranji",
+          "party": "Liberal"
         },
         {
           "name": "Loki Sangarya",
@@ -2106,6 +2230,10 @@
         {
           "name": "Taylah Brennan-Jones",
           "party": "Socialists"
+        },
+        {
+          "name": "Jeff Barry",
+          "party": "LBT"
         }
       ]
     },
@@ -2132,6 +2260,10 @@
         {
           "name": "Lars Hiemstra",
           "party": "Socialists"
+        },
+        {
+          "name": "Scott Robson",
+          "party": "LBT"
         }
       ]
     },
@@ -2342,6 +2474,10 @@
         {
           "name": "Bruce Lancashire",
           "party": "West"
+        },
+        {
+          "name": "Nancy Croes",
+          "party": "Family First"
         }
       ]
     },
@@ -2410,12 +2546,20 @@
           "party": "Liberal"
         },
         {
+          "name": "Vanessa Muradian",
+          "party": "Greens"
+        },
+        {
           "name": "Mark Burnside",
           "party": "One Nation"
         },
         {
           "name": "John Stanley",
           "party": "Socialists"
+        },
+        {
+          "name": "Caleb Schwab",
+          "party": "LBT"
         }
       ]
     },
