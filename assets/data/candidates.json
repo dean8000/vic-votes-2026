@@ -637,7 +637,7 @@
         },
         {
           "name": "Toby Wooldridge",
-          "party": "Coalition"
+          "party": "Liberal"
         },
         {
           "name": "Lini Fernando",
@@ -1437,7 +1437,7 @@
         },
         {
           "name": "Rafael Camillo",
-          "party": "Coalition"
+          "party": "Liberal"
         },
         {
           "name": "Ellen Sandell",
@@ -1732,6 +1732,10 @@
         {
           "name": "Garner Smith",
           "party": "One Nation"
+        },
+        {
+          "name": "Asyiqin Sanif",
+          "party": "Socialists"
         }
       ]
     },
