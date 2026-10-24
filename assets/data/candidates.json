@@ -122,6 +122,10 @@
           "party": "Socialists"
         },
         {
+          "name": "Mathew Clarke",
+          "party": "Independent"
+        },
+        {
           "name": "Gary Coombs",
           "party": "Family First"
         }
@@ -1457,10 +1461,6 @@
         },
         {
           "name": "Rowan Tuckfield",
-          "party": "Independent"
-        },
-        {
-          "name": "Mathew Clarke",
           "party": "Independent"
         }
       ]
