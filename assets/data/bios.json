@@ -1723,7 +1723,10 @@
     "elected_since": null,
     "prior_roles": null,
     "education": null,
-    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/BELL_VS_Keogh.jpg"
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/BELL_VS_Keogh.jpg",
+    "summary": "Keogh grew up in Townsville and has worked as a sales assistant at a petrol station. He has a degree in biomedical science from Deakin University.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/bell"
   },
   "Dom Williams": {
     "wikipedia_url": "https://en.wikipedia.org/wiki/Dom_Williams",
@@ -6525,7 +6528,8 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/NIDD_TWP_Patrikeos.jpg"
   },
   "Graham Watt": {
     "wikipedia_url": "https://en.wikipedia.org/wiki/Graham_Watt",

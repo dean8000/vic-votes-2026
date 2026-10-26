@@ -1,8 +1,8 @@
 {
-  "refreshed_on": "2026-10-25",
+  "refreshed_on": "2026-10-26",
   "polls_tracked": 25,
   "aggregate": {
-    "as_of": "2026-10-25",
+    "as_of": "2026-10-26",
     "n_polls": 5,
     "tpp_labor": 45.6,
     "tpp_coalition": 54.4,
@@ -16,7 +16,7 @@
     }
   },
   "candidates_total": 677,
-  "candidates_with_bio": 498,
+  "candidates_with_bio": 499,
   "projection_flips": 26,
   "projection_in_play": 8
 }
