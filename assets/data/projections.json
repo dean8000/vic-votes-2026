@@ -2,7 +2,7 @@
   "basis": "Uniform swing of -9.4% (from current polling average) applied to each district's 2022 Labor TPP. Only applies to Labor-vs-Coalition contests; Greens- and Independent-held seats are marked non-two-party.",
   "warning": "Uniform-swing projection is simplistic — ignores regional variation, high-profile independents, local candidate quality, and preference-flow shifts (notably One Nation's unusual Victorian polling in 2026).",
   "aggregate_swing": -9.4,
-  "as_of": "2026-10-27",
+  "as_of": "2026-10-28",
   "sources": {
     "2022_margins": "https://en.wikipedia.org/wiki/Results_of_the_2022_Victorian_state_election_(Legislative_Assembly)",
     "polling": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Victorian_state_election"
