@@ -274,6 +274,10 @@
         {
           "name": "Liam Kruger",
           "party": "Socialists"
+        },
+        {
+          "name": "Tony Vainoras",
+          "party": "ACP"
         }
       ]
     },
@@ -1090,6 +1094,10 @@
         {
           "name": "Rosanna Furina",
           "party": "Animal Justice"
+        },
+        {
+          "name": "Mazen John",
+          "party": "ACP"
         }
       ]
     },
@@ -2092,6 +2100,10 @@
         {
           "name": "Lula Tolley",
           "party": "Socialists"
+        },
+        {
+          "name": "Brenton Carbins",
+          "party": "ACP"
         }
       ]
     },
@@ -2796,6 +2808,14 @@
         {
           "name": "William Clow",
           "party": "Sustainable"
+        },
+        {
+          "name": "Leonie Green",
+          "party": "Democrats"
+        },
+        {
+          "name": "Ryan Parris",
+          "party": "Democrats"
         }
       ]
     },
@@ -2841,6 +2861,14 @@
         {
           "name": "Bert Jessup",
           "party": "Sustainable"
+        },
+        {
+          "name": "Andrew Rowse",
+          "party": "Democrats"
+        },
+        {
+          "name": "Sahar Khalili",
+          "party": "Democrats"
         },
         {
           "name": "Meredith Lawrence",
@@ -2904,6 +2932,14 @@
           "party": "Socialists"
         },
         {
+          "name": "Chris Lahy",
+          "party": "Citizens Party"
+        },
+        {
+          "name": "Jeff Davy",
+          "party": "Citizens Party"
+        },
+        {
           "name": "Kate White",
           "party": "Independent"
         }
@@ -2955,6 +2991,22 @@
         {
           "name": "Brandon Hoult",
           "party": "Sustainable"
+        },
+        {
+          "name": "Gary Collie",
+          "party": "Citizens Party"
+        },
+        {
+          "name": "Russell Bennett",
+          "party": "Citizens Party"
+        },
+        {
+          "name": "Heath McKenzie",
+          "party": "Democrats"
+        },
+        {
+          "name": "Jacqui Morel",
+          "party": "Democrats"
         }
       ]
     },
@@ -3004,6 +3056,14 @@
         {
           "name": "April Worsley",
           "party": "Socialists"
+        },
+        {
+          "name": "Clive Jackson",
+          "party": "Democrats"
+        },
+        {
+          "name": "Phillip Broadbridge",
+          "party": "Democrats"
         }
       ]
     },
@@ -3049,6 +3109,14 @@
         {
           "name": "Dennis Bilic",
           "party": "Sustainable"
+        },
+        {
+          "name": "Chris Thiery-Lai",
+          "party": "Democrats"
+        },
+        {
+          "name": "Nigel Keenan",
+          "party": "Democrats"
         },
         {
           "name": "Joe Garra",
@@ -3110,6 +3178,14 @@
         {
           "name": "Ian Chivers",
           "party": "Sustainable"
+        },
+        {
+          "name": "Andy Meddick",
+          "party": "Democrats"
+        },
+        {
+          "name": "Peter Kelly",
+          "party": "Democrats"
         },
         {
           "name": "Tim Gooden",
