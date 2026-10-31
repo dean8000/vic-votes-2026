@@ -1456,10 +1456,6 @@
           "party": "Greens"
         },
         {
-          "name": "Matthew Collins",
-          "party": "One Nation"
-        },
-        {
           "name": "Jordan van den Lamb",
           "party": "Socialists"
         },
@@ -1940,7 +1936,7 @@
           "party": "Liberal"
         },
         {
-          "name": "Hsiang Han-Hsieh",
+          "name": "Hsiang-Han Hsieh",
           "party": "Greens"
         },
         {
@@ -2544,6 +2540,10 @@
           "party": "Liberal"
         },
         {
+          "name": "Gavin Trewalla",
+          "party": "Greens"
+        },
+        {
           "name": "Nadia Anthony",
           "party": "One Nation"
         },
@@ -2741,7 +2741,11 @@
           "party": "One Nation"
         },
         {
-          "name": "Helen Jaeges",
+          "name": "Helen Jeges",
+          "party": "AJP"
+        },
+        {
+          "name": "Jessica McAullife",
           "party": "AJP"
         },
         {
@@ -2932,6 +2936,10 @@
           "party": "Socialists"
         },
         {
+          "name": "Paul Read",
+          "party": "Sustainable"
+        },
+        {
           "name": "Chris Lahy",
           "party": "Citizens Party"
         },
@@ -3120,15 +3128,15 @@
         },
         {
           "name": "Joe Garra",
-          "party": "West"
+          "party": "West Party"
         },
         {
           "name": "Sahana Ramesh",
-          "party": "West"
+          "party": "West Party"
         },
         {
           "name": "Brett Patrikeos",
-          "party": "West"
+          "party": "West Party"
         }
       ]
     },
