@@ -2753,6 +2753,10 @@
           "party": "Socialists"
         },
         {
+          "name": "Dylan Edwards",
+          "party": "Socialists"
+        },
+        {
           "name": "Reade Smith",
           "party": "Sustainable"
         },
@@ -2765,6 +2769,10 @@
     "NORTH-EASTERN METROPOLITAN": {
       "label": "North-Eastern Metropolitan Region",
       "candidates": [
+        {
+          "name": "Ryan Batchelor",
+          "party": "Labor"
+        },
         {
           "name": "Richard Welch",
           "party": "Liberal"
@@ -2780,6 +2788,14 @@
         {
           "name": "Aiv Puglielli",
           "party": "Greens"
+        },
+        {
+          "name": "Matthew Ford",
+          "party": "Libertarian"
+        },
+        {
+          "name": "David Schwab",
+          "party": "Libertarian"
         },
         {
           "name": "Gianni Del",
@@ -2973,6 +2989,14 @@
           "party": "Legalise Cannabis"
         },
         {
+          "name": "David Limbrick",
+          "party": "Libertarian"
+        },
+        {
+          "name": "Will Vandermeer",
+          "party": "Libertarian"
+        },
+        {
           "name": "Jane Foreman",
           "party": "Family First"
         },
@@ -3109,10 +3133,6 @@
         {
           "name": "Fiona Lopez",
           "party": "One Nation"
-        },
-        {
-          "name": "Shohre Mansouri",
-          "party": "AJP"
         },
         {
           "name": "Dennis Bilic",
