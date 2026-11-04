@@ -166,6 +166,10 @@
       "sitting_party": "Liberal",
       "candidates": [
         {
+          "name": "Ollie Young",
+          "party": "Labor"
+        },
+        {
           "name": "Steve Martin",
           "party": "Liberal"
         },
@@ -831,6 +835,10 @@
       "label": "Euroa",
       "sitting_party": "National",
       "candidates": [
+        {
+          "name": "Julian Kelly",
+          "party": "Labor"
+        },
         {
           "name": "Annabelle Cleeland",
           "party": "National"
@@ -1516,6 +1524,10 @@
       "sitting_party": "National",
       "candidates": [
         {
+          "name": "Stella Zigouras",
+          "party": "Labor"
+        },
+        {
           "name": "Jade Benham",
           "party": "National"
         },
@@ -1841,6 +1853,10 @@
       "label": "Nepean",
       "sitting_party": "Liberal",
       "candidates": [
+        {
+          "name": "Surbhi Snowball",
+          "party": "Labor"
+        },
         {
           "name": "Anthony Marsh",
           "party": "Liberal"
@@ -2561,6 +2577,10 @@
       "label": "Warrandyte",
       "sitting_party": "Liberal",
       "candidates": [
+        {
+          "name": "Rebecca Paterson",
+          "party": "Labor"
+        },
         {
           "name": "Nicole Werner",
           "party": "Liberal"
