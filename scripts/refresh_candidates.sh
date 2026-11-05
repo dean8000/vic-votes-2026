@@ -21,10 +21,13 @@ python3 "$ROOT/scripts/scrape_party_bios.py" >/dev/null
 echo "[5/6] Rebuilding projections from current swing…"
 python3 "$ROOT/scripts/rebuild_projections.py"
 
-echo "[6/7] Rebuilding battlegrounds (curated flip/toss-up categories)…"
+echo "[6/8] Rebuilding battlegrounds (curated flip/toss-up categories)…"
 python3 "$ROOT/scripts/build_battlegrounds.py"
 
-echo "[7/7] Updating last-refresh snapshot…"
+echo "[7/8] Refreshing VEC early voting centres…"
+python3 "$ROOT/scripts/build_voting_centres.py" || echo "(skipped — openpyxl not installed or VEC unreachable)"
+
+echo "[8/8] Updating last-refresh snapshot…"
 python3 "$ROOT/scripts/generate_refresh_summary.py"
 
 echo "Done."

@@ -75,6 +75,17 @@
     margin: 10px 0;
   }
   .mlc-list { display: grid; gap: 10px; }
+  .evc-list {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+  }
+  .evc-list li {
+    padding: 10px 0;
+    border-bottom: 1px dashed var(--rule);
+    line-height: 1.5;
+  }
+  .evc-list li:last-child { border-bottom: none; }
   .print-btn {
     background: transparent;
     border: 1px solid var(--rule);
@@ -200,6 +211,7 @@
     safeFetch('/assets/data/bios.json'),
     safeFetch('/assets/data/projections.json'),
     safeFetch('/assets/data/dates.json'),
+    safeFetch('/assets/data/early-voting-centres.json'),
   ]);
 
   function bioLine(name, bios) {
@@ -252,7 +264,7 @@
       status.innerHTML = '<div class="error-msg">No result for <strong>' + esc(q) + '</strong>. Try adding a suburb, or use a postcode.</div>';
       return;
     }
-    const [districtsGeo, regionsGeo, members, candidates, margins, parties, bios, projFile, dates] = await dataPromise;
+    const [districtsGeo, regionsGeo, members, candidates, margins, parties, bios, projFile, dates, evcData] = await dataPromise;
     const projections = projFile.projections || {};
     const aggSwing = projFile.aggregate_swing;
 
@@ -360,6 +372,32 @@
       }
     }
     html += '</section>';
+
+    // Early voting centres for this district
+    if (evcData && evcData.districts && evcData.districts[dKey]) {
+      const evcs = evcData.districts[dKey];
+      // Try to compute distance from the user's address (lat/lon) to each EVC's postcode centroid.
+      // We don't have per-EVC coordinates, so we just sort by estimated votes (busiest-to-smallest)
+      // and trust that these are inside the district the user is in.
+      html += '<section class="area-section"><h3>Early voting in ' + esc(dLabel) + '</h3>' +
+        '<p>Early voting is open to anyone. <strong>' + esc(evcData.hours) + '</strong>. ' +
+        'Election day itself is Saturday 28 November, 8am–6pm.</p>' +
+        '<p style="font-size:0.85rem;color:var(--muted)">' + evcs.length + ' early voting centre' + (evcs.length === 1 ? '' : 's') + ' in your district. Addresses from the VEC — <a href="' + esc(evcData.source_url) + '" target="_blank" rel="noopener">official locator</a>.</p>' +
+        '<ul class="evc-list">';
+      for (const e of evcs.slice(0, 8)) {
+        const mapQ = encodeURIComponent(e.address_full);
+        html += '<li>' +
+          '<strong>' + esc(e.venue) + '</strong><br>' +
+          '<small>' + esc(e.address_full) + '</small>' +
+          (e.accessibility_label ? ' <small style="color:var(--muted)">· ' + esc(e.accessibility_label) + '</small>' : '') +
+          ' · <a href="https://www.google.com/maps/search/?api=1&query=' + mapQ + '" target="_blank" rel="noopener">directions</a>' +
+          '</li>';
+      }
+      if (evcs.length > 8) {
+        html += '<li style="list-style:none;color:var(--muted);font-size:0.85rem">… and ' + (evcs.length - 8) + ' more. See the <a href="' + esc(evcData.source_url) + '" target="_blank" rel="noopener">VEC locator</a> for the full list and polling-day venues.</li>';
+      }
+      html += '</ul></section>';
+    }
 
     // How to vote (abridged)
     html += '<section class="area-section"><h3>How to vote (quick reference)</h3>' +
