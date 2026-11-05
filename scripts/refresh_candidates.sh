@@ -21,7 +21,10 @@ python3 "$ROOT/scripts/scrape_party_bios.py" >/dev/null
 echo "[5/6] Rebuilding projections from current swing…"
 python3 "$ROOT/scripts/rebuild_projections.py"
 
-echo "[6/6] Updating last-refresh snapshot…"
+echo "[6/7] Rebuilding battlegrounds (curated flip/toss-up categories)…"
+python3 "$ROOT/scripts/build_battlegrounds.py"
+
+echo "[7/7] Updating last-refresh snapshot…"
 python3 "$ROOT/scripts/generate_refresh_summary.py"
 
 echo "Done."

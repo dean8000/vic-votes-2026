@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Battlegrounds — Victoria votes 2026</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="apple-touch-icon" href="/favicon.svg">
+<meta name="theme-color" content="#26457a" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#15181d" media="(prefers-color-scheme: dark)">
+<meta property="og:title" content="Battlegrounds — Victorian State Election 2026">
+<meta property="og:description" content="The seats that will decide the 2026 Victorian state election: tightest projected flips, true toss-ups, Greens three-way races, and open contests.">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_AU">
+<meta name="twitter:card" content="summary">
+<link rel="stylesheet" href="/assets/css/style.css">
+<style>
+  .battle-cat {
+    margin: 30px 0;
+  }
+  .battle-cat h3 {
+    margin: 0 0 4px;
+    font-size: 1.3rem;
+  }
+  .battle-cat .blurb {
+    font-size: 0.95rem;
+    color: var(--muted);
+    margin: 0 0 14px;
+    max-width: 65ch;
+  }
+  .battle-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 12px;
+  }
+  .battle-card {
+    background: var(--panel);
+    border: 1px solid var(--rule);
+    border-left: 4px solid #999;
+    border-radius: var(--radius);
+    padding: 12px 14px;
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    transition: box-shadow 0.15s, transform 0.1s;
+  }
+  .battle-card:hover {
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    transform: translateY(-1px);
+  }
+  .battle-card.likely-flip { border-left-color: #d7301f; }
+  .battle-card.in-play { border-left-color: #fc8d59; }
+  .battle-card.safe-hold { border-left-color: #4575b4; }
+  .battle-card.close-hold { border-left-color: #fee08b; }
+  .battle-card.non-two-party { border-left-color: #999; }
+  .battle-card h4 {
+    margin: 0 0 4px;
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  .battle-card .mp {
+    font-size: 0.85rem;
+    color: var(--muted);
+    margin: 2px 0;
+  }
+  .battle-card .analysis {
+    font-size: 0.85rem;
+    margin: 6px 0 0;
+    line-height: 1.4;
+  }
+  .battle-card .projection {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    flex-wrap: wrap;
+    font-size: 0.85rem;
+    margin-top: 6px;
+  }
+</style>
+</head>
+<body>
+<header class="site">
+  <div class="inner">
+    <h1><a href="/index.html">Victoria votes 2026</a></h1>
+    <nav>
+      <a href="/index.html">Home</a>
+      <a href="/pages/myarea.html" class="nav-cta">My area</a>
+      <a href="/map.html">Map</a>
+      <a href="/pages/bigboard.html">Big board</a>
+      <a href="/pages/battlegrounds.html" aria-current="page">Battlegrounds</a>
+      <a href="/pages/compare.html">Compare</a>
+      <a href="/pages/projections.html">Polling</a>
+      <div class="nav-group">
+        <button class="nav-group-trigger" aria-haspopup="true" aria-expanded="false">Learn ▾</button>
+        <div class="nav-dropdown" role="menu">
+          <a href="/pages/voting.html">How voting works</a>
+          <a href="/pages/preferences.html">Preferential voting</a>
+          <a href="/pages/upper-house.html">Upper house</a>
+          <a href="/pages/cycles.html">Election cycles</a>
+          <a href="/pages/dates.html">Key dates</a>
+          <a href="/pages/glossary.html">Glossary</a>
+        </div>
+      </div>
+      <a href="/pages/about.html">About</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <h2>Battlegrounds — the seats that will decide this election</h2>
+  <p class="lede">Of 88 lower-house seats, perhaps 30 will actually be close. Here's a curated view of the ones most worth watching, grouped by the kind of contest they are.</p>
+
+  <div class="callout warn">
+    <strong>These are projections, not predictions.</strong> The categories below come from applying statewide polling swing to each district's 2022 result. Real elections produce swings that vary by seat; local candidate effects, independents, and preference flows all matter. Treat as a map of what to watch, not a forecast.
+  </div>
+
+  <div id="battle-root">Loading…</div>
+
+  <h3 style="margin-top:40px">How these categories were chosen</h3>
+  <ul>
+    <li><strong>Tightest projected flips</strong> — Labor seats that the uniform-swing model projects to fall to the Coalition by the narrowest margins. Small polling error = these stay Labor.</li>
+    <li><strong>True toss-ups</strong> — projected 2PP within 2% of 50-50. Either side could win on the night.</li>
+    <li><strong>Non-two-party races</strong> — Greens-held seats, Independent-held seats, plus Labor seats where a Greens challenger is competitive (inner-metropolitan seats where Greens polled >15% in 2022). Uniform swing doesn't apply; these turn on local dynamics.</li>
+    <li><strong>Open contests</strong> — the sitting MP is retiring, so there's no incumbency advantage. Historically these swing more than seats with the incumbent on the ballot.</li>
+  </ul>
+
+  <script>
+    const partySlug = (p) => (p || '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+
+    (async function () {
+      const data = await fetch('/assets/data/battlegrounds.json').then(r => r.json());
+      const root = document.getElementById('battle-root');
+      let html = '';
+      for (const cat of data.categories) {
+        html += '<section class="battle-cat"><h3>' + cat.title + ' <small style="color:var(--muted);font-weight:400">(' + cat.districts.length + ')</small></h3>';
+        html += '<p class="blurb">' + cat.blurb + '</p>';
+        html += '<div class="battle-grid">';
+        for (const d of cat.districts) {
+          const cls = (d.status || 'unknown').replace(/\s+/g, '-');
+          const partyPill = '<span class="pill party party-' + partySlug(d.party) + '">' + d.party + '</span>';
+          const retireBadge = d.retiring ? ' <span class="role-badge retiring" style="font-size:0.65rem">retiring</span>' : '';
+          // Projection row
+          let projRow = '';
+          if (d.projected_labor_tpp != null) {
+            const projParty = d.projected_winner;
+            const projPct = projParty === 'Labor' ? d.projected_labor_tpp : (100 - d.projected_labor_tpp);
+            const margin = Math.abs(d.projected_labor_tpp - 50);
+            projRow = '<div class="projection">→ 2026: <span class="pill party party-' + partySlug(projParty) + '">' + projParty + '</span> ' + projPct.toFixed(1) + '% <small>(' + margin.toFixed(1) + '% margin · ' + (d.status || '') + ')</small></div>';
+          } else if (d.note) {
+            projRow = '<div class="projection"><small><em>' + d.note + '</em></small></div>';
+          }
+          // Analysis — margin-2022 context line
+          let analysis = '';
+          if (d.margin_2022 != null && d.safety_2022) {
+            analysis = '<p class="analysis">2022: ' + d.margin_2022.toFixed(1) + '% margin (' + d.safety_2022 + ')</p>';
+          }
+          html += '<a class="battle-card ' + cls + '" href="/map.html#district/' + encodeURIComponent(d.key.replace(/\s+/g, '_')) + '">' +
+                  '<h4>' + d.label + '</h4>' +
+                  '<p class="mp">' + d.mp + ' ' + partyPill + retireBadge + '</p>' +
+                  analysis + projRow +
+                  '</a>';
+        }
+        html += '</div></section>';
+      }
+      root.innerHTML = html;
+    })();
+  </script>
+</main>
+
+<footer class="site">
+  <div class="inner">
+    <p>Each card deep-links to the <a href="/map.html">interactive map</a>. Projections rebuilt daily from current polling — see <a href="/pages/projections.html">methodology</a>.</p>
+  </div>
+</footer>
+<script src="/assets/js/nav.js"></script>
+</body>
+</html>
