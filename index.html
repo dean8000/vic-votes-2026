@@ -49,8 +49,8 @@
 
   <section id="enrol-banner" class="enrol-banner">
     <div class="enrol-countdown">
-      <strong>Enrolment closes in <span id="enrol-countdown-value">…</span></strong>
-      <small>Deadline: Tuesday 3 November 2026, 8pm</small>
+      <strong id="enrol-headline">Loading…</strong>
+      <small id="enrol-sub"></small>
     </div>
     <div class="enrol-actions">
       <a class="enrol-btn primary" href="https://www.vec.vic.gov.au/enrolment/check-enrolment" target="_blank" rel="noopener">Check my enrolment</a>
@@ -64,26 +64,65 @@
 
   <script>
     (function () {
-      const target = new Date('2026-11-03T20:00:00+11:00'); // 8pm Melbourne (AEDT, UTC+11)
-      const el = document.getElementById('enrol-countdown-value');
+      // Rolling-deadline banner: cycles through the key dates for this election.
+      // Melbourne AEDT = UTC+11.
+      const DEADLINES = [
+        { at: '2026-11-03T20:00:00+11:00',
+          future_h: 'Enrolment closes in',
+          future_s: 'Deadline: Tuesday 3 November 2026, 8pm',
+          past_h:   'Enrolment is closed',
+          past_s:   'Rolls closed Tuesday 3 November, 8pm. If you missed it you can\'t vote this election.' },
+        { at: '2026-11-18T08:00:00+11:00',
+          future_h: 'Early voting opens in',
+          future_s: 'From Wednesday 18 November, 8am — any Victorian can vote early.',
+          past_h:   'Early voting is open',
+          past_s:   'Open until 6pm Friday 27 November. Find a centre on the My area page.' },
+        { at: '2026-11-28T08:00:00+11:00',
+          future_h: 'Election day in',
+          future_s: 'Saturday 28 November 2026 · polls open 8am–6pm.',
+          past_h:   'Polls are open — vote today',
+          past_s:   'Polls close 6pm Saturday 28 November.' },
+        { at: '2026-11-28T18:00:00+11:00',
+          future_h: '',  // handled by previous entry
+          future_s: '',
+          past_h:   'Polls closed — counting underway',
+          past_s:   'Election day was Saturday 28 November 2026.' },
+      ];
+      const headline = document.getElementById('enrol-headline');
+      const sub = document.getElementById('enrol-sub');
       const banner = document.getElementById('enrol-banner');
-      function tick() {
-        const now = new Date();
-        const diff = target - now;
-        if (diff <= 0) {
-          banner.classList.add('closed');
-          el.textContent = 'enrolment is now closed';
-          return;
-        }
+      function formatDiff(diff) {
         const days = Math.floor(diff / 86400000);
         const hours = Math.floor((diff % 86400000) / 3600000);
         const mins = Math.floor((diff % 3600000) / 60000);
-        let s = '';
-        if (days > 0) s += days + ' day' + (days === 1 ? '' : 's') + ' ';
-        if (days < 3) s += hours + ' hr ' + mins + ' min';
-        else if (days < 7) s += hours + ' hrs';
-        el.textContent = s.trim();
-        if (days <= 1) banner.classList.add('urgent');
+        if (days >= 3) return days + ' days';
+        if (days > 0) return days + ' day' + (days === 1 ? '' : 's') + ' ' + hours + ' hr';
+        if (hours > 0) return hours + ' hr ' + mins + ' min';
+        return mins + ' min';
+      }
+      function tick() {
+        const now = new Date();
+        banner.classList.remove('urgent', 'closed');
+        // Find the next deadline in the future.
+        const next = DEADLINES.find(d => new Date(d.at) > now && d.future_h);
+        if (next) {
+          const diff = new Date(next.at) - now;
+          const days = Math.floor(diff / 86400000);
+          headline.textContent = next.future_h + ' ' + formatDiff(diff);
+          sub.textContent = next.future_s;
+          if (days <= 1) banner.classList.add('urgent');
+        } else {
+          // All future deadlines have passed; use the most recent past one.
+          const past = [...DEADLINES].reverse().find(d => new Date(d.at) <= now && d.past_h);
+          if (past) {
+            headline.textContent = past.past_h;
+            sub.textContent = past.past_s;
+            // After polls close, mute the banner.
+            if (new Date(past.at) >= new Date('2026-11-28T18:00:00+11:00')) {
+              banner.classList.add('closed');
+            }
+          }
+        }
       }
       tick();
       setInterval(tick, 60 * 1000);
