@@ -310,6 +310,10 @@
           "party": "Socialists"
         },
         {
+          "name": "Scott Dowling",
+          "party": "ACP"
+        },
+        {
           "name": "Vincenzo De Paolis",
           "party": "Family First"
         },
@@ -2838,6 +2842,14 @@
           "party": "One Nation"
         },
         {
+          "name": "Maxwell Gratton",
+          "party": "One Nation"
+        },
+        {
+          "name": "Kane Afford",
+          "party": "One Nation"
+        },
+        {
           "name": "Lucas Deviesseux",
           "party": "Socialists"
         },
@@ -3120,6 +3132,14 @@
         {
           "name": "Phillip Broadbridge",
           "party": "Democrats"
+        },
+        {
+          "name": "Melissa Lowe",
+          "party": "Independent"
+        },
+        {
+          "name": "Jess Ness",
+          "party": "Independent"
         }
       ]
     },
@@ -3156,6 +3176,10 @@
         },
         {
           "name": "Fiona Lopez",
+          "party": "One Nation"
+        },
+        {
+          "name": "Alan Doensen",
           "party": "One Nation"
         },
         {
