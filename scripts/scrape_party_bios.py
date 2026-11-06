@@ -281,8 +281,20 @@ def main():
         for card in cards:
             key = resolve_name(card["name"], name_index)
             if not key:
-                unmatched.append((card["name"], code))
-                continue
+                # Candidate is on the ABC guide but not yet in bios.json (e.g.
+                # late nominations). Create a fresh stub keyed on the candidate's
+                # name so the ABC bio + photo can be attached, rather than
+                # silently dropping them.
+                key = card["name"]
+                bios[key] = {
+                    "wikipedia_url": None,
+                    "born": None,
+                    "prior_occupation": None,
+                    "elected_since": None,
+                    "prior_roles": None,
+                    "education": None,
+                }
+                name_index[key] = key  # register for subsequent duplicates on other pages
             existing = bios[key]
             # Always add photo_url from ABC if we don't already have one, even
             # for sitting MPs whose bio text comes from Wikipedia.

@@ -1,5 +1,5 @@
 {
-  "refreshed_on": "2026-11-05",
+  "refreshed_on": "2026-11-06",
   "polls_tracked": 28,
   "aggregate": {
     "as_of": "2026-11-05",
@@ -16,7 +16,7 @@
     }
   },
   "candidates_total": 708,
-  "candidates_with_bio": 499,
+  "candidates_with_bio": 596,
   "projection_flips": 31,
   "projection_in_play": 5
 }

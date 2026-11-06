@@ -1,6 +1,5 @@
 {
-  "generated_from": "margins.json + projections.json + members.json + candidates.json",
-  "swing": "non-two-party",
+  "generated_at": "2026-11-06",
   "categories": [
     {
       "id": "tightest_flips",
@@ -337,19 +336,19 @@
           "candidate_count": 6
         },
         {
-          "key": "ALBERT PARK",
-          "label": "Albert Park",
-          "mp": "Nina Taylor",
+          "key": "PRESTON",
+          "label": "Preston",
+          "mp": "Nathan Lambert",
           "party": "Labor",
           "retiring": false,
-          "margin_2022": 11.2,
-          "safety_2022": "safe",
-          "basis_2022": "2PP",
+          "margin_2022": 2.1,
+          "safety_2022": "marginal",
+          "basis_2022": "2CP",
           "projected_winner": "Labor",
-          "projected_labor_tpp": 51.0,
-          "status": "in play",
-          "note": null,
-          "candidate_count": 8
+          "projected_labor_tpp": null,
+          "status": "non-two-party",
+          "note": "2022 was Labor vs Greens (2CP); a statewide Labor-vs-Coalition swing doesn't tell us anything useful here.",
+          "candidate_count": 6
         },
         {
           "key": "FOOTSCRAY",
@@ -367,19 +366,19 @@
           "candidate_count": 7
         },
         {
-          "key": "PRESTON",
-          "label": "Preston",
-          "mp": "Nathan Lambert",
+          "key": "ALBERT PARK",
+          "label": "Albert Park",
+          "mp": "Nina Taylor",
           "party": "Labor",
           "retiring": false,
-          "margin_2022": 2.1,
-          "safety_2022": "marginal",
-          "basis_2022": "2CP",
+          "margin_2022": 11.2,
+          "safety_2022": "safe",
+          "basis_2022": "2PP",
           "projected_winner": "Labor",
-          "projected_labor_tpp": null,
-          "status": "non-two-party",
-          "note": "2022 was Labor vs Greens (2CP); a statewide Labor-vs-Coalition swing doesn't tell us anything useful here.",
-          "candidate_count": 6
+          "projected_labor_tpp": 51.0,
+          "status": "in play",
+          "note": null,
+          "candidate_count": 8
         }
       ]
     },
