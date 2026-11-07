@@ -430,6 +430,10 @@
           "party": "Labor"
         },
         {
+          "name": "John Margelis",
+          "party": "Liberal"
+        },
+        {
           "name": "Adam Pulford",
           "party": "Greens"
         },
@@ -1430,6 +1434,10 @@
       "sitting_party": "Liberal",
       "candidates": [
         {
+          "name": "Peter Martin",
+          "party": "Labor"
+        },
+        {
           "name": "Amelia Hamer",
           "party": "Liberal"
         },
@@ -1977,6 +1985,10 @@
       "label": "Ovens Valley",
       "sitting_party": "National",
       "candidates": [
+        {
+          "name": "Jennifer Smith",
+          "party": "Labor"
+        },
         {
           "name": "Tim McCurdy",
           "party": "National"
@@ -2834,6 +2846,10 @@
           "party": "Legalise Cannabis"
         },
         {
+          "name": "Alex van der End",
+          "party": "Family First"
+        },
+        {
           "name": "Chloe Nicolosi",
           "party": "AJP"
         },
@@ -2972,7 +2988,7 @@
           "party": "One Nation"
         },
         {
-          "name": "Michael White",
+          "name": "Chris McCormack",
           "party": "Family First"
         },
         {
@@ -3031,10 +3047,6 @@
         {
           "name": "Will Vandermeer",
           "party": "Libertarian"
-        },
-        {
-          "name": "Jane Foreman",
-          "party": "Family First"
         },
         {
           "name": "Colleen Harkin",
@@ -3108,6 +3120,10 @@
         {
           "name": "Bettina Terry",
           "party": "Sustainable"
+        },
+        {
+          "name": "Jane Foreman",
+          "party": "Family First"
         },
         {
           "name": "Aaron Sanford",

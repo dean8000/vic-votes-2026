@@ -1,8 +1,8 @@
 {
-  "refreshed_on": "2026-11-06",
-  "polls_tracked": 28,
+  "refreshed_on": "2026-11-07",
+  "polls_tracked": 29,
   "aggregate": {
-    "as_of": "2026-11-06",
+    "as_of": "2026-11-07",
     "n_polls": 5,
     "tpp_labor": 44.8,
     "tpp_coalition": 55.2,
@@ -15,7 +15,7 @@
       "Others": 11.0
     }
   },
-  "candidates_total": 714,
+  "candidates_total": 718,
   "candidates_with_bio": 596,
   "projection_flips": 31,
   "projection_in_play": 5

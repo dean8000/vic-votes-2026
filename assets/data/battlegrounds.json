@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06",
+  "generated_at": "2026-11-07",
   "categories": [
     {
       "id": "tightest_flips",
@@ -520,7 +520,7 @@
           "projected_labor_tpp": 31.7,
           "status": "safe hold",
           "note": null,
-          "candidate_count": 6
+          "candidate_count": 7
         },
         {
           "key": "SYDENHAM",
