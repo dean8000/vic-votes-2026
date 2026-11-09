@@ -2062,6 +2062,10 @@
           "party": "Labor"
         },
         {
+          "name": "Rohit Taggar",
+          "party": "Liberal"
+        },
+        {
           "name": "Angelica Panopoulos",
           "party": "Greens"
         },
@@ -2268,7 +2272,11 @@
           "party": "Labor"
         },
         {
-          "name": "Jo Armstrong (N)Megan Read",
+          "name": "Jo Armstrong",
+          "party": "National"
+        },
+        {
+          "name": "Megan Read",
           "party": "Liberal"
         },
         {
@@ -2761,6 +2769,26 @@
       "label": "Eastern Victoria Region",
       "candidates": [
         {
+          "name": "Enver Erdogan",
+          "party": "Labor"
+        },
+        {
+          "name": "Leticia Quintana",
+          "party": "Labor"
+        },
+        {
+          "name": "Denise Ryan",
+          "party": "Labor"
+        },
+        {
+          "name": "Ian Rogers",
+          "party": "Labor"
+        },
+        {
+          "name": "Ryan Mather",
+          "party": "Labor"
+        },
+        {
           "name": "Renee Heath",
           "party": "Coalition"
         },
@@ -2773,7 +2801,31 @@
           "party": "Coalition"
         },
         {
+          "name": "Barry Besanko",
+          "party": "Coalition"
+        },
+        {
+          "name": "Richard Clark",
+          "party": "Coalition"
+        },
+        {
           "name": "Mat Morgan",
+          "party": "Greens"
+        },
+        {
+          "name": "Xero Turnbull",
+          "party": "Greens"
+        },
+        {
+          "name": "Oliver Jobe",
+          "party": "Greens"
+        },
+        {
+          "name": "Helen Chauhan",
+          "party": "Greens"
+        },
+        {
+          "name": "Phillip Watt",
           "party": "Greens"
         },
         {
@@ -2781,15 +2833,43 @@
           "party": "Legalise Cannabis"
         },
         {
+          "name": "Devon Starbuck",
+          "party": "Legalise Cannabis"
+        },
+        {
+          "name": "Khalif White",
+          "party": "DLP"
+        },
+        {
+          "name": "Daniel Hamman",
+          "party": "DLP"
+        },
+        {
+          "name": "Clay Esler",
+          "party": "One Nation"
+        },
+        {
           "name": "Neil Davison",
           "party": "One Nation"
+        },
+        {
+          "name": "John De Wacht",
+          "party": "One Nation"
+        },
+        {
+          "name": "Jeff Bourman",
+          "party": "SFF"
+        },
+        {
+          "name": "Kerrie-Anne Muir",
+          "party": "SFF"
         },
         {
           "name": "Helen Jeges",
           "party": "AJP"
         },
         {
-          "name": "Jessica McAullife",
+          "name": "Philip Waters",
           "party": "AJP"
         },
         {
@@ -2805,7 +2885,15 @@
           "party": "Sustainable"
         },
         {
-          "name": "Antoinette Pitt",
+          "name": "Inge Meldgaard",
+          "party": "Sustainable"
+        },
+        {
+          "name": "Ant Pitt",
+          "party": "Independent"
+        },
+        {
+          "name": "Kate Coxall",
           "party": "Independent"
         }
       ]
@@ -2815,6 +2903,22 @@
       "candidates": [
         {
           "name": "Ryan Batchelor",
+          "party": "Labor"
+        },
+        {
+          "name": "James Gan",
+          "party": "Labor"
+        },
+        {
+          "name": "Rana Javed",
+          "party": "Labor"
+        },
+        {
+          "name": "Donna MacKinnon",
+          "party": "Labor"
+        },
+        {
+          "name": "Maree Simmons",
           "party": "Labor"
         },
         {
@@ -2830,8 +2934,52 @@
           "party": "Liberal"
         },
         {
+          "name": "Sue Leidler",
+          "party": "Liberal"
+        },
+        {
+          "name": "David Solly",
+          "party": "Liberal"
+        },
+        {
           "name": "Aiv Puglielli",
           "party": "Greens"
+        },
+        {
+          "name": "Sophia Sun",
+          "party": "Greens"
+        },
+        {
+          "name": "Peter Gallagher",
+          "party": "Greens"
+        },
+        {
+          "name": "Mohamud Hersi",
+          "party": "Greens"
+        },
+        {
+          "name": "Liezl Shnookal",
+          "party": "Greens"
+        },
+        {
+          "name": "Cary De Wit",
+          "party": "DLP"
+        },
+        {
+          "name": "Brenton Van Der Ende",
+          "party": "DLP"
+        },
+        {
+          "name": "Peter Plaucs",
+          "party": "DLP"
+        },
+        {
+          "name": "Jae Ho",
+          "party": "DLP"
+        },
+        {
+          "name": "Hwang",
+          "party": "DLP"
         },
         {
           "name": "Matthew Ford",
@@ -2846,7 +2994,11 @@
           "party": "Legalise Cannabis"
         },
         {
-          "name": "Rosario-Makridis",
+          "name": "Rosario-Makridis Thomas",
+          "party": "Legalise Cannabis"
+        },
+        {
+          "name": "Forrest",
           "party": "Legalise Cannabis"
         },
         {
@@ -2854,8 +3006,8 @@
           "party": "Family First"
         },
         {
-          "name": "Chloe Nicolosi",
-          "party": "AJP"
+          "name": "Jeremy Ngoh",
+          "party": "Family First"
         },
         {
           "name": "Natalie Adams",
@@ -2899,6 +3051,26 @@
       "label": "Northern Metropolitan Region",
       "candidates": [
         {
+          "name": "Sheena Watt",
+          "party": "Labor"
+        },
+        {
+          "name": "Tom McIntosh",
+          "party": "Labor"
+        },
+        {
+          "name": "Sainab Sheikh",
+          "party": "Labor"
+        },
+        {
+          "name": "Praveen Komaragiri",
+          "party": "Labor"
+        },
+        {
+          "name": "Dan Cairnes",
+          "party": "Labor"
+        },
+        {
           "name": "Evan Mulholland",
           "party": "Liberal"
         },
@@ -2907,8 +3079,44 @@
           "party": "Liberal"
         },
         {
+          "name": "Shankar Dharel",
+          "party": "Liberal"
+        },
+        {
+          "name": "Usman Ghani",
+          "party": "Liberal"
+        },
+        {
+          "name": "Mark Briers",
+          "party": "Liberal"
+        },
+        {
           "name": "Anasina Gray-Barberio",
           "party": "Greens"
+        },
+        {
+          "name": "Sam Drummond",
+          "party": "Greens"
+        },
+        {
+          "name": "Tara Burnett",
+          "party": "Greens"
+        },
+        {
+          "name": "Hannah Thomas",
+          "party": "Greens"
+        },
+        {
+          "name": "Tim Sheehan",
+          "party": "Greens"
+        },
+        {
+          "name": "John Kavanagh",
+          "party": "DLP"
+        },
+        {
+          "name": "James Fung",
+          "party": "DLP"
         },
         {
           "name": "Omar Hassan",
@@ -2919,7 +3127,27 @@
           "party": "Socialists"
         },
         {
+          "name": "Catherine Robertson",
+          "party": "Socialists"
+        },
+        {
+          "name": "Belle Gibson",
+          "party": "Socialists"
+        },
+        {
+          "name": "Bella Beiraghi",
+          "party": "Socialists"
+        },
+        {
           "name": "Riley Aickin",
+          "party": "Legalise Cannabis"
+        },
+        {
+          "name": "King River",
+          "party": "Legalise Cannabis"
+        },
+        {
+          "name": "Wind",
           "party": "Legalise Cannabis"
         },
         {
@@ -2927,15 +3155,27 @@
           "party": "Family First"
         },
         {
-          "name": "Peita Collard",
-          "party": "AJP"
+          "name": "Andrew Deeming",
+          "party": "Family First"
         },
         {
           "name": "Mark Nicholson",
           "party": "One Nation"
         },
         {
+          "name": "Anna Galluzzo",
+          "party": "One Nation"
+        },
+        {
           "name": "Bert Jessup",
+          "party": "Sustainable"
+        },
+        {
+          "name": "Beth Couch",
+          "party": "Sustainable"
+        },
+        {
+          "name": "Daryl Bludgeon",
           "party": "Sustainable"
         },
         {
@@ -2957,6 +3197,34 @@
         {
           "name": "Darren Saffin",
           "party": "Socialist Alliance"
+        },
+        {
+          "name": "Morgan Peach",
+          "party": "Unnamed Group 1"
+        },
+        {
+          "name": "Peter Byrne",
+          "party": "Unnamed Group 1"
+        },
+        {
+          "name": "Bassimi Hawli",
+          "party": "Unnamed Group 2"
+        },
+        {
+          "name": "Anastasia Drapaniotis",
+          "party": "Unnamed Group 2"
+        },
+        {
+          "name": "Abir Dandach",
+          "party": "Unnamed Group 2"
+        },
+        {
+          "name": "Selin Gungormus",
+          "party": "Unnamed Group 2"
+        },
+        {
+          "name": "Peter Razos",
+          "party": "Unknown"
         }
       ]
     },
@@ -2976,11 +3244,67 @@
           "party": "Coalition"
         },
         {
+          "name": "Chad Muller",
+          "party": "Coalition"
+        },
+        {
+          "name": "Brad Hearn",
+          "party": "Coalition"
+        },
+        {
+          "name": "Jaclyn Symes",
+          "party": "Labor"
+        },
+        {
+          "name": "Jana Sarantis",
+          "party": "Labor"
+        },
+        {
+          "name": "Mitch Bridges",
+          "party": "Labor"
+        },
+        {
+          "name": "Natasha Gayfer",
+          "party": "Labor"
+        },
+        {
+          "name": "Greg Olsen",
+          "party": "Labor"
+        },
+        {
           "name": "Cate Sinclair",
           "party": "Greens"
         },
         {
+          "name": "Lucas Maddock",
+          "party": "Greens"
+        },
+        {
+          "name": "Wil Mikelsons",
+          "party": "Greens"
+        },
+        {
+          "name": "Helen Robinson",
+          "party": "Greens"
+        },
+        {
+          "name": "Samantha Bright",
+          "party": "Greens"
+        },
+        {
+          "name": "Ethan Constantinou",
+          "party": "SFF"
+        },
+        {
+          "name": "Geoff Ashby",
+          "party": "SFF"
+        },
+        {
           "name": "Wayne Taylor",
+          "party": "Legalise Cannabis"
+        },
+        {
+          "name": "Scott Williams",
           "party": "Legalise Cannabis"
         },
         {
@@ -2992,12 +3316,32 @@
           "party": "One Nation"
         },
         {
+          "name": "Luke Sorenson",
+          "party": "One Nation"
+        },
+        {
           "name": "Chris McCormack",
+          "party": "Family First"
+        },
+        {
+          "name": "Ev Keetelaar",
           "party": "Family First"
         },
         {
           "name": "Georgie Purcell",
           "party": "AJP"
+        },
+        {
+          "name": "Laurie Levy",
+          "party": "AJP"
+        },
+        {
+          "name": "Chai Van Dorssen",
+          "party": "DLP"
+        },
+        {
+          "name": "Sophie De Wit",
+          "party": "DLP"
         },
         {
           "name": "Dorothy Lamond",
@@ -3012,6 +3356,10 @@
           "party": "Sustainable"
         },
         {
+          "name": "Cheryl Blacker",
+          "party": "Sustainable"
+        },
+        {
           "name": "Chris Lahy",
           "party": "Citizens Party"
         },
@@ -3021,13 +3369,45 @@
         },
         {
           "name": "Kate White",
-          "party": "Independent"
+          "party": "Unnamed Group 1"
+        },
+        {
+          "name": "Alex Green",
+          "party": "Unnamed Group 1"
+        },
+        {
+          "name": "Nick McHugh",
+          "party": "Unknown"
         }
       ]
     },
     "SOUTH-EASTERN METROPOLITAN": {
       "label": "South-Eastern Metropolitan Region",
       "candidates": [
+        {
+          "name": "Lee Tarlamis",
+          "party": "Labor"
+        },
+        {
+          "name": "Michael Galea",
+          "party": "Labor"
+        },
+        {
+          "name": "Ram Moti",
+          "party": "Labor"
+        },
+        {
+          "name": "Soheang Pak",
+          "party": "Labor"
+        },
+        {
+          "name": "Thanh Von",
+          "party": "Labor"
+        },
+        {
+          "name": "Tran",
+          "party": "Labor"
+        },
         {
           "name": "Phillip Pease",
           "party": "Liberal"
@@ -3037,11 +3417,43 @@
           "party": "Liberal"
         },
         {
+          "name": "Scott Fenner",
+          "party": "Liberal"
+        },
+        {
+          "name": "Marcus Fernandez",
+          "party": "Liberal"
+        },
+        {
+          "name": "Salini Vipinkumar",
+          "party": "Liberal"
+        },
+        {
           "name": "Matthew Kirwan",
           "party": "Greens"
         },
         {
+          "name": "Louisa Willoughby",
+          "party": "Greens"
+        },
+        {
+          "name": "Samantha von Hagt",
+          "party": "Greens"
+        },
+        {
+          "name": "Cara Kent",
+          "party": "Greens"
+        },
+        {
+          "name": "Jayden Hardy",
+          "party": "Greens"
+        },
+        {
           "name": "Rachel Payne",
+          "party": "Legalise Cannabis"
+        },
+        {
+          "name": "Gregory Denham",
           "party": "Legalise Cannabis"
         },
         {
@@ -3053,6 +3465,14 @@
           "party": "Libertarian"
         },
         {
+          "name": "Andrew Zmegac",
+          "party": "DLP"
+        },
+        {
+          "name": "Scott Marsh",
+          "party": "DLP"
+        },
+        {
           "name": "Colleen Harkin",
           "party": "One Nation"
         },
@@ -3061,8 +3481,8 @@
           "party": "One Nation"
         },
         {
-          "name": "Tamara Champion",
-          "party": "AJP"
+          "name": "Leo Panetta",
+          "party": "One Nation"
         },
         {
           "name": "Kelly Cvetkova",
@@ -3075,6 +3495,18 @@
         {
           "name": "Brandon Hoult",
           "party": "Sustainable"
+        },
+        {
+          "name": "Ann-Marie Brady",
+          "party": "Sustainable"
+        },
+        {
+          "name": "Milton Wilde",
+          "party": "CAP - Reform"
+        },
+        {
+          "name": "Leanne Wilde",
+          "party": "CAP - Reform"
         },
         {
           "name": "Gary Collie",
@@ -3091,6 +3523,14 @@
         {
           "name": "Jacqui Morel",
           "party": "Democrats"
+        },
+        {
+          "name": "Ungroupedindependents",
+          "party": "One Nation"
+        },
+        {
+          "name": "Susantha Abeysinghe",
+          "party": "One Nation"
         }
       ]
     },
@@ -3110,7 +3550,51 @@
           "party": "Liberal"
         },
         {
+          "name": "Jamie Bell",
+          "party": "Liberal"
+        },
+        {
+          "name": "Jasmine Perera",
+          "party": "Liberal"
+        },
+        {
+          "name": "John Berger",
+          "party": "Labor"
+        },
+        {
+          "name": "Louise Crawford",
+          "party": "Labor"
+        },
+        {
+          "name": "Virginia Wills",
+          "party": "Labor"
+        },
+        {
+          "name": "Gavin Douch",
+          "party": "Labor"
+        },
+        {
+          "name": "Phillip Cole",
+          "party": "Labor"
+        },
+        {
           "name": "Katherine Copsey",
+          "party": "Greens"
+        },
+        {
+          "name": "Rachel Iampolski",
+          "party": "Greens"
+        },
+        {
+          "name": "Jeff Kissubi",
+          "party": "Greens"
+        },
+        {
+          "name": "Kim Samiotis",
+          "party": "Greens"
+        },
+        {
+          "name": "Joshua Weaver",
           "party": "Greens"
         },
         {
@@ -3118,15 +3602,31 @@
           "party": "Legalise Cannabis"
         },
         {
-          "name": "Daniel O'Neill",
-          "party": "AJP"
+          "name": "Ben Howman",
+          "party": "Legalise Cannabis"
+        },
+        {
+          "name": "Karla Zmegac",
+          "party": "DLP"
+        },
+        {
+          "name": "Paul Dean",
+          "party": "DLP"
         },
         {
           "name": "Bettina Terry",
           "party": "Sustainable"
         },
         {
+          "name": "Linda Baird",
+          "party": "Sustainable"
+        },
+        {
           "name": "Jane Foreman",
+          "party": "Family First"
+        },
+        {
+          "name": "Tom Paton",
           "party": "Family First"
         },
         {
@@ -3167,6 +3667,26 @@
       "label": "Western Metropolitan Region",
       "candidates": [
         {
+          "name": "Lizzie Blandthorn",
+          "party": "Labor"
+        },
+        {
+          "name": "Ingrid Stitt",
+          "party": "Labor"
+        },
+        {
+          "name": "Cuc Lam",
+          "party": "Labor"
+        },
+        {
+          "name": "Sara Ibrahim",
+          "party": "Labor"
+        },
+        {
+          "name": "Kim Travers",
+          "party": "Labor"
+        },
+        {
           "name": "Roshena Campbell",
           "party": "Liberal"
         },
@@ -3175,11 +3695,59 @@
           "party": "Liberal"
         },
         {
+          "name": "Satish Patel",
+          "party": "Liberal"
+        },
+        {
+          "name": "Shwetha Narayanan",
+          "party": "Liberal"
+        },
+        {
+          "name": "Daniel Maduok",
+          "party": "Liberal"
+        },
+        {
+          "name": "Geng",
+          "party": "Liberal"
+        },
+        {
           "name": "Brittney Henderson",
           "party": "Greens"
         },
         {
+          "name": "Isabella McRae",
+          "party": "Greens"
+        },
+        {
+          "name": "McLeod Ebony",
+          "party": "Greens"
+        },
+        {
+          "name": "Heins Niall",
+          "party": "Greens"
+        },
+        {
+          "name": "Harden Geetha",
+          "party": "Greens"
+        },
+        {
+          "name": "Pathanjalimanoharar",
+          "party": "Greens"
+        },
+        {
+          "name": "Mark Royal",
+          "party": "DLP"
+        },
+        {
+          "name": "Arlene Smith",
+          "party": "DLP"
+        },
+        {
           "name": "Xavier Menta",
+          "party": "Legalise Cannabis"
+        },
+        {
+          "name": "Chana Berson",
           "party": "Legalise Cannabis"
         },
         {
@@ -3191,7 +3759,35 @@
           "party": "Socialists"
         },
         {
+          "name": "Ella Sjodin",
+          "party": "Socialists"
+        },
+        {
+          "name": "Lucy Kelly",
+          "party": "Socialists"
+        },
+        {
+          "name": "Dean Maloney",
+          "party": "Socialists"
+        },
+        {
           "name": "Moira Deeming",
+          "party": "Family First"
+        },
+        {
+          "name": "Chris Neil",
+          "party": "Family First"
+        },
+        {
+          "name": "Pavitra Kulkarni",
+          "party": "Family First"
+        },
+        {
+          "name": "Mark Emerson",
+          "party": "Family First"
+        },
+        {
+          "name": "Francine Ikirezi",
           "party": "Family First"
         },
         {
@@ -3207,12 +3803,32 @@
           "party": "Sustainable"
         },
         {
+          "name": "Susan Davies",
+          "party": "Sustainable"
+        },
+        {
           "name": "Chris Thiery-Lai",
           "party": "Democrats"
         },
         {
           "name": "Nigel Keenan",
           "party": "Democrats"
+        },
+        {
+          "name": "Raj Saini",
+          "party": "The Republican"
+        },
+        {
+          "name": "Zalak Shar",
+          "party": "The Republican"
+        },
+        {
+          "name": "Kaur Sarajabit",
+          "party": "The Republican"
+        },
+        {
+          "name": "Shubhangi Kulkarni",
+          "party": "The Republican"
         },
         {
           "name": "Joe Garra",
@@ -3225,12 +3841,40 @@
         {
           "name": "Phil Farrelly",
           "party": "West Party"
+        },
+        {
+          "name": "Ungroupedindependents",
+          "party": "Family First"
+        },
+        {
+          "name": "Rakesh Raizada",
+          "party": "Family First"
         }
       ]
     },
     "WESTERN VICTORIA": {
       "label": "Western Victoria Region",
       "candidates": [
+        {
+          "name": "Kate Maxfield",
+          "party": "Labor"
+        },
+        {
+          "name": "Jacinta Ermacora",
+          "party": "Labor"
+        },
+        {
+          "name": "Sam Anwari",
+          "party": "Labor"
+        },
+        {
+          "name": "Kaitlyn Handreck",
+          "party": "Labor"
+        },
+        {
+          "name": "Fiona Mackenzie",
+          "party": "Labor"
+        },
         {
           "name": "Bev McArthur",
           "party": "Coalition"
@@ -3240,12 +3884,60 @@
           "party": "Coalition"
         },
         {
+          "name": "Robert Letts",
+          "party": "Coalition"
+        },
+        {
+          "name": "Ellie Read",
+          "party": "Coalition"
+        },
+        {
+          "name": "Melody Steed",
+          "party": "Coalition"
+        },
+        {
           "name": "Sarah Mansfield",
+          "party": "Greens"
+        },
+        {
+          "name": "Belinda Coats",
+          "party": "Greens"
+        },
+        {
+          "name": "Steve Veale",
+          "party": "Greens"
+        },
+        {
+          "name": "Aleisha Smith",
+          "party": "Greens"
+        },
+        {
+          "name": "Heaven Van Asperen",
           "party": "Greens"
         },
         {
           "name": "Peter Mitchell",
           "party": "Legalise Cannabis"
+        },
+        {
+          "name": "Alice Davy",
+          "party": "Legalise Cannabis"
+        },
+        {
+          "name": "Ben Collyer",
+          "party": "SFF"
+        },
+        {
+          "name": "Ken Vickers",
+          "party": "SFF"
+        },
+        {
+          "name": "Paul Barker",
+          "party": "Libertarian"
+        },
+        {
+          "name": "Phill Schiemer",
+          "party": "Libertarian"
         },
         {
           "name": "Chris Burson",
@@ -3256,7 +3948,35 @@
           "party": "One Nation"
         },
         {
+          "name": "Jason Oosthuizen",
+          "party": "One Nation"
+        },
+        {
+          "name": "Costa Di Biase",
+          "party": "DLP"
+        },
+        {
+          "name": "Jennifer Bowden",
+          "party": "DLP"
+        },
+        {
           "name": "Dianne Colbert",
+          "party": "Family First"
+        },
+        {
+          "name": "Anne Moloney",
+          "party": "Family First"
+        },
+        {
+          "name": "Senthil Veerappagounder",
+          "party": "Family First"
+        },
+        {
+          "name": "Brendan William",
+          "party": "Family First"
+        },
+        {
+          "name": "Thomas",
           "party": "Family First"
         },
         {
@@ -3284,6 +4004,14 @@
           "party": "Democrats"
         },
         {
+          "name": "Sindhu Sama",
+          "party": "The Republican"
+        },
+        {
+          "name": "Akwinder Kaur",
+          "party": "The Republican"
+        },
+        {
           "name": "Tim Gooden",
           "party": "Socialist Alliance"
         },
@@ -3297,7 +4025,15 @@
         },
         {
           "name": "Aleta Moriarty",
-          "party": "Independent"
+          "party": "Unnamed Group 1"
+        },
+        {
+          "name": "Timothy Denton",
+          "party": "Unnamed Group 1"
+        },
+        {
+          "name": "Eve Fisher",
+          "party": "Unknown"
         }
       ]
     }

@@ -790,7 +790,7 @@
         "address2": null,
         "suburb": "Caulfield",
         "postcode": 3162,
-        "est_votes": 10817,
+        "est_votes": 11350,
         "accessibility_label": "Assisted wheelchair access",
         "address_full": "1 Neerim Road, Caulfield 3162"
       },
@@ -2175,22 +2175,22 @@
         "est_votes": 5812,
         "accessibility_label": "Assisted wheelchair access",
         "address_full": "3 Cooinda Place, Malvern East 3145"
-      },
-      {
-        "district_label": "Malvern District",
-        "name": "Caulfield - EVC 2 (JEVC)",
-        "venue": "Caulfield Presbyterian Church (EVC)",
-        "accessibility": "AWA",
-        "address1": "1 Neerim Road",
-        "address2": null,
-        "suburb": "Caulfield",
-        "postcode": 3162,
-        "est_votes": 533,
-        "accessibility_label": "Assisted wheelchair access",
-        "address_full": "1 Neerim Road, Caulfield 3162"
       }
     ],
     "MELBOURNE": [
+      {
+        "district_label": "Melbourne District",
+        "name": "Melbourne - EVC 3 (HJEVC)",
+        "venue": "Flinders Street Voting Centre (EVC)",
+        "accessibility": "IWA",
+        "address1": "340 Flinders Street",
+        "address2": null,
+        "suburb": "Melbourne",
+        "postcode": 3000,
+        "est_votes": 40000,
+        "accessibility_label": "Independent wheelchair access",
+        "address_full": "340 Flinders Street, Melbourne 3000"
+      },
       {
         "district_label": "Melbourne District",
         "name": "Melbourne - EVC 1",
@@ -2200,7 +2200,7 @@
         "address2": "(access via Victoria Street)",
         "suburb": "Melbourne",
         "postcode": 3000,
-        "est_votes": 15679,
+        "est_votes": 20000,
         "accessibility_label": "Assisted wheelchair access",
         "address_full": "26 Therry Street, (access via Victoria Street), Melbourne 3000"
       },
@@ -2213,22 +2213,9 @@
         "address2": null,
         "suburb": "Melbourne",
         "postcode": 3000,
-        "est_votes": 15194,
+        "est_votes": 20000,
         "accessibility_label": "Assisted wheelchair access",
         "address_full": "90-130 Swanston Street, Melbourne 3000"
-      },
-      {
-        "district_label": "Melbourne District",
-        "name": "Melbourne - EVC 3 (HJEVC)",
-        "venue": "Flinders Street Voting Centre (EVC)",
-        "accessibility": "IWA",
-        "address1": "340 Flinders Street",
-        "address2": null,
-        "suburb": "Melbourne",
-        "postcode": 3000,
-        "est_votes": 9284,
-        "accessibility_label": "Independent wheelchair access",
-        "address_full": "340 Flinders Street, Melbourne 3000"
       },
       {
         "district_label": "Melbourne District",
@@ -3748,7 +3735,7 @@
         "address2": null,
         "suburb": "Sunbury",
         "postcode": 3429,
-        "est_votes": 14331,
+        "est_votes": 16721,
         "accessibility_label": "LNWA",
         "address_full": "8 Miller Street, Sunbury 3429"
       },
@@ -3761,9 +3748,22 @@
         "address2": null,
         "suburb": "Sunbury",
         "postcode": 3429,
-        "est_votes": 8042,
+        "est_votes": 9219,
         "accessibility_label": "Independent wheelchair access",
         "address_full": "101 Riddell Road, Sunbury 3429"
+      },
+      {
+        "district_label": "Sunbury District",
+        "name": "Sunbury - EVC 3",
+        "venue": "Calabria Club (EVC)",
+        "accessibility": "AWA",
+        "address1": "5 Uniting Lane",
+        "address2": null,
+        "suburb": "Bulla",
+        "postcode": 3428,
+        "est_votes": 4480,
+        "accessibility_label": "Assisted wheelchair access",
+        "address_full": "5 Uniting Lane, Bulla 3428"
       },
       {
         "district_label": "Sunbury District",
@@ -3777,19 +3777,6 @@
         "est_votes": 4032,
         "accessibility_label": "Assisted wheelchair access",
         "address_full": "202 Erinbank Crescent, Attwood 3049"
-      },
-      {
-        "district_label": "Sunbury District",
-        "name": "Sunbury - EVC 3",
-        "venue": "Calabria Club (EVC)",
-        "accessibility": "AWA",
-        "address1": "5 Uniting Lane",
-        "address2": null,
-        "suburb": "Bulla",
-        "postcode": 3428,
-        "est_votes": 862,
-        "accessibility_label": "Assisted wheelchair access",
-        "address_full": "5 Uniting Lane, Bulla 3428"
       }
     ],
     "SYDENHAM": [

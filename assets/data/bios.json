@@ -543,7 +543,8 @@
       "Leader of the Liberal Party in Victoria 2018–2021",
       "Treasurer of Victoria 2013–2014"
     ],
-    "education": null
+    "education": null,
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/EVEL_FFP_OBrien.jpg"
   },
   "Ellen Sandell": {
     "wikipedia_url": "https://en.wikipedia.org/wiki/Ellen_Sandell",
@@ -844,7 +845,8 @@
       "Member of the Victorian Legislative Assembly for Ringwood since 2022",
       "Member of the Victorian Legislative Assembly for Burwood 2018–2022"
     ],
-    "education": "Monash University"
+    "education": "Monash University",
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/PRES_IND_Fowles.jpg"
   },
   "Martha Haylett": {
     "wikipedia_url": "https://en.wikipedia.org/wiki/Martha_Haylett",
@@ -1094,7 +1096,8 @@
       "Leader of the Liberal Party in the Victorian Legislative Council 2024–2025",
       "Minister for Health 2010–2014"
     ],
-    "education": "University of Melbourne"
+    "education": "University of Melbourne",
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/KEW_IND_Davis.jpg"
   },
   "Georgie Crozier": {
     "wikipedia_url": "https://en.wikipedia.org/wiki/Georgie_Crozier",
@@ -1675,10 +1678,14 @@
   "Gary Coombs": {
     "wikipedia_url": null,
     "born": null,
-    "prior_occupation": null,
+    "prior_occupation": "retired electronics technician",
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/BAYS_FFP_Coombes.jpg",
+    "summary": "Coombes is a retired electronics technician and business owner. He stood as the Family First candidate in this seat in the 2010 and 2022 elections. He has also run for the federal seats of Casey and Deakin at the 2013 and 2016 elections, respectively.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/bays"
   },
   "Callum Whitehead": {
     "wikipedia_url": null,
@@ -2188,10 +2195,14 @@
   "Gabriel Steger": {
     "wikipedia_url": null,
     "born": null,
-    "prior_occupation": null,
+    "prior_occupation": "advisor to federal labor mp",
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/BRUN_ALP_Steger.jpg",
+    "summary": "Steger is an advisor to federal Labor MP and assistant minister Ged Kearney and has previously worked at the Department of Prime Minister and Cabinet and the Attorney-General’s Department. He is fluent in Mandarin.",
+    "source": "Vic Labor",
+    "source_url": "https://www.viclabor.org.au/our-team/gabe-steger"
   },
   "Adam Pulford": {
     "wikipedia_url": null,
@@ -2405,10 +2416,14 @@
   "Angel Dolejsí": {
     "wikipedia_url": null,
     "born": null,
-    "prior_occupation": null,
+    "prior_occupation": "operations manager",
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/CAUL_GRN_Dolejsi.jpg",
+    "summary": "Dolejsi is an operations manager who has worked in the eyecare and fashion industries. He has also been an actor and choreographer.",
+    "source": "Vic Greens",
+    "source_url": "https://greens.org.au/vic/person/angel-dolejsi"
   },
   "Michael Abelman": {
     "wikipedia_url": "https://en.wikipedia.org/wiki/Michael_Abelman",
@@ -2723,7 +2738,11 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/ELTH_ONP_Weatherley.jpg",
+    "summary": "Weatherley has lived in Eltham for the past 12 years and owns a marketing consultancy of which she is also the creative director.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/elth"
   },
   "Maeve Riches": {
     "wikipedia_url": null,
@@ -3312,7 +3331,7 @@
     "elected_since": null,
     "prior_roles": null,
     "education": null,
-    "summary": "Schiefler is a former Australian Army soldier.",
+    "summary": "Schiefler was born in South Africa and was an Australian Army soldier. He later studied economics and worked in the federal public service.",
     "source": "Vic Liberals",
     "source_url": "https://vicliberal.org.au/team/frank-schiefler",
     "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/HAST_LIB_Schiefler.jpg"
@@ -3898,18 +3917,6 @@
     "source": "Vic Labor",
     "source_url": "https://www.viclabor.org.au/our-team/davydd-griffiths",
     "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/MELB_ALP_Griffiths.jpg"
-  },
-  "Matthew Collins": {
-    "wikipedia_url": null,
-    "born": null,
-    "prior_occupation": null,
-    "elected_since": null,
-    "prior_roles": null,
-    "education": null,
-    "summary": "Collins says he has enjoyed success in a local small business and built his career in sales.",
-    "source": "ABC",
-    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/melb",
-    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/MELB_ONP_Collins.jpg"
   },
   "Jordan van den Lamb": {
     "wikipedia_url": "https://en.wikipedia.org/wiki/Jordan_van_den_Lamb",
@@ -4704,14 +4711,6 @@
     "source": "Vic Liberals",
     "source_url": "https://vicliberal.org.au/team/martin-jung",
     "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/OAKL_LIB_Jung.jpg"
-  },
-  "Hsiang Han-Hsieh": {
-    "wikipedia_url": null,
-    "born": null,
-    "prior_occupation": null,
-    "elected_since": null,
-    "prior_roles": null,
-    "education": null
   },
   "Brooke Carter": {
     "wikipedia_url": "https://en.wikipedia.org/wiki/Brooke_Carter",
@@ -5540,10 +5539,14 @@
   "Luận Walker": {
     "wikipedia_url": null,
     "born": null,
-    "prior_occupation": null,
+    "prior_occupation": "restaurant owner",
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/STAL_TWP_Walker.jpg",
+    "summary": "Walker is a restaurant owner and managing director at an aged care organisation. He is also a justice of the peace and co-founded a wedding services business. He was formerly a member of the Liberal Party and stood as a candidate for the upper house at the last state election.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/stal"
   },
   "Simmone Cottom": {
     "wikipedia_url": null,
@@ -5659,7 +5662,8 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/SYDE_TWP_Lancashire.jpg"
   },
   "Rifai Raheem": {
     "wikipedia_url": null,
@@ -5691,7 +5695,11 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/TARN_VS_VanKeulen.jpg",
+    "summary": "Van Keulen has been a teacher for nine years and lives in Werribee and says she has watched parents make hard sacrifices just to put food on the table, keep the lights on or take their child to see a dentist.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/tarn"
   },
   "Andrew Elsbury (West)Maurita Rahn": {
     "wikipedia_url": null,
@@ -5793,7 +5801,10 @@
       "Medal record Women's water polo"
     ],
     "education": null,
-    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/WEND_AJP_Collins.jpg"
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/WEND_AJP_Collins.jpg",
+    "summary": "Collins says he has enjoyed success in a local small business and built his career in sales.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/melb"
   },
   "Ruth Byrne": {
     "wikipedia_url": "https://en.wikipedia.org/wiki/Ruth_Byrne",
@@ -6180,8 +6191,8 @@
     "education": null,
     "summary": "Collard was born in Brisbane and moved to Melbourne in her early twenties to pursue a career in theatre, later establishing and leading a successful independent theatre company. She holds degrees in arts, counselling and community services.",
     "source": "ABC",
-    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/pres",
-    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/PRES_AJP_Collard.jpg"
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/murr",
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/MURR_AJP_Collard.jpg"
   },
   "Mark Nicholson": {
     "wikipedia_url": "https://en.wikipedia.org/wiki/Mark_Nicholson_(Australian_politician)",
@@ -6205,7 +6216,8 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/MissingCandidate.jpg"
   },
   "Chloe Beaton": {
     "wikipedia_url": null,
@@ -6247,7 +6259,8 @@
     "prior_occupation": null,
     "elected_since": null,
     "prior_roles": null,
-    "education": null
+    "education": null,
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/MissingCandidate.jpg"
   },
   "Wayne Taylor": {
     "wikipedia_url": "https://en.wikipedia.org/wiki/Wayne_Taylor",
@@ -6404,7 +6417,7 @@
     "education": null,
     "summary": "O’Neill is an equity, diversity, and inclusion consultant employed at Monash University. He was born and raised in Sydney, where he obtained qualifications in English and linguistics. He is also a registered marriage celebrant.",
     "source": "ABC",
-    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/albe",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/prah",
     "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/ALBE_AJP_ONeill.jpg"
   },
   "Bettina Terry": {
@@ -6696,18 +6709,6 @@
     "source": "ABC",
     "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/bays"
   },
-  "Gary Coombes": {
-    "wikipedia_url": null,
-    "born": null,
-    "prior_occupation": "retired electronics technician",
-    "elected_since": null,
-    "prior_roles": null,
-    "education": null,
-    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/BAYS_FFP_Coombes.jpg",
-    "summary": "Coombes is a retired electronics technician and business owner. He stood as the Family First candidate in this seat in the 2010 and 2022 elections. He has also run for the federal seats of Casey and Deakin at the 2013 and 2016 elections, respectively.",
-    "source": "ABC",
-    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/bays"
-  },
   "Guy Manuell": {
     "wikipedia_url": null,
     "born": null,
@@ -6777,11 +6778,14 @@
   "Debra Tranter": {
     "wikipedia_url": null,
     "born": null,
-    "prior_occupation": null,
+    "prior_occupation": "animal welfare advocate",
     "elected_since": null,
     "prior_roles": null,
     "education": null,
-    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/BEWE_AJP_Tranter.jpg"
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/BEWE_AJP_Tranter.jpg",
+    "summary": "Tranter is an animal welfare advocate and founded the Oscar's Law lobbying group which seeks to ban puppy farming.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/bewe"
   },
   "Tony Vainoras": {
     "wikipedia_url": null,
@@ -6802,7 +6806,10 @@
     "elected_since": null,
     "prior_roles": null,
     "education": null,
-    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/MissingCandidate.jpg"
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/MissingCandidate.jpg",
+    "summary": "Dowling is a councillor for the City of Casey, elected in 2024, and is the owner of a small real estate business.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/berw"
   },
   "Ethelyn King": {
     "wikipedia_url": null,
@@ -6875,18 +6882,6 @@
     "summary": "Hain is a chess master who teaches and coaches the game when not competing. His FIDE rating peaked at 2020 in May 2025. He is also a high-level racquetball and squash player who won the A grade National Racquetball Circuit in 2017 and finished 5th in the Australian Open.",
     "source": "ABC",
     "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/brig"
-  },
-  "Gabe Steger": {
-    "wikipedia_url": null,
-    "born": null,
-    "prior_occupation": "advisor to federal labor mp",
-    "elected_since": null,
-    "prior_roles": null,
-    "education": null,
-    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/BRUN_ALP_Steger.jpg",
-    "summary": "Steger is an advisor to federal Labor MP and assistant minister Ged Kearney and has previously worked at the Department of Prime Minister and Cabinet and the Attorney-General’s Department. He is fluent in Mandarin.",
-    "source": "Vic Labor",
-    "source_url": "https://www.viclabor.org.au/our-team/gabe-steger"
   },
   "Jack Amanatidis": {
     "wikipedia_url": null,
@@ -6972,18 +6967,6 @@
     "source": "ABC",
     "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/carr"
   },
-  "Angel Dolejsi": {
-    "wikipedia_url": null,
-    "born": null,
-    "prior_occupation": "operations manager",
-    "elected_since": null,
-    "prior_roles": null,
-    "education": null,
-    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/CAUL_GRN_Dolejsi.jpg",
-    "summary": "Dolejsi is an operations manager who has worked in the eyecare and fashion industries. He has also been an actor and choreographer.",
-    "source": "Vic Greens",
-    "source_url": "https://greens.org.au/vic/person/angel-dolejsi"
-  },
   "John Paganis": {
     "wikipedia_url": null,
     "born": null,
@@ -7035,11 +7018,14 @@
   "Craig Baird": {
     "wikipedia_url": null,
     "born": null,
-    "prior_occupation": null,
+    "prior_occupation": "software developer",
     "elected_since": null,
     "prior_roles": null,
     "education": null,
-    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/MissingCandidate.jpg"
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/CRAN_LBT_Baird.jpg",
+    "summary": "Baird is a software developer who leads a team at an education technology startup.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/cran"
   },
   "William Billings": {
     "wikipedia_url": null,
@@ -7077,18 +7063,6 @@
     "source": "ABC",
     "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/eild"
   },
-  "Jessie Weatherley": {
-    "wikipedia_url": null,
-    "born": null,
-    "prior_occupation": null,
-    "elected_since": null,
-    "prior_roles": null,
-    "education": null,
-    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/ELTH_ONP_Weatherley.jpg",
-    "summary": "Weatherley has lived in Eltham for the past 12 years and owns a marketing consultancy of which she is also the creative director.",
-    "source": "ABC",
-    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/elth"
-  },
   "Louise Brooksby": {
     "wikipedia_url": null,
     "born": null,
@@ -7096,7 +7070,10 @@
     "elected_since": null,
     "prior_roles": null,
     "education": null,
-    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/ELTH_AJP_Brooksby.jpg"
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/ELTH_AJP_Brooksby.jpg",
+    "summary": "Brooksby describes herself as a lifelong Eltham resident, small business owner, a parent of four, and a grandmother of one.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/elth"
   },
   "Steven Marasea": {
     "wikipedia_url": null,
@@ -7149,11 +7126,14 @@
   "Julian Kelly": {
     "wikipedia_url": null,
     "born": null,
-    "prior_occupation": null,
+    "prior_occupation": "sheep shearer",
     "elected_since": null,
     "prior_roles": null,
     "education": null,
-    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/EURO_ALP_Kelly.jpg"
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/EURO_ALP_Kelly.jpg",
+    "summary": "Kelly is a sheep shearer who started in the industry at 19 and owns his own business.",
+    "source": "Vic Labor",
+    "source_url": "https://www.viclabor.org.au/our-team/julian-kelly"
   },
   "Karina Kelly": {
     "wikipedia_url": null,
@@ -7371,11 +7351,14 @@
   "Adam Nicoll": {
     "wikipedia_url": null,
     "born": null,
-    "prior_occupation": null,
+    "prior_occupation": "natural therapist specialising in stop-smoking therapy",
     "elected_since": null,
     "prior_roles": null,
     "education": null,
-    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/HAWT_FFP_Nicoll.jpg"
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/HAWT_FFP_Nicoll.jpg",
+    "summary": "Nicoll is a natural therapist specialising in stop-smoking therapy. He says he has a long-standing interest in philosophy and Eastern spirituality, which prompted him to study and live in India for a time.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/hawt"
   },
   "Renuka Casonato": {
     "wikipedia_url": null,
@@ -7486,7 +7469,10 @@
     "elected_since": null,
     "prior_roles": null,
     "education": null,
-    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/LARA_LIB_Beddoe.jpg"
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/LARA_LIB_Beddoe.jpg",
+    "summary": "Beddoe started his career as a train driver, later spending almost two decades in management and leadership positions at Metro Trains Melbourne. He was the Liberal candidate for Maribyrnong at the 2025 federal election.",
+    "source": "Vic Liberals",
+    "source_url": "https://vicliberal.org.au/team/tim-beddoe"
   },
   "Vincent Colla": {
     "wikipedia_url": null,
@@ -7522,7 +7508,10 @@
     "elected_since": null,
     "prior_roles": null,
     "education": null,
-    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/LOWA_ALP_Pavlovich.jpg"
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/LOWA_ALP_Pavlovich.jpg",
+    "summary": "Pavlovich is the daughter of Polish post-war migrants and a teacher at Horsham College. She was a Labor candidate for the upper house at the 2022 state election.",
+    "source": "Vic Labor",
+    "source_url": "https://www.viclabor.org.au/our-team/sue-pavlovich"
   },
   "Lee-Ann Elmes": {
     "wikipedia_url": null,
@@ -7672,7 +7661,7 @@
     "elected_since": null,
     "prior_roles": null,
     "education": null,
-    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/MILD_ALP_Zigouras.jpg",
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/MissingCandidate.jpg",
     "summary": "Zigouras is a lawyer and an opera singer. She was the Labor candidate in this seat at the last election.",
     "source": "Vic Labor",
     "source_url": "https://www.viclabor.org.au/our-team/stella-zigouras"
@@ -7716,11 +7705,14 @@
   "Lily Potucek": {
     "wikipedia_url": null,
     "born": null,
-    "prior_occupation": null,
+    "prior_occupation": "nurse",
     "elected_since": null,
     "prior_roles": null,
     "education": null,
-    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/MORD_FFP_Potucek.jpg"
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/MORD_FFP_Potucek.jpg",
+    "summary": "Potucek is a nurse and also has a business degree.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/mord"
   },
   "Rachel Versteegen": {
     "wikipedia_url": null,
@@ -7810,7 +7802,10 @@
     "elected_since": null,
     "prior_roles": null,
     "education": null,
-    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/MURR_ALP_Grundy.jpg"
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/MURR_ALP_Grundy.jpg",
+    "summary": "Grundy is retired after a career as a water engineer. She has also worked as a support worker for people with intellectual disabilities.",
+    "source": "Vic Labor",
+    "source_url": "https://www.viclabor.org.au/our-team/christine-grundy"
   },
   "Asyiqin Sanif": {
     "wikipedia_url": null,
@@ -7925,15 +7920,6 @@
     "summary": "Hsieh grew up in the Philippines and migrated to Australia to study biomedicine and medicine at the University of Melbourne. He works as a psychiatrist and ran as the Greens candidate for this seat at the last state election.",
     "source": "Vic Greens",
     "source_url": "https://greens.org.au/vic/person/hsiang-han-hsieh"
-  },
-  "Jennifer Smith": {
-    "wikipedia_url": null,
-    "born": null,
-    "prior_occupation": null,
-    "elected_since": null,
-    "prior_roles": null,
-    "education": null,
-    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/MissingCandidate.jpg"
   },
   "Julian Fidge": {
     "wikipedia_url": null,
@@ -8061,11 +8047,14 @@
   "George Leeton": {
     "wikipedia_url": null,
     "born": null,
-    "prior_occupation": null,
+    "prior_occupation": "architecture student at the university of melbourne",
     "elected_since": null,
     "prior_roles": null,
     "education": null,
-    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/PRAH_IND_Leeton.jpg"
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/PRAH_IND_Leeton.jpg",
+    "summary": "Leeton is an architecture student at the University of Melbourne and describes himself as a social rationalist.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/prah"
   },
   "Hamza Al Katranji": {
     "wikipedia_url": null,
@@ -8119,7 +8108,7 @@
     "elected_since": null,
     "prior_roles": null,
     "education": null,
-    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/MissingCandidate.jpg",
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/RICH_LBT_Gray.jpg",
     "summary": "Gray is a mother of four, grandmother of nine, and a nurse who has worked in neonatal, aged care, and palliative care.",
     "source": "ABC",
     "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/rich"
@@ -8196,11 +8185,14 @@
   "Krzysztof Wojtkowski": {
     "wikipedia_url": null,
     "born": null,
-    "prior_occupation": null,
+    "prior_occupation": "aquaculture specialist",
     "elected_since": null,
     "prior_roles": null,
     "education": null,
-    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/RIPO_SFF_Wojtkowski.jpg"
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/RIPO_SFF_Wojtkowski.jpg",
+    "summary": "Wojtkowski is an aquaculture specialist and was the winner of the second season of reality survival TV show Alone Australia.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/ripo"
   },
   "Scott Robson": {
     "wikipedia_url": null,
@@ -8292,18 +8284,6 @@
     "education": null,
     "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/STAL_MAGA_Kaur.jpg"
   },
-  "Luan Walker": {
-    "wikipedia_url": null,
-    "born": null,
-    "prior_occupation": "restaurant owner",
-    "elected_since": null,
-    "prior_roles": null,
-    "education": null,
-    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/STAL_TWP_Walker.jpg",
-    "summary": "Walker is a restaurant owner and managing director at an aged care organisation. He is also a justice of the peace and co-founded a wedding services business. He was formerly a member of the Liberal Party and stood as a candidate for the upper house at the last state election.",
-    "source": "ABC",
-    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/stal"
-  },
   "Nancy Batres-Croes": {
     "wikipedia_url": null,
     "born": null,
@@ -8312,7 +8292,7 @@
     "prior_roles": null,
     "education": null,
     "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/SYDE_FFP_BatresCroes.jpg",
-    "summary": "Batres-Croes was born and raised in Aruba, and has been living in Victoria for 11 years. She has worked in communiucations and marketing as well as being a self-employed pet carer.",
+    "summary": "Croes was born and raised in Aruba, and has been living in Victoria for 11 years. She has worked in communiucations and marketing as well as being a self-employed pet carer.",
     "source": "ABC",
     "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/syde"
   },
@@ -8383,7 +8363,10 @@
     "elected_since": null,
     "prior_roles": null,
     "education": null,
-    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/TARN_FFP_Niyongabire.jpg"
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/TARN_FFP_Niyongabire.jpg",
+    "summary": "Niyongabire was born and raised in Burundi. She runs her own import business specialising in international foods and products.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/tarn"
   },
   "Maurita Rahn": {
     "wikipedia_url": null,
@@ -8405,18 +8388,6 @@
     "prior_roles": null,
     "education": null,
     "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/TARN_MAGA_Sudhagani.jpg"
-  },
-  "Leah Van Keulen": {
-    "wikipedia_url": null,
-    "born": null,
-    "prior_occupation": null,
-    "elected_since": null,
-    "prior_roles": null,
-    "education": null,
-    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/TARN_VS_VanKeulen.jpg",
-    "summary": "Van Keulen has been a teacher for nine years and lives in Werribee and says she has watched parents make hard sacrifices just to put food on the table, keep the lights on or take their child to see a dentist.",
-    "source": "ABC",
-    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/tarn"
   },
   "Belinda Stojcevski": {
     "wikipedia_url": null,
@@ -8558,5 +8529,1124 @@
     "summary": "Cheers describes himself as a proud Richmond fan and keen paintballer.",
     "source": "ABC",
     "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/yany"
+  },
+  "Enid Uwimana": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null,
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/ASHW_FFP_Uwimana.jpg"
+  },
+  "Ben Cauneac": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null,
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/MissingCandidate.jpg"
+  },
+  "Gary Coombes": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": "retired electronics technician",
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null,
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/BAYS_FFP_Coombes.jpg",
+    "summary": "Coombes is a retired electronics technician and business owner. He stood as the Family First candidate in this seat in the 2010 and 2022 elections. He has also run for the federal seats of Casey and Deakin at the 2013 and 2016 elections, respectively.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/bays"
+  },
+  "Naomi Hubbard": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null,
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/MissingCandidate.jpg"
+  },
+  "Kate Lockhart": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null,
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/BELL_IND_Lockhart.jpg"
+  },
+  "Bonnie Dunn": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null,
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/MissingCandidate.jpg"
+  },
+  "Kristie Hoskins": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null,
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/BEEA_IND_Hoskins.jpg"
+  },
+  "Christos Harisopoulos": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null,
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/MissingCandidate.jpg"
+  },
+  "Claire Proctor": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null,
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/MissingCandidate.jpg"
+  },
+  "Sue-Ellen McGrath": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null,
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/MissingCandidate.jpg"
+  },
+  "Mohamad El Youssef": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null,
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/BROA_IND_ElYoussef.jpg"
+  },
+  "Mohamad Elmustapha": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null,
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/BROA_IND_Elmustapha.jpg"
+  },
+  "Russell Wilson": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null,
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/MissingCandidate.jpg"
+  },
+  "John Casley": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null,
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/MissingCandidate.jpg"
+  },
+  "Barry Vincent": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null,
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/MissingCandidate.jpg"
+  },
+  "John Margelis": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null,
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/BRUN_LIB_Margelis.jpg",
+    "summary": "Margelis owns a small business supplying medical products to aged car homes and radiology clinics. He was previously an account manager at Telstra and ran his own party hire business.",
+    "source": "Vic Liberals",
+    "source_url": "https://www.vicliberal.org.au/team/john-margelis"
+  },
+  "Bradley Harvey": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null,
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/BULL_FFP_Harvey.jpg"
+  },
+  "Amanda Paliouras": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null,
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/BULL_IND_Paliouras.jpg"
+  },
+  "Rae Rancie": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null,
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/BUND_FFP_Rancie.jpg"
+  },
+  "Kovi Shroot": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null,
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/MissingCandidate.jpg",
+    "summary": "Shroot is completing his high schooling and is an actor, musician and composer. He won the Lyrebird award for Best Cameo in 2024 and has been involved in community organisations including serving on his synagogue's board and as an apprentice youth councillor for Hineni Youth and Welfare Australia.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/caul"
+  },
+  "Liam Urquiola": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null,
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/CRAN_LCA_Urquiola.jpg",
+    "summary": "Urquiola works in residential construction and is studying towards a master of architecture.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/cran"
+  },
+  "Arshad Khan": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null,
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/MissingCandidate.jpg"
+  },
+  "Joshua Mosely": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null,
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/EILD_FFP_Mosely.jpg"
+  },
+  "Jessie Weatherley": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null,
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/ELTH_ONP_Weatherley.jpg",
+    "summary": "Weatherley has lived in Eltham for the past 12 years and owns a marketing consultancy of which she is also the creative director.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/elth"
+  },
+  "Anab Mohamud": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null,
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/MissingCandidate.jpg"
+  },
+  "Steven Venditti-Taylor": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null,
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/MissingCandidate.jpg"
+  },
+  "Belinda Zivkovic": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null,
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/MissingCandidate.jpg"
+  },
+  "Daryle Calder": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null,
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/MissingCandidate.jpg"
+  },
+  "Catherine Cumming": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null,
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/FOOT_IND_Cumming.jpg"
+  },
+  "Hai Dinh": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null,
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/FOOT_IND_Dinh.jpg"
+  },
+  "Ana Flores": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null,
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/FOOT_FFP_Flores.jpg"
+  },
+  "Kristina Hess": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null,
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/MissingCandidate.jpg"
+  },
+  "Marcus Ibrahim": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null,
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/MissingCandidate.jpg"
+  },
+  "Daniel Lewis": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null,
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/MissingCandidate.jpg"
+  },
+  "Henry Kelsall": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null,
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/MissingCandidate.jpg"
+  },
+  "Maria Bengtsson": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null,
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/GEEL_FFP_Bengtsson.jpg"
+  },
+  "Bianca Wilkie": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null,
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/GISO_ONP_Wilke.jpg",
+    "summary": "Wilkie has a professional background in emergency medical services, nursing and community liaison work. She holds degrees in nursing, paramedicine and specialist community care and is currently completing a Juris Doctor.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/giso"
+  },
+  "Jessica McAuliffe": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null,
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/GISO_AJP_McAuliffe.jpg"
+  },
+  "Segar Nadarajah": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null,
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/MissingCandidate.jpg"
+  },
+  "Hassan Said": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null,
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/GREE_IND_Said.jpg"
+  },
+  "Michael Titheridge": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null,
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/MissingCandidate.jpg"
+  },
+  "Mazen Yohanna": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null,
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/MissingCandidate.jpg",
+    "summary": "Yohanna migrated to Australia from Iraq during the First Gulf War and speaks four languages. He has worked as a security guard, in quality control for Ford and Toyota, and is currently a full time carer for his daughter.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/gree"
+  },
+  "Yehya Zoughaib": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null,
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/MissingCandidate.jpg"
+  },
+  "Jason Smart": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null,
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/MissingCandidate.jpg"
+  },
+  "Dora Bergman": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null,
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/MissingCandidate.jpg"
+  },
+  "Jeanette Dobson": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null,
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/KALK_FFP_Dobson.jpg"
+  },
+  "Rebeca Islam": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null,
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/MissingCandidate.jpg"
+  },
+  "Matthew Lynch": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null,
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/MissingCandidate.jpg"
+  },
+  "Juliet Hales": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null,
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/MissingCandidate.jpg"
+  },
+  "Man Liang": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null,
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/KEW_IND_Liang.jpg"
+  },
+  "Nick Patterson": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null,
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/KORO_FFP_Patterson.jpg"
+  },
+  "Samantha Long": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null,
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/MissingCandidate.jpg"
+  },
+  "Tina Uwizeyimana": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null,
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/MissingCandidate.jpg"
+  },
+  "Emma Mendelsohn": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null,
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/LAVE_TWP_Mendelsohn.jpg"
+  },
+  "Kieran Butler": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null,
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/LOWA_IND_Butler.jpg"
+  },
+  "Karen Hyslop": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null,
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/LOWA_AD_Hyslop.jpg"
+  },
+  "Bernadette Mayne": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null,
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/MissingCandidate.jpg"
+  },
+  "Phillip Courtis": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null,
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/MELB_ONP_Courtis.jpg"
+  },
+  "Mohamed Yusuf": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null,
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/MissingCandidate.jpg"
+  },
+  "M.D. Omor Faruq": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null,
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/MELT_IND_Faruq.jpg"
+  },
+  "Jason Fraser": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null,
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/MissingCandidate.jpg"
+  },
+  "Jason Spencer Perera": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null,
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/MELT_IND_Perera.jpg"
+  },
+  "Vanessa Fries": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null,
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/MissingCandidate.jpg"
+  },
+  "Joselyn Ntahomvukiye": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null,
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/MILD_FFP_Ntahomvukiye.jpg"
+  },
+  "Aidan McLindon": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null,
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/MissingCandidate.jpg"
+  },
+  "Kath van der End": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null,
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/MissingCandidate.jpg"
+  },
+  "Renee Thompson": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null,
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/MORD_LCA_Thompson.jpg",
+    "summary": "Thompson is a marriage celebrant, event producer, and community advocate who until recently worked in local government as a community development officer. She says she is an open and proud cannabis user and she was the Legalise Cannabis candidate for the Nepean by-election earlier this year.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/mord"
+  },
+  "Ross McPhee": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null,
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/MissingCandidate.jpg"
+  },
+  "Stewart Dobrzynski": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null,
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/MULG_FFP_Dobrzynski.jpg"
+  },
+  "Cristina Emmanuel": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null,
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/MissingCandidate.jpg"
+  },
+  "Martin Leahy": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null,
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/MissingCandidate.jpg"
+  },
+  "Alan Currie": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null,
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/NASO_FFP_Currie.jpg"
+  },
+  "Joseph Toscano": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null,
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/NEPE_IND_Toscano.jpg"
+  },
+  "Domenic Mete": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null,
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/MissingCandidate.jpg"
+  },
+  "Sam Sfameni": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null,
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/MissingCandidate.jpg"
+  },
+  "George Theodorou": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null,
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/NIDD_FFP_Theodorou.jpg"
+  },
+  "Christopher Bradbury": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null,
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/NORT_ONP_Bradbury.jpg"
+  },
+  "Richard Cimbaro": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null,
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/MissingCandidate.jpg"
+  },
+  "Ian Hillman": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null,
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/MissingCandidate.jpg"
+  },
+  "Hannah Kafel": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null,
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/MissingCandidate.jpg"
+  },
+  "Clive Pilley": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null,
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/MissingCandidate.jpg"
+  },
+  "Carol Norton-Smith": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null,
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/MissingCandidate.jpg"
+  },
+  "Stephanie Davies": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null,
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/PAKE_IND_Davies.jpg"
+  },
+  "Jesse Hamalainen": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null,
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/MissingCandidate.jpg"
+  },
+  "Lucas Ogden": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null,
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/MissingCandidate.jpg"
+  },
+  "Rohit Taggar": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null,
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/MissingCandidate.jpg"
+  },
+  "Rosemarie Ganci": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": "accountant",
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null,
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/PASC_ONP_Ganci.jpg",
+    "summary": "Ganci is an accountant and company auditor who describes herself as a first-generation Australian.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/pasc"
+  },
+  "Kerry Haupt": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null,
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/MissingCandidate.jpg"
+  },
+  "Amanda Hickey": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null,
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/MissingCandidate.jpg"
+  },
+  "Paul Kelly": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null,
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/MissingCandidate.jpg"
+  },
+  "Max Dicks": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null,
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/PRAH_IND_Dicks.jpg"
+  },
+  "Tosh-Jake Finnigan": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null,
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/PRAH_IND_Finnigan.jpg"
+  },
+  "Morgan Jonas": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null,
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/MissingCandidate.jpg"
+  },
+  "Alan Menadue": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null,
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/PRAH_IND_Menadue.jpg"
+  },
+  "Nicholas Wong": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null,
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/MissingCandidate.jpg"
+  },
+  "Tim Date": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null,
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/MissingCandidate.jpg"
+  },
+  "Simon Dower": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null,
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/MissingCandidate.jpg"
+  },
+  "Christine Maynard": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null,
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/RICH_IND_Maynard.jpg"
+  },
+  "Jack Pead": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null,
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/RICH_AD_Pead.jpg"
+  },
+  "Christopher Norton": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null,
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/MissingCandidate.jpg"
+  },
+  "Ronald Skruzny": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null,
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/MissingCandidate.jpg"
+  },
+  "Faith Murphy-Ginger": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null,
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/MissingCandidate.jpg"
+  },
+  "Johnson Varkey": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null,
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/MissingCandidate.jpg"
+  },
+  "Alan Barron": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null,
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/MissingCandidate.jpg"
+  },
+  "Alex Hakizimana": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null,
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/STAL_FFP_Hakizimana.jpg"
+  },
+  "Kerry Janten": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null,
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/STAL_IND_Janten.jpg"
+  },
+  "Elmer Batres": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null,
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/SUNB_FFP_Batres.jpg"
+  },
+  "Bhasker Reddy Bethi": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null,
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/MissingCandidate.jpg"
+  },
+  "Steve \"Jack\" Medcraft": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null,
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/SUNB_IND_Medcraft.jpg"
+  },
+  "Rohanna Mohr": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null,
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/SUNB_AJP_Mohr.jpg"
+  },
+  "Geoff Vine": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null,
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/SUNB_TWP_Vine.jpg"
+  },
+  "Laxmi Lankala Kenderla": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null,
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/SYDE_MAGA_LankalaKenderla.jpg"
+  },
+  "Bruce Poon": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null,
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/MissingCandidate.jpg"
+  },
+  "Rahima Ahmed": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null,
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/MissingCandidate.jpg"
+  },
+  "Aijaz Moinuddin": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null,
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/TARN_IND_Moinuddin.jpg"
+  },
+  "Leah Van Keulen": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null,
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/TARN_VS_VanKeulen.jpg",
+    "summary": "Van Keulen has been a teacher for nine years and lives in Werribee and says she has watched parents make hard sacrifices just to put food on the table, keep the lights on or take their child to see a dentist.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/tarn"
+  },
+  "Rob Ranchie": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null,
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/THOM_FFP_Rancie.jpg"
+  },
+  "Jeremy Orchard": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null,
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/MissingCandidate.jpg"
+  },
+  "Monica Raizada": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null,
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/WERR_IND_Raizada.jpg"
+  },
+  "Bruce O'Regan": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null,
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/WILL_FFP_ORegan.jpg"
+  },
+  "Sagar Reddy Yarra": {
+    "wikipedia_url": null,
+    "born": null,
+    "prior_occupation": null,
+    "elected_since": null,
+    "prior_roles": null,
+    "education": null,
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/MissingCandidate.jpg"
   }
 }

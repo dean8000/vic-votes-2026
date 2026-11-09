@@ -147,13 +147,22 @@ def parse_la(html):
                     continue
                 # cell may contain multiple candidates in "Other candidates" column
                 if party.lower().startswith("other"):
-                    for piece in split_other_candidates(cell):
+                    # First split on paren-boundary separators, then split any
+                    # remaining concatenated names ('MaherMelissa' etc).
+                    pieces = []
+                    for p1 in split_other_candidates(cell):
+                        pieces.extend(split_concatenated_names(p1))
+                    for piece in pieces:
                         name, p = extract_name_party(piece, default_party="Independent")
                         entry["candidates"].append({"name": name, "party": p})
                 else:
-                    name, p = extract_name_party(cell, default_party=party)
-                    if name:
-                        entry["candidates"].append({"name": name, "party": p})
+                    # Guard against upstream rows where two candidates got
+                    # concatenated with no separator (e.g. 'MaherMelissa Goffin'
+                    # or 'Jo Armstrong (N)Megan Read').
+                    for piece in split_concatenated_names(cell):
+                        name, p = extract_name_party(piece, default_party=party)
+                        if name:
+                            entry["candidates"].append({"name": name, "party": p})
             for i, cell in enumerate(row):
                 if col_party.get(i) == "__held_by__" and cell.strip():
                     entry["sitting_party"] = cell.strip()
@@ -190,6 +199,23 @@ def split_other_candidates(text):
     """Split cells like 'A (P1)B (P2)' or 'A (P1), B (P2)' into separate candidate strings."""
     # Split before an uppercase letter that follows a close-paren.
     parts = re.split(r"(?<=\))\s*(?=[A-Z])|\n|;", text)
+    return [p.strip() for p in parts if p.strip()]
+
+
+_CONCAT_SPLIT_RE = re.compile(
+    r"(?<=\))(?=[A-Z])"             # after ')' + Capital, e.g. '(N)Megan' → '(N) Megan'
+    r"|(?<=[a-z]{3})(?=[A-Z][a-z]{2,})"  # 3+ lowercase then 3+ capitalised-word, e.g. 'MaherMelissa' → 'Maher Melissa'
+)
+
+
+def split_concatenated_names(text):
+    """Split a cell that may contain two candidate names concatenated with no
+    separator. Examples:
+      'Adrian MaherMelissa Goffin' → ['Adrian Maher', 'Melissa Goffin']
+      'Jo Armstrong (N)Megan Read' → ['Jo Armstrong (N)', 'Megan Read']
+    Preserves normal names like 'Kim Robbins' (no split at word boundary with space)
+    and Mc/Mac prefixes (look-behind requires 3+ lowercase chars immediately before)."""
+    parts = _CONCAT_SPLIT_RE.split(text)
     return [p.strip() for p in parts if p.strip()]
 
 

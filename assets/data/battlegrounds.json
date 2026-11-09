@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08",
+  "generated_at": "2026-11-09",
   "categories": [
     {
       "id": "tightest_flips",
@@ -333,7 +333,7 @@
           "projected_labor_tpp": null,
           "status": "non-two-party",
           "note": "2022 was Labor vs Greens (2CP); a statewide Labor-vs-Coalition swing doesn't tell us anything useful here.",
-          "candidate_count": 6
+          "candidate_count": 7
         },
         {
           "key": "PRESTON",

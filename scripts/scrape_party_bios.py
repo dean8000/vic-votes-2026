@@ -231,7 +231,10 @@ def guess_occupation(bio):
 # ---------------- Name matching ----------------
 
 def norm_name(n):
-    """Normalise a name for fuzzy match: lowercase, strip punctuation."""
+    """Normalise a name for fuzzy match: lowercase, strip punctuation + accents."""
+    import unicodedata
+    n = unicodedata.normalize("NFKD", n)
+    n = "".join(c for c in n if not unicodedata.combining(c))  # drop accents
     n = n.lower()
     n = re.sub(r"[‘’ʼ]", "'", n)   # curly to straight apostrophes
     n = re.sub(r"[‐-―]", "-", n)        # various dashes to hyphen
@@ -239,17 +242,59 @@ def norm_name(n):
     return n
 
 
+def name_tokens(n):
+    """Return (first_initial, last_name_normalised) for fuzzy matching."""
+    norm = norm_name(n)
+    parts = norm.split()
+    if not parts:
+        return "", ""
+    # Last token is usually the surname (handles multi-word given names)
+    # but if the name looks like "First Last-Barnes" we want the whole hyphenated chunk.
+    return parts[0][:1], parts[-1]
+
+
 def build_name_index(bios):
-    """Map normalised name -> canonical key in bios.json."""
-    idx = {}
+    """Return (exact_idx, fuzzy_idx).
+    exact_idx: normalised full name  -> canonical key
+    fuzzy_idx: (first_initial, last_name)  -> list of candidate keys"""
+    exact = {}
+    fuzzy = {}
     for k in bios:
-        idx[norm_name(k)] = k
-    return idx
+        exact[norm_name(k)] = k
+        fi, ln = name_tokens(k)
+        fuzzy.setdefault((fi, ln), []).append(k)
+    return exact, fuzzy
 
 
-def resolve_name(scraped_name, name_index):
-    key = name_index.get(norm_name(scraped_name))
-    return key
+def resolve_name(scraped_name, name_index, district_candidates=None):
+    """Try exact normalised match first, then fuzzy (first initial + surname).
+    If district_candidates is provided, prefer matches whose key appears in
+    that district's candidate list to avoid cross-district collisions."""
+    exact, fuzzy = name_index
+    key = exact.get(norm_name(scraped_name))
+    if key:
+        return key
+    # Fuzzy: last name + first initial
+    fi, ln = name_tokens(scraped_name)
+    candidates = fuzzy.get((fi, ln), [])
+    # Also try surname-only if first-initial lookup missed (Nancy vs Nancy Batres-Croes
+    # wouldn't catch — ln 'croes' vs 'batres-croes', or different initials)
+    if not candidates and ln:
+        for (f, l), ks in fuzzy.items():
+            if l == ln:
+                candidates.extend(ks)
+    # Try hyphenated-surname variant: 'batres-croes' endswith 'croes'
+    if not candidates and ln:
+        for (f, l), ks in fuzzy.items():
+            if l.endswith("-" + ln) or ln.endswith("-" + l):
+                candidates.extend(ks)
+    if not candidates:
+        return None
+    if district_candidates:
+        in_dist = [k for k in candidates if k in district_candidates]
+        if in_dist:
+            return in_dist[0]
+    return candidates[0] if len(candidates) == 1 else None
 
 
 # ---------------- Driver ----------------
@@ -258,6 +303,23 @@ def main():
     with open(BIOS_PATH) as f:
         bios = json.load(f)
     name_index = build_name_index(bios)
+
+    # Load candidates.json so we can bias fuzzy matches toward names already
+    # listed for the same district — avoids cross-district collisions.
+    cand_data = {}
+    try:
+        with open(CANDIDATES_PATH) as f:
+            cand_data = json.load(f)
+    except Exception:
+        pass
+    # Map ABC 4-letter code -> set of candidate names for that district.
+    # We approximate code→district key: take first-4-lowercase-letters of the
+    # district name; mostly works (ashw→ASHWOOD, bays→BAYSWATER, melb→MELBOURNE).
+    # Build the mapping from scratch by matching codes against district names.
+    code_to_names = {}
+    for key, d in cand_data.get("districts", {}).items():
+        slug = re.sub(r"[^a-z]", "", key.lower())[:4]
+        code_to_names.setdefault(slug, set()).update(c["name"] for c in d.get("candidates", []))
 
     total_cards = 0
     enriched = 0
@@ -278,8 +340,9 @@ def main():
             continue
         cards = parse_abc_page(html, code)
         total_cards += len(cards)
+        district_candidates = code_to_names.get(code, set())
         for card in cards:
-            key = resolve_name(card["name"], name_index)
+            key = resolve_name(card["name"], name_index, district_candidates)
             if not key:
                 # Candidate is on the ABC guide but not yet in bios.json (e.g.
                 # late nominations). Create a fresh stub keyed on the candidate's
@@ -294,7 +357,11 @@ def main():
                     "prior_roles": None,
                     "education": None,
                 }
-                name_index[key] = key  # register for subsequent duplicates on other pages
+                # Register for subsequent duplicates on other pages.
+                exact_idx, fuzzy_idx = name_index
+                exact_idx[norm_name(key)] = key
+                fi, ln = name_tokens(key)
+                fuzzy_idx.setdefault((fi, ln), []).append(key)
             existing = bios[key]
             # Always add photo_url from ABC if we don't already have one, even
             # for sitting MPs whose bio text comes from Wikipedia.
