@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09",
+  "generated_at": "2026-11-10",
   "categories": [
     {
       "id": "tightest_flips",
@@ -34,7 +34,7 @@
           "projected_labor_tpp": 49.6,
           "status": "likely flip",
           "note": null,
-          "candidate_count": 7
+          "candidate_count": 8
         },
         {
           "key": "SOUTH BARWON",
@@ -79,7 +79,7 @@
           "projected_labor_tpp": 49.3,
           "status": "likely flip",
           "note": null,
-          "candidate_count": 8
+          "candidate_count": 9
         },
         {
           "key": "CRANBOURNE",
@@ -94,7 +94,7 @@
           "projected_labor_tpp": 48.8,
           "status": "likely flip",
           "note": null,
-          "candidate_count": 6
+          "candidate_count": 8
         },
         {
           "key": "ELTHAM",
@@ -109,7 +109,7 @@
           "projected_labor_tpp": 48.8,
           "status": "likely flip",
           "note": null,
-          "candidate_count": 6
+          "candidate_count": 7
         },
         {
           "key": "SYDENHAM",
@@ -139,7 +139,7 @@
           "projected_labor_tpp": 48.5,
           "status": "likely flip",
           "note": null,
-          "candidate_count": 7
+          "candidate_count": 10
         },
         {
           "key": "NARRE WARREN NORTH",
@@ -169,7 +169,7 @@
           "projected_labor_tpp": 48.3,
           "status": "likely flip",
           "note": null,
-          "candidate_count": 6
+          "candidate_count": 8
         },
         {
           "key": "NARRE WARREN SOUTH",
@@ -206,7 +206,7 @@
           "projected_labor_tpp": 50.6,
           "status": "in play",
           "note": null,
-          "candidate_count": 6
+          "candidate_count": 9
         },
         {
           "key": "WERRIBEE",
@@ -236,7 +236,7 @@
           "projected_labor_tpp": 51.0,
           "status": "in play",
           "note": null,
-          "candidate_count": 8
+          "candidate_count": 7
         },
         {
           "key": "MILL PARK",
@@ -363,7 +363,7 @@
           "projected_labor_tpp": null,
           "status": "non-two-party",
           "note": "2022 was Labor vs Greens (2CP); a statewide Labor-vs-Coalition swing doesn't tell us anything useful here.",
-          "candidate_count": 7
+          "candidate_count": 15
         },
         {
           "key": "ALBERT PARK",
@@ -378,7 +378,7 @@
           "projected_labor_tpp": 51.0,
           "status": "in play",
           "note": null,
-          "candidate_count": 8
+          "candidate_count": 7
         }
       ]
     },
@@ -400,7 +400,7 @@
           "projected_labor_tpp": 40.0,
           "status": "likely flip",
           "note": null,
-          "candidate_count": 5
+          "candidate_count": 6
         },
         {
           "key": "PAKENHAM",
@@ -430,7 +430,7 @@
           "projected_labor_tpp": null,
           "status": "non-two-party",
           "note": "2022 was Liberal vs Independent (2CP); a statewide Labor-vs-Coalition swing doesn't tell us anything useful here.",
-          "candidate_count": 8
+          "candidate_count": 9
         },
         {
           "key": "CROYDON",
@@ -445,7 +445,7 @@
           "projected_labor_tpp": 38.4,
           "status": "safe hold",
           "note": null,
-          "candidate_count": 6
+          "candidate_count": 8
         },
         {
           "key": "ROWVILLE",
@@ -475,7 +475,7 @@
           "projected_labor_tpp": 44.0,
           "status": "likely flip",
           "note": null,
-          "candidate_count": 7
+          "candidate_count": 8
         },
         {
           "key": "MELTON",
@@ -550,7 +550,7 @@
           "projected_labor_tpp": 49.3,
           "status": "likely flip",
           "note": null,
-          "candidate_count": 8
+          "candidate_count": 9
         },
         {
           "key": "BENDIGO EAST",
@@ -565,7 +565,7 @@
           "projected_labor_tpp": 50.6,
           "status": "in play",
           "note": null,
-          "candidate_count": 6
+          "candidate_count": 9
         },
         {
           "key": "MILL PARK",
@@ -595,7 +595,7 @@
           "projected_labor_tpp": 52.3,
           "status": "close hold",
           "note": null,
-          "candidate_count": 7
+          "candidate_count": 8
         },
         {
           "key": "BENDIGO WEST",
@@ -610,7 +610,7 @@
           "projected_labor_tpp": 54.4,
           "status": "close hold",
           "note": null,
-          "candidate_count": 5
+          "candidate_count": 7
         },
         {
           "key": "MURRAY PLAINS",
@@ -640,7 +640,7 @@
           "projected_labor_tpp": 15.2,
           "status": "safe hold",
           "note": null,
-          "candidate_count": 5
+          "candidate_count": 7
         }
       ]
     }
