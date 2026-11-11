@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10",
+  "generated_at": "2026-11-11",
   "categories": [
     {
       "id": "tightest_flips",
@@ -49,7 +49,7 @@
           "projected_labor_tpp": 49.6,
           "status": "likely flip",
           "note": null,
-          "candidate_count": 7
+          "candidate_count": 8
         },
         {
           "key": "ST ALBANS",
@@ -64,7 +64,7 @@
           "projected_labor_tpp": 49.4,
           "status": "likely flip",
           "note": null,
-          "candidate_count": 6
+          "candidate_count": 9
         },
         {
           "key": "MACEDON",
@@ -124,7 +124,7 @@
           "projected_labor_tpp": 48.6,
           "status": "likely flip",
           "note": null,
-          "candidate_count": 9
+          "candidate_count": 12
         },
         {
           "key": "FRANKSTON",
@@ -154,7 +154,7 @@
           "projected_labor_tpp": 48.5,
           "status": "likely flip",
           "note": null,
-          "candidate_count": 5
+          "candidate_count": 8
         },
         {
           "key": "BELLARINE",
@@ -184,7 +184,7 @@
           "projected_labor_tpp": 48.1,
           "status": "likely flip",
           "note": null,
-          "candidate_count": 7
+          "candidate_count": 8
         }
       ]
     },
@@ -221,7 +221,7 @@
           "projected_labor_tpp": 50.7,
           "status": "in play",
           "note": null,
-          "candidate_count": 7
+          "candidate_count": 10
         },
         {
           "key": "ALBERT PARK",
@@ -251,7 +251,7 @@
           "projected_labor_tpp": 51.4,
           "status": "in play",
           "note": null,
-          "candidate_count": 6
+          "candidate_count": 8
         },
         {
           "key": "WENDOUREE",
@@ -288,7 +288,7 @@
           "projected_labor_tpp": null,
           "status": "non-two-party",
           "note": "2022 was Greens vs Labor (2CP); a statewide Labor-vs-Coalition swing doesn't tell us anything useful here.",
-          "candidate_count": 6
+          "candidate_count": 9
         },
         {
           "key": "RICHMOND",
@@ -303,7 +303,7 @@
           "projected_labor_tpp": null,
           "status": "non-two-party",
           "note": "2022 was Greens vs Labor (2CP); a statewide Labor-vs-Coalition swing doesn't tell us anything useful here.",
-          "candidate_count": 6
+          "candidate_count": 9
         },
         {
           "key": "NORTHCOTE",
@@ -318,7 +318,7 @@
           "projected_labor_tpp": null,
           "status": "non-two-party",
           "note": "2022 was Labor vs Greens (2CP); a statewide Labor-vs-Coalition swing doesn't tell us anything useful here.",
-          "candidate_count": 5
+          "candidate_count": 10
         },
         {
           "key": "PASCOE VALE",
@@ -333,7 +333,7 @@
           "projected_labor_tpp": null,
           "status": "non-two-party",
           "note": "2022 was Labor vs Greens (2CP); a statewide Labor-vs-Coalition swing doesn't tell us anything useful here.",
-          "candidate_count": 7
+          "candidate_count": 10
         },
         {
           "key": "PRESTON",
@@ -348,7 +348,7 @@
           "projected_labor_tpp": null,
           "status": "non-two-party",
           "note": "2022 was Labor vs Greens (2CP); a statewide Labor-vs-Coalition swing doesn't tell us anything useful here.",
-          "candidate_count": 6
+          "candidate_count": 12
         },
         {
           "key": "FOOTSCRAY",
@@ -415,7 +415,7 @@
           "projected_labor_tpp": 40.2,
           "status": "likely flip",
           "note": null,
-          "candidate_count": 7
+          "candidate_count": 10
         },
         {
           "key": "BENAMBRA",
@@ -460,7 +460,7 @@
           "projected_labor_tpp": 36.1,
           "status": "safe hold",
           "note": null,
-          "candidate_count": 6
+          "candidate_count": 7
         },
         {
           "key": "BAYSWATER",
@@ -490,7 +490,7 @@
           "projected_labor_tpp": 44.4,
           "status": "likely flip",
           "note": null,
-          "candidate_count": 8
+          "candidate_count": 11
         },
         {
           "key": "SHEPPARTON",
@@ -505,7 +505,7 @@
           "projected_labor_tpp": null,
           "status": "non-two-party",
           "note": "2022 was National vs Independent (2CP); a statewide Labor-vs-Coalition swing doesn't tell us anything useful here.",
-          "candidate_count": 5
+          "candidate_count": 9
         },
         {
           "key": "MALVERN",
@@ -535,7 +535,7 @@
           "projected_labor_tpp": 48.6,
           "status": "likely flip",
           "note": null,
-          "candidate_count": 9
+          "candidate_count": 12
         },
         {
           "key": "MACEDON",
@@ -580,7 +580,7 @@
           "projected_labor_tpp": 51.4,
           "status": "in play",
           "note": null,
-          "candidate_count": 6
+          "candidate_count": 8
         },
         {
           "key": "ESSENDON",
@@ -625,7 +625,7 @@
           "projected_labor_tpp": 16.4,
           "status": "safe hold",
           "note": null,
-          "candidate_count": 5
+          "candidate_count": 7
         },
         {
           "key": "GIPPSLAND EAST",
