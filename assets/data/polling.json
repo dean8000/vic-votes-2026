@@ -1,9 +1,9 @@
 {
   "source": "Wikipedia: Opinion polling for the 2026 Victorian state election",
-  "retrieved": "2026-11-13",
+  "retrieved": "2026-11-14",
   "note": "Aggregate is a simple average of the last 5 published 2PP polls. Not a weighted/house-adjusted model. See individual polls below.",
   "aggregate": {
-    "as_of": "2026-11-13",
+    "as_of": "2026-11-14",
     "n_polls": 5,
     "tpp_labor": 44.6,
     "tpp_coalition": 55.4,
@@ -17,6 +17,20 @@
     }
   },
   "polls": [
+    {
+      "pollster": "Lighthouse/Growth Intelligence Centre",
+      "date": "2026-11-13",
+      "sample": 1351,
+      "primary": {
+        "Labor": 21.0,
+        "Coalition": 32.0,
+        "Greens": 14.0,
+        "One Nation": 23.0,
+        "Others": 10.0
+      },
+      "tpp_labor": null,
+      "tpp_coalition": null
+    },
     {
       "pollster": "RedBridge/Accent",
       "date": "2026-11-10",
@@ -422,20 +436,6 @@
       },
       "tpp_labor": 52.0,
       "tpp_coalition": 48.0
-    },
-    {
-      "pollster": "DemosAU/Premier National",
-      "date": "2026-02-10",
-      "sample": 1274,
-      "primary": {
-        "Labor": 23.0,
-        "Coalition": 29.0,
-        "Greens": 15.0,
-        "One Nation": 21.0,
-        "Others": 12.0
-      },
-      "tpp_labor": 47.0,
-      "tpp_coalition": 53.0
     }
   ]
 }
