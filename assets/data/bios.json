@@ -5950,7 +5950,7 @@
     "elected_since": null,
     "prior_roles": null,
     "education": null,
-    "summary": "Gufran immigrated to Australia from India in 2017 and initially worked as a business manager at a local school. He went on to work as an auditor and manager at Deloitte and KPMG before founding his own not-for-profit finance firm advising schools.",
+    "summary": "Mohammed immigrated to Australia from India in 2017 and initially worked as a business manager at a local school. He went on to work as an auditor and manager at Deloitte and KPMG before founding his own not-for-profit finance firm advising schools. He later founded a not-for-profit education consultancy and is studying a Master of Education at the University of Melbourne. He runs community cooking classes and is a father of three.",
     "source": "Vic Greens",
     "source_url": "https://greens.org.au/vic/person/gufran-mohammed",
     "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/YANY_GRN_Mohammed.jpg"
@@ -8780,7 +8780,10 @@
     "elected_since": null,
     "prior_roles": null,
     "education": null,
-    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/BULL_IND_Paliouras.jpg"
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/BULL_IND_Paliouras.jpg",
+    "summary": "Paliouras works in public health research after four decades in finance, specialising in debt recovery and credit control. She has previously stood for election as the Liberal candidate for Preston at the 2022 state election and as the Trumpet of Patriots candidate for Menzies at the 2025 federal election.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/bull"
   },
   "Rae Rancie": {
     "wikipedia_url": null,
@@ -8882,7 +8885,10 @@
     "elected_since": null,
     "prior_roles": null,
     "education": null,
-    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/MissingCandidate.jpg"
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/EURE_IND_Zivkovic.jpg",
+    "summary": "Zivkovic describes herself as a mother, entrepreneur, and environmental advocate with more than 30 years of experience in small business, conservation, youth training, and community development.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/eure"
   },
   "Daryle Calder": {
     "wikipedia_url": null,
@@ -8960,7 +8966,10 @@
     "elected_since": null,
     "prior_roles": null,
     "education": null,
-    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/MissingCandidate.jpg"
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/FRAN_IND_Kelsall.jpg",
+    "summary": "Kelsall has been a secondary school teacher and also worked for Bluescope Steel. He has stood as a candidate at state elections since 2002 including as a Greens candidate between 2002 and 2014, and since then as an independent.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/fran"
   },
   "Maria Bengtsson": {
     "wikipedia_url": null,
@@ -9005,16 +9014,22 @@
     "elected_since": null,
     "prior_roles": null,
     "education": null,
-    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/MissingCandidate.jpg"
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/GLEN_DLP_Nadarajah.jpg",
+    "summary": "Nadarajah has lived in Melbourne’s eastern suburbs for the past 21 years and has lived and studied in several countries. He joined the Democratic Labour Party because he supports traditional family values and believes working families deserve a fairer deal.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/glen"
   },
   "Hassan Said": {
     "wikipedia_url": null,
     "born": null,
-    "prior_occupation": null,
+    "prior_occupation": "architect",
     "elected_since": null,
     "prior_roles": null,
     "education": null,
-    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/GREE_IND_Said.jpg"
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/GREE_IND_Said.jpg",
+    "summary": "Said is an architect and building project manager who owns a residential construction company in Thomastown.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/gree"
   },
   "Michael Titheridge": {
     "wikipedia_url": null,
@@ -9172,32 +9187,38 @@
   "Kieran Butler": {
     "wikipedia_url": null,
     "born": null,
-    "prior_occupation": null,
+    "prior_occupation": "comedian",
     "elected_since": null,
     "prior_roles": null,
     "education": null,
-    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/LOWA_IND_Butler.jpg"
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/LOWA_IND_Butler.jpg",
+    "summary": "Butler is a comedian and musician who has performed at the Edinburgh Fringe, Adelaide Fringe, and Melbourne International Comedy Festival.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/lowa"
   },
   "Karen Hyslop": {
     "wikipedia_url": null,
     "born": null,
-    "prior_occupation": null,
+    "prior_occupation": "midwife and longtime stawell resident",
     "elected_since": null,
     "prior_roles": null,
     "education": null,
     "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/LOWA_AD_Hyslop.jpg",
-    "summary": "Hyslop was elected as a councillor for Northern Grampians Shire in 2012 and during her tenure served two years as mayor. She was formerly a nurse and a midwife.",
+    "summary": "Hyslop is a former midwife and longtime Stawell resident. She has been a councillor for Northern Grampians Shire since 2012, and during her tenure has served two years as mayor. She is a mother of three and a farmer's wife.",
     "source": "ABC",
     "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/lowa"
   },
   "Bernadette Mayne": {
     "wikipedia_url": null,
     "born": null,
-    "prior_occupation": null,
+    "prior_occupation": "registered nurse",
     "elected_since": null,
     "prior_roles": null,
     "education": null,
-    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/MissingCandidate.jpg"
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/MACE_FFP_Mayne.jpg",
+    "summary": "Mayne is a registered nurse with more than 25 years of experience who has worked in the public and private health systems.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/mace"
   },
   "Phillip Courtis": {
     "wikipedia_url": null,
@@ -9275,7 +9296,10 @@
     "elected_since": null,
     "prior_roles": null,
     "education": null,
-    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/MissingCandidate.jpg"
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/MILL_IND_McLindon.jpg",
+    "summary": "McLindon was a member of the Queensland parliament from 2009 to 2012, first for the Liberal National Party, and then with his own Queensland Party and finally Katter's Australian Party. Following his defeat in 2012 he relocated to Victoria. He contested the seat of Mulgrave for the Freedom Party of Victoria in 2022. McLindon was elected as a councillor for the City of Whittlesea in 2024 and was elected as mayor shortly afterwards. However, he was suspended from council in April 2025 and an inquiry was launched after staff lodged complaints regarding his behaviour towards them. The suspension was overturned by the Supreme Court earlier this year and he remains a councillor. McLindon was also a candidate at the 2025 Werribee by-election. He had been involved with One Nation in Victoria but quit the party and criticised its preselection process. Prior to entering politics he was a musician, a teacher, and an army reservist.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/mill"
   },
   "Kath van der End": {
     "wikipedia_url": null,
@@ -9334,11 +9358,14 @@
   "Martin Leahy": {
     "wikipedia_url": null,
     "born": null,
-    "prior_occupation": null,
+    "prior_occupation": "retired warehouse manager",
     "elected_since": null,
     "prior_roles": null,
     "education": null,
-    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/MissingCandidate.jpg"
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/NANO_LCA_Leahy.jpg",
+    "summary": "Leahy is a retired warehouse manager who has lived in the area for 23 years. He has previously stood for election as a candidate for Fiona Patten's Sex Party and Reason Party.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/nano"
   },
   "Alan Currie": {
     "wikipedia_url": null,
@@ -9463,11 +9490,14 @@
   "Stephanie Davies": {
     "wikipedia_url": null,
     "born": null,
-    "prior_occupation": null,
+    "prior_occupation": "engineer",
     "elected_since": null,
     "prior_roles": null,
     "education": null,
-    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/PAKE_IND_Davies.jpg"
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/PAKE_IND_Davies.jpg",
+    "summary": "Davies is an engineer and served as a Cardinia Shire councillor from 2020 to 2024.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/pake"
   },
   "Jesse Hamalainen": {
     "wikipedia_url": null,
@@ -9572,7 +9602,10 @@
     "elected_since": null,
     "prior_roles": null,
     "education": null,
-    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/MissingCandidate.jpg"
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/PRAH_FPV_Jonas.jpg",
+    "summary": "Jonas is the leader of the Safety Victoria - Violent Crime Prevention Party which was formerly named the Freedom Party. He stood in the upper house at the last election and for the Senate at the 2022 federal election. Outside of politics, Jonas is a small business owner.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/prah"
   },
   "Alan Menadue": {
     "wikipedia_url": null,
@@ -9581,7 +9614,10 @@
     "elected_since": null,
     "prior_roles": null,
     "education": null,
-    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/PRAH_IND_Menadue.jpg"
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/PRAH_IND_Menadue.jpg",
+    "summary": "Menadue grew up in rural Victoria and served in both the Australian Defence Force and Royal Australian Air Force.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/prah"
   },
   "Nicholas Wong": {
     "wikipedia_url": null,
@@ -9698,7 +9734,10 @@
     "elected_since": null,
     "prior_roles": null,
     "education": null,
-    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/STAL_IND_Janten.jpg"
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/STAL_IND_Janten.jpg",
+    "summary": "Janten has worked in admin support since leaving high school and lives in Kororoit.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/stal"
   },
   "Elmer Batres": {
     "wikipedia_url": null,
@@ -9728,7 +9767,10 @@
     "elected_since": null,
     "prior_roles": null,
     "education": null,
-    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/SUNB_IND_Medcraft.jpg"
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/SUNB_IND_Medcraft.jpg",
+    "summary": "Medcraft works in real estate and previously served on Hume City Council.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/sunb"
   },
   "Rohanna Mohr": {
     "wikipedia_url": null,
@@ -9835,11 +9877,14 @@
   "Monica Raizada": {
     "wikipedia_url": null,
     "born": null,
-    "prior_occupation": null,
+    "prior_occupation": "secondary school teacher",
     "elected_since": null,
     "prior_roles": null,
     "education": null,
-    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/WERR_IND_Raizada.jpg"
+    "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/WERR_IND_Raizada.jpg",
+    "summary": "Raizada owns her own holistic counselling business and is a secondary school teacher. She has been the chairperson of Wyndham Interfaith Network and president of Women of Wyndham.",
+    "source": "ABC",
+    "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/werr"
   },
   "Bruce O'Regan": {
     "wikipedia_url": null,
@@ -9870,7 +9915,7 @@
     "prior_roles": null,
     "education": null,
     "photo_url": "https://www.abc.net.au/dat/news/elections/vic/2026/guide/photos/RICH_AD_Pead.jpg",
-    "summary": "Pead-Philipson has worked for the Department of Foreign Affairs and Trade, the International Committee of the Red Cross, and in the private energy sector. He now works as Engie as a senior business development manager. He was raised in Ivanhoe and spent six years living in the United States before returning to live in Abbotsford.",
+    "summary": "Pead-Philipson has worked for the Department of Foreign Affairs and Trade, the International Committee of the Red Cross, and in the private energy sector. He now works as a senior business development manager. He was raised in Ivanhoe and spent six years living in the United States before returning to live in Abbotsford.",
     "source": "ABC",
     "source_url": "https://www.abc.net.au/news/elections/vic/2026/guide/rich"
   }
