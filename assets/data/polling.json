@@ -1,19 +1,19 @@
 {
   "source": "Wikipedia: Opinion polling for the 2026 Victorian state election",
-  "retrieved": "2026-11-22",
+  "retrieved": "2026-11-23",
   "note": "Aggregate is a simple average of the last 5 published 2PP polls. Not a weighted/house-adjusted model. See individual polls below.",
   "aggregate": {
-    "as_of": "2026-11-22",
+    "as_of": "2026-11-23",
     "n_polls": 5,
-    "tpp_labor": 44.6,
-    "tpp_coalition": 55.4,
-    "tpp_swing_from_2022": -10.4,
+    "tpp_labor": 43.2,
+    "tpp_coalition": 56.8,
+    "tpp_swing_from_2022": -11.8,
     "primary": {
-      "Labor": 23.4,
-      "Coalition": 30.3,
-      "Greens": 14.1,
-      "One Nation": 20.6,
-      "Others": 11.6
+      "Labor": 23.5,
+      "Coalition": 31.7,
+      "Greens": 13.7,
+      "One Nation": 21.0,
+      "Others": 10.1
     }
   },
   "polls": [
@@ -30,6 +30,34 @@
       },
       "tpp_labor": null,
       "tpp_coalition": null
+    },
+    {
+      "pollster": "RedBridge/Accent",
+      "date": "2026-11-20",
+      "sample": 1507,
+      "primary": {
+        "Labor": 22.0,
+        "Coalition": 33.0,
+        "Greens": 15.0,
+        "One Nation": 23.0,
+        "Others": 7.0
+      },
+      "tpp_labor": 42.0,
+      "tpp_coalition": 58.0
+    },
+    {
+      "pollster": "Agenda C Synesis/Antenna",
+      "date": "2026-11-18",
+      "sample": 1772,
+      "primary": {
+        "Labor": 25.0,
+        "Coalition": 33.0,
+        "Greens": 11.0,
+        "One Nation": 24.0,
+        "Others": 7.0
+      },
+      "tpp_labor": 41.0,
+      "tpp_coalition": 59.0
     },
     {
       "pollster": "Lighthouse/Growth Intelligence Centre",
@@ -408,34 +436,6 @@
       },
       "tpp_labor": 48.0,
       "tpp_coalition": 52.0
-    },
-    {
-      "pollster": "RedBridge/Accent",
-      "date": "2026-02-27",
-      "sample": 2165,
-      "primary": {
-        "Labor": 25.0,
-        "Coalition": 28.0,
-        "Greens": 13.0,
-        "One Nation": 24.0,
-        "Others": 10.0
-      },
-      "tpp_labor": 48.0,
-      "tpp_coalition": 52.0
-    },
-    {
-      "pollster": "Freshwater",
-      "date": "2026-02-23",
-      "sample": 1030,
-      "primary": {
-        "Labor": 28.0,
-        "Coalition": 27.0,
-        "Greens": 13.0,
-        "One Nation": 23.0,
-        "Others": 9.0
-      },
-      "tpp_labor": 50.0,
-      "tpp_coalition": 50.0
     }
   ]
 }
