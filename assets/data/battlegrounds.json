@@ -1,11 +1,41 @@
 {
-  "generated_at": "2026-11-23",
+  "generated_at": "2026-11-24",
   "categories": [
     {
       "id": "tightest_flips",
       "title": "Tightest projected flips",
       "blurb": "If the state-wide swing is even slightly smaller than polling suggests, these seats stay with their current party. Ordered by how narrow the projection is \u2014 the tighter the gap, the less certain the flip.",
       "districts": [
+        {
+          "key": "TARNEIT",
+          "label": "Tarneit",
+          "mp": "Dylan Wight",
+          "party": "Labor",
+          "retiring": false,
+          "margin_2022": 12.3,
+          "safety_2022": "safe",
+          "basis_2022": "2PP",
+          "projected_winner": "Coalition",
+          "projected_labor_tpp": 49.9,
+          "status": "likely flip",
+          "note": null,
+          "candidate_count": 12
+        },
+        {
+          "key": "WENDOUREE",
+          "label": "Wendouree",
+          "mp": "Juliana Addison",
+          "party": "Labor",
+          "retiring": false,
+          "margin_2022": 11.9,
+          "safety_2022": "safe",
+          "basis_2022": "2PP",
+          "projected_winner": "Coalition",
+          "projected_labor_tpp": 49.5,
+          "status": "likely flip",
+          "note": null,
+          "candidate_count": 7
+        },
         {
           "key": "MILL PARK",
           "label": "Mill Park",
@@ -16,7 +46,7 @@
           "safety_2022": "safe",
           "basis_2022": "2PP",
           "projected_winner": "Coalition",
-          "projected_labor_tpp": 49.8,
+          "projected_labor_tpp": 49.2,
           "status": "likely flip",
           "note": null,
           "candidate_count": 8
@@ -31,7 +61,7 @@
           "safety_2022": "safe",
           "basis_2022": "2PP",
           "projected_winner": "Coalition",
-          "projected_labor_tpp": 49.4,
+          "projected_labor_tpp": 48.8,
           "status": "likely flip",
           "note": null,
           "candidate_count": 7
@@ -46,7 +76,7 @@
           "safety_2022": "safe",
           "basis_2022": "2PP",
           "projected_winner": "Coalition",
-          "projected_labor_tpp": 49.1,
+          "projected_labor_tpp": 48.5,
           "status": "likely flip",
           "note": null,
           "candidate_count": 10
@@ -61,7 +91,7 @@
           "safety_2022": "safe",
           "basis_2022": "2PP",
           "projected_winner": "Coalition",
-          "projected_labor_tpp": 49.0,
+          "projected_labor_tpp": 48.4,
           "status": "likely flip",
           "note": null,
           "candidate_count": 9
@@ -76,7 +106,7 @@
           "safety_2022": "safe",
           "basis_2022": "2PP",
           "projected_winner": "Coalition",
-          "projected_labor_tpp": 48.4,
+          "projected_labor_tpp": 47.8,
           "status": "likely flip",
           "note": null,
           "candidate_count": 7
@@ -91,7 +121,7 @@
           "safety_2022": "fairly safe",
           "basis_2022": "2PP",
           "projected_winner": "Coalition",
-          "projected_labor_tpp": 48.0,
+          "projected_labor_tpp": 47.4,
           "status": "likely flip",
           "note": null,
           "candidate_count": 8
@@ -106,7 +136,7 @@
           "safety_2022": "fairly safe",
           "basis_2022": "2PP",
           "projected_winner": "Coalition",
-          "projected_labor_tpp": 48.0,
+          "projected_labor_tpp": 47.4,
           "status": "likely flip",
           "note": null,
           "candidate_count": 8
@@ -121,7 +151,7 @@
           "safety_2022": "fairly safe",
           "basis_2022": "2PP",
           "projected_winner": "Coalition",
-          "projected_labor_tpp": 47.8,
+          "projected_labor_tpp": 47.2,
           "status": "likely flip",
           "note": null,
           "candidate_count": 9
@@ -136,7 +166,7 @@
           "safety_2022": "fairly safe",
           "basis_2022": "2PP",
           "projected_winner": "Coalition",
-          "projected_labor_tpp": 47.7,
+          "projected_labor_tpp": 47.1,
           "status": "likely flip",
           "note": null,
           "candidate_count": 9
@@ -151,40 +181,10 @@
           "safety_2022": "fairly safe",
           "basis_2022": "2PP",
           "projected_winner": "Coalition",
-          "projected_labor_tpp": 47.2,
+          "projected_labor_tpp": 46.6,
           "status": "likely flip",
           "note": null,
           "candidate_count": 8
-        },
-        {
-          "key": "ELTHAM",
-          "label": "Eltham",
-          "mp": "Vicki Ward",
-          "party": "Labor",
-          "retiring": false,
-          "margin_2022": 9.0,
-          "safety_2022": "fairly safe",
-          "basis_2022": "2PP",
-          "projected_winner": "Coalition",
-          "projected_labor_tpp": 47.2,
-          "status": "likely flip",
-          "note": null,
-          "candidate_count": 7
-        },
-        {
-          "key": "SYDENHAM",
-          "label": "Sydenham",
-          "mp": "Natalie Hutchins",
-          "party": "Labor",
-          "retiring": true,
-          "margin_2022": 8.8,
-          "safety_2022": "fairly safe",
-          "basis_2022": "2PP",
-          "projected_winner": "Coalition",
-          "projected_labor_tpp": 47.0,
-          "status": "likely flip",
-          "note": null,
-          "candidate_count": 12
         }
       ]
     },
@@ -193,36 +193,6 @@
       "title": "True toss-ups (<2% projected margin)",
       "blurb": "Within normal polling error. Either side could win.",
       "districts": [
-        {
-          "key": "WENDOUREE",
-          "label": "Wendouree",
-          "mp": "Juliana Addison",
-          "party": "Labor",
-          "retiring": false,
-          "margin_2022": 11.9,
-          "safety_2022": "safe",
-          "basis_2022": "2PP",
-          "projected_winner": "Labor",
-          "projected_labor_tpp": 50.1,
-          "status": "in play",
-          "note": null,
-          "candidate_count": 7
-        },
-        {
-          "key": "TARNEIT",
-          "label": "Tarneit",
-          "mp": "Dylan Wight",
-          "party": "Labor",
-          "retiring": false,
-          "margin_2022": 12.3,
-          "safety_2022": "safe",
-          "basis_2022": "2PP",
-          "projected_winner": "Labor",
-          "projected_labor_tpp": 50.5,
-          "status": "in play",
-          "note": null,
-          "candidate_count": 12
-        },
         {
           "key": "ESSENDON",
           "label": "Essendon",
@@ -233,7 +203,7 @@
           "safety_2022": "safe",
           "basis_2022": "2PP",
           "projected_winner": "Labor",
-          "projected_labor_tpp": 50.7,
+          "projected_labor_tpp": 50.1,
           "status": "in play",
           "note": null,
           "candidate_count": 8
@@ -248,7 +218,7 @@
           "safety_2022": "safe",
           "basis_2022": "2PP",
           "projected_winner": "Labor",
-          "projected_labor_tpp": 50.9,
+          "projected_labor_tpp": 50.3,
           "status": "in play",
           "note": null,
           "candidate_count": 8
@@ -263,7 +233,7 @@
           "safety_2022": "safe",
           "basis_2022": "2PP",
           "projected_winner": "Labor",
-          "projected_labor_tpp": 51.0,
+          "projected_labor_tpp": 50.4,
           "status": "in play",
           "note": null,
           "candidate_count": 8
@@ -278,7 +248,7 @@
           "safety_2022": "safe",
           "basis_2022": "2PP",
           "projected_winner": "Labor",
-          "projected_labor_tpp": 51.6,
+          "projected_labor_tpp": 51.0,
           "status": "in play",
           "note": null,
           "candidate_count": 9
@@ -293,7 +263,7 @@
           "safety_2022": "safe",
           "basis_2022": "2PP",
           "projected_winner": "Labor",
-          "projected_labor_tpp": 51.7,
+          "projected_labor_tpp": 51.1,
           "status": "in play",
           "note": null,
           "candidate_count": 6
@@ -405,7 +375,7 @@
           "safety_2022": "safe",
           "basis_2022": "2PP",
           "projected_winner": "Coalition",
-          "projected_labor_tpp": 49.4,
+          "projected_labor_tpp": 48.8,
           "status": "likely flip",
           "note": null,
           "candidate_count": 7
@@ -427,7 +397,7 @@
           "safety_2022": "marginal",
           "basis_2022": "2PP",
           "projected_winner": "Coalition",
-          "projected_labor_tpp": 38.4,
+          "projected_labor_tpp": 37.8,
           "status": "likely flip",
           "note": null,
           "candidate_count": 6
@@ -442,7 +412,7 @@
           "safety_2022": "marginal",
           "basis_2022": "2PP",
           "projected_winner": "Coalition",
-          "projected_labor_tpp": 38.6,
+          "projected_labor_tpp": 38.0,
           "status": "likely flip",
           "note": null,
           "candidate_count": 10
@@ -472,7 +442,7 @@
           "safety_2022": "marginal",
           "basis_2022": "2PP",
           "projected_winner": "Coalition",
-          "projected_labor_tpp": 36.8,
+          "projected_labor_tpp": 36.2,
           "status": "safe hold",
           "note": null,
           "candidate_count": 8
@@ -487,7 +457,7 @@
           "safety_2022": "marginal",
           "basis_2022": "2PP",
           "projected_winner": "Coalition",
-          "projected_labor_tpp": 34.5,
+          "projected_labor_tpp": 33.9,
           "status": "safe hold",
           "note": null,
           "candidate_count": 7
@@ -502,7 +472,7 @@
           "safety_2022": "marginal",
           "basis_2022": "2PP",
           "projected_winner": "Coalition",
-          "projected_labor_tpp": 42.4,
+          "projected_labor_tpp": 41.8,
           "status": "likely flip",
           "note": null,
           "candidate_count": 8
@@ -517,7 +487,7 @@
           "safety_2022": "marginal",
           "basis_2022": "2PP",
           "projected_winner": "Coalition",
-          "projected_labor_tpp": 42.8,
+          "projected_labor_tpp": 42.2,
           "status": "likely flip",
           "note": null,
           "candidate_count": 11
@@ -547,7 +517,7 @@
           "safety_2022": "fairly safe",
           "basis_2022": "2PP",
           "projected_winner": "Coalition",
-          "projected_labor_tpp": 30.1,
+          "projected_labor_tpp": 29.5,
           "status": "safe hold",
           "note": null,
           "candidate_count": 7
@@ -562,7 +532,7 @@
           "safety_2022": "fairly safe",
           "basis_2022": "2PP",
           "projected_winner": "Coalition",
-          "projected_labor_tpp": 47.0,
+          "projected_labor_tpp": 46.4,
           "status": "likely flip",
           "note": null,
           "candidate_count": 12
@@ -577,7 +547,7 @@
           "safety_2022": "fairly safe",
           "basis_2022": "2PP",
           "projected_winner": "Coalition",
-          "projected_labor_tpp": 47.7,
+          "projected_labor_tpp": 47.1,
           "status": "likely flip",
           "note": null,
           "candidate_count": 9
@@ -592,7 +562,7 @@
           "safety_2022": "safe",
           "basis_2022": "2PP",
           "projected_winner": "Coalition",
-          "projected_labor_tpp": 49.0,
+          "projected_labor_tpp": 48.4,
           "status": "likely flip",
           "note": null,
           "candidate_count": 9
@@ -607,7 +577,7 @@
           "safety_2022": "safe",
           "basis_2022": "2PP",
           "projected_winner": "Coalition",
-          "projected_labor_tpp": 49.8,
+          "projected_labor_tpp": 49.2,
           "status": "likely flip",
           "note": null,
           "candidate_count": 8
@@ -622,7 +592,7 @@
           "safety_2022": "safe",
           "basis_2022": "2PP",
           "projected_winner": "Labor",
-          "projected_labor_tpp": 50.7,
+          "projected_labor_tpp": 50.1,
           "status": "in play",
           "note": null,
           "candidate_count": 8
@@ -637,7 +607,7 @@
           "safety_2022": "safe",
           "basis_2022": "2PP",
           "projected_winner": "Labor",
-          "projected_labor_tpp": 52.8,
+          "projected_labor_tpp": 52.2,
           "status": "close hold",
           "note": null,
           "candidate_count": 7
@@ -652,7 +622,7 @@
           "safety_2022": "very safe",
           "basis_2022": "2PP",
           "projected_winner": "Coalition",
-          "projected_labor_tpp": 14.8,
+          "projected_labor_tpp": 14.2,
           "status": "safe hold",
           "note": null,
           "candidate_count": 7
@@ -667,7 +637,7 @@
           "safety_2022": "very safe",
           "basis_2022": "2PP",
           "projected_winner": "Coalition",
-          "projected_labor_tpp": 13.6,
+          "projected_labor_tpp": 13.0,
           "status": "safe hold",
           "note": null,
           "candidate_count": 7
