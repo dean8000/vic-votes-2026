@@ -1,22 +1,22 @@
 {
-  "refreshed_on": "2026-11-26",
+  "refreshed_on": "2026-11-27",
   "polls_tracked": 30,
   "aggregate": {
-    "as_of": "2026-11-26",
+    "as_of": "2026-11-27",
     "n_polls": 5,
-    "tpp_labor": 42.2,
-    "tpp_coalition": 57.8,
-    "tpp_swing_from_2022": -12.8,
+    "tpp_labor": 42.5,
+    "tpp_coalition": 57.5,
+    "tpp_swing_from_2022": -12.5,
     "primary": {
-      "Labor": 21.9,
+      "Labor": 20.9,
       "Coalition": 31.8,
-      "Greens": 13.6,
-      "One Nation": 22.6,
-      "Others": 10.3
+      "Greens": 14.8,
+      "One Nation": 21.4,
+      "Others": 11.3
     }
   },
   "candidates_total": 1069,
   "candidates_with_bio": 703,
-  "projection_flips": 40,
-  "projection_in_play": 5
+  "projection_flips": 38,
+  "projection_in_play": 4
 }
