@@ -1,22 +1,36 @@
 {
   "source": "Wikipedia: Opinion polling for the 2026 Victorian state election",
-  "retrieved": "2026-11-27",
+  "retrieved": "2026-11-28",
   "note": "Aggregate is a simple average of the last 5 published 2PP polls. Not a weighted/house-adjusted model. See individual polls below.",
   "aggregate": {
-    "as_of": "2026-11-27",
+    "as_of": "2026-11-28",
     "n_polls": 5,
-    "tpp_labor": 42.5,
-    "tpp_coalition": 57.5,
-    "tpp_swing_from_2022": -12.5,
+    "tpp_labor": 41.9,
+    "tpp_coalition": 58.1,
+    "tpp_swing_from_2022": -13.1,
     "primary": {
-      "Labor": 20.9,
-      "Coalition": 31.8,
-      "Greens": 14.8,
-      "One Nation": 21.4,
-      "Others": 11.3
+      "Labor": 20.6,
+      "Coalition": 32.4,
+      "Greens": 15.2,
+      "One Nation": 22.0,
+      "Others": 10.0
     }
   },
   "polls": [
+    {
+      "pollster": "Freshwater",
+      "date": "2026-11-26",
+      "sample": 1026,
+      "primary": {
+        "Labor": 21.0,
+        "Coalition": 34.0,
+        "Greens": 15.0,
+        "One Nation": 23.0,
+        "Others": 7.0
+      },
+      "tpp_labor": 42.0,
+      "tpp_coalition": 58.0
+    },
     {
       "pollster": "Newspoll",
       "date": "2026-11-25",
@@ -61,14 +75,14 @@
     },
     {
       "pollster": "Lighthouse/Growth Intelligence Centre",
-      "date": "2026-11-20",
-      "sample": 1221,
+      "date": "2026-11-22",
+      "sample": 1200,
       "primary": {
         "Labor": 22.0,
-        "Coalition": 31.0,
+        "Coalition": 28.0,
         "Greens": 15.0,
-        "One Nation": 24.0,
-        "Others": 8.0
+        "One Nation": 26.0,
+        "Others": 9.0
       },
       "tpp_labor": null,
       "tpp_coalition": null
@@ -117,14 +131,14 @@
     },
     {
       "pollster": "Lighthouse/Growth Intelligence Centre",
-      "date": "2026-11-13",
-      "sample": 1351,
+      "date": "2026-11-15",
+      "sample": 1221,
       "primary": {
-        "Labor": 21.0,
-        "Coalition": 32.0,
-        "Greens": 14.0,
-        "One Nation": 23.0,
-        "Others": 10.0
+        "Labor": 22.0,
+        "Coalition": 31.0,
+        "Greens": 15.0,
+        "One Nation": 24.0,
+        "Others": 8.0
       },
       "tpp_labor": null,
       "tpp_coalition": null
@@ -142,6 +156,20 @@
       },
       "tpp_labor": 43.0,
       "tpp_coalition": 57.0
+    },
+    {
+      "pollster": "Lighthouse/Growth Intelligence Centre",
+      "date": "2026-11-08",
+      "sample": 1351,
+      "primary": {
+        "Labor": 21.0,
+        "Coalition": 32.0,
+        "Greens": 14.0,
+        "One Nation": 23.0,
+        "Others": 10.0
+      },
+      "tpp_labor": null,
+      "tpp_coalition": null
     },
     {
       "pollster": "Resolve",
@@ -408,34 +436,6 @@
       },
       "tpp_labor": null,
       "tpp_coalition": null
-    },
-    {
-      "pollster": "Resolve",
-      "date": "2026-07-12",
-      "sample": 1000,
-      "primary": {
-        "Labor": 27.0,
-        "Coalition": 27.0,
-        "Greens": 12.0,
-        "One Nation": 22.0,
-        "Others": 12.0
-      },
-      "tpp_labor": null,
-      "tpp_coalition": null
-    },
-    {
-      "pollster": "RedBridge/Accent",
-      "date": "2026-06-28",
-      "sample": 5516,
-      "primary": {
-        "Labor": 26.0,
-        "Coalition": 26.0,
-        "Greens": 13.0,
-        "One Nation": 27.0,
-        "Others": 8.0
-      },
-      "tpp_labor": 46.0,
-      "tpp_coalition": 54.0
     }
   ]
 }
